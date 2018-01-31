@@ -2,15 +2,15 @@
 <Defs>
   
   <ThingDef ParentName="LotRE_ArmorHelmetMakeableBase">
-    <defName>LotRE_DwarfApparel_MoriaBattleHelmet</defName>
-    <label>Dwarven Moria battle helmet</label>
-    <description>A part of the Dwarven Moria battle armor set.</description>
+    <defName>LotRE_ElfApparel_BattleHelmet</defName>
+    <label>Elven helmet</label>
+    <description>A part of the Elven battle armor set.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Dwarf/Apparel/Helmet/sheidulaMoriaBattleHelmetDisplay</texPath>
+      <texPath>Things/Pawn/Elf/Apparel/Helmet/nackbladElvenHelmetDisplay</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>250</costStuffCount>
@@ -36,15 +36,15 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Dwarf/Apparel/Helmet/sheidulaMoriaBattleHelmet</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Elf/Apparel/Helmet/nackbladElvenHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
 			<tags>
-        <li>LotR_DwarfMilitary</li>
+        <li>LotR_ElfMilitary</li>
       </tags>
       <defaultOutfitTags>
-        <li>LotR_DwarfMoria</li>
+        <li>LotR_ElfWarrior</li>
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
