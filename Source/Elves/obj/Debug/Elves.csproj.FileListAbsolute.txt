@@ -1,0 +1,3 @@
+D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Elves\Assemblies\Vampire.dll
+D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Elves\Source\Elves\obj\Debug\Elves.csprojResolveAssemblyReference.cache
+D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Elves\Source\Elves\obj\Debug\Vampire.dll
