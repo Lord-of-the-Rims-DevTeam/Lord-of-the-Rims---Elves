@@ -80,6 +80,9 @@
 				  </side>
 			  </offsets>
 		      <useSkinColor>true</useSkinColor>
+			  <hiddenUnderApparelFor>
+                <li>FullHead</li>
+              </hiddenUnderApparelFor>
 		    </li>
 		  </bodyAddons>
 		</alienPartGenerator>

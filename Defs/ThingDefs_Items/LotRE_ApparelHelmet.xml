@@ -12,11 +12,17 @@
     <graphicData>
       <texPath>Things/Pawn/Elf/Apparel/Helmet/nackbladElvenHelmetDisplay</texPath>
       <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <costStuffCount>250</costStuffCount>
+    <costStuffCount>15</costStuffCount>
     <stuffCategories>
-      <li>Metallic</li>
+      <li>Leathery</li>
     </stuffCategories>
+	<costList>
+      <Steel>20</Steel>
+      <Silver>20</Silver>
+      <Gold>10</Gold>
+	</costList>	
     <statBases>
       <WorkToMake>4000</WorkToMake>
       <MaxHitPoints>100</MaxHitPoints>
