@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+		<defName>LotRE_ElvenShield</defName>
+		<label>Elven Shield</label>
+		<description>Shield commonly used alongside the armor of the Elves.</description>
+		<equipmentType>None</equipmentType>
+		<graphicData>
+			<texPath>Things/Pawn/Elf/Apparel/Shields/sheidulaElfShield</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<costStuffCount>50</costStuffCount>
+		<stuffCategories>
+		  <li>Leathery</li>
+		</stuffCategories>
+		<costList>
+		  <Steel>50</Steel>
+		  <Silver>50</Silver>
+		  <Gold>50</Gold>
+		</costList>	
+		<statBases>
+			<WorkToMake>10000</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>1.25</Mass>
+			<Weapon_Bulk>2.0</Weapon_Bulk>
+		</statBases>
+		<equippedStatOffsets>
+			<ShootingAccuracy>-0.6</ShootingAccuracy>
+			<!--MoveSpeed>-1.6</MoveSpeed-->
+		</equippedStatOffsets>
+		<equippedAngleOffset>0</equippedAngleOffset>
+		<!--weaponTags><li>NonNeolithicOnlyMelee</li></weaponTags-->
+		<comps>
+			<li Class="PawnShields.CompProperties_Shield">
+				<!-- Rendering systems -->
+				<useColoredVersion>false</useColoredVersion>
+				<wieldedGraphic>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<texPath>Things/Pawn/Elf/Apparel/Shields/sheidulaElfShield</texPath>
+					<drawSize>(1.65, 1.65)</drawSize>
+				</wieldedGraphic>
+				<renderProperties>
+					<!-- Same as defaults in C# -->
+					<northOffset>(-0.3, -0.017, -0.3)</northOffset>
+					<southOffset>(0.3, 0.033, -0.3)</southOffset>
+					<westOffset>(-0.3, 0.053, -0.3)</westOffset>
+					<eastOffset>(0.3, -0.017, -0.3)</eastOffset>
+					<flipRotation>true</flipRotation>
+					<renderWhenPeaceful>false</renderWhenPeaceful>
+				</renderProperties>
+				<!-- Blocking sytstem (Optional???) -->
+				<canBlockRanged>true</canBlockRanged>
+				<canBlockMelee>true</canBlockMelee>
+				<meleeBlockChanceFactor>10.0</meleeBlockChanceFactor> <!-- Default: 1.0 == 100% -->
+				<rangedBlockChanceFactor>0.5</rangedBlockChanceFactor>
+				<!-- Shield damage system (Optional) -->
+				<shieldTakeDamage>true</shieldTakeDamage>
+				<shieldTakeDamageFactor>0.6</shieldTakeDamageFactor>
+				<!-- Auto discard system (Optional) -->
+				<canBeAutoDiscarded>true</canBeAutoDiscarded>
+				<healthAutoDiscardThreshold>0.2</healthAutoDiscardThreshold>
+				<!-- Shield fatigue system (Optional) -->
+				<useFatigue>true</useFatigue>
+				<damageToFatigueFactor>0.005</damageToFatigueFactor>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>side</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.0</cooldownTime>
+			</li>
+			<li>
+				<label>buckle</label>
+				<labelUsedInLogging>false</labelUsedInLogging>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>12.0</power>
+				<cooldownTime>2.0</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+</Defs>

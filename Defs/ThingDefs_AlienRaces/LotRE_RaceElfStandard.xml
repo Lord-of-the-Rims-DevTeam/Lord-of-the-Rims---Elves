@@ -164,6 +164,8 @@
       </li>
     </tools>
     <race>
+	  <nameGenerator>LotRE_ElfMaleNamer</nameGenerator>
+	  <nameGeneratorFemale>LotRE_ElfFemaleNamer</nameGeneratorFemale>	
       <thinkTreeMain>Humanlike</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
