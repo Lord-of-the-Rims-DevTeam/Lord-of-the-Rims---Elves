@@ -85,6 +85,56 @@
               </hiddenUnderApparelFor>
 		    </li>
 		  </bodyAddons>
+
+		  <alienhaircolorgen Class="ColorGenerator_Options">
+			<options>
+				<!-- Vanyar Elves -->
+				<li>
+				    <!-- White Blonde -->
+					<weight>5</weight>
+					<only>RGBA(1.0,0.96,0.88,1)</only>
+				</li>				
+				<li>
+				    <!-- Light Blonde -->
+					<weight>5</weight>
+					<only>RGBA(0.9,0.81,0.66,1)</only>
+				</li>				
+				<li>
+				    <!-- Bleached Blonde -->
+					<weight>5</weight>
+					<only>RGBA(0.86,0.82,0.73,1)</only>
+				</li>				
+				<!-- Noldor, Sindar, Avari, etc -->
+				<li>
+				    <!-- Brown -->
+					<weight>5</weight>
+					<only>RGBA(0.42,0.31,0.26,1)</only>
+				</li>
+				<li>
+				    <!-- Off-Black -->
+					<weight>5</weight>
+					<only>RGBA(0.17,0.13,0.17,1)</only>
+				</li>
+				<li>
+				    <!-- Dark Auburn -->
+					<weight>5</weight>
+					<only>RGBA(0.33,0.24,0.20,1)</only>
+				</li>
+				<!-- Tauriel -->
+				<li>
+				    <!-- Light Red Hair -->
+					<weight>5</weight>
+					<only>RGBA(0.71,0.32,0.22,1)</only>
+				</li>
+				<!-- Royal Sindar -->
+				<li>
+				    <!-- Silver -->
+					<weight>0.5</weight>
+					<only>RGBA(0.75,0.75,0.75,1)</only>
+				</li>
+
+			</options>
+		  </alienhaircolorgen>
 		</alienPartGenerator>
 		
 	  </generalSettings>
@@ -224,14 +274,21 @@
       </specialShadowData>
       <ageGenerationCurve>
         <points>
-          <li>(14,0)</li>
-          <li>(16,100)</li>
-          <li>(50,100)</li>
-          <li>(60,30)</li>
-          <li>(70,18)</li>
-          <li>(80,10)</li>
-          <li>(90,3)</li>
           <li>(100,0)</li>
+          <li>(150,0)</li>
+          <li>(170,10)</li>
+          <li>(200,18)</li>
+          <li>(250,40)</li>
+          <li>(300,100)</li>
+          <li>(350,100)</li>
+          <li>(400,100)</li>
+          <li>(450,80)</li>
+          <li>(500,60)</li>
+          <li>(1000,30)</li>
+          <li>(2000,20)</li>
+          <li>(4000,8)</li>
+          <li>(6000,3)</li>
+          <li>(7000,0)</li>
         </points>
       </ageGenerationCurve>
       <hediffGiverSets>
