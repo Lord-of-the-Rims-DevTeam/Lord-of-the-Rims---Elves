@@ -3,8 +3,8 @@
   
   <ThingDef ParentName="LotRE_ArmorHelmetMakeableBase">
     <defName>LotRE_ElfApparel_BattleHelmet</defName>
-    <label>Elven helmet</label>
-    <description>A part of the Elven battle armor set.</description>
+    <label>Elven Ñoldorin helmet</label>
+    <description>A part of the Elven battle armor set used by the Ñoldorin High Elves.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>

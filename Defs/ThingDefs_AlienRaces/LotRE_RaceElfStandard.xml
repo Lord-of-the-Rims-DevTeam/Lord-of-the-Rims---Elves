@@ -106,6 +106,10 @@
 		</startingColonists>
 	  </pawnKindSettings>
 	  <hairSettings>
+        <hasHair>true</hasHair>	  
+		<hairTags>
+		  <li>Elf</li>
+		</hairTags>
 	    <getsGreyAt>900</getsGreyAt>
 	  </hairSettings>
 	</alienRace>
