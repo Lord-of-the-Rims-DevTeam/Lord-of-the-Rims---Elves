@@ -25,6 +25,7 @@
 	<alienRace>
 	  <generalSettings>
 	    <pawnsSpecificBackstories>true</pawnsSpecificBackstories>
+		<immuneToAge>true</immuneToAge>
 	    <alienPartGenerator>
 		  <aliencrowntypes>
 			<li>Narrow_Pointy</li>
