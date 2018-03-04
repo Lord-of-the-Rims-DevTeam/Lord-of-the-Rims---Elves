@@ -26,6 +26,18 @@
 	  <generalSettings>
 	    <pawnsSpecificBackstories>true</pawnsSpecificBackstories>
 		<immuneToAge>true</immuneToAge>
+            <forcedRaceTraitEntries>
+                <li>
+                    <defName>Beauty</defName>
+                    <degree>2</degree>
+                    <chance>50</chance>
+                </li>
+                <li>
+                    <defName>Beauty</defName>
+                    <degree>1</degree>
+                    <chance>50</chance>
+                </li>
+            </forcedRaceTraitEntries>
 	    <alienPartGenerator>
 		  <aliencrowntypes>
 			<li>Narrow_Pointy</li>

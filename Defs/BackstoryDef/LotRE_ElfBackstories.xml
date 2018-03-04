@@ -7,17 +7,122 @@
     <spawnCategories>
       <li>LotRE_BackstoryElf</li>
     </spawnCategories>
+    <disallowedTraits>
+        <li>
+            <defName>Beauty</defName>
+            <degree>-1</degree>
+        </li>
+        <li>
+            <defName>Beauty</defName>
+            <degree>-2</degree>
+        </li>
+    </disallowedTraits>
 </AlienRace.BackstoryDef>
 
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfChildOne</defName>
-    <title>Tunneler</title>
-    <baseDescription>NAME dug deep and often hid in the underground.</baseDescription>
+    <title>Noldor elf-child</title>
+    <baseDescription>Growing up in a time of relative peace but still at odds of war with the mountain roaming Goblins and Orcs, NAME spent HIS childhood practicing combat and crafting while studying during HIS leisure time.</baseDescription>
 	<slot>Childhood</slot>
     <skillGains>
       <li>
-        <defName>Mining</defName>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Shooting</defName>
         <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Crafting</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+
+<AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
+    <defName>LotRE_BackstoryElfChildTwo</defName>
+    <title>Teleri elf-child</title>
+    <baseDescription>Living at the shores during HIS younger days, NAME helped out with delivering resources to the shipwrights and learned the basics of ship-making.</baseDescription>
+	<slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+	  <li>
+        <defName>Crafting</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Social</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
+    <defName>LotRE_BackstoryElfChildThree</defName>
+    <title>Sindar elf-child</title>
+    <baseDescription>Keeping to HIMself just like HIS kin, NAME spent HIS childhood studying books of ages past. Having no real connection to the outside world past HIS kin, NAME wasn’t open to new faces.</baseDescription>
+	<slot>Childhood</slot>
+    <skillGains>
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
+    <defName>LotRE_BackstoryElfChildFour</defName>
+    <title>Falmari elf-child</title>
+    <baseDescription>NAME grew up being taught the ways of song and art. In HIS pastime HE would adventure out into the nearby forests, opening HIS eyes to the world.</baseDescription>
+	<slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>4</amount>
+      </li>         
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>   
+      <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+
+<AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
+    <defName>LotRE_BackstoryElfChildFive</defName>
+    <title>Nandor elf-child</title>
+    <baseDescription>Growing up in the forest, NAME spent HIS time tending to the deer herds and tree groves, shut away from the outside world. 
+</baseDescription>
+	<slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Growing</defName>
+        <amount>4</amount>
+      </li>         
+      <li>
+        <defName>Animals</defName>
+        <amount>3</amount>
       </li>
     </skillGains>
 </AlienRace.BackstoryDef>
@@ -26,24 +131,216 @@
 
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultOne</defName>
-    <title>Warrior</title>
-    <baseDescription>NAME was a warrior among HIS people.</baseDescription>
+    <title>Elf ranger</title>
+    <baseDescription>NAME stalked the forests and plains, killing from afar anyone who trespassed on HIS lord’s land. HECAP learned how to be quick on HIS feet in the process.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
+    <defName>LotRE_BackstoryElfAdultTwo</defName>
+    <title>Elf soldier</title>
+    <baseDescription>NAME decided that HE was going to take up arms under HIS lord’s name. HECAP became so revered for HIS ability that HE eventually became conceited about HIS combat skills.</baseDescription>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
         <defName>Melee</defName>
         <amount>4</amount>
       </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>2</amount>
+      </li>
     </skillGains>
     <forcedTraits>
-        <li>
-            <defName>Bloodlust</defName>
-            <chance>50</chance>
-        </li>
+	  <li>
+	    <defName>Abrasive</defName>
+	  </li>
     </forcedTraits>
-    <workDisables>
-        <li>Artistic</li>
-    </workDisables>
+</AlienRace.BackstoryDef>
+
+
+<AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
+    <defName>LotRE_BackstoryElfAdultThree</defName>
+    <title>Elf smith</title>
+    <baseDescription>NAME loved the heat of the forge, the striking song of precious metals ringing under hammers, and the joy of creation. HECAP became a renowned smith among HIS people.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+	  <li>
+	    <defName>Abrasive</defName>
+	  </li>
+    </forcedTraits>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
+    <defName>LotRE_BackstoryElfAdultFour</defName>
+    <title>Elf chef</title>
+    <baseDescription>NAME spent decades cooking while living on HIS own, and decided one day to share this passion. Eventually, HE became a chef for the Elven Lord, cooking the finest meals.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
+    <defName>LotRE_BackstoryElfAdultFive</defName>
+    <title>Elf poet</title>
+    <baseDescription>In their later years, NAME took to song and poetry like the fish to the rivers. HECAP grew quite fond of the art of weaving words, and became a much celebrated poet.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
+    <defName>LotRE_BackstoryElfAdultSix</defName>
+    <title>Elf poet</title>
+    <baseDescription>NAME loves the soft sounds of Elvish instruments and the kind words that leave their mouths. Even hobbits fall into the fantasy of the songs of old. This is what NAME wanted to accomplish, keeping the elven memories alive through meter and note, tone and pitch, the sound of soothing strings and silver harps.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>5</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
+    <defName>LotRE_BackstoryElfAdultSeven</defName>
+    <title>Elf shipwright</title>
+    <baseDescription>NAME heard a quite a long time ago “Such is of the course of deeds that move the wheels of the world: small hands do them because they must, while the eyes of the great are elsewhere..” ...Whatever THAT meant, HE didn't know. But it made HIM want to make ships...and so HE did!</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
+    <defName>LotRE_BackstoryElfAdultEight</defName>
+    <title>Elf kinslayer</title>
+    <baseDescription>After HE was discovered murdering HIS kin, NAME was exiled by HIS brothers and sisters. HECAP vowed revenge, and took to finding, hunting down, and killing HIS siblings. When HIS mission was complete, HE wandered the forests in search of more folk, kin or no kin, to fall under HIS blade.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+	  <li>
+	    <defName>Psychopath</defName>
+	  </li>
+    </forcedTraits>
+</AlienRace.BackstoryDef>
+
+
+<AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
+    <defName>LotRE_BackstoryElfAdultNine</defName>
+    <title>Elf architect</title>
+    <baseDescription>Taking great interest in the deep history and methodology of Elven architecture, NAME spent decades studying how to perform feats that seem impossible to the other peoples of the world. HECAP soon became adept at shaping the world around them, without destroying it, and HE became an expert Elven architect. </baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Growing</defName>
+        <amount>2</amount>
+      </li>
+	 </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
+    <defName>LotRE_BackstoryElfAdultTen</defName>
+    <title>Yavinildi elf-maiden</title>
+    <baseDescription>NAME is one of the Yavinildi. HE is a Maiden of Yavanna, charged with preparing lembas bread by using the lembas crops from the fields. This sacred duty is one HE takes very seriously.</baseDescription>
+	<slot>Adulthood</slot>
+    <maleCommonality>0</maleCommonality>
+    <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Growing</defName>
+        <amount>3</amount>
+      </li>
+	 </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
+    <defName>LotRE_BackstoryElfAdultEleven</defName>
+    <title>Elf healer</title>
+    <baseDescription>A healer of hurts and weariness, NAME has mastered the healing arts, and it is said that HE can, with but a touch, restore health to one’s heart and snatch away the aches in one’s limbs.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>6</amount>
+      </li>
+	 </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
+    <defName>LotRE_BackstoryElfAdultTwelve</defName>
+    <title>Elf herbalist</title>
+    <baseDescription>NAME spent the summer of their lives healing others through nature’s bounties. Some herbs worked better than others, and through countless years of trial and error coupled with the wisdom of HIS elders, HE became a herbalist.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Growing</defName>
+        <amount>3</amount>
+      </li>
+	 </skillGains>
 </AlienRace.BackstoryDef>
 
 </Defs>
