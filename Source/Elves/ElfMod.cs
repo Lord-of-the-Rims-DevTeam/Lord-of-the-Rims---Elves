@@ -6,6 +6,7 @@ namespace Elves
     {
         public ElfMod(ModContentPack content) : base(content)
         {
+            
         }
     }
 }

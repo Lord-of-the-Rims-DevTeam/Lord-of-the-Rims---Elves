@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Tier 1 -->
+
+  <ThingDef ParentName="LotRE_BaseProjectileNeolithic">
+    <defName>LotRE_Arrow_Mirkwood</defName>
+    <label>mirkwood arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/Arrow_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>ArrowHighVelocity</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <speed>62</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="LotRE_BaseWeaponNeolithic">
+    <defName>LotRE_Bow_Mirkwood</defName>
+    <label>elven mirkwood bow</label>
+    <description>Efficient at both close and medium range, this rapid-fire bow provides maximum stopping power for threats to Elven strongholds.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/LotRE_MirkwoodBow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>BowRecurve</soundInteract>
+    <costList>
+      <WoodLog>60</WoodLog>
+    </costList>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>0.7</Mass>
+      <AccuracyTouch>0.96</AccuracyTouch>
+      <AccuracyShort>0.87</AccuracyShort>
+      <AccuracyMedium>0.77</AccuracyMedium>
+      <AccuracyLong>0.60</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+      <Weapon_Bulk>1.0</Weapon_Bulk>
+    </statBases>
+    <weaponTags>
+      <li>ElfRanged</li>
+    </weaponTags>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <researchPrerequisite>Greatbows</researchPrerequisite>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>LotRE_Arrow_Mirkwood</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>38</range>
+        <soundCast>BowRecurve</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+<!-- Tier 2 -->
+
+  <ThingDef ParentName="LotRE_BaseProjectileNeolithic">
+    <defName>LotRE_Arrow_Galadhrim</defName>
+    <label>galadhrim arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/Arrow_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>ArrowHighVelocity</damageDef>
+      <damageAmountBase>26</damageAmountBase>
+      <speed>58</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="LotRE_BaseWeaponNeolithic">
+    <defName>LotRE_Bow_Galadhrim</defName>
+    <label>elven galadhrim bow</label>
+    <description>The longbow preferred by the Galadhrim. A powerful long range weapon.</description>
+    <comps>
+	  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+	  </li>
+	</comps>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/LotRE_GaladhrimBow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(2.0,2.0)</drawSize>
+    </graphicData>
+    <soundInteract>BowRecurve</soundInteract>
+    <costList>
+      <WoodLog>75</WoodLog>
+    </costList>
+    <statBases>
+      <WorkToMake>22000</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.95</AccuracyTouch>
+      <AccuracyShort>0.89</AccuracyShort>
+      <AccuracyMedium>0.82</AccuracyMedium>
+      <AccuracyLong>0.77</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+      <Weapon_Bulk>1.0</Weapon_Bulk>
+    </statBases>
+    <weaponTags>
+      <li>ElfRanged</li>
+    </weaponTags>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <researchPrerequisite>Greatbows</researchPrerequisite>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>LotRE_Arrow_Galadhrim</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>44</range>
+        <soundCast>BowRecurve</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+<!-- Tier 3 -->
+
+  <ThingDef ParentName="LotRE_BaseProjectileNeolithic">
+    <defName>LotRE_Arrow_Rivendell</defName>
+    <label>rivendell arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/Arrow_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <flyOverhead>false</flyOverhead>
+      <damageDef>ArrowHighVelocity</damageDef>
+      <damageAmountBase>28</damageAmountBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="LotRE_BaseWeaponNeolithic">
+    <defName>LotRE_Bow_Rivendell</defName>
+    <label>elven rivendell bow</label>
+    <description>The High Elves of Rivendell utilize an exceptional longbow that has devestating damage and pinpoint accuracy.</description>
+    <comps>
+	  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+	  </li>
+	</comps>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/LotRE_NoldorinBow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(2.0,2.0)</drawSize>
+    </graphicData>
+    <soundInteract>BowRecurve</soundInteract>
+    <costList>
+      <WoodLog>85</WoodLog>
+    </costList>
+    <statBases>
+      <WorkToMake>28000</WorkToMake>
+      <Mass>1.1</Mass>
+      <AccuracyTouch>0.94</AccuracyTouch>
+      <AccuracyShort>0.91</AccuracyShort>
+      <AccuracyMedium>0.86</AccuracyMedium>
+      <AccuracyLong>0.79</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+      <Weapon_Bulk>1.0</Weapon_Bulk>
+    </statBases>
+    <weaponTags>
+      <li>ElfRanged</li>
+    </weaponTags>
+    <recipeMaker>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <researchPrerequisite>Greatbows</researchPrerequisite>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>LotRE_Arrow_Rivendell</defaultProjectile>
+        <warmupTime>1.4</warmupTime>
+        <range>46</range>
+        <soundCast>BowRecurve</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+</Defs>
