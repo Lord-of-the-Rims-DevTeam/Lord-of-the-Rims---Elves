@@ -57,7 +57,7 @@
         <defaultProjectile>LotRE_Arrow_Mirkwood</defaultProjectile>
         <warmupTime>0.6</warmupTime>
         <range>38</range>
-        <soundCast>BowRecurve</soundCast>
+        <soundCast>LotRE_BowMirkwood</soundCast>
       </li>
     </verbs>
     <tools>
@@ -133,7 +133,7 @@
         <defaultProjectile>LotRE_Arrow_Galadhrim</defaultProjectile>
         <warmupTime>1.5</warmupTime>
         <range>44</range>
-        <soundCast>BowRecurve</soundCast>
+        <soundCast>LotRE_BowLongbow</soundCast>
       </li>
     </verbs>
     <tools>
@@ -209,7 +209,7 @@
         <defaultProjectile>LotRE_Arrow_Rivendell</defaultProjectile>
         <warmupTime>1.4</warmupTime>
         <range>46</range>
-        <soundCast>BowRecurve</soundCast>
+        <soundCast>LotRE_BowLongbow</soundCast>
       </li>
     </verbs>
     <tools>

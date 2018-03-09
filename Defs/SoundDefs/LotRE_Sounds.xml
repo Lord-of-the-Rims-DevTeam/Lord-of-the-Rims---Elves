@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><Defs>
+
+  <SoundDef>
+    <defName>LotRE_BowMirkwood</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/MirkwoodBow</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>60.70111</min>        
+          <max>77.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.6976015</min>        
+          <max>0.7769372</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>LotRE_BowLongbow</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/ElfLongbow</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>60.70111</min>        
+          <max>77.30627</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.6976015</min>        
+          <max>0.7769372</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>
