@@ -7,6 +7,7 @@
       <e p="Elves" t="IncludeRecursive">
         <e p="ElfMod.cs" t="Include" />
         <e p="Elves.csproj" t="IncludeRecursive" />
+        <e p="MallornBiomeWorker.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
       </e>
       <e p="Elves.sln" t="IncludeFlat" />

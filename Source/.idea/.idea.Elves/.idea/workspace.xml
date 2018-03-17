@@ -11,11 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ElfMod.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ElfMod.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Elves/ElfMod.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="190">
+              <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
               <folding>
                 <marker date="1520532828499" expanded="true" signature="29:170" ph="{...}" />
                 <marker date="1520532828499" expanded="true" signature="61:168" ph="{...}" />
@@ -25,15 +25,36 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MallornBiomeWorker.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Elves/MallornBiomeWorker.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <marker date="1521268742238" expanded="true" signature="6:51" ph="..." />
+                <marker date="1521268742238" expanded="true" signature="68:804" ph="{...}" />
+                <marker date="1521268742238" expanded="true" signature="120:802" ph="{...}" />
+                <marker date="1521268742238" expanded="true" signature="176:796" ph="{...}" />
+                <marker date="1521268742238" expanded="true" signature="329:387" ph="{...}" />
+                <marker date="1521268742238" expanded="true" signature="438:493" ph="{...}" />
+                <marker date="1521268742238" expanded="true" signature="538:593" ph="{...}" />
+                <marker date="1521268742238" expanded="true" signature="630:685" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Elves/ElfMod.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elves/MallornBiomeWorker.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Elves/ElfMod.cs" />
+        <option value="$PROJECT_DIR$/Elves/MallornBiomeWorker.cs" />
       </list>
     </option>
   </component>
@@ -44,8 +65,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="207" />
-    <option name="y" value="93" />
+    <option name="x" value="306" />
+    <option name="y" value="113" />
     <option name="width" value="1599" />
     <option name="height" value="861" />
   </component>
@@ -70,6 +91,11 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Elves (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Elves (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Elves" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -128,12 +154,13 @@
       <workItem from="1518183426794" duration="12095000" />
       <workItem from="1519550439694" duration="2779000" />
       <workItem from="1520093282599" duration="7931000" />
-      <workItem from="1520532783238" duration="928000" />
+      <workItem from="1520532783238" duration="1469000" />
+      <workItem from="1521259076321" duration="12712000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31077000" />
+    <option name="totallyTimeSpent" value="44330000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -145,17 +172,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="207" y="93" width="1599" height="861" extended-state="0" />
+    <frame x="306" y="113" width="1599" height="861" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962447" sideWeight="0.5047438" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850942" sideWeight="0.51017725" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962447" sideWeight="0.49525616" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850942" sideWeight="0.48982272" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28969008" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29481286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -184,72 +211,101 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Elves/ElfMod.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1520532828499" expanded="true" signature="29:170" ph="{...}" />
-            <marker date="1520532828499" expanded="true" signature="61:168" ph="{...}" />
-            <marker date="1520532828499" expanded="true" signature="129:162" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Elves/ElfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1520532828499" expanded="true" signature="29:170" ph="{...}" />
-            <marker date="1520532828499" expanded="true" signature="61:168" ph="{...}" />
-            <marker date="1520532828499" expanded="true" signature="129:162" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Elves/ElfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1520532828499" expanded="true" signature="29:170" ph="{...}" />
-            <marker date="1520532828499" expanded="true" signature="61:168" ph="{...}" />
-            <marker date="1520532828499" expanded="true" signature="129:162" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Elves/ElfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1520532828499" expanded="true" signature="29:170" ph="{...}" />
-            <marker date="1520532828499" expanded="true" signature="61:168" ph="{...}" />
-            <marker date="1520532828499" expanded="true" signature="129:162" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Elves/ElfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1520532828499" expanded="true" signature="29:170" ph="{...}" />
-            <marker date="1520532828499" expanded="true" signature="61:168" ph="{...}" />
-            <marker date="1520532828499" expanded="true" signature="129:162" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Elves/ElfMod.cs">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding>
             <marker date="1520532828499" expanded="true" signature="29:170" ph="{...}" />
             <marker date="1520532828499" expanded="true" signature="61:168" ph="{...}" />
             <marker date="1520532828499" expanded="true" signature="129:162" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elves/ElfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520532828499" expanded="true" signature="29:170" ph="{...}" />
+            <marker date="1520532828499" expanded="true" signature="61:168" ph="{...}" />
+            <marker date="1520532828499" expanded="true" signature="129:162" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elves/ElfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520532828499" expanded="true" signature="29:170" ph="{...}" />
+            <marker date="1520532828499" expanded="true" signature="61:168" ph="{...}" />
+            <marker date="1520532828499" expanded="true" signature="129:162" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elves/ElfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520532828499" expanded="true" signature="29:170" ph="{...}" />
+            <marker date="1520532828499" expanded="true" signature="61:168" ph="{...}" />
+            <marker date="1520532828499" expanded="true" signature="129:162" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elves/ElfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520532828499" expanded="true" signature="29:170" ph="{...}" />
+            <marker date="1520532828499" expanded="true" signature="61:168" ph="{...}" />
+            <marker date="1520532828499" expanded="true" signature="129:162" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elves/ElfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1520532828499" expanded="true" signature="29:170" ph="{...}" />
+            <marker date="1520532828499" expanded="true" signature="61:168" ph="{...}" />
+            <marker date="1520532828499" expanded="true" signature="129:162" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elves/ElfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <marker date="1520532828499" expanded="true" signature="29:170" ph="{...}" />
+            <marker date="1520532828499" expanded="true" signature="61:168" ph="{...}" />
+            <marker date="1520532828499" expanded="true" signature="129:162" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elves/MallornBiomeWorker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <marker date="1521268742238" expanded="true" signature="6:51" ph="..." />
+            <marker date="1521268742238" expanded="true" signature="68:804" ph="{...}" />
+            <marker date="1521268742238" expanded="true" signature="120:802" ph="{...}" />
+            <marker date="1521268742238" expanded="true" signature="176:796" ph="{...}" />
+            <marker date="1521268742238" expanded="true" signature="329:387" ph="{...}" />
+            <marker date="1521268742238" expanded="true" signature="438:493" ph="{...}" />
+            <marker date="1521268742238" expanded="true" signature="538:593" ph="{...}" />
+            <marker date="1521268742238" expanded="true" signature="630:685" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="LotRE_TreeBase">
+    <defName>LotRE_PlantTreeMallorn</defName>
+    <label>mallorn sapling</label>
+    <description>A colossal tree of immense beauty, the mallorn is favored by the elves with golden leaves, a silver trunk, and incredible longevity. A mallorn sapling may appear to be incredibly tall, however, truly mature and ancient ones can hold entire settlements aloft their branches.</description>
+    <graphicData>
+      <texPath>Things/Plant/MallornSaplings</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+        <shadowData>
+          <volume>(0.175, 0.3, 0.15)</volume>
+          <offset>(0,0,-0.38)</offset>
+        </shadowData>
+    </graphicData>
+    <tickerType>Rare</tickerType>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <statBases>
+      <Beauty>25</Beauty>
+    </statBases>
+    <blockLight>true</blockLight>
+    <ingestible>
+      <nutrition>1.35</nutrition>
+    </ingestible>
+	<plant>
+      <fertilitySensitivity>0.8</fertilitySensitivity>
+	  <growDays>280</growDays>
+	  <visualSizeRange>
+        <min>3.0</min>
+        <max>9.0</max>
+      </visualSizeRange>
+      <wildClusterSizeRange>
+		<min>2</min>
+		<max>4</max>
+	  </wildClusterSizeRange>
+	  <wildClusterRadius>10</wildClusterRadius>
+      <harvestWork>4000</harvestWork>
+      <harvestYield>150</harvestYield>
+	  <harvestedThingDef>LotRE_WoodLogMallorn</harvestedThingDef>
+	  <immatureGraphicPath>Things/Plant/MallornInfants</immatureGraphicPath>
+    </plant>
+	<comps>
+      <li Class="CompProperties_SpawnerFilth">
+        <filthDef>LotRE_FilthMallornLeaves</filthDef>
+        <spawnCountOnSpawn>0</spawnCountOnSpawn>
+        <spawnMtbHours>4</spawnMtbHours>
+        <spawnRadius>3</spawnRadius>
+      </li>
+	</comps>
+  </ThingDef>
+  
+
+  <ThingDef ParentName="LotRE_TreeBase">
+    <defName>LotRE_PlantTreeBirchGolden</defName>
+    <label>golden birch tree</label>
+    <description>A northern tree known for its thin, paper-like bark. This variant is favored by the elves for its mallorn-like golden leaf-color.</description>
+    <graphicData>
+      <texPath>Things/Plant/GoldenBirch</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.15, 0.3, 0.1)</volume>
+        <offset>(-0.03,0,-0.44)</offset>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <Beauty>3</Beauty>
+    </statBases>
+    <ingestible>
+      <nutrition>1.28</nutrition>
+    </ingestible>
+    <plant>
+      <growDays>40</growDays>
+      <harvestWork>750</harvestWork>
+      <harvestYield>27</harvestYield>
+    </plant>
+  </ThingDef>
+  
+	<ThingDef ParentName="LotRE_PlantBase" Name="LotRE_BushBase" Abstract="True">
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+		</statBases>
+		<graphicData>
+			<shadowData>
+				<volume>(0.55, 0.2, 0.2)</volume>
+				<offset>(0,0,-0.25)</offset>
+			</shadowData>
+		</graphicData>
+		<selectable>true</selectable>
+		<fillPercent>0.20</fillPercent>
+		<pathCost>30</pathCost>
+		<ingestible>
+			<nutrition>0.30</nutrition>
+		</ingestible>
+		<plant>
+			<fertilityMin>0.4</fertilityMin>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<growDays>3</growDays>
+			<wildClusterSizeRange>
+				<min>2</min>
+				<max>5</max>
+			</wildClusterSizeRange>
+			<wildClusterRadius>4</wildClusterRadius>
+			<visualSizeRange>
+				<min>0.7</min>
+				<max>1.1</max>
+			</visualSizeRange>
+			<topWindExposure>0.20</topWindExposure>
+		</plant>
+	</ThingDef>
+	
+  <ThingDef ParentName="LotRE_BaseFilth">
+    <defName>LotRE_FilthMallornLeaves</defName>
+    <label>mallorn leaves</label>
+    <statBases>
+      <Beauty>4</Beauty>
+      <Cleanliness>-2</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/MallornLeaves</texPath>
+      <color>(255, 255, 255, 130)</color>
+    </graphicData>
+    <filth>
+      <rainWashes>true</rainWashes>
+      <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+    </filth>
+  </ThingDef>
+  
+  <!-- Plant / Filth Bases -->
+
+  
+  <ThingDef Name="LotRE_BaseFilth" Abstract="True">
+    <thingClass>Filth</thingClass>
+    <category>Filth</category>
+    <altitudeLayer>Filth</altitudeLayer>
+    <useHitPoints>false</useHitPoints>
+    <drawerType>MapMeshOnly</drawerType>
+    <graphicData>
+			<graphicClass>Graphic_Cluster</graphicClass>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+    <statBases>
+      <Beauty>-15</Beauty>
+      <Cleanliness>-5</Cleanliness>
+    </statBases>
+  </ThingDef>
+  
+	<ThingDef ParentName="LotRE_PlantBase" Name="LotRE_TreeBase" Abstract="True">
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+    </statBases>
+    <description>A tree.</description>
+    <altitudeLayer>Building</altitudeLayer>
+    <selectable>true</selectable>
+    <fillPercent>0.25</fillPercent>
+    <graphicData>
+      <shadowData>
+        <volume>(0.2, 0.35, 0.13)</volume>
+				<offset>(0,0,-0.42)</offset>
+			</shadowData>
+    </graphicData>
+    <passability>PassThroughOnly</passability>
+    <pathCost>130</pathCost>
+    <blockWind>true</blockWind>
+    <ingestible>
+      <foodType>Tree</foodType>
+      <preferability>RawBad</preferability>
+      <nutrition>1.5</nutrition>
+    </ingestible>
+    <plant>
+			<fertilityMin>0.3</fertilityMin>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<reproduceRadius>30</reproduceRadius>
+			<soundHarvesting>Harvest_Tree</soundHarvesting>
+      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+      <sowWork>1500</sowWork>
+      <harvestWork>800</harvestWork>
+      <harvestedThingDef>WoodLog</harvestedThingDef>
+      <harvestYield>50</harvestYield>
+      <harvestTag>Wood</harvestTag>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <harvestFailable>false</harvestFailable>
+      <blockAdjacentSow>true</blockAdjacentSow>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <visualSizeRange>
+        <min>1.3</min>
+        <max>2.0</max>
+      </visualSizeRange>
+      <topWindExposure>0.25</topWindExposure>
+      <wildClusterSizeRange>
+        <min>8</min>
+        <max>30</max>
+      </wildClusterSizeRange>
+      <wildClusterRadius>8</wildClusterRadius>
+    </plant>
+  </ThingDef>
+  
+  
+  <ThingDef Name="LotRE_PlantBase" Abstract="True">
+    <category>Plant</category>
+    <thingClass>Plant</thingClass>
+    <altitudeLayer>LowPlant</altitudeLayer>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <Flammability>0.8</Flammability>
+    </statBases>
+    <tickerType>Long</tickerType>
+    <selectable>False</selectable>
+    <neverMultiSelect>True</neverMultiSelect>
+    <drawerType>MapMeshOnly</drawerType>
+    <pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
+    <graphicData>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shaderType>CutoutPlant</shaderType>
+    </graphicData>
+    <ingestible>
+      <foodType>Plant</foodType>
+      <preferability>RawBad</preferability>
+		</ingestible>
+    <plant>
+			<fertilityMin>0.5</fertilityMin>
+			<fertilitySensitivity>1.0</fertilitySensitivity>
+      <soundHarvesting>Harvest_Standard</soundHarvesting>
+      <soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
+      <harvestWork>190</harvestWork>
+      <sowWork>260</sowWork>
+      <topWindExposure>0.1</topWindExposure>
+      <visualSizeRange>
+        <min>0.3</min>
+        <max>1.00</max>
+      </visualSizeRange>
+    </plant>
+  </ThingDef>
+
+  
+</Defs>

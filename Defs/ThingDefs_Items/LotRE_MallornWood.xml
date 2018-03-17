@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="LotRE_ResourceVerbBase">
+    <defName>LotRE_WoodLogMallorn</defName>
+    <label>mallorn-wood</label>
+    <description>Wood from mallorn-trees. Lighter yet more durable than common woods, mallorn-wood is useful for building structures, weapons, and even simple prosthetics. A raw stick of mallorn-wood can be used as a weapon in a pinch.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/MallornLog</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-20</equippedAngleOffset>
+    <soundInteract>Wood_Drop</soundInteract>
+    <soundDrop>Wood_Drop</soundDrop>
+    <statBases>
+      <MarketValue>1.4</MarketValue>
+      <MaxHitPoints>170</MaxHitPoints>
+      <Mass>0.3</Mass>
+      <Flammability>1.2</Flammability>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <SharpDamageMultiplier>0.6</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.3</BluntDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <stuffAdjective>mallorn-wood</stuffAdjective>
+      <categories>
+        <li>Woody</li>
+      </categories>
+      <commonality>0.025</commonality>
+      <color>(240,218,165)</color>
+      <constructEffect>ConstructWood</constructEffect>
+      <appearance>Planks</appearance>
+      <soundImpactStuff>BulletImpactWood</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>0.6</MaxHitPoints>
+        <Beauty>2</Beauty>
+        <Flammability>1</Flammability>
+        <WorkToMake>0.8</WorkToMake>
+		<WorkToBuild>0.8</WorkToBuild>
+        <DoorOpenSpeed>1.15</DoorOpenSpeed>
+        <MeleeWeapon_CooldownMultiplier>0.85</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+    <isBodyPartOrImplant>true</isBodyPartOrImplant>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <tools>
+      <li>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+  
+  
+  <!--================== Bases ==================-->
+  
+  <ThingDef Name="LotRE_ResourceBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>75</stackLimit>
+		<statBases>
+			<Beauty>-4</Beauty>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+	</ThingDef>
+  <ThingDef Name="LotRE_ResourceVerbBase" ParentName="LotRE_ResourceBase" Abstract="True">
+    <equipmentType>Primary</equipmentType>
+    <techLevel>Neolithic</techLevel>
+    <comps>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+
+</Defs>
