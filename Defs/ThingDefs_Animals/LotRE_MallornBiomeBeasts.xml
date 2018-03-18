@@ -100,7 +100,7 @@
     <race>LotRE_DeerMallorn</race>
     <combatPower>75</combatPower>
     <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.7</wildSpawn_EcoSystemWeight>
+    <wildSpawn_EcoSystemWeight>0.0</wildSpawn_EcoSystemWeight>
     <wildSpawn_GroupSizeRange>
       <min>3</min>
       <max>9</max>
