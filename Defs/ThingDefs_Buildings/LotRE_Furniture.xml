@@ -5,9 +5,10 @@
     <defName>LotRE_ElvishTable2x2c</defName>
     <label>elvish table (2x2)</label>
     <graphicData>
-      <texPath>Things/Building/ElvishTable/ElvishTable</texPath>
+      <texPath>Things/Building/ElvishTable/trisscarElvishTable</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,2)</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
       <damageData>
         <rect>(0.05,0.27,1.9,1.73)</rect>
         <cornerTL>Damage/Corner</cornerTL>
@@ -32,9 +33,10 @@
     <defName>LotRE_Chair</defName>
     <label>elven chair</label>
     <graphicData>
-      <texPath>Things/Building/ElvishChair/ElvishChair</texPath>
+      <texPath>Things/Building/ElvishChair/trisscarElvishChair</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(3,3)</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
       <shadowData>
         <volume>(0.3, 0.6, 0.3)</volume>
       </shadowData>
