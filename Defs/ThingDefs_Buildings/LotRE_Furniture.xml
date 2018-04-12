@@ -26,7 +26,7 @@
     </statBases>
     <size>(2,2)</size>
     <costStuffCount>50</costStuffCount>
-    <rotatable>false</rotatable>
+    <rotatable>true</rotatable>
   </ThingDef>
   
   <ThingDef ParentName="LotRE_ArtableFurnitureBase">
@@ -83,7 +83,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawRotated>false</drawRotated>
 	  <shaderType>CutoutComplex</shaderType>
-	  <drawSize>2.2</drawSize>
+	  <drawSize>1.0</drawSize>
       <damageData>
         <rect>(0.35,0.35,0.3,0.3)</rect>
       </damageData>

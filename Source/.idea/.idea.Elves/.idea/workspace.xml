@@ -45,8 +45,8 @@
       <file leaf-file-name="Graphic_CustomFlicker.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Elves/Graphic_CustomFlicker.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="76">
+              <caret line="5" column="59" lean-forward="true" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
               <folding>
                 <marker date="1521648157386" expanded="false" signature="6:31" ph="..." />
                 <marker date="1521648157386" expanded="true" signature="48:2973" ph="{...}" />
@@ -180,11 +180,12 @@
       <workItem from="1521364579352" duration="6850000" />
       <workItem from="1521648152918" duration="292000" />
       <workItem from="1521818137901" duration="347000" />
+      <workItem from="1522475006833" duration="1867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52919000" />
+    <option name="totallyTimeSpent" value="54786000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -200,13 +201,13 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850942" sideWeight="0.51805645" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850942" sideWeight="0.5206829" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850942" sideWeight="0.48194352" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32850942" sideWeight="0.47931713" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31057125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31648064" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -233,6 +234,56 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Elves/ElfMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <marker date="1520532828499" expanded="true" signature="61:168" ph="{...}" />
+            <marker date="1520532828499" expanded="true" signature="129:162" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elves/MallornBiomeWorker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <marker date="1521364582227" expanded="false" signature="6:51" ph="..." />
+            <marker date="1521364582227" expanded="true" signature="120:802" ph="{...}" />
+            <marker date="1521364582227" expanded="true" signature="176:796" ph="{...}" />
+            <marker date="1521364582227" expanded="true" signature="329:387" ph="{...}" />
+            <marker date="1521364582227" expanded="true" signature="438:493" ph="{...}" />
+            <marker date="1521364582227" expanded="true" signature="538:593" ph="{...}" />
+            <marker date="1521364582227" expanded="true" signature="630:685" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elves/Graphic_CustomFlicker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <marker date="1521648157386" expanded="false" signature="6:31" ph="..." />
+            <marker date="1521648157386" expanded="true" signature="48:2973" ph="{...}" />
+            <marker date="1521648157386" expanded="true" signature="110:2971" ph="{...}" />
+            <marker date="1521648157386" expanded="true" signature="322:477" ph="{...}" />
+            <marker date="1521648157386" expanded="true" signature="348:467" ph="{...}" />
+            <marker date="1521648157386" expanded="true" signature="594:2647" ph="{...}" />
+            <marker date="1521648157386" expanded="true" signature="638:776" ph="{...}" />
+            <marker date="1521648157386" expanded="true" signature="818:962" ph="{...}" />
+            <marker date="1521648157386" expanded="true" signature="1178:1756" ph="{...}" />
+            <marker date="1521648157386" expanded="true" signature="1441:1742" ph="/* Fire fire = thing as Fire; ... */" />
+            <marker date="1521648157386" expanded="true" signature="1817:1949" ph="{...}" />
+            <marker date="1521648157386" expanded="true" signature="2275:2395" ph="/* if (compFireOverlay != null) ... */" />
+            <marker date="1521648157386" expanded="true" signature="2690:2965" ph="{...}" />
+            <marker date="1521648157386" expanded="true" signature="2759:2953" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Elves/ElfMod.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -455,8 +506,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Elves/Graphic_CustomFlicker.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="76">
+          <caret line="5" column="59" lean-forward="true" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
           <folding>
             <marker date="1521648157386" expanded="false" signature="6:31" ph="..." />
             <marker date="1521648157386" expanded="true" signature="48:2973" ph="{...}" />
