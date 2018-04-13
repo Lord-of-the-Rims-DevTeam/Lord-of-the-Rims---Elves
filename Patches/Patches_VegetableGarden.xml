@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationSequence">
+	<success>Always</success>
+	<operations>
+	  <!--This ensures the patch will only be applied IF Vegetable Garden is loaded-->
+	  <li Class="JecsTools.PatchOperationModLoaded">
+	    <modName>VGP Garden Gourmet</modName>
+	  </li>
+		<li Class="PatchOperationReplace">
+		  <xpath>*/RecipeDef[defName="LotRE_BakeElvishBread"]/recipeUsers</xpath>
+		  <value>
+		    <recipeUsers>
+		      <li>Oven</li>
+		      <li>ElectricOven</li>
+		    </recipeUsers>
+		  </value>
+	    </li>		
+		<li Class="PatchOperationReplace">
+		  <xpath>*/RecipeDef[defName="LotRE_PrepareLembas"]/recipeUsers</xpath>
+		  <value>
+		    <recipeUsers>
+			  <li>ElectricStove</li>
+			  <li>FueledStove</li>
+		      <li>Oven</li>
+		      <li>ElectricOven</li>
+		    </recipeUsers>
+		  </value>
+	    </li>		
+		<li Class="PatchOperationReplace">
+		  <xpath>*/RecipeDef[defName="LotRE_CraftLembasflour"]/recipeUsers</xpath>
+		  <value>
+		    <recipeUsers>
+		      <li>Canningstove</li>
+		      <li>HandCanningstove</li>
+			  <li>GrindStone</li>
+		    </recipeUsers>
+		  </value>
+	    </li>		
+		<li Class="PatchOperationReplace">
+		  <xpath>*/RecipeDef[defName="LotRE_CraftBulkLembasFlour"]/recipeUsers</xpath>
+		  <value>
+		    <recipeUsers>
+			  <li>GrindStone</li>
+		    </recipeUsers>
+		  </value>
+	    </li>
+	</operations>
+  </Operation>
+
+</Patch>
