@@ -40,7 +40,7 @@
       <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <weaponTags>
-      <li>ElfRanged</li>
+      <li>ElvenRanged</li>
     </weaponTags>
     <recipeMaker>
       <recipeUsers>
@@ -116,7 +116,8 @@
       <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <weaponTags>
-      <li>ElfRanged</li>
+      <li>ElvenRanged</li>
+      <li>ElvenRangedStrong</li>
     </weaponTags>
     <recipeMaker>
       <recipeUsers>
@@ -192,7 +193,8 @@
       <Weapon_Bulk>1.0</Weapon_Bulk>
     </statBases>
     <weaponTags>
-      <li>ElfRanged</li>
+      <li>ElvenRanged</li>
+      <li>ElvenRangedMighty</li>
     </weaponTags>
     <recipeMaker>
       <recipeUsers>
