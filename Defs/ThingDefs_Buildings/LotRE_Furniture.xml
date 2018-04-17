@@ -83,7 +83,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawRotated>false</drawRotated>
 	  <shaderType>CutoutComplex</shaderType>
-	  <drawSize>1.0</drawSize>
+	  <drawSize>1.5</drawSize>
       <damageData>
         <rect>(0.35,0.35,0.3,0.3)</rect>
       </damageData>
@@ -198,6 +198,104 @@
     <designationCategory>Furniture</designationCategory>
   </ThingDef>
   
+  
+  <ThingDef ParentName="LotRE_ArtableBedBase">
+    <defName>LotRE_ElvenRoyalBed</defName>
+    <label>Elvish royal bed</label>
+    <description>A statue of Estë helps soothe souls in this Elven bed. It is very comfy and beautiful. Fits two.</description>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+	<graphicData>
+      <texPath>Things/Building/ElvishRoyalBed/ElvenRoyalBed</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(6.5,6.5)</drawSize>
+      <damageData>
+        <rect>(0,0.05,2,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>EndTable</li>
+          <li>Dresser</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <WorkToBuild>4500</WorkToBuild>
+      <Mass>90</Mass>
+      <Beauty>25</Beauty>
+      <BedRestEffectiveness>1.05</BedRestEffectiveness>
+      <Comfort>0.90</Comfort>
+      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+		</statBases>
+    <size>(2,2)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>110</costStuffCount>
+    <costList>
+      <Gold>50</Gold>
+    </costList>
+    <building>
+      <bed_showSleeperBody>False</bed_showSleeperBody>
+      <bed_healPerDay>3</bed_healPerDay>
+    </building>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <fillPercent>0.4</fillPercent>
+    <pathCost>60</pathCost>
+    <leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+    <staticSunShadowHeight>0.17</staticSunShadowHeight>
+    <castEdgeShadows>True</castEdgeShadows>
+    <designationHotKey>Misc4</designationHotKey>
+    <techLevel>Medieval</techLevel>
+    <researchPrerequisites><li>Beds</li></researchPrerequisites>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="LotRE_FurnitureBase" Name="LotRE_BedBase" Abstract="True">
+    <thingClass>Building_Bed</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <comps>
+      <li Class="CompProperties_RoomIdentifier">
+        <roomStat>Impressiveness</roomStat>
+      </li>
+    </comps>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <canOverlapZones>false</canOverlapZones>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <passability>PassThroughOnly</passability>
+    <defaultPlacingRot>South</defaultPlacingRot>
+  </ThingDef>
+
+  <ThingDef Name="LotRE_BedWithQualityBase" ParentName="LotRE_BedBase" Abstract="True">
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef Name="LotRE_ArtableBedBase" ParentName="LotRE_BedWithQualityBase" Abstract="True">
+    <comps>
+      <li Class="CompProperties_Art">
+        <nameMaker>ArtName_Furniture</nameMaker>
+        <descriptionMaker>ArtDescription_Furniture</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+  </ThingDef>
   
   
   <ThingDef Name="LotRE_FurnitureBase" ParentName="LotRE_BuildingBase" Abstract="True">

@@ -8,6 +8,8 @@
         <e p="ElfMod.cs" t="Include" />
         <e p="Elves.csproj" t="IncludeRecursive" />
         <e p="Graphic_CustomFlicker.cs" t="Include" />
+        <e p="HarmonyPatches.cs" t="Include" />
+        <e p="HediffGiver_RacialTraits.cs" t="Include" />
         <e p="MallornBiomeWorker.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
       </e>

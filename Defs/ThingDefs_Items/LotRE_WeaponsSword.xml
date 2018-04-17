@@ -15,8 +15,8 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>NeolithicMeleeAdvanced</li>
+      <li>ElvenMelee</li>
+      <li>ElvenMeleeWeak</li>
     </weaponTags>
     <costStuffCount>133</costStuffCount>
 	<costList>
@@ -95,8 +95,8 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>NeolithicMeleeAdvanced</li>
+      <li>ElvenMelee</li>
+      <li>ElvenMeleeStrong</li>
     </weaponTags>
     <costStuffCount>156</costStuffCount>
 	<costList>
@@ -167,8 +167,8 @@
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>NonNeolithicOnlyMelee</li>
-      <li>NeolithicMeleeAdvanced</li>
+      <li>ElvenMelee</li>
+      <li>ElvenMeleeMighty</li>
     </weaponTags>
     <costStuffCount>180</costStuffCount>
 	<costList>

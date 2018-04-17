@@ -7,7 +7,24 @@
     <label>colonist (elf)</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
     <backstoryCategory>LotRE_BackstoryElf</backstoryCategory>
-    <chemicalAddictionChance>0.06</chemicalAddictionChance>
+    <chemicalAddictionChance>0.0</chemicalAddictionChance>
+    <apparelTags>
+      <li>Spacer</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2400</max>
+    </apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="LotRE_BasePlayerPawnKind">
+    <defName>LotRE_HalfElfColonist</defName>
+	<race>LotRE_ElfStandardRaceHalf</race>
+    <label>colonist (half-elf)</label>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <backstoryCategory>LotRE_BackstoryElf</backstoryCategory>
+    <chemicalAddictionChance>0.0</chemicalAddictionChance>
     <apparelTags>
       <li>Spacer</li>
     </apparelTags>
@@ -120,29 +137,29 @@
 				<!-- Noldor, Sindar, Avari, etc -->
 				<li>
 				    <!-- Brown -->
-					<weight>5</weight>
+					<weight>1</weight>
 					<only>RGBA(0.42,0.31,0.26,1)</only>
 				</li>
 				<li>
 				    <!-- Off-Black -->
-					<weight>5</weight>
+					<weight>1</weight>
 					<only>RGBA(0.17,0.13,0.17,1)</only>
 				</li>
 				<li>
 				    <!-- Dark Auburn -->
-					<weight>5</weight>
+					<weight>1</weight>
 					<only>RGBA(0.33,0.24,0.20,1)</only>
 				</li>
 				<!-- Tauriel -->
 				<li>
 				    <!-- Light Red Hair -->
-					<weight>5</weight>
+					<weight>1</weight>
 					<only>RGBA(0.71,0.32,0.22,1)</only>
 				</li>
 				<!-- Royal Sindar -->
 				<li>
 				    <!-- Silver -->
-					<weight>0.5</weight>
+					<weight>0.25</weight>
 					<only>RGBA(0.75,0.75,0.75,1)</only>
 				</li>
 
@@ -305,7 +322,292 @@
         </points>
       </ageGenerationCurve>
       <hediffGiverSets>
-        <li>OrganicStandard</li>
+        <li>LotRE_ElfTraitsGiver</li>
+      </hediffGiverSets>
+    </race>
+    <recipes>
+      <li>InstallPowerClaw</li>
+      <li>InstallScytherBlade</li>
+      <li>InstallBionicEye</li>
+      <li>InstallBionicArm</li>
+      <li>InstallBionicLeg</li>
+      <li>InstallSimpleProstheticArm</li>
+      <li>InstallSimpleProstheticLeg</li>
+      <li>InstallPegLeg</li>
+      <li>InstallDenture</li>
+      <li>InstallJoywire</li>
+      <li>InstallPainstopper</li>
+      <li>InstallNaturalHeart</li>
+      <li>InstallNaturalLung</li>
+      <li>InstallNaturalKidney</li>
+      <li>InstallNaturalLiver</li>
+      <li>ExciseCarcinoma</li>
+      <li>AdministerMechSerumHealer</li>
+      <li>RemoveBodyPart</li>
+      <li>Euthanize</li>
+      <li>Anesthetize</li>
+    </recipes>
+  </AlienRace.ThingDef_AlienRace>
+  
+  <AlienRace.ThingDef_AlienRace ParentName="LotRE_BasePawn">
+    <defName>LotRE_ElfStandardRaceHalf</defName>
+    <label>half-elf</label>
+    <description>Those born between the world of immortality and mortality.</description>
+	<alienRace>
+	  <generalSettings>
+	    <pawnsSpecificBackstories>true</pawnsSpecificBackstories>
+		<immuneToAge>true</immuneToAge>
+            <forcedRaceTraitEntries>
+                <li>
+                    <defName>Beauty</defName>
+                    <degree>2</degree>
+                    <chance>50</chance>
+                </li>
+                <li>
+                    <defName>Beauty</defName>
+                    <degree>1</degree>
+                    <chance>50</chance>
+                </li>
+            </forcedRaceTraitEntries>
+	    <alienPartGenerator>
+		  <aliencrowntypes>
+			<li>Narrow_Pointy</li>
+		  </aliencrowntypes>
+          <alienbodytypes>
+            <li>Male</li>
+            <li>Female</li>
+            <li>Thin</li>
+          </alienbodytypes>
+	      <customDrawSize>(0.85, 1.1)</customDrawSize>
+		  <customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
+		  <customPortraitDrawSize>(0.85, 1.1)</customPortraitDrawSize>
+		  <customPortraitHeadDrawSize>(1.0, 1.0)</customPortraitHeadDrawSize>
+	      <bodyAddons>
+		    <li>
+		      <path>Things/Ears/Ears</path>
+			  <bodyPart>Head</bodyPart>
+			  <inFrontOfBody>true</inFrontOfBody>
+			  <layerOffset>-0.275</layerOffset>
+			  <offsets>
+				  <front>
+					<bodyTypes>
+						<Male>(-0.43,0.5)</Male>
+						<Female>(-0.43,0.5)</Female>
+						<Fat>(-0.43,0.5)</Fat>
+						<Thin>(-0.43,0.5)</Thin>
+					</bodyTypes>
+					<crownTypes>
+						<Normal_Average>(-0.43,0.5)</Normal_Average>
+					</crownTypes>
+				  </front>
+				  <back>
+					<bodyTypes>
+						<Male>(0,0.9)</Male>
+						<Female>(0,0.9)</Female>
+						<Fat>(0,0.9)</Fat>
+						<Thin>(0,0.9)</Thin>
+					</bodyTypes>
+					<crownTypes>
+						<Normal_Average>(0,0.9)</Normal_Average>
+					</crownTypes>
+				  </back>
+				  <side>
+					<bodyTypes>
+						<Male>(-0.43,0.5)</Male>
+						<Female>(-0.43,0.5)</Female>
+						<Fat>(-0.43,0.5)</Fat>
+						<Thin>(-0.43,0.5)</Thin>
+					</bodyTypes>
+					<crownTypes>
+						<Normal_Average>(-0.43,0.5)</Normal_Average>
+					</crownTypes>
+				  </side>
+			  </offsets>
+		      <useSkinColor>true</useSkinColor>
+			  <hiddenUnderApparelFor>
+                <li>FullHead</li>
+              </hiddenUnderApparelFor>
+		    </li>
+		  </bodyAddons>
+
+		  <alienhaircolorgen Class="ColorGenerator_Options">
+			<options>
+				<!-- Half-Elven dark hair -->
+				<li>
+				    <!-- Brown -->
+					<weight>1</weight>
+					<only>RGBA(0.42,0.31,0.26,1)</only>
+				</li>
+				<li>
+				    <!-- Off-Black -->
+					<weight>10</weight>
+					<only>RGBA(0.17,0.13,0.17,1)</only>
+				</li>
+				<li>
+				    <!-- Dark Auburn -->
+					<weight>5</weight>
+					<only>RGBA(0.33,0.24,0.20,1)</only>
+				</li>
+			</options>
+		  </alienhaircolorgen>
+		</alienPartGenerator>
+		
+	  </generalSettings>
+	  <pawnKindSettings>
+		<startingColonists>
+		  <li>
+			<pawnKindEntries>
+			  <li>
+				<kindDefs>
+				  <li>LotRE_HalfElfColonist</li>
+				</kindDefs>
+				<chance>1.0</chance>
+			  </li>
+			</pawnKindEntries>
+			<factionDefs>
+			  <li>PlayerColony</li> 
+			</factionDefs>
+		  </li>
+		</startingColonists>
+	  </pawnKindSettings>
+	  <hairSettings>
+        <hasHair>true</hasHair>	  
+		<hairTags>
+		  <li>Elf</li>
+		</hairTags>
+	    <getsGreyAt>6500</getsGreyAt>
+	  </hairSettings>
+	</alienRace>
+    <statBases>
+      <MarketValue>1250</MarketValue>
+      <MoveSpeed>4.61</MoveSpeed>
+      <Flammability>1.0</Flammability>
+      <ComfyTemperatureMin>12</ComfyTemperatureMin>
+      <ComfyTemperatureMax>32</ComfyTemperatureMax>
+      <LeatherAmount>25</LeatherAmount>
+    </statBases>
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.6</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>22</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.6</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>22</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.8</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
+    <race>
+	  <nameGenerator>LotRE_ElfMaleNamer</nameGenerator>
+	  <nameGeneratorFemale>LotRE_ElfFemaleNamer</nameGeneratorFemale>	
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>250</lifeExpectancy>
+      <leatherColor>(211,194,143)</leatherColor>
+      <leatherCommonalityFactor>0.01</leatherCommonalityFactor>
+      <leatherInsulation>0.70</leatherInsulation>
+      <leatherMarketValueFactor>2</leatherMarketValueFactor>
+      <nameCategory>HumanStandard</nameCategory>
+      <body>Human</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <foodType>OmnivoreHuman</foodType>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeToddler</def>
+          <minAge>1.2</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>4</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>13</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>18</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+      <ageGenerationCurve>
+        <points>
+          <li>(100,0)</li>
+          <li>(150,0)</li>
+          <li>(170,10)</li>
+          <li>(200,18)</li>
+          <li>(250,40)</li>
+          <li>(300,100)</li>
+          <li>(350,100)</li>
+          <li>(400,100)</li>
+          <li>(450,80)</li>
+          <li>(500,60)</li>
+          <li>(1000,30)</li>
+          <li>(2000,20)</li>
+          <li>(4000,8)</li>
+          <li>(6000,3)</li>
+          <li>(7000,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>LotRE_ElfTraitsGiverHalf</li>
       </hediffGiverSets>
     </race>
     <recipes>

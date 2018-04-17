@@ -30,5 +30,51 @@
       </rulesRaw>
     </rulePack>
   </RulePackDef>
+  
+  <RulePackDef>
+    <defName>LotRE_NamerFactionBaseElfWoodland</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[pack]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>pack</keyword>
+          <path>NameBanks/Names_BaseElfWoodland</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>LotRE_NamerFactionBaseElfSea</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[pack]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>pack</keyword>
+          <path>NameBanks/Names_BaseElfSea</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>LotRE_NamerFactionBaseElfHigh</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[pack]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>pack</keyword>
+          <path>NameBanks/Names_BaseElfHigh</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
 
 </Defs>

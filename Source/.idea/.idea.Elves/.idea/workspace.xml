@@ -42,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Graphic_CustomFlicker.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Graphic_CustomFlicker.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Elves/Graphic_CustomFlicker.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+            <state relative-caret-position="190">
+              <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
               <folding>
                 <marker date="1521648157386" expanded="false" signature="6:31" ph="..." />
                 <marker date="1521648157386" expanded="true" signature="48:2973" ph="{...}" />
@@ -67,12 +67,76 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="HediffGiver_RacialTraits.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Elves/HediffGiver_RacialTraits.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <folding>
+                <marker date="1523642774251" expanded="true" signature="29:261" ph="{...}" />
+                <marker date="1523642774251" expanded="true" signature="91:259" ph="{...}" />
+                <marker date="1523642774251" expanded="true" signature="168:253" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HarmonyPatches.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Elves/HarmonyPatches.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1422">
+              <caret line="136" column="35" lean-forward="true" selection-start-line="136" selection-start-column="35" selection-end-line="136" selection-end-column="35" />
+              <folding>
+                <marker date="1523792749151" expanded="true" signature="6:119" ph="..." />
+                <marker date="1523792749151" expanded="true" signature="136:5700" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="211:5698" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="250:559" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="654:1474" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="677:856" ph="/* if (faction.def.defName == &quot;TheAgency&quot;) ... */" />
+                <marker date="1523792749151" expanded="true" signature="920:1049" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="1114:1244" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="1309:1439" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="1596:2614" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="1648:2508" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="2015:2094" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="2303:2494" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="2396:2476" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="2736:3816" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="2788:3710" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="3171:3265" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="3501:3696" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="3598:3678" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="3936:5683" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="3988:5577" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="4371:4465" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="4755:5266" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="4840:5239" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="5372:5563" ph="{...}" />
+                <marker date="1523792749151" expanded="true" signature="5465:5545" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HealthUtility.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ac/d0836c2a/HealthUtility.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="421" column="23" lean-forward="false" selection-start-line="421" selection-start-column="23" selection-end-line="421" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Elves/Graphic_CustomFlicker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Elves/HediffGiver_RacialTraits.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elves/ElfMod.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elves/MallornBiomeWorker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ac/d0836c2a/HealthUtility.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Elves/HarmonyPatches.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -81,6 +145,8 @@
         <option value="$PROJECT_DIR$/Elves/MallornBiomeWorker.cs" />
         <option value="$PROJECT_DIR$/Elves/Graphic_FlickerCustom.cs" />
         <option value="$PROJECT_DIR$/Elves/Graphic_CustomFlicker.cs" />
+        <option value="$PROJECT_DIR$/Elves/HediffGiver_RacialTraits.cs" />
+        <option value="$PROJECT_DIR$/Elves/HarmonyPatches.cs" />
       </list>
     </option>
   </component>
@@ -91,8 +157,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="114" />
-    <option name="y" value="27" />
+    <option name="x" value="40" />
+    <option name="y" value="45" />
     <option name="width" value="1599" />
     <option name="height" value="861" />
   </component>
@@ -118,6 +184,11 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Elves (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Elves (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Elves" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -181,12 +252,12 @@
       <workItem from="1521648152918" duration="292000" />
       <workItem from="1521818137901" duration="347000" />
       <workItem from="1522475006833" duration="1867000" />
-      <workItem from="1523540406470" duration="2333000" />
+      <workItem from="1523540406470" duration="22444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57119000" />
+    <option name="totallyTimeSpent" value="77230000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -198,7 +269,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="114" y="27" width="1599" height="861" extended-state="0" />
+    <frame x="40" y="45" width="1599" height="861" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -557,8 +628,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Elves/Graphic_CustomFlicker.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        <state relative-caret-position="190">
+          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
           <folding>
             <marker date="1521648157386" expanded="false" signature="6:31" ph="..." />
             <marker date="1521648157386" expanded="true" signature="48:2973" ph="{...}" />
@@ -574,6 +645,61 @@
             <marker date="1521648157386" expanded="true" signature="2275:2395" ph="/* if (compFireOverlay != null) ... */" />
             <marker date="1521648157386" expanded="true" signature="2690:2965" ph="{...}" />
             <marker date="1521648157386" expanded="true" signature="2759:2953" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ac/d0836c2a/HealthUtility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="421" column="23" lean-forward="false" selection-start-line="421" selection-start-column="23" selection-end-line="421" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elves/HediffGiver_RacialTraits.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <marker date="1523642774251" expanded="true" signature="29:261" ph="{...}" />
+            <marker date="1523642774251" expanded="true" signature="91:259" ph="{...}" />
+            <marker date="1523642774251" expanded="true" signature="168:253" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elves/HarmonyPatches.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1422">
+          <caret line="136" column="35" lean-forward="true" selection-start-line="136" selection-start-column="35" selection-end-line="136" selection-end-column="35" />
+          <folding>
+            <marker date="1523792749151" expanded="true" signature="6:119" ph="..." />
+            <marker date="1523792749151" expanded="true" signature="136:5700" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="211:5698" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="250:559" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="654:1474" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="677:856" ph="/* if (faction.def.defName == &quot;TheAgency&quot;) ... */" />
+            <marker date="1523792749151" expanded="true" signature="920:1049" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="1114:1244" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="1309:1439" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="1596:2614" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="1648:2508" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="2015:2094" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="2303:2494" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="2396:2476" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="2736:3816" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="2788:3710" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="3171:3265" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="3501:3696" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="3598:3678" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="3936:5683" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="3988:5577" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="4371:4465" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="4755:5266" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="4840:5239" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="5372:5563" ph="{...}" />
+            <marker date="1523792749151" expanded="true" signature="5465:5545" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -90,7 +90,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfChildFour</defName>
     <title>Falmari elf-child</title>
-    <baseDescription>NAME grew up being taught the ways of song and art. In HIS pastime HE would adventure out into the nearby forests, opening HIS eyes to the world.</baseDescription>
+    <baseDescription>NAME grew up being taught the ways of art and song. The tales of HIS people within the artistry had always kindled a great curiosity in HIS heart. HE would often venture out into the nearby forests seeking a glimpse of the doings of the world outside the safety of the lands of HIS kin.</baseDescription>
 	<slot>Childhood</slot>
     <skillGains>
       <li>
@@ -112,7 +112,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfChildFive</defName>
     <title>Nandor elf-child</title>
-    <baseDescription>Growing up in the forest, NAME spent HIS time tending to the deer herds and tree groves, shut away from the outside world. 
+    <baseDescription>Growing up in the forest, NAME spent HIS time tending to the deer herds and tree groves, shut away from the outside world. HE knew little of the doings of those that lived beyond the wooden lands of HIS kin but fostered great knowledge and kinship with the workings of the natural world around HIM. 
 </baseDescription>
 	<slot>Childhood</slot>
     <skillGains>
@@ -132,7 +132,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultOne</defName>
     <title>Elf ranger</title>
-    <baseDescription>NAME stalked the forests and plains, killing from afar anyone who trespassed on HIS lord’s land. HECAP learned how to be quick on HIS feet in the process.</baseDescription>
+    <baseDescription>NAME stalked the forests and plains, killing from afar anyone who trespassed on HIS lord’s land. HECAP learned how to be quick on HIS feet and stealthy with HIS tactics to catch intruders and dispense justice with impunity.</baseDescription>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -149,7 +149,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultTwo</defName>
     <title>Elf soldier</title>
-    <baseDescription>NAME decided that HE was going to take up arms under HIS lord’s name. HECAP became so revered for HIS ability that HE eventually became conceited about HIS combat skills.</baseDescription>
+    <baseDescription>NAME decided that HE was going to take up arms under HIS lord’s name. HECAP sought to test himself against stronger and stronger foes wherever he could find them. In doing so, HECAP became so revered for HIS abilities in combat that HE eventually became exceedingly proud and conceited.</baseDescription>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -172,7 +172,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultThree</defName>
     <title>Elf smith</title>
-    <baseDescription>NAME loved the heat of the forge, the striking song of precious metals ringing under hammers, and the joy of creation. HECAP became a renowned smith among HIS people.</baseDescription>
+    <baseDescription>NAME loved the heat of the forge, the striking song of precious metals ringing under hammers, and the joy of creation. HECAP became a renowned smith among HIS people and wished only for more designs and metals with which to work his craft.</baseDescription>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -194,7 +194,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultFour</defName>
     <title>Elf chef</title>
-    <baseDescription>NAME spent decades cooking while living on HIS own, and decided one day to share this passion. Eventually, HE became a chef for the Elven Lord, cooking the finest meals.</baseDescription>
+    <baseDescription>NAME spent decades cooking while living on HIS own. HIS culinary skills bringing HIM great comfort and satisfaction until one day he decided to share his passion. Eventually, HIS finest meals became widely celebrated by those fortunate enough to taste them.</baseDescription>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -207,7 +207,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultFive</defName>
     <title>Elf poet</title>
-    <baseDescription>In their later years, NAME took to song and poetry like the fish to the rivers. HECAP grew quite fond of the art of weaving words, and became a much celebrated poet.</baseDescription>
+    <baseDescription>As HE came of age, NAME grew quite fond of the art of weaving words. HE strove to become an orator of renown. HIS charismatic command of language led HIM to be widely sought after, not just for poems, but for the comfort of HIS company and HIS skillful negotiations.</baseDescription>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -223,8 +223,8 @@
 
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultSix</defName>
-    <title>Elf poet</title>
-    <baseDescription>NAME loves the soft sounds of Elvish instruments and the kind words that leave their mouths. Even hobbits fall into the fantasy of the songs of old. This is what NAME wanted to accomplish, keeping the elven memories alive through meter and note, tone and pitch, the sound of soothing strings and silver harps.</baseDescription>
+    <title>Elf musician</title>
+    <baseDescription>Having much fondness for the soft sounds of elven instruments and the kind of lyrics of HIS peoples songs, NAME seeks to keep the elven memories alive through meter and note, tone and pitch, and the sound of soothing strings and silver harps.</baseDescription>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -237,7 +237,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultSeven</defName>
     <title>Elf shipwright</title>
-    <baseDescription>NAME heard a quite a long time ago “Such is of the course of deeds that move the wheels of the world: small hands do them because they must, while the eyes of the great are elsewhere..” ...Whatever THAT meant, HE didn't know. But it made HIM want to make ships...and so HE did!</baseDescription>
+    <baseDescription>Knowing well enough the legends of HIS people, NAME made it his life's work to build and design sailing ships worthy of HIS lord's favor and aspires to become the master builder of the vessel which will spirit away his kin on the great journey.</baseDescription>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -254,7 +254,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultEight</defName>
     <title>Elf kinslayer</title>
-    <baseDescription>After HE was discovered murdering HIS kin, NAME was exiled by HIS brothers and sisters. HECAP vowed revenge, and took to finding, hunting down, and killing HIS siblings. When HIS mission was complete, HE wandered the forests in search of more folk, kin or no kin, to fall under HIS blade.</baseDescription>
+    <baseDescription>After HE was discovered murdering HIS kin, NAME was exiled by HIS brothers and sisters. HECAP vowed revenge, and took to finding, hunting down, and killing HIS siblings. When HIS mission was complete, HE wandered the forests in search of more folk, kin or no kin, all would fail to stop HIM.</baseDescription>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -274,6 +274,9 @@
 	  <li>
 	    <defName>Psychopath</defName>
 	  </li>
+	  <li>
+	    <defName>Bloodlust</defName>
+	  </li>
     </forcedTraits>
 </AlienRace.BackstoryDef>
 
@@ -281,7 +284,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultNine</defName>
     <title>Elf architect</title>
-    <baseDescription>Taking great interest in the deep history and methodology of Elven architecture, NAME spent decades studying how to perform feats that seem impossible to the other peoples of the world. HECAP soon became adept at shaping the world around them, without destroying it, and HE became an expert Elven architect. </baseDescription>
+    <baseDescription>Taking great interest in the deep history and methodology of Elven architecture, NAME spent decades studying how to perform feats of engineering that seemed impossible to the other peoples of the world. HECAP soon became adept at shaping the world around HIM, without destroying it, and HE became an expert Elven architect.</baseDescription>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -298,7 +301,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultTen</defName>
     <title>Yavinildi elf-maiden</title>
-    <baseDescription>NAME is one of the Yavinildi. HE is a Maiden of Yavanna, charged with preparing lembas bread by using the lembas crops from the fields. This sacred duty is one HE takes very seriously.</baseDescription>
+    <baseDescription>NAME is one of the Yavinildi. HECAP is a Maiden of Yavanna, charged with preparing lembas, the elven waybread, by using the lembas crops from the fields. This sacred duty is one HE takes very seriously, and the thought of anything attempting to spoil the purity of HIS work is one that instantly raises NAME's alarm.</baseDescription>
 	<slot>Adulthood</slot>
     <maleCommonality>0</maleCommonality>
     <skillGains>
@@ -316,7 +319,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultEleven</defName>
     <title>Elf healer</title>
-    <baseDescription>A healer of hurts and weariness, NAME has mastered the healing arts, and it is said that HE can, with but a touch, restore health to one’s heart and snatch away the aches in one’s limbs.</baseDescription>
+    <baseDescription>NAME was a master of the healing arts, and people came from all around in search of HIS care, whether for the mending of the flesh, simple tonics, salves, and tinctures, or treatment of more serious debilitating diseases. It is even rumored that HE could, with but a touch, restore health to one’s heart and snatch away the aches in one’s limbs.</baseDescription>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -339,6 +342,19 @@
       <li>
         <defName>Growing</defName>
         <amount>3</amount>
+      </li>
+	 </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
+    <defName>LotRE_BackstoryElfAdultThirteen</defName>
+    <title>Elf lord</title>
+    <baseDescription>For when the strength of MEN fails, an elf-lord stands ready. NAME attained the position after decades of serfice and the tragic loss of HIS lord. At the behest of HIS kin, HE arose as the ruler who would guide HIS people for centuries to come.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>5</amount>
       </li>
 	 </skillGains>
 </AlienRace.BackstoryDef>
