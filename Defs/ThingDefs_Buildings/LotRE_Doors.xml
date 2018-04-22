@@ -12,7 +12,7 @@
 
   <DoorsExpanded.DoorExpandedDef Name="HeronDoor" ParentName="HeronDoorBase">
     <defName>PH_DoorDoubleElvishGrand</defName>
-    <label>elven grand gate (2x1)</label>
+    <label>elven grand gate (2x2)</label>
     <thingClass>DoorsExpanded.Building_DoorExpanded</thingClass>
     <blueprintClass>Blueprint_Build</blueprintClass>
     <blueprintGraphicData>
@@ -36,7 +36,7 @@
     <graphicData>
       <texPath>Things/Building/ElvishGate/edmundWulfgarthElvenGateMover</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3.5,3.5)</drawSize>
+      <drawSize>(3.7,3.7)</drawSize>
       <damageData>
         <!--  no damage marks because they don't move with the door
         <rect>(0,0.12,1,0.76)</rect>-->
@@ -46,7 +46,7 @@
     <doorFrame>
       <texPath>Things/Building/ElvishGate/edmundWulfgarthElvenGateFrame</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3.5,3.5)</drawSize>
+      <drawSize>(3.7,3.7)</drawSize>
       <damageData>
         <!--  no damage marks because they don't move with the door
         <rect>(0,0.12,1,0.76)</rect>-->

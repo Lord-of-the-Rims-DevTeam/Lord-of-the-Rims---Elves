@@ -275,6 +275,62 @@
     <passability>PassThroughOnly</passability>
     <defaultPlacingRot>South</defaultPlacingRot>
   </ThingDef>
+  
+  
+  <ThingDef ParentName="LotRE_BedWithQualityBase">
+    <defName>LotRE_ElvenBed</defName>
+    <label>Elvish lounge bed</label>
+    <description>A cushioned lounge for resting, these Elvish beds are suited for weary souls in much need of rest from the weight of the mortal world.</description>
+    <graphicData>
+      <texPath>Things/Building/ElvishBed/trisscarElvishSingleBed</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2.5,2.5)</drawSize>
+      <damageData>
+        <rect>(0,0.05,1,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>EndTable</li>
+          <li>Dresser</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Beauty>2</Beauty>
+      <WorkToBuild>870</WorkToBuild>
+      <Mass>35</Mass>
+      <BedRestEffectiveness>1.2</BedRestEffectiveness>
+      <Comfort>0.8</Comfort>
+      <ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
+			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+    </statBases>
+    <size>(1,2)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <building>
+      <bed_showSleeperBody>true</bed_showSleeperBody>
+      <bed_healPerDay>3</bed_healPerDay>
+    </building>
+    <fillPercent>0.4</fillPercent>
+    <pathCost>40</pathCost>
+    <staticSunShadowHeight>0.17</staticSunShadowHeight>
+    <castEdgeShadows>False</castEdgeShadows>
+    <designationHotKey>Misc2</designationHotKey>
+    <techLevel>Medieval</techLevel>
+    <researchPrerequisites><li>Beds</li></researchPrerequisites>
+  </ThingDef>
+  
+  
+  <!-- Bases -->
 
   <ThingDef Name="LotRE_BedWithQualityBase" ParentName="LotRE_BedBase" Abstract="True">
     <comps>
