@@ -209,6 +209,15 @@
       <li>LotRE_ElfApparel_BattleArmorWood</li>
     </apparelRequired>
   </PawnKindDef>
+    
+  <PawnKindDef ParentName="LotRE_ElfGuard">
+    <defName>LotRE_ElfGuardTree</defName>
+    <label>tree-elf guard</label>
+	<apparelRequired>
+      <li>LotRE_ElfApparel_BattleHelmetTree</li>
+      <li>LotRE_ElfApparel_BattleArmorTree</li>
+    </apparelRequired>
+  </PawnKindDef>
   
   
   

@@ -173,7 +173,7 @@
   <FactionDef>
 	<defName>LotRE_ElfFactionHigh</defName>
 	<label>High Council of the Elves</label>
-    <description>While largedly populated by the Ñoldor, or the deep-elves (named for their wisdom), this collective organization of many elves has taken it upon their shoulders to intervene in affairs on behalf of other kindred. Their realms stand as strongholds for well trained troops, as well as locales to recruit agents, and fellowships, for their cause.</description>
+    <description>While largely populated by the Ñoldor, or the deep-elves (named for their wisdom), this collective organization of many elves has taken it upon their shoulders to intervene in affairs on behalf of other kindred. Their realms stand as strongholds for well trained troops, as well as locales to recruit agents, and fellowships, for their cause.</description>
     <pawnsPlural>high-elves</pawnsPlural>
     <baseSelectionWeight>0.2</baseSelectionWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>

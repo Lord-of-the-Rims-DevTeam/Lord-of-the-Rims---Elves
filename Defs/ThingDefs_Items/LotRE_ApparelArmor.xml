@@ -69,13 +69,13 @@
 	<ThingDef ParentName="LotRE_ArmorMakeableBase">
     <defName>LotRE_ElfApparel_BattleArmorTree</defName>
     <label>Elven Galadhrim armor</label>
-    <description>This beautiful armor crafted in the style of the Galadhrim, or Silvan elves who lived in the great Mallorn trees of forests such as Lothlorien, features elements of leaves that have been plated with elements of gold and silver.</description>
+    <description>This beautiful armor crafted in the style of the Galadhrim. The Galadhrim, or tree people, are Silvan elves who live in the great Mallorn trees of forests such as Lothlorien. This armor features elements of leaves that have been plated with elements of gold and silver.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmorDisplay</texPath>
+      <texPath>Things/Pawn/Elf/Apparel/Armor/painlessVikingGaladhrim_Male_front</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -116,7 +116,7 @@
 				<li>Arms</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmor</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/painlessVikingGaladhrim</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 				<li>Shell</li>

@@ -113,7 +113,7 @@
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Elf/Apparel/Helmet/nackbladElvenHelmetDisplay</texPath>
+      <texPath>Things/Pawn/Elf/Apparel/Helmet/painlessVikingGaladhrimHelm_front</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -145,7 +145,7 @@
 			<bodyPartGroups>
 				<li>FullHead</li>
 			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Elf/Apparel/Helmet/nackbladElvenHelmet</wornGraphicPath>
+			<wornGraphicPath>Things/Pawn/Elf/Apparel/Helmet/painlessVikingGaladhrimHelm</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
