@@ -4,7 +4,7 @@
   <ThingDef ParentName="LotRE_TreeBase">
     <defName>LotRE_PlantTreeMallorn</defName>
     <label>mallorn sapling</label>
-    <description>A colossal tree of immense beauty, the mallorn is favored by the elves with golden leaves, a silver trunk, and incredible longevity. A mallorn sapling may appear to be incredibly tall, however, truly mature and ancient ones can hold entire settlements aloft their branches.</description>
+    <description>A colossal tree of immense beauty, the mallorn is favored by the elves with beautiful leaves, a silver trunk, and incredible longevity. A mallorn sapling may appear to be incredibly tall, however, truly mature and ancient ones can hold entire settlements aloft their branches. The colors of the leaves change to gold during the fall and winter seasons.</description>
     <graphicData>
       <texPath>Things/Plant/MallornSaplings</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -13,7 +13,20 @@
           <offset>(0,0,-0.38)</offset>
         </shadowData>
     </graphicData>
-    <tickerType>Rare</tickerType>
+	<building>
+	  <fullGraveGraphicData>
+	    <texPath>Things/Plant/MallornGreen</texPath>
+		<graphicClass>Graphic_Random</graphicClass>
+		<shaderType>CutoutPlant</shaderType>
+	  </fullGraveGraphicData>
+	  <trapUnarmedGraphicData>
+	    <texPath>Things/Plant/MallornInGreen</texPath>
+		<graphicClass>Graphic_Random</graphicClass>
+		<shaderType>CutoutPlant</shaderType>
+	  </trapUnarmedGraphicData>
+	</building>
+	<thingClass>Elves.MallornTree</thingClass>
+    <tickerType>Long</tickerType>
     <altitudeLayer>BuildingOnTop</altitudeLayer>
     <statBases>
       <Beauty>25</Beauty>
@@ -53,7 +66,7 @@
   <ThingDef ParentName="LotRE_TreeBase">
     <defName>LotRE_PlantTreeBirchGolden</defName>
     <label>golden birch tree</label>
-    <description>A northern tree known for its thin, paper-like bark. This variant is favored by the elves for its mallorn-like golden leaf-color.</description>
+    <description>A northern tree known for its thin, paper-like bark. This variant is favored by the elves for its mallorn-like golden leaf-color in the fall and winter.</description>
     <graphicData>
       <texPath>Things/Plant/GoldenBirch</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -62,6 +75,14 @@
         <offset>(-0.03,0,-0.44)</offset>
       </shadowData>
     </graphicData>
+	<building>
+	  <fullGraveGraphicData>
+	    <texPath>Things/Plant/TreeBirch</texPath>
+		<graphicClass>Graphic_Random</graphicClass>
+		<shaderType>CutoutPlant</shaderType>
+	  </fullGraveGraphicData>
+	</building>
+	<thingClass>Elves.MallornTree</thingClass>
     <statBases>
       <Beauty>3</Beauty>
     </statBases>
@@ -112,7 +133,7 @@
     <defName>LotRE_FilthMallornLeaves</defName>
     <label>mallorn leaves</label>
     <statBases>
-      <Beauty>4</Beauty>
+      <Beauty>10</Beauty>
       <Cleanliness>-2</Cleanliness>
     </statBases>
     <graphicData>
