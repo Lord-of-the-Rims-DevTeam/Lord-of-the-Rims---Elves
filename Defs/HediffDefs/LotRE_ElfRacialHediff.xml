@@ -84,6 +84,7 @@
       </li>
 	  
       <li Class="JecsTools.HediffGiver_StartWithHediff">
+        <hediff>LotRE_ElfTraits</hediff>
         <expandedDef>LotRE_ElfTraits</expandedDef>
       </li>
     </hediffGivers>
@@ -117,7 +118,8 @@
       </li>
 	  
       <li Class="JecsTools.HediffGiver_StartWithHediff">
-        <expandedDef>LotRE_ElfTraitsHalf</expandedDef>
+        <hediff>LotRE_ElfTraitsHalf</hediff>
+		<expandedDef>LotRE_ElfTraitsHalf</expandedDef>
       </li>
     </hediffGivers>
   </HediffGiverSetDef>  
