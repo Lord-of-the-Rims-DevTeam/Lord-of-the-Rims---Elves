@@ -54,7 +54,7 @@
       <min>300</min>
       <max>900</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
     <weaponMoney>
       <min>0</min>
       <max>250</max>

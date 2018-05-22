@@ -122,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/Elves/MallornTree.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="481">
-              <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+              <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
               <folding>
                 <marker date="1525525393406" expanded="false" signature="6:28" ph="..." />
                 <marker date="1525525393406" expanded="true" signature="45:2899" ph="{...}" />
@@ -195,10 +195,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="184" />
-    <option name="y" value="55" />
-    <option name="width" value="1362" />
-    <option name="height" value="955" />
+    <option name="x" value="303" />
+    <option name="y" value="41" />
+    <option name="width" value="1295" />
+    <option name="height" value="915" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -293,12 +293,12 @@
       <workItem from="1523540406470" duration="23042000" />
       <workItem from="1524159223787" duration="7506000" />
       <workItem from="1525350796745" duration="7261000" />
-      <workItem from="1525525394924" duration="74000" />
+      <workItem from="1525525394924" duration="667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92669000" />
+    <option name="totallyTimeSpent" value="93262000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1107,7 +1107,7 @@
     <entry file="file://$PROJECT_DIR$/Elves/MallornTree.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
-          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
           <folding>
             <marker date="1525525393406" expanded="false" signature="6:28" ph="..." />
             <marker date="1525525393406" expanded="true" signature="45:2899" ph="{...}" />

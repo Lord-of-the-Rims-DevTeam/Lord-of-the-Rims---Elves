@@ -83,6 +83,11 @@
       </li>
     </pawnGroupMakers>
     <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+		<modExtensions>
+		  <li Class="JecsTools.FactionSettings">
+		    <entrySoundDef>LotRE_FanfareElfWoodland</entrySoundDef>
+		  </li>
+		</modExtensions>
   </FactionDef>
 
   <FactionDef>
@@ -167,6 +172,11 @@
       </li>
     </pawnGroupMakers>
     <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+		<modExtensions>
+		  <li Class="JecsTools.FactionSettings">
+		    <entrySoundDef>LotRE_FanfareElfSea</entrySoundDef>
+		  </li>
+		</modExtensions>
   </FactionDef>
 
 
@@ -256,6 +266,11 @@
       </li>
     </pawnGroupMakers>
     <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+		<modExtensions>
+		  <li Class="JecsTools.FactionSettings">
+		    <entrySoundDef>LotRE_FanfareElfHigh</entrySoundDef>
+		  </li>
+		</modExtensions>
   </FactionDef>
 
 </Defs>
