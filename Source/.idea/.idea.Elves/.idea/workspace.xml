@@ -121,8 +121,8 @@
       <file leaf-file-name="MallornTree.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Elves/MallornTree.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+            <state relative-caret-position="177">
+              <caret line="41" column="27" lean-forward="true" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
               <folding>
                 <marker date="1525525393406" expanded="false" signature="6:28" ph="..." />
                 <marker date="1525525393406" expanded="true" signature="45:2899" ph="{...}" />
@@ -151,7 +151,7 @@
       <file leaf-file-name="HealthUtility.cs" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ac/d0836c2a/HealthUtility.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-285">
+            <state relative-caret-position="7714">
               <caret line="406" column="72" lean-forward="false" selection-start-line="406" selection-start-column="72" selection-end-line="406" selection-end-column="72" />
               <folding />
             </state>
@@ -168,12 +168,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Elves/HarmonyPatches.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elves/HediffGiver_RacialTraits.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/bf/6911f73a/Plant.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Elves/MallornBiomeWorker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elves/Graphic_CustomFlicker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ac/d0836c2a/HealthUtility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elves/ElfMod.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Elves/MallornTree.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/bf/6911f73a/Plant.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ac/d0836c2a/HealthUtility.cs" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -194,9 +194,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="303" />
-    <option name="y" value="41" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="50" />
+    <option name="y" value="134" />
     <option name="width" value="1295" />
     <option name="height" value="915" />
   </component>
@@ -215,7 +215,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -223,17 +222,13 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Elves (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Elves (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Elves" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -294,11 +289,12 @@
       <workItem from="1524159223787" duration="7506000" />
       <workItem from="1525350796745" duration="7261000" />
       <workItem from="1525525394924" duration="667000" />
+      <workItem from="1527082164884" duration="4520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93262000" />
+    <option name="totallyTimeSpent" value="97782000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -310,17 +306,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="7" />
+    <frame x="50" y="134" width="1295" height="915" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24461207" sideWeight="0.5300752" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.304698" sideWeight="0.5332239" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24461207" sideWeight="0.4699248" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.304698" sideWeight="0.46677604" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27712137" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28301886" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -347,6 +343,77 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Elves/HarmonyPatches.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <marker date="1524159231688" expanded="false" signature="6:119" ph="..." />
+            <marker date="1524159231688" expanded="true" signature="136:5700" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="211:5698" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="250:559" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="654:1474" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="677:856" ph="/* if (faction.def.defName == &quot;TheAgency&quot;) ... */" />
+            <marker date="1524159231688" expanded="true" signature="920:1049" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="1114:1244" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="1309:1439" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="1596:2614" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="1648:2508" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="2015:2094" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="2303:2494" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="2396:2476" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="2736:3816" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="2788:3710" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="3171:3265" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="3501:3696" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="3598:3678" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="3936:5683" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="3988:5577" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="4371:4465" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="4755:5266" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="4840:5239" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="5372:5563" ph="{...}" />
+            <marker date="1524159231688" expanded="true" signature="5465:5545" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ac/d0836c2a/HealthUtility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7714">
+          <caret line="406" column="72" lean-forward="false" selection-start-line="406" selection-start-column="72" selection-end-line="406" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Elves/MallornTree.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+          <folding>
+            <marker date="1525525393406" expanded="false" signature="6:28" ph="..." />
+            <marker date="1525525393406" expanded="true" signature="45:2899" ph="{...}" />
+            <marker date="1525525393406" expanded="true" signature="84:2897" ph="{...}" />
+            <marker date="1525525393406" expanded="true" signature="483:897" ph="{...}" />
+            <marker date="1525525393406" expanded="true" signature="509:887" ph="{...}" />
+            <marker date="1525525393406" expanded="true" signature="553:831" ph="{...}" />
+            <marker date="1525525393406" expanded="true" signature="659:764" ph="{...}" />
+            <marker date="1525525393406" expanded="true" signature="973:1075" ph="{...}" />
+            <marker date="1525525393406" expanded="true" signature="1152:1318" ph="{...}" />
+            <marker date="1525525393406" expanded="true" signature="1190:1283" ph="{...}" />
+            <marker date="1525525393406" expanded="true" signature="1362:1441" ph="{...}" />
+            <marker date="1525525393406" expanded="true" signature="1482:1558" ph="{...}" />
+            <marker date="1525525393406" expanded="true" signature="1594:2181" ph="{...}" />
+            <marker date="1525525393406" expanded="true" signature="1637:2171" ph="{...}" />
+            <marker date="1525525393406" expanded="true" signature="1965:2038" ph="{...}" />
+            <marker date="1525525393406" expanded="true" signature="2224:2369" ph="{...}" />
+            <marker date="1525525393406" expanded="true" signature="2406:2890" ph="{...}" />
+            <marker date="1525525393406" expanded="true" signature="2445:2497" ph="{...}" />
+            <marker date="1525525393406" expanded="true" signature="2739:2791" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Elves/ElfMod.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -448,7 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11001">
           <caret line="579" column="16" lean-forward="false" selection-start-line="579" selection-start-column="16" selection-end-line="579" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,7 +1109,7 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ac/d0836c2a/HealthUtility.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
+        <state relative-caret-position="7714">
           <caret line="406" column="72" lean-forward="false" selection-start-line="406" selection-start-column="72" selection-end-line="406" selection-end-column="72" />
           <folding />
         </state>
@@ -1100,14 +1166,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-228">
           <caret line="567" column="1" lean-forward="false" selection-start-line="567" selection-start-column="1" selection-end-line="567" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Elves/MallornTree.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        <state relative-caret-position="177">
+          <caret line="41" column="27" lean-forward="true" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
           <folding>
             <marker date="1525525393406" expanded="false" signature="6:28" ph="..." />
             <marker date="1525525393406" expanded="true" signature="45:2899" ph="{...}" />

@@ -14,7 +14,7 @@
     <apparelMoney>
       <min>1000</min>
       <max>2400</max>
-    </apparelMoney>
+    </apparelMoney>	
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
   </PawnKindDef>
 
@@ -48,7 +48,7 @@
       <max>2.0</max>
     </gearHealthRange>
 	<apparelTags>
-      <li>Outlander</li>
+      <li>LotRE_ElvenApparel</li>
     </apparelTags>
     <apparelMoney>
       <min>300</min>
@@ -99,6 +99,31 @@
     <defName>LotRE_ElfTrader</defName>
     <label>elf-trader</label>
     <trader>true</trader>
+  </PawnKindDef>
+ 
+  <PawnKindDef ParentName="LotRE_ElfVillager">
+    <defName>LotRE_ElfVillagerSea</defName>
+    <label>elf-villager</label>
+	<apparelRequired>
+      <li>LotRE_ElfApparel_SimpleRobeSea</li>
+    </apparelRequired>
+	<apparelTags>
+	  <li>LotRE_ElvenSeaApparel</li>
+	</apparelTags>
+  </PawnKindDef>
+  <PawnKindDef ParentName="LotRE_ElfVillager">
+    <defName>LotRE_ElfVillagerWoodland</defName>
+    <label>elf-villager</label>
+	<apparelRequired>
+      <li>LotRE_ElfApparel_SimpleRobeWoodland</li>
+    </apparelRequired>
+  </PawnKindDef>
+  <PawnKindDef ParentName="LotRE_ElfVillager">
+    <defName>LotRE_ElfVillagerHigh</defName>
+    <label>elf-villager</label>
+	<apparelRequired>
+      <li>LotRE_ElfApparel_SimpleRobeHigh</li>
+    </apparelRequired>
   </PawnKindDef>
   
   

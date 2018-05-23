@@ -31,6 +31,13 @@
 	<hairTags>
 		<li>Rural</li>
 	</hairTags>
+	<apparelStuffFilter>
+		<thingDefs>
+			<li>Cloth</li>
+			<li>LotRE_WoodLogMallorn</li>
+			<li>Steel</li>
+		</thingDefs>
+	</apparelStuffFilter>
     <naturalColonyGoodwill>
       <min>0</min>
       <max>0</max>
@@ -55,7 +62,7 @@
       <li>
         <kindDef>Normal</kindDef>
         <options>
-		<LotRE_ElfVillager>50</LotRE_ElfVillager>
+		<LotRE_ElfVillagerWoodland>50</LotRE_ElfVillagerWoodland>
 		<LotRE_ElfGuardWood>100</LotRE_ElfGuardWood>
 		<LotRE_ElvenKing>1</LotRE_ElvenKing>
 	</options>
@@ -69,14 +76,14 @@
           <LotRE_DeerMallornKind>100</LotRE_DeerMallornKind>
         </carriers>
         <guards>
-		  <LotRE_ElfVillager>10</LotRE_ElfVillager>
+		  <LotRE_ElfVillagerWoodland>10</LotRE_ElfVillagerWoodland>
 		  <LotRE_ElfGuardWood>100</LotRE_ElfGuardWood>
 		</guards>
       </li>
       <li>
         <kindDef>FactionBase</kindDef>
         <options>
-		  <LotRE_ElfVillager>100</LotRE_ElfVillager>
+		  <LotRE_ElfVillagerWoodland>100</LotRE_ElfVillagerWoodland>
 		  <LotRE_ElfGuardWood>100</LotRE_ElfGuardWood>
 		  <LotRE_ElvenKing>100</LotRE_ElvenKing>
 	    </options>
@@ -112,6 +119,13 @@
       <min>10</min>
       <max>40</max>
     </startingGoodwill>
+	<apparelStuffFilter>
+		<thingDefs>
+			<li>Cloth</li>
+			<li>LotRE_WoodLogMallorn</li>
+			<li>Steel</li>
+		</thingDefs>
+	</apparelStuffFilter>
 	<fixedName>Coastal Havens of the Elves</fixedName>
 	<baseNameMaker>LotRE_NamerFactionBaseElfSea</baseNameMaker>
 	<techLevel>Medieval</techLevel>
@@ -144,7 +158,7 @@
       <li>
         <kindDef>Normal</kindDef>
         <options>
-		  <LotRE_ElfVillager>50</LotRE_ElfVillager>
+		  <LotRE_ElfVillagerSea>50</LotRE_ElfVillagerSea>
 		  <LotRE_ElfGuardSea>100</LotRE_ElfGuardSea>
 		  <LotRE_ElfLord>100</LotRE_ElfLord>
 	    </options>
@@ -158,14 +172,14 @@
           <LotRE_DeerMallornKind>100</LotRE_DeerMallornKind>
         </carriers>
         <guards>
-		  <LotRE_ElfVillager>10</LotRE_ElfVillager>
+		  <LotRE_ElfVillagerSea>10</LotRE_ElfVillagerSea>
 		  <LotRE_ElfGuardSea>100</LotRE_ElfGuardSea>
 		</guards>
       </li>
       <li>
         <kindDef>FactionBase</kindDef>
         <options>
-		  <LotRE_ElfVillager>100</LotRE_ElfVillager>
+		  <LotRE_ElfVillagerSea>100</LotRE_ElfVillagerSea>
 		  <LotRE_ElfGuardSea>100</LotRE_ElfGuardSea>
 		  <LotRE_ElfLord>100</LotRE_ElfLord>
 		</options>
@@ -202,6 +216,13 @@
       <min>10</min>
       <max>40</max>
     </startingGoodwill>
+	<apparelStuffFilter>
+		<thingDefs>
+			<li>Cloth</li>
+			<li>LotRE_WoodLogMallorn</li>
+			<li>Steel</li>
+		</thingDefs>
+	</apparelStuffFilter>
 	<fixedName>High Council of the Elves</fixedName>
 	<baseNameMaker>LotRE_NamerFactionBaseElfHigh</baseNameMaker>
 	<techLevel>Neolithic</techLevel>
@@ -234,7 +255,7 @@
       <li>
         <kindDef>Normal</kindDef>
         <options>
-		  <LotRE_ElfVillager>50</LotRE_ElfVillager>
+		  <LotRE_ElfVillagerHigh>50</LotRE_ElfVillagerHigh>
 		  <LotRE_ElfGuardHigh>100</LotRE_ElfGuardHigh>
 		  <LotRE_ElfLord>100</LotRE_ElfLord>
 		</options>
@@ -248,20 +269,16 @@
           <LotRE_DeerMallornKind>100</LotRE_DeerMallornKind>
         </carriers>
         <guards>
-		  <LotRE_ElfVillager>10</LotRE_ElfVillager>
+		  <LotRE_ElfVillagerHigh>10</LotRE_ElfVillagerHigh>
 		  <LotRE_ElfGuardHigh>100</LotRE_ElfGuardHigh>
 		</guards>
       </li>
       <li>
         <kindDef>FactionBase</kindDef>
         <options>
-		  <GrenadierDestructive>15</GrenadierDestructive>
-		  <MercenarySlasher>70</MercenarySlasher>
-		  <LotRE_ElfVillager>100</LotRE_ElfVillager>
+		  <LotRE_ElfVillagerHigh>100</LotRE_ElfVillagerHigh>
 		  <LotRE_ElfGuardHigh>100</LotRE_ElfGuardHigh>
 		  <LotRE_ElfLord>100</LotRE_ElfLord>
-		  <MercenaryGunner>100</MercenaryGunner>
-		  <MercenaryElite>100</MercenaryElite>
 	    </options>
       </li>
     </pawnGroupMakers>
