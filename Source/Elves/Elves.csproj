@@ -50,6 +50,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompProperties_SpawnerFilthSeasonal.cs" />
+    <Compile Include="CompSpawnerFilthSeasonal.cs" />
     <Compile Include="ElfMod.cs" />
     <Compile Include="Graphic_CustomFlicker.cs" />
     <Compile Include="HarmonyPatches.cs" />

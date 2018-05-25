@@ -53,11 +53,12 @@
 	  <immatureGraphicPath>Things/Plant/MallornInfants</immatureGraphicPath>
     </plant>
 	<comps>
-      <li Class="CompProperties_SpawnerFilth">
+      <li Class="Elves.CompProperties_SpawnerFilthSeasonal">
         <filthDef>LotRE_FilthMallornLeaves</filthDef>
         <spawnCountOnSpawn>0</spawnCountOnSpawn>
         <spawnMtbHours>4</spawnMtbHours>
         <spawnRadius>3</spawnRadius>
+		<requiredSeason>Spring</requiredSeason>
       </li>
 	</comps>
   </ThingDef>

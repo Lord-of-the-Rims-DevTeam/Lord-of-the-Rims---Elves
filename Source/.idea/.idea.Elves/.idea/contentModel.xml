@@ -4,6 +4,8 @@
     <e p="C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Elves\Assemblies" t="ExcludeRecursive" />
     <e p="C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Elves\Source" t="IncludeFlat">
       <e p="Elves" t="IncludeRecursive">
+        <e p="CompProperties_SpawnerFilthSeasonal.cs" t="Include" />
+        <e p="CompSpawnerFilthSeasonal.cs" t="Include" />
         <e p="ElfMod.cs" t="Include" />
         <e p="Elves.csproj" t="IncludeRecursive" />
         <e p="Graphic_CustomFlicker.cs" t="Include" />
