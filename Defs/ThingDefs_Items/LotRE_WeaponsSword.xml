@@ -6,7 +6,7 @@
 
 	<ThingDef ParentName="LotRE_BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRE_MeleeWeapon_WhiteKnives</defName>
-    <label>Elven Knives</label>
+    <label>elf white knives</label>
     <description>Twin white knives provide fast and deadly melee damage to quickly dispatch many foes from the battlefield.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/ElvenKnife</texPath>
@@ -86,7 +86,7 @@
 
 	<ThingDef ParentName="LotRE_BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRE_MeleeWeapon_Saber</defName>
-    <label>Elven Saber</label>
+    <label>elf saber</label>
     <description>A true weapon to match the Elves. A tall curved yet slender blade with a hilt decorated with precious metals. Useful for graceful sweeping strikes.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/ElvenSaber</texPath>
@@ -158,7 +158,7 @@
 
 	<ThingDef ParentName="LotRE_BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRE_MeleeWeapon_Lhang</defName>
-    <label>Elven Lhang</label>
+    <label>elf lhang</label>
     <description>A true weapon to match the Elves. A tall curved yet slender blade with a hilt decorated with precious metals. Useful for graceful sweeping strikes.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponMelee/ElvenLhang</texPath>

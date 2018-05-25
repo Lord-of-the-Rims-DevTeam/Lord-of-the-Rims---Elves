@@ -19,7 +19,7 @@
   </ThingDef>
   <ThingDef ParentName="LotRE_BaseWeaponNeolithic">
     <defName>LotRE_Bow_Mirkwood</defName>
-    <label>elven mirkwood bow</label>
+    <label>mirkwood-elf bow</label>
     <description>Efficient at both close and medium range, this rapid-fire bow provides maximum stopping power for threats to Elven strongholds.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/LotRE_MirkwoodBow</texPath>
@@ -90,7 +90,7 @@
   </ThingDef>
   <ThingDef ParentName="LotRE_BaseWeaponNeolithic">
     <defName>LotRE_Bow_Galadhrim</defName>
-    <label>elven galadhrim bow</label>
+    <label>galadhrim-elf bow</label>
     <description>The longbow preferred by the Galadhrim. A powerful long range weapon.</description>
     <comps>
 	  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
@@ -167,7 +167,7 @@
   </ThingDef>
   <ThingDef ParentName="LotRE_BaseWeaponNeolithic">
     <defName>LotRE_Bow_Rivendell</defName>
-    <label>elven rivendell bow</label>
+    <label>rivendell-elf bow</label>
     <description>The High Elves of Rivendell utilize an exceptional longbow that has devestating damage and pinpoint accuracy.</description>
     <comps>
 	  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">

@@ -3,7 +3,7 @@
   
   <ThingDef ParentName="LotRE_ArmorHelmetMakeableBase">
     <defName>LotRE_ElfApparel_BattleHelmet</defName>
-    <label>Elven Ñoldorin helmet</label>
+    <label>ñoldorin-elf helmet</label>
     <description>A part of the Elven battle armor set used by the skilled Ñoldor, or deep-elves, named for their wisdom.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -57,7 +57,7 @@
 
   <ThingDef ParentName="LotRE_ArmorHelmetMakeableBase">
     <defName>LotRE_ElfApparel_BattleHelmetSea</defName>
-    <label>Elven Falathrim helmet</label>
+    <label>falathrim-elf helmet</label>
     <description>A part of the Elven battle armor set used by the Falathrim, or coast-elves.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -106,7 +106,7 @@
 
   <ThingDef ParentName="LotRE_ArmorHelmetMakeableBase">
     <defName>LotRE_ElfApparel_BattleHelmetTree</defName>
-    <label>Elven Galadhrim helmet</label>
+    <label>galadhrim-elf helmet</label>
     <description>A part of the Elven battle armor set used by the Galadhrim, or tree-elves.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -160,8 +160,8 @@
 
   <ThingDef ParentName="LotRE_ArmorHelmetMakeableBase">
     <defName>LotRE_ElfApparel_BattleHelmetWood</defName>
-    <label>Elven Silvan helmet</label>
-    <description>A part of the Elven battle armor set used by the Silvan, or wood-elves.</description>
+    <label>silvan-elf helmet</label>
+    <description>A part of the Elven battle armor set used by the Silvan Elves, or wood-elves.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>

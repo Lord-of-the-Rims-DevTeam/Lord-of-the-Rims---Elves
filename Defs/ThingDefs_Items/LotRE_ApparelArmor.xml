@@ -4,7 +4,7 @@
 
   <ThingDef ParentName="LotRE_ApparelMakeableBase">
     <defName>LotRE_Apparel_Cape</defName>
-    <label>hooded cape (woodland)</label>
+    <label>elf-cape (woodland)</label>
     <description>A fashionable cape worn by the elves that uses dark forest colors.</description>
     <graphicData>
       <texPath>Things/Pawn/Elf/Apparel/HoodedCape/ennacrimaCloak_Male_front</texPath>
@@ -59,7 +59,7 @@
 
   <ThingDef ParentName="LotRE_ApparelMakeableBase">
     <defName>LotRE_Apparel_CapeCoastal</defName>
-    <label>hooded cape (coastal)</label>
+    <label>elf-cape (coastal)</label>
     <description>A fashionable cape worn by the elves. This style features lighter colors from the shore havens.</description>
     <graphicData>
       <texPath>Things/Pawn/Elf/Apparel/HoodedCape/ennacrimaCloak_Male_front</texPath>
@@ -119,10 +119,10 @@
     
   <ThingDef ParentName="LotRE_ArmorMakeableBase">
     <defName>LotRE_ElfApparel_SimpleRobeWoodland</defName>
-    <label>Robe of the Woodlands</label>
+    <label>elf-robe (woodland)</label>
     <description>A simple robe with green colors.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic</texPath>
+      <texPath>Things/Pawn/Elf/Apparel/Robe/Robe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>60</costStuffCount>
@@ -174,10 +174,10 @@
 
   <ThingDef ParentName="LotRE_ArmorMakeableBase">
     <defName>LotRE_ElfApparel_SimpleRobeSea</defName>
-    <label>Robe of the Sea</label>
+    <label>elf-robe (coastal)</label>
     <description>A simple robe with sky blue tones.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic</texPath>
+      <texPath>Things/Pawn/Elf/Apparel/Robe/Robe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>60</costStuffCount>
@@ -205,7 +205,7 @@
         <li>OnSkin</li>
       </layers>
       <tags>
-        <li>LotRE_ElvenSeaApparel</li>
+        <li>LotRE_ElvenApparel</li>
       </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -228,10 +228,10 @@
 
   <ThingDef ParentName="LotRE_ArmorMakeableBase">
     <defName>LotRE_ElfApparel_SimpleRobeHigh</defName>
-    <label>Robe of the Council</label>
+    <label>elf-robe (noble)</label>
     <description>A simple robe with gold and purple tones.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic</texPath>
+      <texPath>Things/Pawn/Elf/Apparel/Robe/Robe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>60</costStuffCount>
@@ -280,10 +280,9 @@
     </colorGenerator>
   </ThingDef>
 
-
 	<ThingDef ParentName="LotRE_ArmorMakeableBase">
     <defName>LotRE_ElfApparel_BattleArmor</defName>
-    <label>Elven Ñoldorin armor</label>
+    <label>ñoldorin-elf armor</label>
     <description>Excellent reinforced leather armor laid with fine metals make the finest Elven battle armor for the Ñoldor, a valiant group of elves named the deep-elves for their wisdom and also named sword-elves for their skills in combat.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -346,9 +345,71 @@
     </apparel>
   </ThingDef>
 
-	<ThingDef ParentName="LotRE_ArmorMakeableBase">
+  
+  
+  <ThingDef ParentName="LotRE_ArmorMakeableBase">
+    <defName>LotRE_ElfApparel_BattleArmorSea</defName>
+    <label>falathrim-elf armor</label>
+    <description>Similar to armor used by the Galadhrim, this variant of armor celebrates similar tree motifs, yet abandons rust-capable metals, favoring a blue-dyed leather to celebrate the sky and sea as well.</description>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmorDisplay</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <!-- <co+0.stStuffCount>250</costStuffCount> -->
+    <!-- <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories> -->
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <statBases>
+      <WorkToMake>17000</WorkToMake>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Mass>15</Mass>
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.20</ArmorRating_Heat>
+      <Insulation_Cold>-45</Insulation_Cold>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.10</MoveSpeed>
+      <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+		<generateCommonality>2</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+        <li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmor</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+			  <li>LotR_ElfMilitary</li>
+			</tags>
+      <defaultOutfitTags>
+        <li>LotR_ElfWarrior</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="LotRE_ArmorMakeableBase">
     <defName>LotRE_ElfApparel_BattleArmorTree</defName>
-    <label>Elven Galadhrim armor</label>
+    <label>galadhrim-elf armor</label>
     <description>This beautiful armor crafted in the style of the Galadhrim. The Galadhrim, or tree people, are Silvan elves who live in the great Mallorn trees of forests such as Lothlorien. This armor features elements of leaves that have been plated with elements of gold and silver.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
@@ -410,71 +471,10 @@
     </apparel>
   </ThingDef>
 
-
-  <ThingDef ParentName="LotRE_ArmorMakeableBase">
-    <defName>LotRE_ElfApparel_BattleArmorSea</defName>
-    <label>Elven Falathrim armor</label>
-    <description>Similar to armor used by the Galadhrim, this variant of armor celebrates similar tree motifs, yet abandons rust-capable metals, favoring a blue-dyed leather to celebrate the sky and sea as well.</description>
-    <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-    </recipeMaker>
-    <graphicData>
-      <texPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmorDisplay</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-    </graphicData>
-    <!-- <co+0.stStuffCount>250</costStuffCount> -->
-    <!-- <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories> -->
-    <costStuffCount>50</costStuffCount>
-    <stuffCategories>
-      <li>Leathery</li>
-    </stuffCategories>
-    <statBases>
-      <WorkToMake>17000</WorkToMake>
-      <MaxHitPoints>300</MaxHitPoints>
-      <Mass>15</Mass>
-      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.55</ArmorRating_Sharp>
-      <ArmorRating_Heat>0.20</ArmorRating_Heat>
-      <Insulation_Cold>-45</Insulation_Cold>
-    </statBases>
-    <equippedStatOffsets>
-      <MoveSpeed>-0.10</MoveSpeed>
-      <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
-    </equippedStatOffsets>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
-		<generateCommonality>2</generateCommonality>
-		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
-        <li>Neck</li>
-				<li>Shoulders</li>
-				<li>Arms</li>
-				<li>Legs</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmor</wornGraphicPath>
-			<layers>
-				<li>Middle</li>
-				<li>Shell</li>
-			</layers>
-			<tags>
-			  <li>LotR_ElfMilitary</li>
-			</tags>
-      <defaultOutfitTags>
-        <li>LotR_ElfWarrior</li>
-      </defaultOutfitTags>
-    </apparel>
-  </ThingDef>
-
   <ThingDef ParentName="LotRE_ArmorMakeableBase">
     <defName>LotRE_ElfApparel_BattleArmorWood</defName>
-    <label>Elven Silvan armor</label>
-    <description>Armor often worn by wood-elves, or elves in the woodland realms.</description>
+    <label>silvan-elf armor</label>
+    <description>Armor often worn by wood-elves, or Silvan Elves from the woodland realms.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>

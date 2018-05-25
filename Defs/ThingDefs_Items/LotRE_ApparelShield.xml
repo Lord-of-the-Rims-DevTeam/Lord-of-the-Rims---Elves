@@ -2,7 +2,7 @@
 <Defs>
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>LotRE_ElvenShield</defName>
-		<label>Elven Noldorin Shield</label>
+		<label>ñoldorin-elf shield</label>
 		<description>Shield commonly used alongside the armor of the Elves.</description>
 		<equipmentType>None</equipmentType>
 		<graphicData>
