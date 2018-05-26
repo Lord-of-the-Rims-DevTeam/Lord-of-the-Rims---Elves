@@ -1,41 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <PawnKindDef ParentName="LotRE_BasePlayerPawnKind">
-    <defName>LotRE_ElfColonist</defName>
-	<race>LotRE_ElfStandardRace</race>
-    <label>colonist (elf)</label>
-    <defaultFactionType>PlayerColony</defaultFactionType>
-    <backstoryCategory>LotRE_BackstoryElf</backstoryCategory>
-    <chemicalAddictionChance>0.0</chemicalAddictionChance>
-    <apparelTags>
-      <li>Spacer</li>
-    </apparelTags>
-    <apparelMoney>
-      <min>1000</min>
-      <max>2400</max>
-    </apparelMoney>
-    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
-  </PawnKindDef>
-
-  <PawnKindDef ParentName="LotRE_BasePlayerPawnKind">
-    <defName>LotRE_HalfElfColonist</defName>
-	<race>LotRE_ElfStandardRaceHalf</race>
-    <label>colonist (half-elf)</label>
-    <defaultFactionType>PlayerColony</defaultFactionType>
-    <backstoryCategory>LotRE_BackstoryElf</backstoryCategory>
-    <chemicalAddictionChance>0.0</chemicalAddictionChance>
-    <apparelTags>
-      <li>Spacer</li>
-    </apparelTags>
-    <apparelMoney>
-      <min>1000</min>
-      <max>2400</max>
-    </apparelMoney>
-    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
-  </PawnKindDef>
-
-  <AlienRace.ThingDef_AlienRace ParentName="LotRE_BasePawn">
+  <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>LotRE_ElfStandardRace</defName>
     <label>elf</label>
     <description>Immune to disease. Wise and immortal.</description>
@@ -349,7 +315,7 @@
     </recipes>
   </AlienRace.ThingDef_AlienRace>
   
-  <AlienRace.ThingDef_AlienRace ParentName="LotRE_BasePawn">
+  <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>LotRE_ElfStandardRaceHalf</defName>
     <label>half-elf</label>
     <description>Those born between the world of immortality and mortality.</description>
@@ -633,46 +599,5 @@
       <li>Anesthetize</li>
     </recipes>
   </AlienRace.ThingDef_AlienRace>
-  
-  <ThingDef Name="LotRE_BasePawn" Abstract="True">
-    <thingClass>Pawn</thingClass>
-    <category>Pawn</category>
-    <selectable>true</selectable>
-    <tickerType>Normal</tickerType>
-    <altitudeLayer>Pawn</altitudeLayer>
-    <useHitPoints>false</useHitPoints>
-    <hasTooltip>true</hasTooltip>
-    <soundImpactDefault>BulletImpactFlesh</soundImpactDefault>
-    <statBases>
-      <Mass>70</Mass>
-    </statBases>
-    <inspectorTabs>
-      <li>ITab_Pawn_Health</li>
-      <li>ITab_Pawn_Needs</li>
-      <li>ITab_Pawn_Character</li>
-      <li>ITab_Pawn_Training</li>
-      <li>ITab_Pawn_Gear</li>
-      <li>ITab_Pawn_Guest</li>
-      <li>ITab_Pawn_Prisoner</li>
-      <li>ITab_Pawn_Social</li>
-      <li>ITab_Pawn_Combat</li>
-    </inspectorTabs>
-    <comps>
-      <li>
-        <compClass>CompAttachBase</compClass>
-      </li>
-    </comps>
-    <drawGUIOverlay>true</drawGUIOverlay>
-  </ThingDef>
-
-  
-  <PawnKindDef Abstract="True" Name="LotRE_BasePlayerPawnKind">
-    <race>Human</race>
-    <combatPower>30</combatPower>
-    <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
-    <isFighter>false</isFighter>
-    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-    <forceNormalGearQuality>true</forceNormalGearQuality>
-  </PawnKindDef>
   
 </Defs>

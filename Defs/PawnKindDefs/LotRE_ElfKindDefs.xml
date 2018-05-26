@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <PawnKindDef ParentName="LotRE_BasePlayerPawnKind">
+  <PawnKindDef ParentName="BasePlayerPawnKind">
     <defName>LotRE_ElfColonist</defName>
 	<race>LotRE_ElfStandardRace</race>
     <label>colonist (elf)</label>
@@ -18,7 +18,7 @@
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="LotRE_BasePlayerPawnKind">
+  <PawnKindDef ParentName="BasePlayerPawnKind">
     <defName>LotRE_HalfElfColonist</defName>
 	<race>LotRE_ElfStandardRaceHalf</race>
     <label>colonist (half-elf)</label>
@@ -35,7 +35,7 @@
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="LotRE_BasePlayerPawnKind" Name="LotRE_ElfVillager">
+  <PawnKindDef ParentName="BasePlayerPawnKind" Name="LotRE_ElfVillager">
     <defName>LotRE_ElfVillager</defName>
 	<race>LotRE_ElfStandardRace</race>
     <label>elf-villager</label>
@@ -165,7 +165,7 @@
   </PawnKindDef>
   
     
-  <PawnKindDef ParentName="LotRE_BasePlayerPawnKind" Name="LotRE_ElfGuard">
+  <PawnKindDef ParentName="BasePlayerPawnKind" Name="LotRE_ElfGuard">
     <defName>LotRE_ElfGuard</defName>
     <label>elf-guard</label>
 	<race>LotRE_ElfStandardRace</race>

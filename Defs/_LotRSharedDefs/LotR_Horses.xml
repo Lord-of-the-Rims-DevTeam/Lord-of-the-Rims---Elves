@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="LotRE_AnimalThingBase" Name="LotR_HorseRace">
+  <ThingDef ParentName="AnimalThingBase" Name="LotR_HorseRace">
     <defName>LotR_HorseRace</defName>
     <label>Horse</label>
     <description>A man-sized galloping herbivore, often utilized for its speed and hardy stamina. Generally peaceful unless disturbed.</description>
@@ -241,7 +241,7 @@
   </SoundDef>
 
   
-  <PawnKindDef ParentName="LotRE_AnimalKindBase" Name="LotR_HorseKind">
+  <PawnKindDef ParentName="AnimalKindBase" Name="LotR_HorseKind">
     <defName>LotR_HorseKind</defName>
     <label>horse</label>
     <labelPlural>horses</labelPlural>

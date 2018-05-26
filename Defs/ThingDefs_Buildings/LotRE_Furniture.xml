@@ -83,7 +83,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawRotated>false</drawRotated>
 	  <shaderType>CutoutComplex</shaderType>
-	  <drawSize>1.5</drawSize>
+	  <drawSize>3</drawSize>
       <damageData>
         <rect>(0.35,0.35,0.3,0.3)</rect>
       </damageData>
@@ -145,7 +145,7 @@
 			  <shaderType>TransparentPostLight</shaderType>
 			  <drawSize>0.17</drawSize>
 			</graphicData>
-			<offset>(-0.27,0.1,0.35)</offset>
+			<offset>(-0.32,0.1,0.67)</offset>
 		  </li>
 		  <li>
 			<graphicData>
@@ -154,7 +154,7 @@
 			  <shaderType>TransparentPostLight</shaderType>
 			  <drawSize>0.17</drawSize>
 			</graphicData>
-			<offset>(-0.09,0.1,0.5)</offset>
+			<offset>(-0.08,0.1,0.9)</offset>
 		  </li>
 		  <li>
 			<graphicData>
@@ -163,7 +163,7 @@
 			  <shaderType>TransparentPostLight</shaderType>
 			  <drawSize>0.17</drawSize>
 			</graphicData>
-			<offset>(-0.16,0.1,0.65)</offset>
+			<offset>(-0.2,0.1,1.0)</offset>
 		  </li>
 		  <li>
 			<graphicData>
@@ -172,7 +172,7 @@
 			  <shaderType>TransparentPostLight</shaderType>
 			  <drawSize>0.17</drawSize>
 			</graphicData>
-			<offset>(0.14,0.1,0.65)</offset>
+			<offset>(0.23,0.1,1.0)</offset>
 		  </li>
 		  <li>
 			<graphicData>
@@ -181,7 +181,7 @@
 			  <shaderType>TransparentPostLight</shaderType>
 			  <drawSize>0.17</drawSize>
 			</graphicData>
-			<offset>(0.07,0.1,0.5)</offset>
+			<offset>(0.125,0.1,0.9)</offset>
 		  </li>
 		  <li>
 			<graphicData>
@@ -190,7 +190,7 @@
 			  <shaderType>TransparentPostLight</shaderType>
 			  <drawSize>0.17</drawSize>
 			</graphicData>
-			<offset>(0.25,0.1,0.35)</offset>
+			<offset>(0.32,0.1,0.67)</offset>
 		  </li>
 		</overlays>
       </li>

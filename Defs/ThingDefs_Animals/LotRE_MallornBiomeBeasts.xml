@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="LotRE_AnimalThingBase" Name="LotRE_DeerMallorn">
+  <ThingDef ParentName="AnimalThingBase" Name="LotRE_DeerMallorn">
     <defName>LotRE_DeerMallorn</defName>
     <label>Lórien deer</label>
     <description>A large-sized herding herbivore often found in the elven lands of Lothlórien. Generally peaceful unless disturbed.</description>
@@ -93,7 +93,7 @@
     </tradeTags>
   </ThingDef>
   
-  <PawnKindDef ParentName="LotRE_AnimalKindBase" Name="LotRE_DeerMallornKind">
+  <PawnKindDef ParentName="AnimalKindBase" Name="LotRE_DeerMallornKind">
     <defName>LotRE_DeerMallornKind</defName>
     <label>Lórien deer</label>
     <labelPlural>Lórien deer</labelPlural>
@@ -165,7 +165,7 @@
     </lifeStages>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="LotRE_AnimalKindBase" Name="LotRE_DeerMallornWhiteKind">
+  <PawnKindDef ParentName="AnimalKindBase" Name="LotRE_DeerMallornWhiteKind">
     <defName>LotRE_DeerMallornWhiteKind</defName>
     <label>Lórien white deer</label>
     <labelPlural>Lórien white deer</labelPlural>
@@ -236,38 +236,6 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-  
-  
-  <ThingDef ParentName="LotRE_BasePawn" Name="LotRE_AnimalThingBase" Abstract="True">
-    <statBases>
-      <Flammability>1.0</Flammability>
-      <LeatherAmount>25</LeatherAmount>
-    </statBases>
-    <race>
-      <thinkTreeMain>Animal</thinkTreeMain>
-      <thinkTreeConstant>AnimalConstant</thinkTreeConstant>
-      <hasGenders>true</hasGenders>
-      <nameGenerator>NamerAnimalGenericMale</nameGenerator>
-      <nameGeneratorFemale>NamerAnimalGenericFemale</nameGeneratorFemale>
-      <manhunterOnDamageChance>0.0125</manhunterOnDamageChance>
-      <manhunterOnTameFailChance>0.003</manhunterOnTameFailChance>
-      <nameOnNuzzleChance>0.5</nameOnNuzzleChance>
-      <hediffGiverSets>
-        <li>OrganicStandard</li>
-      </hediffGiverSets>
-    </race>
-    <recipes>
-			<li>ExciseCarcinoma</li>
-      <li>AdministerMechSerumHealer</li>
-      <li>RemoveBodyPart</li>
-      <li>Euthanize</li>
-      <li>Anesthetize</li>
-    </recipes>
-  </ThingDef>
-
-  <PawnKindDef Name="LotRE_AnimalKindBase" Abstract="True">
-  </PawnKindDef>
-  
 
   
 </Defs>
