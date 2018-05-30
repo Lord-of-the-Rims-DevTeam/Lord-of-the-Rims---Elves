@@ -145,7 +145,7 @@
         <li>Torso</li>
         <li>Shoulders</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic</wornGraphicPath>
+      <wornGraphicPath>Things/Pawn/Elf/Apparel/Robe/Robe</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
@@ -200,7 +200,7 @@
         <li>Torso</li>
         <li>Shoulders</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic</wornGraphicPath>
+      <wornGraphicPath>Things/Pawn/Elf/Apparel/Robe/Robe</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
@@ -229,7 +229,7 @@
   <ThingDef ParentName="LotRE_ArmorMakeableBase">
     <defName>LotRE_ElfApparel_SimpleRobeHigh</defName>
     <label>elf-robe (noble)</label>
-    <description>A simple robe with gold and purple tones.</description>
+    <description>A simple robe with golden tones.</description>
     <graphicData>
       <texPath>Things/Pawn/Elf/Apparel/Robe/Robe</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -254,7 +254,7 @@
         <li>Torso</li>
         <li>Shoulders</li>
       </bodyPartGroups>
-      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic</wornGraphicPath>
+      <wornGraphicPath>Things/Pawn/Elf/Apparel/Robe/Robe</wornGraphicPath>
       <layers>
         <li>OnSkin</li>
       </layers>
@@ -265,16 +265,19 @@
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
+		  <!-- Primrose (Sandy Beach color) -->
           <weight>10</weight>
-          <only>RGBA(0.55,0.4,0.69,1)</only>
+          <only>RGBA(0.92,0.88,0.6,1)</only>
         </li>
         <li>
+		  <!-- Just Right (Red Sandy Beach color) -->
           <weight>10</weight>
-          <only>RGBA(0.88,0.9,0.46,1)</only>
+          <only>RGBA(0.91,0.80,0.68,1)</only>
         </li>
         <li>
+		  <!-- Aths Special (Nearly white beach color) -->
           <weight>10</weight>
-          <only>RGBA(0.61,0.31,0.81,1)</only>
+          <only>RGBA(0.92,0.9,0.8,1)</only>
         </li>
       </options>
     </colorGenerator>
