@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>LotRE_ElvenShield</defName>
 		<label>ñoldorin-elf shield</label>
 		<description>Shield commonly used alongside the armor of the Elves.</description>
 		<equipmentType>None</equipmentType>
+		<weaponTags><li>LotRE_ElvenShieldTier3</li></weaponTags>
 		<graphicData>
 			<texPath>Things/Pawn/Elf/Apparel/Shields/sheidulaElfShield</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -31,7 +33,6 @@
 			<!--MoveSpeed>-1.6</MoveSpeed-->
 		</equippedStatOffsets>
 		<equippedAngleOffset>0</equippedAngleOffset>
-		<!--weaponTags><li>NonNeolithicOnlyMelee</li></weaponTags-->
 		<comps>
 			<li Class="PawnShields.CompProperties_Shield">
 				<!-- Rendering systems -->

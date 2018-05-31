@@ -221,6 +221,7 @@
       <li>LotRE_ElfApparel_BattleHelmet</li>
       <li>LotRE_ElfApparel_BattleArmor</li>
     </apparelRequired>
+	<weaponTags><li>LotRE_ElvenShieldTier3</li></weaponTags>
   </PawnKindDef>  
   
   <PawnKindDef ParentName="LotRE_ElfGuard">
