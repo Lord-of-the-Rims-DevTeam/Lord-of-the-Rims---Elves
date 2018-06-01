@@ -255,6 +255,8 @@
     <defName>LotRE_BackstoryElfAdultEight</defName>
     <title>Elf kinslayer</title>
     <baseDescription>After HE was discovered murdering HIS kin, NAME was exiled by HIS brothers and sisters. HECAP vowed revenge, and took to finding, hunting down, and killing HIS siblings. When HIS mission was complete, HE wandered the forests in search of more folk, kin or no kin, all would fail to stop HIM.</baseDescription>
+    <maleCommonality>2</maleCommonality>
+    <femaleCommonality>2</femaleCommonality>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>

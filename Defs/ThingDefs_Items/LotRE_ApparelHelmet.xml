@@ -20,8 +20,8 @@
     </stuffCategories>
 	<costList>
       <Steel>20</Steel>
-      <Silver>20</Silver>
-      <Gold>10</Gold>
+      <Silver>1</Silver>
+      <Gold>1</Gold>
 	</costList>	
     <statBases>
       <WorkToMake>4000</WorkToMake>
@@ -53,6 +53,57 @@
         <li>LotR_ElfWarrior</li>
       </defaultOutfitTags>
     </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="LotRE_ArmorHelmetMakeableBase">
+    <defName>LotRE_ElfApparel_WoodElfCrown</defName>
+    <label>elf crown</label>
+    <description>A crown crafted in the shape of twigs and leaves to symbolize the woodland domain.</description>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Elf/Apparel/Helmet/sheidulaElfCrown_front</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>15</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+      <li>Metallic</li>
+    </stuffCategories>
+	<costList>
+      <Gold>2</Gold>
+      <Silver>2</Silver>
+	</costList>	
+    <statBases>
+      <WorkToMake>8000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1</Mass>
+      <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.25</ArmorRating_Heat>
+      <ArmorRating_Electric>0</ArmorRating_Electric>
+      <Insulation_Cold>-3</Insulation_Cold>
+      <Insulation_Heat>3</Insulation_Heat>
+      <SellPriceFactor>2.5</SellPriceFactor>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.3</SocialImpact>
+    </equippedStatOffsets>
+		<generateCommonality>0.01</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Elf/Apparel/Helmet/sheidulaElfCrown</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+        <li>LotR_ElfKing</li>
+      </tags>
+	  </apparel>
   </ThingDef>
 
   <ThingDef ParentName="LotRE_ArmorHelmetMakeableBase">

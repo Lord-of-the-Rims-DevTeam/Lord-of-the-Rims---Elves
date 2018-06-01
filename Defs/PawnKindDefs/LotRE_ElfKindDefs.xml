@@ -9,7 +9,7 @@
     <backstoryCategory>LotRE_BackstoryElf</backstoryCategory>
     <chemicalAddictionChance>0.0</chemicalAddictionChance>
     <apparelTags>
-      <li>Spacer</li>
+      <li>LotRE_ElvenApparel</li>
     </apparelTags>
     <apparelMoney>
       <min>1000</min>
@@ -26,7 +26,7 @@
     <backstoryCategory>LotRE_BackstoryElf</backstoryCategory>
     <chemicalAddictionChance>0.0</chemicalAddictionChance>
     <apparelTags>
-      <li>Spacer</li>
+      <li>LotRE_ElvenApparel</li>
     </apparelTags>
     <apparelMoney>
       <min>1000</min>
@@ -95,15 +95,26 @@
     </inventoryOptions>
   </PawnKindDef>
   
- 
-  <PawnKindDef ParentName="LotRE_ElfVillager">
+  <PawnKindDef ParentName="LotRE_ElfVillagerWood">
     <defName>LotRE_ElfTrader</defName>
+    <label>elf-trader</label>
+    <trader>true</trader>
+    <defaultFactionType>LotRE_ElfFactionWood</defaultFactionType>
+  </PawnKindDef>
+  <PawnKindDef ParentName="LotRE_ElfVillagerSea">
+    <defName>LotRE_ElfTraderSea</defName>
     <label>elf-trader</label>
     <trader>true</trader>
     <defaultFactionType>LotRE_ElfFactionSea</defaultFactionType>
   </PawnKindDef>
+  <PawnKindDef ParentName="LotRE_ElfVillagerHigh">
+    <defName>LotRE_ElfTraderHigh</defName>
+    <label>elf-trader</label>
+    <trader>true</trader>
+    <defaultFactionType>LotRE_ElfFactionHigh</defaultFactionType>
+  </PawnKindDef>
  
-  <PawnKindDef ParentName="LotRE_ElfVillager">
+  <PawnKindDef ParentName="LotRE_ElfVillager" Name="LotRE_ElfVillagerSea">
     <defName>LotRE_ElfVillagerSea</defName>
     <label>elf-villager</label>
     <defaultFactionType>LotRE_ElfFactionSea</defaultFactionType>
@@ -114,14 +125,15 @@
 	  <li>LotRE_ElvenSeaApparel</li>
 	</apparelTags>
   </PawnKindDef>
-  <PawnKindDef ParentName="LotRE_ElfVillager">
+  
+  <PawnKindDef ParentName="LotRE_ElfVillager" Name="LotRE_ElfVillagerWood">
     <defName>LotRE_ElfVillagerWoodland</defName>
     <label>elf-villager</label>
 	<apparelRequired>
       <li>LotRE_ElfApparel_SimpleRobeWoodland</li>
     </apparelRequired>
   </PawnKindDef>
-  <PawnKindDef ParentName="LotRE_ElfVillager">
+  <PawnKindDef ParentName="LotRE_ElfVillager" Name="LotRE_ElfVillagerHigh">
     <defName>LotRE_ElfVillagerHigh</defName>
     <label>elf-villager</label>
 	<apparelRequired>
@@ -134,7 +146,7 @@
     <defName>LotRE_ElfLord</defName>
     <label>elf-lord</label>
     <labelPlural>elf-queen</labelPlural>
-    <defaultFactionType>LotRE_ElfFactionWood</defaultFactionType>
+    <defaultFactionType>LotRE_ElfFactionHigh</defaultFactionType>
     <isFighter>true</isFighter>
     <apparelTags>
       <li>LotR_ElfMilitary</li>
@@ -161,7 +173,10 @@
     <defName>LotRE_ElvenKing</defName>
     <label>elvenking</label>
     <labelPlural>elvenqueen</labelPlural>
-    <trader>true</trader>
+	<apparelRequired>
+      <li>LotRE_ElfApparel_WoodElfCrown</li>
+    </apparelRequired>
+    <apparelAllowHeadwearChance>1.0</apparelAllowHeadwearChance>
   </PawnKindDef>
   
     
@@ -191,6 +206,51 @@
     </weaponMoney>
     <weaponTags>
       <li>ElvenMelee</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>200</min>
+      <max>300</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <techHediffsChance>0.001</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <thingDef>Silver</thingDef>
+      <countRange>
+        <min>30</min>
+        <max>100</max>
+      </countRange>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="BasePlayerPawnKind" Name="LotRE_ElfArcher">
+    <defName>LotRE_ElfArcher</defName>
+    <label>elf-archer</label>
+	<race>LotRE_ElfStandardRace</race>
+    <defaultFactionType>LotRE_ElfFactionWood</defaultFactionType>
+    <backstoryCategory>LotRE_BackstoryElf</backstoryCategory>
+    <combatPower>120</combatPower>
+    <maxGenerationAge>6500</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+	<apparelTags>
+      <li>LotR_ElfMilitary</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>300</min>
+      <max>900</max>
+    </apparelMoney>
+    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <weaponMoney>
+      <min>200</min>
+      <max>600</max>
+    </weaponMoney>
+    <weaponTags>
       <li>ElvenRanged</li>
     </weaponTags>
     <techHediffsMoney>
@@ -223,6 +283,15 @@
     </apparelRequired>
 	<weaponTags><li>LotRE_ElvenShieldTier3</li></weaponTags>
   </PawnKindDef>  
+  <PawnKindDef ParentName="LotRE_ElfArcher">
+    <defName>LotRE_ElfArcherHigh</defName>
+    <label>high-elf archer</label>
+    <defaultFactionType>LotRE_ElfFactionHigh</defaultFactionType>
+	<apparelRequired>
+      <li>LotRE_ElfApparel_BattleHelmet</li>
+      <li>LotRE_ElfApparel_BattleArmor</li>
+    </apparelRequired>
+  </PawnKindDef>  
   
   <PawnKindDef ParentName="LotRE_ElfGuard">
     <defName>LotRE_ElfGuardSea</defName>
@@ -233,10 +302,28 @@
       <li>LotRE_ElfApparel_BattleArmorSea</li>
     </apparelRequired>
   </PawnKindDef>
+  <PawnKindDef ParentName="LotRE_ElfArcher">
+    <defName>LotRE_ElfArcherSea</defName>
+    <label>coast-elf guard</label>
+    <defaultFactionType>LotRE_ElfFactionSea</defaultFactionType>
+	<apparelRequired>
+      <li>LotRE_ElfApparel_BattleHelmetSea</li>
+      <li>LotRE_ElfApparel_BattleArmorSea</li>
+    </apparelRequired>
+  </PawnKindDef>
   
   <PawnKindDef ParentName="LotRE_ElfGuard">
     <defName>LotRE_ElfGuardWood</defName>
-    <label>wood-elf guard</label>
+    <label>wood-elf archer</label>
+    <defaultFactionType>LotRE_ElfFactionWood</defaultFactionType>
+	<apparelRequired>
+      <li>LotRE_ElfApparel_BattleHelmetWood</li>
+      <li>LotRE_ElfApparel_BattleArmorWood</li>
+    </apparelRequired>
+  </PawnKindDef>
+  <PawnKindDef ParentName="LotRE_ElfArcher">
+    <defName>LotRE_ElfArcherWood</defName>
+    <label>wood-elf archer</label>
     <defaultFactionType>LotRE_ElfFactionWood</defaultFactionType>
 	<apparelRequired>
       <li>LotRE_ElfApparel_BattleHelmetWood</li>
@@ -247,6 +334,15 @@
   <PawnKindDef ParentName="LotRE_ElfGuard">
     <defName>LotRE_ElfGuardTree</defName>
     <label>tree-elf guard</label>
+    <defaultFactionType>LotRE_ElfFactionWood</defaultFactionType>
+	<apparelRequired>
+      <li>LotRE_ElfApparel_BattleHelmetTree</li>
+      <li>LotRE_ElfApparel_BattleArmorTree</li>
+    </apparelRequired>
+  </PawnKindDef>
+  <PawnKindDef ParentName="LotRE_ElfArcher">
+    <defName>LotRE_ElfArcherTree</defName>
+    <label>tree-elf archer</label>
     <defaultFactionType>LotRE_ElfFactionWood</defaultFactionType>
 	<apparelRequired>
       <li>LotRE_ElfApparel_BattleHelmetTree</li>

@@ -64,6 +64,7 @@
         <options>
 		<LotRE_ElfVillagerWoodland>50</LotRE_ElfVillagerWoodland>
 		<LotRE_ElfGuardWood>100</LotRE_ElfGuardWood>
+		<LotRE_ElfArcherWood>100</LotRE_ElfArcherWood>
 		<LotRE_ElvenKing>1</LotRE_ElvenKing>
 	</options>
       </li>
@@ -78,6 +79,7 @@
         <guards>
 		  <LotRE_ElfVillagerWoodland>10</LotRE_ElfVillagerWoodland>
 		  <LotRE_ElfGuardWood>100</LotRE_ElfGuardWood>
+		  <LotRE_ElfArcherWood>100</LotRE_ElfArcherWood>
 		</guards>
       </li>
       <li>
@@ -85,6 +87,7 @@
         <options>
 		  <LotRE_ElfVillagerWoodland>100</LotRE_ElfVillagerWoodland>
 		  <LotRE_ElfGuardWood>100</LotRE_ElfGuardWood>
+		  <LotRE_ElfArcherWood>100</LotRE_ElfArcherWood>
 		  <LotRE_ElvenKing>100</LotRE_ElvenKing>
 	    </options>
       </li>
@@ -160,13 +163,14 @@
         <options>
 		  <LotRE_ElfVillagerSea>50</LotRE_ElfVillagerSea>
 		  <LotRE_ElfGuardSea>100</LotRE_ElfGuardSea>
+		  <LotRE_ElfArcherSea>100</LotRE_ElfArcherSea>
 		  <LotRE_ElfLord>100</LotRE_ElfLord>
 	    </options>
       </li>
       <li>
         <kindDef>Trader</kindDef>
         <traders>
-          <LotRE_ElfTrader>1</LotRE_ElfTrader>
+          <LotRE_ElfTraderSea>1</LotRE_ElfTraderSea>
         </traders>
         <carriers>
           <LotRE_DeerMallornKind>100</LotRE_DeerMallornKind>
@@ -174,6 +178,7 @@
         <guards>
 		  <LotRE_ElfVillagerSea>10</LotRE_ElfVillagerSea>
 		  <LotRE_ElfGuardSea>100</LotRE_ElfGuardSea>
+		  <LotRE_ElfArcherSea>100</LotRE_ElfArcherSea>
 		</guards>
       </li>
       <li>
@@ -181,6 +186,7 @@
         <options>
 		  <LotRE_ElfVillagerSea>100</LotRE_ElfVillagerSea>
 		  <LotRE_ElfGuardSea>100</LotRE_ElfGuardSea>
+		  <LotRE_ElfArcherSea>100</LotRE_ElfArcherSea>
 		  <LotRE_ElfLord>100</LotRE_ElfLord>
 		</options>
       </li>
@@ -257,13 +263,14 @@
         <options>
 		  <LotRE_ElfVillagerHigh>50</LotRE_ElfVillagerHigh>
 		  <LotRE_ElfGuardHigh>100</LotRE_ElfGuardHigh>
+		  <LotRE_ElfArcherHigh>100</LotRE_ElfArcherHigh>
 		  <LotRE_ElfLord>100</LotRE_ElfLord>
 		</options>
       </li>
       <li>
         <kindDef>Trader</kindDef>
         <traders>
-          <LotRE_ElfTrader>1</LotRE_ElfTrader>
+          <LotRE_ElfTraderHigh>1</LotRE_ElfTraderHigh>
         </traders>
         <carriers>
           <LotRE_DeerMallornKind>100</LotRE_DeerMallornKind>
@@ -271,6 +278,7 @@
         <guards>
 		  <LotRE_ElfVillagerHigh>10</LotRE_ElfVillagerHigh>
 		  <LotRE_ElfGuardHigh>100</LotRE_ElfGuardHigh>
+		  <LotRE_ElfArcherHigh>100</LotRE_ElfArcherHigh>
 		</guards>
       </li>
       <li>
@@ -278,6 +286,7 @@
         <options>
 		  <LotRE_ElfVillagerHigh>100</LotRE_ElfVillagerHigh>
 		  <LotRE_ElfGuardHigh>100</LotRE_ElfGuardHigh>
+		  <LotRE_ElfArcherHigh>100</LotRE_ElfArcherHigh>
 		  <LotRE_ElfLord>100</LotRE_ElfLord>
 	    </options>
       </li>

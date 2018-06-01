@@ -78,10 +78,10 @@
         <li>
           <def>AnimalAdult</def>
           <minAge>1</minAge>
-          <soundWounded>Pawn_Deer_Wounded</soundWounded>
-          <soundDeath>Pawn_Deer_Death</soundDeath>
-          <soundCall>Pawn_Deer_Call</soundCall>
-          <soundAngry>Pawn_Deer_Angry</soundAngry>
+          <soundWounded>LotR_Horse_Wounded</soundWounded>
+          <soundDeath>LotR_Horse_Death</soundDeath>
+          <soundCall>LotR_Horse_Call</soundCall>
+          <soundAngry>LotR_Horse_Angry</soundAngry>
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
