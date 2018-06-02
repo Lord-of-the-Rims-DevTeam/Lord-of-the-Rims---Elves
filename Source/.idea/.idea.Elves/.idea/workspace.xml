@@ -84,8 +84,8 @@
       <file leaf-file-name="HarmonyPatches.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Elves/HarmonyPatches.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="121">
+              <caret line="29" column="70" lean-forward="true" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
               <folding>
                 <marker date="1524159231688" expanded="false" signature="6:119" ph="..." />
                 <marker date="1524159231688" expanded="true" signature="136:5700" ph="{...}" />
@@ -243,7 +243,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="456" />
     <option name="y" value="208" />
     <option name="width" value="1088" />
@@ -343,12 +343,12 @@
       <workItem from="1527302517173" duration="3812000" />
       <workItem from="1527689227222" duration="1591000" />
       <workItem from="1527820835645" duration="3822000" />
-      <workItem from="1527897869834" duration="1141000" />
+      <workItem from="1527897869834" duration="2192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111014000" />
+    <option name="totallyTimeSpent" value="112065000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,7 +360,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="7" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1214,8 +1214,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Elves/HarmonyPatches.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        <state relative-caret-position="121">
+          <caret line="29" column="70" lean-forward="true" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
           <folding>
             <marker date="1524159231688" expanded="false" signature="6:119" ph="..." />
             <marker date="1524159231688" expanded="true" signature="136:5700" ph="{...}" />

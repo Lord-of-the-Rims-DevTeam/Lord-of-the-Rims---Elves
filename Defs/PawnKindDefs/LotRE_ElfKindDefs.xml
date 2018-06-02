@@ -201,8 +201,8 @@
     </apparelMoney>
     <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
     <weaponMoney>
-      <min>300</min>
-      <max>600</max>
+      <min>400</min>
+      <max>700</max>
     </weaponMoney>
     <weaponTags>
       <li>ElvenMelee</li>
@@ -247,8 +247,8 @@
     </apparelMoney>
     <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
     <weaponMoney>
-      <min>200</min>
-      <max>600</max>
+      <min>400</min>
+      <max>700</max>
     </weaponMoney>
     <weaponTags>
       <li>ElvenRanged</li>

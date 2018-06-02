@@ -144,6 +144,8 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
+		<li>Arms</li>
+        <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Elf/Apparel/Robe/Robe</wornGraphicPath>
       <layers>
@@ -199,6 +201,8 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
+		<li>Arms</li>
+        <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Elf/Apparel/Robe/Robe</wornGraphicPath>
       <layers>
@@ -253,6 +257,8 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
+		<li>Arms</li>
+        <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Elf/Apparel/Robe/Robe</wornGraphicPath>
       <layers>
