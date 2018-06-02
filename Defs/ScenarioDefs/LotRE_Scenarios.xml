@@ -8,7 +8,7 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>LotRE_ElfVillagerHigh</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Medieval</techLevel>
     <backstoryCategory>Civil</backstoryCategory>
     <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
 		<baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
@@ -67,7 +67,7 @@
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
-          <thingDef>Medicine</thingDef>
+          <thingDef>HerbalMedicine</thingDef>
           <count>30</count>
         </li>
         <li Class="ScenPart_StartingAnimal">
@@ -86,17 +86,15 @@
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>LotRE_ElfApparel_BattleArmor</thingDef>
-          <stuff>GrizzlyBear_Leather</stuff>
+          <stuff>Deer_Leather</stuff>
         </li>
 		<li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>LotRE_Bow_Rivendell</thingDef>
-          <stuff>WoodLog</stuff>
         </li>
 		<li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>LotRE_Bow_Rivendell</thingDef>
-          <stuff>WoodLog</stuff>
         </li>
 
         <!-- Scatter some things near player start -->
