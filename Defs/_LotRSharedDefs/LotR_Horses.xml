@@ -6,7 +6,7 @@
     <label>Horse</label>
     <description>A man-sized galloping herbivore, often utilized for its speed and hardy stamina. Generally peaceful unless disturbed.</description>
     <statBases>
-      <MoveSpeed>5.76</MoveSpeed>
+      <MoveSpeed>6.0</MoveSpeed>
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
       <MarketValue>300</MarketValue>
     </statBases>

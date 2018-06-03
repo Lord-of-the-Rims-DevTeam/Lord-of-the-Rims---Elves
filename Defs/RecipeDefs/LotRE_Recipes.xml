@@ -55,7 +55,7 @@
       </specialFiltersToDisallow>
 	</fixedIngredientFilter>
 	<products>
-	  <LotRE_ElvishBread>2</LotRE_ElvishBread>
+	  <LotRE_ElvishBread>1</LotRE_ElvishBread>
 	</products>
 	<workSkill>Cooking</workSkill>
 </RecipeDef>
@@ -63,7 +63,7 @@
    <RecipeDef>
 	<defName>LotRE_PrepareLembas</defName>
 	<label>prepare lembas</label>
-	<description>Prepare longlasting waybread, or lembas, which is far superior to survival meals in a pinch. \n\nMakes 4 lembas.</description>
+	<description>Prepare longlasting waybread, or lembas, which is far superior to survival meals in a pinch. \n\nMakes 2 lembas.</description>
 	<jobString>Preparing lembas.</jobString>
 	<workSpeedStat>CookSpeed</workSpeedStat>
 	<effectWorking>Cook</effectWorking>
@@ -112,7 +112,7 @@
       </specialFiltersToDisallow>
 	</fixedIngredientFilter>
 	<products>
-	  <LotRE_LembasWaybread>4</LotRE_LembasWaybread>
+	  <LotRE_LembasWaybread>2</LotRE_LembasWaybread>
 	</products>
 	<workSkill>Cooking</workSkill>
 </RecipeDef>

@@ -135,6 +135,22 @@
 		
 	  </generalSettings>
 	  <pawnKindSettings>
+		<alienrefugeekinds>
+			<li>
+				<kindDefs>
+					<li>LotRE_Villager</li>
+				</kindDefs>
+				<chance>10.0</chance>
+			</li>
+		</alienrefugeekinds>
+		<alienslavekinds>
+			<li>
+				<kindDefs>
+					<li>LotRE_ElfSlave</li>
+				</kindDefs>
+				<chance>10.0</chance>
+			</li>
+		</alienslavekinds>
 		<startingColonists>
 		  <li>
 			<pawnKindEntries>
@@ -147,6 +163,7 @@
 			</pawnKindEntries>
 			<factionDefs>
 			  <li>PlayerColony</li> 
+			  <li>LotRPlayerColony</li> 
 			</factionDefs>
 		  </li>
 		</startingColonists>
