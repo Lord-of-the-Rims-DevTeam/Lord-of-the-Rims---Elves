@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LotRE_ElvenShield.label>エルヴンシールド(ノルド)</LotRE_ElvenShield.label>
+  <LotRE_ElvenShield.description>一般的に鎧を着こんだエルフ族の戦士が共に使用する盾です。</LotRE_ElvenShield.description>
+  <LotRE_ElvenShield.tools.0.label>側面</LotRE_ElvenShield.tools.0.label>
+  <LotRE_ElvenShield.tools.1.label>留め金</LotRE_ElvenShield.tools.1.label>
+
+  <LotRE_ElvenShieldBuckler.label>エルヴンバックラー</LotRE_ElvenShieldBuckler.label>
+  <LotRE_ElvenShieldBuckler.description>一般的にエルフたちの間で使用される取り回しやすい盾です。</LotRE_ElvenShieldBuckler.description>
+  <LotRE_ElvenShieldBuckler.tools.0.label>側面</LotRE_ElvenShieldBuckler.tools.0.label>
+  <LotRE_ElvenShieldBuckler.tools.1.label>留め金</LotRE_ElvenShieldBuckler.tools.1.label>
+
+
+</LanguageData>
