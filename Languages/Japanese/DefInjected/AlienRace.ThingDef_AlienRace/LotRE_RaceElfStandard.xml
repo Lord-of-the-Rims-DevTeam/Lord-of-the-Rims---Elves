@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LotRE_ElfStandardRace.label>エルフ</LotRE_ElfStandardRace.label>
+  <LotRE_ElfStandardRace.description>病気に耐性があります。賢く永遠の寿命を持ちます。</LotRE_ElfStandardRace.description>
+  <LotRE_ElfStandardRace.tools.0.label>左こぶし</LotRE_ElfStandardRace.tools.0.label>
+  <LotRE_ElfStandardRace.tools.1.label>右こぶし</LotRE_ElfStandardRace.tools.1.label>
+  <LotRE_ElfStandardRace.tools.2.label>頭突き</LotRE_ElfStandardRace.tools.2.label>
+
+  <LotRE_ElfStandardRaceHalf.label>ハーフエルフ</LotRE_ElfStandardRaceHalf.label>
+  <LotRE_ElfStandardRaceHalf.description>常世の世界と定命の世界の間に生まれた者です。</LotRE_ElfStandardRaceHalf.description>
+  <LotRE_ElfStandardRaceHalf.tools.0.label>左こぶし</LotRE_ElfStandardRaceHalf.tools.0.label>
+  <LotRE_ElfStandardRaceHalf.tools.1.label>右こぶし</LotRE_ElfStandardRaceHalf.tools.1.label>
+  <LotRE_ElfStandardRaceHalf.tools.2.label>頭突き</LotRE_ElfStandardRaceHalf.tools.2.label>
+
+
+</LanguageData>
