@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LotRE_ElfColonist.label>入植者(エルフ)</LotRE_ElfColonist.label>
+  <LotRE_ElfColonist.labelPlural>入植者(エルフ)たち</LotRE_ElfColonist.labelPlural>
+  <LotRE_ElfColonist.labelMale>男性 入植者(エルフ)</LotRE_ElfColonist.labelMale>
+  <LotRE_ElfColonist.labelMalePlural>男性 入植者(エルフ)たち</LotRE_ElfColonist.labelMalePlural>
+  <LotRE_ElfColonist.labelFemale>女性 入植者(エルフ)</LotRE_ElfColonist.labelFemale>
+  <LotRE_ElfColonist.labelFemalePlural>女性 入植者(エルフ)たち</LotRE_ElfColonist.labelFemalePlural>
+
+  <LotRE_HalfElfColonist.label>入植者(ハーフエルフ)</LotRE_HalfElfColonist.label>
+  <LotRE_HalfElfColonist.labelPlural>入植者(ハーフエルフ)たち</LotRE_HalfElfColonist.labelPlural>
+  <LotRE_HalfElfColonist.labelMale>男性 入植者(ハーフエルフ)</LotRE_HalfElfColonist.labelMale>
+  <LotRE_HalfElfColonist.labelMalePlural>男性 入植者(ハーフエルフ)たち</LotRE_HalfElfColonist.labelMalePlural>
+  <LotRE_HalfElfColonist.labelFemale>女性 入植者(ハーフエルフ)</LotRE_HalfElfColonist.labelFemale>
+  <LotRE_HalfElfColonist.labelFemalePlural>女性 入植者(ハーフエルフ)たち</LotRE_HalfElfColonist.labelFemalePlural>
+
+  <LotRE_ElfVillager.label>村人(エルフ)</LotRE_ElfVillager.label>
+  <LotRE_ElfVillager.labelPlural>村人(エルフ)たち</LotRE_ElfVillager.labelPlural>
+  <LotRE_ElfVillager.labelMale>男性 村人(エルフ)</LotRE_ElfVillager.labelMale>
+  <LotRE_ElfVillager.labelMalePlural>男性 村人(エルフ)たち</LotRE_ElfVillager.labelMalePlural>
+  <LotRE_ElfVillager.labelFemale>女性 村人(エルフ)</LotRE_ElfVillager.labelFemale>
+  <LotRE_ElfVillager.labelFemalePlural>女性 村人(エルフ)たち</LotRE_ElfVillager.labelFemalePlural>
+
+  <LotRE_ElfSlave.label>奴隷(エルフ)</LotRE_ElfSlave.label>
+  <LotRE_ElfSlave.labelPlural>奴隷(エルフ)たち</LotRE_ElfSlave.labelPlural>
+  <LotRE_ElfSlave.labelMale>男性 奴隷(エルフ)</LotRE_ElfSlave.labelMale>
+  <LotRE_ElfSlave.labelMalePlural>男性 奴隷(エルフ)たち</LotRE_ElfSlave.labelMalePlural>
+  <LotRE_ElfSlave.labelFemale>女性 奴隷(エルフ)</LotRE_ElfSlave.labelFemale>
+  <LotRE_ElfSlave.labelFemalePlural>女性 奴隷(エルフ)たち</LotRE_ElfSlave.labelFemalePlural>
+
+  <LotRE_ElfTrader.label>商人(エルフ)</LotRE_ElfTrader.label>
+  <LotRE_ElfTrader.labelPlural>商人(エルフ)たち</LotRE_ElfTrader.labelPlural>
+  <LotRE_ElfTrader.labelMale>男性 商人(エルフ)</LotRE_ElfTrader.labelMale>
+  <LotRE_ElfTrader.labelMalePlural>男性 商人(エルフ)たち</LotRE_ElfTrader.labelMalePlural>
+  <LotRE_ElfTrader.labelFemale>女性 商人(エルフ)</LotRE_ElfTrader.labelFemale>
+  <LotRE_ElfTrader.labelFemalePlural>女性 商人(エルフ)たち</LotRE_ElfTrader.labelFemalePlural>
+
+  <LotRE_ElfTraderSea.label>商人(海岸エルフ)</LotRE_ElfTraderSea.label>
+  <LotRE_ElfTraderSea.labelPlural>商人(海岸エルフ)たち</LotRE_ElfTraderSea.labelPlural>
+  <LotRE_ElfTraderSea.labelMale>男性 商人(海岸エルフ)</LotRE_ElfTraderSea.labelMale>
+  <LotRE_ElfTraderSea.labelMalePlural>男性 商人(海岸エルフ)たち</LotRE_ElfTraderSea.labelMalePlural>
+  <LotRE_ElfTraderSea.labelFemale>女性 商人(海岸エルフ)</LotRE_ElfTraderSea.labelFemale>
+  <LotRE_ElfTraderSea.labelFemalePlural>女性 商人(海岸エルフ)たち</LotRE_ElfTraderSea.labelFemalePlural>
+
+  <LotRE_ElfTraderHigh.label>商人(高貴エルフ)</LotRE_ElfTraderHigh.label>
+  <LotRE_ElfTraderHigh.labelPlural>商人(高貴エルフ)たち</LotRE_ElfTraderHigh.labelPlural>
+  <LotRE_ElfTraderHigh.labelMale>男性 商人(高貴エルフ)</LotRE_ElfTraderHigh.labelMale>
+  <LotRE_ElfTraderHigh.labelMalePlural>男性 商人(高貴エルフ)たち</LotRE_ElfTraderHigh.labelMalePlural>
+  <LotRE_ElfTraderHigh.labelFemale>女性 商人(高貴エルフ)</LotRE_ElfTraderHigh.labelFemale>
+  <LotRE_ElfTraderHigh.labelFemalePlural>女性 商人(高貴エルフ)たち</LotRE_ElfTraderHigh.labelFemalePlural>
+
+  <LotRE_ElfVillagerSea.label>村人(海岸エルフ)</LotRE_ElfVillagerSea.label>
+  <LotRE_ElfVillagerSea.labelPlural>村人(海岸エルフ)たち</LotRE_ElfVillagerSea.labelPlural>
+  <LotRE_ElfVillagerSea.labelMale>男性 村人(海岸エルフ)</LotRE_ElfVillagerSea.labelMale>
+  <LotRE_ElfVillagerSea.labelMalePlural>男性 村人(海岸エルフ)たち</LotRE_ElfVillagerSea.labelMalePlural>
+  <LotRE_ElfVillagerSea.labelFemale>女性 村人(海岸エルフ)</LotRE_ElfVillagerSea.labelFemale>
+  <LotRE_ElfVillagerSea.labelFemalePlural>女性 村人(海岸エルフ)たち</LotRE_ElfVillagerSea.labelFemalePlural>
+
+  <LotRE_ElfVillagerWoodland.label>村人(森エルフ)</LotRE_ElfVillagerWoodland.label>
+  <LotRE_ElfVillagerWoodland.labelPlural>村人(森エルフ)たち</LotRE_ElfVillagerWoodland.labelPlural>
+  <LotRE_ElfVillagerWoodland.labelMale>男性 村人(森エルフ)</LotRE_ElfVillagerWoodland.labelMale>
+  <LotRE_ElfVillagerWoodland.labelMalePlural>男性 村人(森エルフ)たち</LotRE_ElfVillagerWoodland.labelMalePlural>
+  <LotRE_ElfVillagerWoodland.labelFemale>女性 村人(森エルフ)</LotRE_ElfVillagerWoodland.labelFemale>
+  <LotRE_ElfVillagerWoodland.labelFemalePlural>女性 村人(森エルフ)たち</LotRE_ElfVillagerWoodland.labelFemalePlural>
+
+  <LotRE_ElfVillagerHigh.label>村人(高貴エルフ)</LotRE_ElfVillagerHigh.label>
+  <LotRE_ElfVillagerHigh.labelPlural>村人(高貴エルフ)たち</LotRE_ElfVillagerHigh.labelPlural>
+  <LotRE_ElfVillagerHigh.labelMale>男性 村人(高貴エルフ)</LotRE_ElfVillagerHigh.labelMale>
+  <LotRE_ElfVillagerHigh.labelMalePlural>男性 村人(高貴エルフ)たち</LotRE_ElfVillagerHigh.labelMalePlural>
+  <LotRE_ElfVillagerHigh.labelFemale>女性 村人(高貴エルフ)</LotRE_ElfVillagerHigh.labelFemale>
+  <LotRE_ElfVillagerHigh.labelFemalePlural>女性 村人(高貴エルフ)たち</LotRE_ElfVillagerHigh.labelFemalePlural>
+
+  <LotRE_ElfLord.label>領主(エルフ)</LotRE_ElfLord.label>
+  <LotRE_ElfLord.labelPlural>領主(エルフ)たち</LotRE_ElfLord.labelPlural>
+  <LotRE_ElfLord.labelMale>領主(エルフ)</LotRE_ElfLord.labelMale>
+  <LotRE_ElfLord.labelMalePlural>領主(エルフ)たち</LotRE_ElfLord.labelMalePlural>
+  <LotRE_ElfLord.labelFemale>女領主(エルフ)</LotRE_ElfLord.labelFemale>
+  <LotRE_ElfLord.labelFemalePlural>女領主(エルフ)たち</LotRE_ElfLord.labelFemalePlural>
+
+  <LotRE_ElvenKing.label>王(エルフ)</LotRE_ElvenKing.label>
+  <LotRE_ElvenKing.labelPlural>王(エルフ)たち</LotRE_ElvenKing.labelPlural>
+  <LotRE_ElvenKing.labelMale>王(エルフ)</LotRE_ElvenKing.labelMale>
+  <LotRE_ElvenKing.labelMalePlural>王(エルフ)たち</LotRE_ElvenKing.labelMalePlural>
+  <LotRE_ElvenKing.labelFemale>女王(エルフ)</LotRE_ElvenKing.labelFemale>
+  <LotRE_ElvenKing.labelFemalePlural>女王(エルフ)たち</LotRE_ElvenKing.labelFemalePlural>
+
+  <LotRE_ElfGuard.label>護衛兵(エルフ)</LotRE_ElfGuard.label>
+  <LotRE_ElfGuard.labelPlural>護衛兵(エルフ)たち</LotRE_ElfGuard.labelPlural>
+  <LotRE_ElfGuard.labelMale>男性 護衛兵(エルフ)</LotRE_ElfGuard.labelMale>
+  <LotRE_ElfGuard.labelMalePlural>男性 護衛兵(エルフ)たち</LotRE_ElfGuard.labelMalePlural>
+  <LotRE_ElfGuard.labelFemale>女性 護衛兵(エルフ)</LotRE_ElfGuard.labelFemale>
+  <LotRE_ElfGuard.labelFemalePlural>女性 護衛兵(エルフ)たち</LotRE_ElfGuard.labelFemalePlural>
+
+  <LotRE_ElfArcher.label>弓兵(エルフ)</LotRE_ElfArcher.label>
+  <LotRE_ElfArcher.labelPlural>弓兵(エルフ)たち</LotRE_ElfArcher.labelPlural>
+  <LotRE_ElfArcher.labelMale>男性 弓兵(エルフ)</LotRE_ElfArcher.labelMale>
+  <LotRE_ElfArcher.labelMalePlural>男性 弓兵(エルフ)たち</LotRE_ElfArcher.labelMalePlural>
+  <LotRE_ElfArcher.labelFemale>女性 弓兵(エルフ)</LotRE_ElfArcher.labelFemale>
+  <LotRE_ElfArcher.labelFemalePlural>女性 弓兵(エルフ)たち</LotRE_ElfArcher.labelFemalePlural>
+
+  <LotRE_ElfGuardHigh.label>護衛兵(高貴エルフ)</LotRE_ElfGuardHigh.label>
+  <LotRE_ElfGuardHigh.labelPlural>護衛兵(高貴エルフ)たち</LotRE_ElfGuardHigh.labelPlural>
+  <LotRE_ElfGuardHigh.labelMale>男性 護衛兵(高貴エルフ)</LotRE_ElfGuardHigh.labelMale>
+  <LotRE_ElfGuardHigh.labelMalePlural>男性 護衛兵(高貴エルフ)たち</LotRE_ElfGuardHigh.labelMalePlural>
+  <LotRE_ElfGuardHigh.labelFemale>女性 護衛兵(高貴エルフ)</LotRE_ElfGuardHigh.labelFemale>
+  <LotRE_ElfGuardHigh.labelFemalePlural>女性 護衛兵(高貴エルフ)たち</LotRE_ElfGuardHigh.labelFemalePlural>
+
+  <LotRE_ElfArcherHigh.label>弓兵(高貴エルフ)</LotRE_ElfArcherHigh.label>
+  <LotRE_ElfArcherHigh.labelPlural>弓兵(高貴エルフ)たち</LotRE_ElfArcherHigh.labelPlural>
+  <LotRE_ElfArcherHigh.labelMale>男性 弓兵(高貴エルフ)</LotRE_ElfArcherHigh.labelMale>
+  <LotRE_ElfArcherHigh.labelMalePlural>男性 弓兵(高貴エルフ)たち</LotRE_ElfArcherHigh.labelMalePlural>
+  <LotRE_ElfArcherHigh.labelFemale>女性 弓兵(高貴エルフ)</LotRE_ElfArcherHigh.labelFemale>
+  <LotRE_ElfArcherHigh.labelFemalePlural>女性 弓兵(高貴エルフ)たち</LotRE_ElfArcherHigh.labelFemalePlural>
+
+  <LotRE_ElfGuardSea.label>護衛兵(海岸エルフ)</LotRE_ElfGuardSea.label>
+  <LotRE_ElfGuardSea.labelPlural>護衛兵(海岸エルフ)たち</LotRE_ElfGuardSea.labelPlural>
+  <LotRE_ElfGuardSea.labelMale>男性 護衛兵(海岸エルフ)</LotRE_ElfGuardSea.labelMale>
+  <LotRE_ElfGuardSea.labelMalePlural>男性 護衛兵(海岸エルフ)たち</LotRE_ElfGuardSea.labelMalePlural>
+  <LotRE_ElfGuardSea.labelFemale>女性 護衛兵(海岸エルフ)</LotRE_ElfGuardSea.labelFemale>
+  <LotRE_ElfGuardSea.labelFemalePlural>女性 護衛兵(海岸エルフ)たち</LotRE_ElfGuardSea.labelFemalePlural>
+
+  <LotRE_ElfArcherSea.label>弓兵(海岸エルフ)</LotRE_ElfArcherSea.label>
+  <LotRE_ElfArcherSea.labelPlural>弓兵(海岸エルフ)たち</LotRE_ElfArcherSea.labelPlural>
+  <LotRE_ElfArcherSea.labelMale>男性 弓兵(海岸エルフ)</LotRE_ElfArcherSea.labelMale>
+  <LotRE_ElfArcherSea.labelMalePlural>男性 弓兵(海岸エルフ)たち</LotRE_ElfArcherSea.labelMalePlural>
+  <LotRE_ElfArcherSea.labelFemale>女性 弓兵(海岸エルフ)</LotRE_ElfArcherSea.labelFemale>
+  <LotRE_ElfArcherSea.labelFemalePlural>女性 弓兵(海岸エルフ)たち</LotRE_ElfArcherSea.labelFemalePlural>
+
+  <LotRE_ElfGuardWood.label>護衛兵(森エルフ)</LotRE_ElfGuardWood.label>
+  <LotRE_ElfGuardWood.labelPlural>護衛兵(森エルフ)たち</LotRE_ElfGuardWood.labelPlural>
+  <LotRE_ElfGuardWood.labelMale>男性 護衛兵(森エルフ)</LotRE_ElfGuardWood.labelMale>
+  <LotRE_ElfGuardWood.labelMalePlural>男性 護衛兵(森エルフ)たち</LotRE_ElfGuardWood.labelMalePlural>
+  <LotRE_ElfGuardWood.labelFemale>女性 護衛兵(森エルフ)</LotRE_ElfGuardWood.labelFemale>
+  <LotRE_ElfGuardWood.labelFemalePlural>女性 護衛兵(森エルフ)たち</LotRE_ElfGuardWood.labelFemalePlural>
+
+  <LotRE_ElfArcherWood.label>弓兵(森エルフ)</LotRE_ElfArcherWood.label>
+  <LotRE_ElfArcherWood.labelPlural>弓兵(森エルフ)たち</LotRE_ElfArcherWood.labelPlural>
+  <LotRE_ElfArcherWood.labelMale>男性 弓兵(森エルフ)</LotRE_ElfArcherWood.labelMale>
+  <LotRE_ElfArcherWood.labelMalePlural>男性 弓兵(森エルフ)たち</LotRE_ElfArcherWood.labelMalePlural>
+  <LotRE_ElfArcherWood.labelFemale>女性 弓兵(森エルフ)</LotRE_ElfArcherWood.labelFemale>
+  <LotRE_ElfArcherWood.labelFemalePlural>女性 弓兵(森エルフ)たち</LotRE_ElfArcherWood.labelFemalePlural>
+
+  <LotRE_ElfGuardTree.label>護衛兵(樹木エルフ)</LotRE_ElfGuardTree.label>
+  <LotRE_ElfGuardTree.labelPlural>護衛兵(樹木エルフ)たち</LotRE_ElfGuardTree.labelPlural>
+  <LotRE_ElfGuardTree.labelMale>男性 護衛兵(樹木エルフ)</LotRE_ElfGuardTree.labelMale>
+  <LotRE_ElfGuardTree.labelMalePlural>男性 護衛兵(樹木エルフ)たち</LotRE_ElfGuardTree.labelMalePlural>
+  <LotRE_ElfGuardTree.labelFemale>女性 護衛兵(樹木エルフ)</LotRE_ElfGuardTree.labelFemale>
+  <LotRE_ElfGuardTree.labelFemalePlural>女性 護衛兵(樹木エルフ)たち</LotRE_ElfGuardTree.labelFemalePlural>
+
+  <LotRE_ElfArcherTree.label>弓兵(樹木エルフ)</LotRE_ElfArcherTree.label>
+  <LotRE_ElfArcherTree.labelPlural>弓兵(樹木エルフ)たち</LotRE_ElfArcherTree.labelPlural>
+  <LotRE_ElfArcherTree.labelMale>男性 弓兵(樹木エルフ)</LotRE_ElfArcherTree.labelMale>
+  <LotRE_ElfArcherTree.labelMalePlural>男性 弓兵(樹木エルフ)たち</LotRE_ElfArcherTree.labelMalePlural>
+  <LotRE_ElfArcherTree.labelFemale>女性 弓兵(樹木エルフ)</LotRE_ElfArcherTree.labelFemale>
+  <LotRE_ElfArcherTree.labelFemalePlural>女性 弓兵(樹木エルフ)たち</LotRE_ElfArcherTree.labelFemalePlural>
+
+
+</LanguageData>

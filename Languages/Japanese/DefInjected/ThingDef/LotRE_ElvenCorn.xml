@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LotRE_PlantLembas.label>レンバス(植物)</LotRE_PlantLembas.label>
+  <LotRE_PlantLembas.description>素晴らしい金色の耳を生み出す華やかな穀物の植物です。トウモロコシに似ていますが、レンバスの穀物はレンバスの粉に、そして最後にレンバス、すなわちエルフのパンにすることもできます。寒さに弱いため霜は唯一の弱点ですが、この植物は日光が豊富であればどこでも生育できます。肥沃な土壌では長い成長期間をかけて非常に大きな収穫量を得られます。</LotRE_PlantLembas.description>
+
+  <LotRE_RawLembasCorn.label>レンバスの実(生)</LotRE_RawLembasCorn.label>
+  <LotRE_RawLembasCorn.description>生のレンバスの実です。</LotRE_RawLembasCorn.description>
+
+  <LotRE_Lembasflour.label>レンバスの粉</LotRE_Lembasflour.label>
+  <LotRE_Lembasflour.description>レンバスの実を挽いた粉です。パンを作るのに利用します。</LotRE_Lembasflour.description>
+
+  <LotRE_ElvishBread.label>エルフのパン</LotRE_ElvishBread.label>
+  <LotRE_ElvishBread.description>レンバスの穀物から収穫できる金色の耳(レンバスの実)から作られた上品な焼きたてのパンです。</LotRE_ElvishBread.description>
+
+  <LotRE_LembasWaybread.label>レンバスの行糧</LotRE_LembasWaybread.label>
+  <LotRE_LembasWaybread.description>エルフのパンを切り分けて特別な方法で作られた何ヶ月も保存する事ができるエルフの携行保存食です。「エルフの行糧」や「レンバスの薄焼き菓子」とも呼ばれ、シンダール語で旅行用食糧を意味するレンバスであり、古代エルフのクウェンヤ語ではコイマスとも呼ばれます。</LotRE_LembasWaybread.description>
+
+
+</LanguageData>

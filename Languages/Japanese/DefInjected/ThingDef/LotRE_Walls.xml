@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LotRE_WallElven.label>装飾された壁(エルフ)</LotRE_WallElven.label>
+  <LotRE_WallElven.description>この彫刻された壁には、裂け谷(リヴェンデル)の部屋を飾る木工細工を思わせるブドウの蔓ようなデザインが特徴です。</LotRE_WallElven.description>
+  <LotRE_WallElven_Blueprint.label>装飾された壁(エルフ)(設計)</LotRE_WallElven_Blueprint.label>
+  <LotRE_WallElven_Frame.label>装飾された壁(エルフ)(施工)</LotRE_WallElven_Frame.label>
+  <LotRE_WallElven_Frame.description>この彫刻された壁には、裂け谷(リヴェンデル)の部屋を飾る木工細工を思わせるブドウの蔓ようなデザインが特徴です。</LotRE_WallElven_Frame.description>
+
+
+</LanguageData>

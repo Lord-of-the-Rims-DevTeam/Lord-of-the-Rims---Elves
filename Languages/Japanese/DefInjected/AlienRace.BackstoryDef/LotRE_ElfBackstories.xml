@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LotRE_BackstoryElfChildOne.title>エルフの幼子(ノルドール族)</LotRE_BackstoryElfChildOne.title>
+  <LotRE_BackstoryElfChildTwo.title>エルフの幼子(テレリ族)</LotRE_BackstoryElfChildTwo.title>
+  <LotRE_BackstoryElfChildThree.title>エルフの幼子(シンダール族)</LotRE_BackstoryElfChildThree.title>
+  <LotRE_BackstoryElfChildFour.title>エルフの幼子(ファルマリ族)</LotRE_BackstoryElfChildFour.title>
+  <LotRE_BackstoryElfChildFive.title>エルフの幼子(ナンドール族)</LotRE_BackstoryElfChildFive.title>
+
+
+  <!-- Adult backstories -->
+
+  <LotRE_BackstoryElfAdultOne.title>エルフ:野伏</LotRE_BackstoryElfAdultOne.title>
+  <LotRE_BackstoryElfAdultTwo.title>エルフ:兵士</LotRE_BackstoryElfAdultTwo.title>
+  <LotRE_BackstoryElfAdultThree.title>エルフ:鍛冶屋</LotRE_BackstoryElfAdultThree.title>
+  <LotRE_BackstoryElfAdultFour.title>エルフ:料理長</LotRE_BackstoryElfAdultFour.title>
+  <LotRE_BackstoryElfAdultFive.title>エルフ:詩人</LotRE_BackstoryElfAdultFive.title>
+  <LotRE_BackstoryElfAdultSix.title>エルフ:楽師</LotRE_BackstoryElfAdultSix.title>
+  <LotRE_BackstoryElfAdultSeven.title>エルフ:船大工</LotRE_BackstoryElfAdultSeven.title>
+  <LotRE_BackstoryElfAdultEight.title>エルフ:同族殺し</LotRE_BackstoryElfAdultEight.title>
+  <LotRE_BackstoryElfAdultNine.title>エルフ:建築家</LotRE_BackstoryElfAdultNine.title>
+  <LotRE_BackstoryElfAdultTen.title>ヤヴァニルディ:エルフの乙女</LotRE_BackstoryElfAdultTen.title>
+  <LotRE_BackstoryElfAdultEleven.title>エルフ:癒し手</LotRE_BackstoryElfAdultEleven.title>
+  <LotRE_BackstoryElfAdultTwelve.title>エルフ:薬草士</LotRE_BackstoryElfAdultTwelve.title>
+  <LotRE_BackstoryElfAdultThirteen.title>エルフ:領主</LotRE_BackstoryElfAdultThirteen.title>
+
+
+</LanguageData>
