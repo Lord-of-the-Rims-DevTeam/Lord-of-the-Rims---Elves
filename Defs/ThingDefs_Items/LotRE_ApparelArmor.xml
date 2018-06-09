@@ -7,7 +7,7 @@
     <label>elf-cape (woodland)</label>
     <description>A fashionable cape worn by the elves that uses dark forest colors.</description>
     <graphicData>
-      <texPath>Things/Pawn/Elf/Apparel/HoodedCape/ennacrimaCloak_Male_front</texPath>
+      <texPath>Things/Pawn/Elf/Apparel/HoodedCape/ennacrimaCloakDisplay</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>50</costStuffCount>
@@ -62,7 +62,7 @@
     <label>elf-cape (coastal)</label>
     <description>A fashionable cape worn by the elves. This style features lighter colors from the shore havens.</description>
     <graphicData>
-      <texPath>Things/Pawn/Elf/Apparel/HoodedCape/ennacrimaCloak_Male_front</texPath>
+      <texPath>Things/Pawn/Elf/Apparel/HoodedCape/ennacrimaCloakDisplay</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>50</costStuffCount>

@@ -9,6 +9,9 @@
 	  <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
 	    <pawnsSpecificBackstories>true</pawnsSpecificBackstories>
+	    <notXenophobistTowards>
+		  <li>LotRH_HobbitStandardRace</li>
+	    </notXenophobistTowards>
 		<immuneToAge>true</immuneToAge>
             <forcedRaceTraitEntries>
                 <li>
