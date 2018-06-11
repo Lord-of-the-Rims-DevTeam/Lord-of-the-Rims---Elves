@@ -104,6 +104,7 @@
     <soundInteract>BowRecurve</soundInteract>
     <costList>
       <WoodLog>75</WoodLog>
+	  <Gold>5</Gold>
     </costList>
     <statBases>
       <WorkToMake>22000</WorkToMake>
@@ -180,10 +181,11 @@
     </graphicData>
     <soundInteract>BowRecurve</soundInteract>
     <costList>
-      <WoodLog>85</WoodLog>
+      <WoodLogMallorn>150</WoodLogMallorn>
+	  <Gold>15</Gold>
     </costList>
     <statBases>
-      <WorkToMake>28000</WorkToMake>
+      <WorkToMake>29000</WorkToMake>
       <Mass>1.1</Mass>
       <AccuracyTouch>0.94</AccuracyTouch>
       <AccuracyShort>0.91</AccuracyShort>
