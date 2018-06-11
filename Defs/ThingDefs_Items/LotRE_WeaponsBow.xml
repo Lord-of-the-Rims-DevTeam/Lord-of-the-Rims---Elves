@@ -181,7 +181,7 @@
     </graphicData>
     <soundInteract>BowRecurve</soundInteract>
     <costList>
-      <WoodLogMallorn>150</WoodLogMallorn>
+      <LotRE_WoodLogMallorn>150</LotRE_WoodLogMallorn>
 	  <Gold>15</Gold>
     </costList>
     <statBases>

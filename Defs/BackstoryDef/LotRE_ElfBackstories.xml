@@ -27,19 +27,19 @@
     <skillGains>
       <li>
         <defName>Melee</defName>
-        <amount>3</amount>
+        <amount>5</amount>
       </li>
 	  <li>
         <defName>Shooting</defName>
-        <amount>2</amount>
+        <amount>4</amount>
       </li>
       <li>
         <defName>Intellectual</defName>
-        <amount>1</amount>
+        <amount>2</amount>
       </li>
 	  <li>
         <defName>Crafting</defName>
-        <amount>1</amount>
+        <amount>2</amount>
       </li>
     </skillGains>
 </AlienRace.BackstoryDef>
@@ -53,15 +53,15 @@
     <skillGains>
       <li>
         <defName>Construction</defName>
-        <amount>4</amount>
+        <amount>5</amount>
       </li>
 	  <li>
         <defName>Crafting</defName>
-        <amount>1</amount>
+        <amount>2</amount>
       </li>
 	  <li>
         <defName>Social</defName>
-        <amount>1</amount>
+        <amount>2</amount>
       </li>
     </skillGains>
 </AlienRace.BackstoryDef>
@@ -74,15 +74,15 @@
     <skillGains>
 	  <li>
         <defName>Intellectual</defName>
-        <amount>3</amount>
+        <amount>5</amount>
       </li>
       <li>
         <defName>Construction</defName>
-        <amount>1</amount>
+        <amount>2</amount>
       </li>
 	  <li>
         <defName>Social</defName>
-        <amount>-2</amount>
+        <amount>-4</amount>
       </li>
     </skillGains>
 </AlienRace.BackstoryDef>
@@ -95,15 +95,15 @@
     <skillGains>
       <li>
         <defName>Artistic</defName>
-        <amount>4</amount>
+        <amount>6</amount>
       </li>         
       <li>
         <defName>Social</defName>
-        <amount>2</amount>
+        <amount>3</amount>
       </li>   
       <li>
         <defName>Intellectual</defName>
-        <amount>1</amount>
+        <amount>2</amount>
       </li>
     </skillGains>
 </AlienRace.BackstoryDef>
@@ -118,11 +118,11 @@
     <skillGains>
       <li>
         <defName>Growing</defName>
-        <amount>4</amount>
+        <amount>6</amount>
       </li>         
       <li>
         <defName>Animals</defName>
-        <amount>3</amount>
+        <amount>5</amount>
       </li>
     </skillGains>
 </AlienRace.BackstoryDef>
@@ -137,11 +137,11 @@
     <skillGains>
       <li>
         <defName>Shooting</defName>
-        <amount>4</amount>
+        <amount>6</amount>
       </li>
       <li>
         <defName>Melee</defName>
-        <amount>2</amount>
+        <amount>4</amount>
       </li>
     </skillGains>
 </AlienRace.BackstoryDef>
@@ -154,11 +154,11 @@
     <skillGains>
       <li>
         <defName>Melee</defName>
-        <amount>4</amount>
+        <amount>6</amount>
       </li>
       <li>
         <defName>Shooting</defName>
-        <amount>2</amount>
+        <amount>4</amount>
       </li>
     </skillGains>
     <forcedTraits>
@@ -177,11 +177,11 @@
     <skillGains>
       <li>
         <defName>Crafting</defName>
-        <amount>4</amount>
+        <amount>6</amount>
       </li>
       <li>
         <defName>Artistic</defName>
-        <amount>2</amount>
+        <amount>3</amount>
       </li>
     </skillGains>
     <forcedTraits>
@@ -199,7 +199,7 @@
     <skillGains>
       <li>
         <defName>Cooking</defName>
-        <amount>4</amount>
+        <amount>6</amount>
       </li>
     </skillGains>
 </AlienRace.BackstoryDef>
@@ -212,11 +212,11 @@
     <skillGains>
       <li>
         <defName>Social</defName>
-        <amount>3</amount>
+        <amount>5</amount>
       </li>
       <li>
         <defName>Artistic</defName>
-        <amount>3</amount>
+        <amount>5</amount>
       </li>
     </skillGains>
 </AlienRace.BackstoryDef>
@@ -229,7 +229,7 @@
     <skillGains>
       <li>
         <defName>Artistic</defName>
-        <amount>5</amount>
+        <amount>6</amount>
       </li>
     </skillGains>
 </AlienRace.BackstoryDef>
@@ -242,11 +242,11 @@
     <skillGains>
       <li>
         <defName>Construction</defName>
-        <amount>4</amount>
+        <amount>5</amount>
       </li>
       <li>
         <defName>Artistic</defName>
-        <amount>1</amount>
+        <amount>3</amount>
       </li>
     </skillGains>
 </AlienRace.BackstoryDef>
@@ -261,15 +261,15 @@
     <skillGains>
       <li>
         <defName>Melee</defName>
-        <amount>3</amount>
+        <amount>5</amount>
       </li>
       <li>
         <defName>Shooting</defName>
-        <amount>3</amount>
+        <amount>5</amount>
       </li>
       <li>
         <defName>Social</defName>
-        <amount>-3</amount>
+        <amount>-5</amount>
       </li>
     </skillGains>
     <forcedTraits>
@@ -291,11 +291,11 @@
     <skillGains>
       <li>
         <defName>Construction</defName>
-        <amount>4</amount>
+        <amount>6</amount>
       </li>
       <li>
         <defName>Growing</defName>
-        <amount>2</amount>
+        <amount>4</amount>
       </li>
 	 </skillGains>
 </AlienRace.BackstoryDef>
@@ -309,11 +309,11 @@
     <skillGains>
       <li>
         <defName>Cooking</defName>
-        <amount>5</amount>
+        <amount>6</amount>
       </li>
       <li>
         <defName>Growing</defName>
-        <amount>3</amount>
+        <amount>4</amount>
       </li>
 	 </skillGains>
 </AlienRace.BackstoryDef>
@@ -326,7 +326,7 @@
     <skillGains>
       <li>
         <defName>Medicine</defName>
-        <amount>6</amount>
+        <amount>8</amount>
       </li>
 	 </skillGains>
 </AlienRace.BackstoryDef>
@@ -339,11 +339,11 @@
     <skillGains>
       <li>
         <defName>Medicine</defName>
-        <amount>4</amount>
+        <amount>7</amount>
       </li>
       <li>
         <defName>Growing</defName>
-        <amount>3</amount>
+        <amount>4</amount>
       </li>
 	 </skillGains>
 </AlienRace.BackstoryDef>
@@ -356,7 +356,7 @@
     <skillGains>
       <li>
         <defName>Social</defName>
-        <amount>5</amount>
+        <amount>8</amount>
       </li>
 	 </skillGains>
 </AlienRace.BackstoryDef>
