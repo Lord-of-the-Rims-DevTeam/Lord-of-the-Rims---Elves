@@ -84,7 +84,7 @@
    <ThingDef ParentName="LotRE_MealRottable">
       <defName>LotRE_ElvishBread</defName>
       <label>Elvish bread</label>
-      <description>An elegantly baked loaf of bread made from the golden ears of the lembas plant. </description>
+      <description>An elegantly baked loaf of bread made from the golden ears of the lembas plant.</description>
       <graphicData>
       <texPath>Things/Item/Meal/ElfBread</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -275,8 +275,7 @@
       <li>PlantFoodRaw</li>
     </thingCategories>
     <comps>
-			<li Class="CompProperties_FoodPoisoningChance">
-				<humanlikeOnly>true</humanlikeOnly>
+			<li Class="CompProperties_FoodPoisonable">
 			</li>
     </comps>
   </ThingDef>

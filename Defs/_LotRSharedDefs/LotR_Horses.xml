@@ -247,12 +247,12 @@
     <labelPlural>horses</labelPlural>
     <race>LotR_HorseRace</race>
     <combatPower>55</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.0</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
+     
+    <ecoSystemWeight>0.0</ecoSystemWeight>
+    <wildGroupSize>
       <min>3</min>
       <max>6</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <labelMale>horse</labelMale>
     <labelFemale>horse</labelFemale>
     <lifeStages>

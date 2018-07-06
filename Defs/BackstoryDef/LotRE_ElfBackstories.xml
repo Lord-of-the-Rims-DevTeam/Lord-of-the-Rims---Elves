@@ -117,7 +117,7 @@
 	<slot>Childhood</slot>
     <skillGains>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>6</amount>
       </li>         
       <li>
@@ -294,7 +294,7 @@
         <amount>6</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
 	 </skillGains>
@@ -312,7 +312,7 @@
         <amount>6</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
 	 </skillGains>
@@ -342,7 +342,7 @@
         <amount>7</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
 	 </skillGains>

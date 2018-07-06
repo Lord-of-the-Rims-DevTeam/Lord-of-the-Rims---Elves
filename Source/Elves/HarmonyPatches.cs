@@ -14,37 +14,37 @@ namespace Elves
         {
             HarmonyInstance harmony = HarmonyInstance.Create("rimworld.lotr.elves");
 
-            harmony.Patch(AccessTools.Method(typeof(TileFinder), "RandomFactionBaseTileFor"), new HarmonyMethod(typeof(HarmonyFactions).GetMethod("RandomFactionBaseTileFor_PreFix")), null);
+            harmony.Patch(AccessTools.Method(typeof(TileFinder), "RandomSettlementTileFor"), new HarmonyMethod(typeof(HarmonyFactions).GetMethod("RandomSettlementTileFor_PreFix")), null);
             
         }
 
-        public static bool RandomFactionBaseTileFor_PreFix(ref int __result, Faction faction)
+        public static bool RandomSettlementTileFor_PreFix(ref int __result, Faction faction)
         {
             //if (faction.def.defName == "TheAgency")
             //{
-            //    __result = RandomFactionBaseTileFor_TheAgency(faction);
+            //    __result = RandomSettlementTileFor_TheAgency(faction);
             //    return false;
             //}
             if (faction?.def?.defName == "LotRE_ElfFactionSea")
             {
-                __result = RandomFactionBaseTileFor_SeaElves(faction);
+                __result = RandomSettlementTileFor_SeaElves(faction);
                 return false;
             }
             if (faction?.def?.defName == "LotRE_ElfFactionWood")
             {
-                __result = RandomFactionBaseTileFor_WoodElves(faction);
+                __result = RandomSettlementTileFor_WoodElves(faction);
                 return false;
             }
             if (faction?.def?.defName == "LotRE_ElfFactionHigh")
             {
-                __result = RandomFactionBaseTileFor_HighElves(faction);
+                __result = RandomSettlementTileFor_HighElves(faction);
                 return false;
             }
             return true;
         }
         
 
-        public static int RandomFactionBaseTileFor_HighElves(Faction faction, bool mustBeAutoChoosable = false)
+        public static int RandomSettlementTileFor_HighElves(Faction faction, bool mustBeAutoChoosable = false)
         {
             for (int i = 0; i < 500; i++)
             {
@@ -73,7 +73,7 @@ namespace Elves
         }
         
 
-        public static int RandomFactionBaseTileFor_WoodElves(Faction faction, bool mustBeAutoChoosable = false)
+        public static int RandomSettlementTileFor_WoodElves(Faction faction, bool mustBeAutoChoosable = false)
         {
             for (int i = 0; i < 500; i++)
             {
@@ -101,7 +101,7 @@ namespace Elves
             return 0;
         }
         
-        public static int RandomFactionBaseTileFor_SeaElves(Faction faction, bool mustBeAutoChoosable = false)
+        public static int RandomSettlementTileFor_SeaElves(Faction faction, bool mustBeAutoChoosable = false)
         {
             for (int i = 0; i < 500; i++)
             {

@@ -30,7 +30,6 @@
       <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
       <ArmorRating_Heat>0.5</ArmorRating_Heat>
-      <ArmorRating_Electric>0</ArmorRating_Electric>
       <Insulation_Cold>-3</Insulation_Cold>
       <Insulation_Heat>3</Insulation_Heat>
     </statBases>
@@ -83,7 +82,6 @@
       <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
       <ArmorRating_Heat>0.25</ArmorRating_Heat>
-      <ArmorRating_Electric>0</ArmorRating_Electric>
       <Insulation_Cold>-3</Insulation_Cold>
       <Insulation_Heat>3</Insulation_Heat>
       <SellPriceFactor>2.5</SellPriceFactor>
@@ -130,7 +128,6 @@
       <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
       <ArmorRating_Heat>0.5</ArmorRating_Heat>
-      <ArmorRating_Electric>0</ArmorRating_Electric>
       <Insulation_Cold>-3</Insulation_Cold>
       <Insulation_Heat>3</Insulation_Heat>
     </statBases>
@@ -184,7 +181,6 @@
       <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
       <ArmorRating_Heat>0.5</ArmorRating_Heat>
-      <ArmorRating_Electric>0</ArmorRating_Electric>
       <Insulation_Cold>-3</Insulation_Cold>
       <Insulation_Heat>3</Insulation_Heat>
     </statBases>
@@ -238,7 +234,6 @@
       <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
       <ArmorRating_Heat>0.5</ArmorRating_Heat>
-      <ArmorRating_Electric>0</ArmorRating_Electric>
       <Insulation_Cold>-3</Insulation_Cold>
       <Insulation_Heat>3</Insulation_Heat>
     </statBases>

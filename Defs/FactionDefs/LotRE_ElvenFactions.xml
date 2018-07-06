@@ -6,7 +6,7 @@
 	<label>Woodland Domain of the Elves</label>
     <description>Legend has it that this woodland refuge belongs to the immortal elves. The ruler of these lands created it by using a ring of power, allowing  the location itself to be shrouded in mists that have beguiled unwelcome parties from entering for centuries. Those fortunate enough to enter the refuge can feel how the elegance of the glades ward off the decay of time and postpone the weariness of the outside world.</description>
     <pawnsPlural>wood-elves</pawnsPlural>
-    <baseSelectionWeight>0.21</baseSelectionWeight>
+    <settlementGenerationWeight>0.21</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
@@ -24,7 +24,7 @@
       <max>40</max>
     </startingGoodwill>
 	<fixedName>Woodland Domain of the Elves</fixedName>
-	<baseNameMaker>LotRE_NamerFactionBaseElfWoodland</baseNameMaker>
+	<settlementNameMaker>LotRE_NamerFactionBaseElfWoodland</settlementNameMaker>
 	<techLevel>Medieval</techLevel>
 	<backstoryCategory>Civil</backstoryCategory>
 	<geneticVariance>0.8</geneticVariance>
@@ -60,7 +60,7 @@
     </allowedArrivalTemperatureRange>
     <pawnGroupMakers>
       <li>
-        <kindDef>Normal</kindDef>
+        <kindDef>Combat</kindDef>
         <options>
 		<LotRE_ElfVillagerWoodland>50</LotRE_ElfVillagerWoodland>
 		<LotRE_ElfGuardWood>100</LotRE_ElfGuardWood>
@@ -83,7 +83,7 @@
 		</guards>
       </li>
       <li>
-        <kindDef>FactionBase</kindDef>
+        <kindDef>Settlement</kindDef>
         <options>
 		  <LotRE_ElfVillagerWoodland>100</LotRE_ElfVillagerWoodland>
 		  <LotRE_ElfGuardWood>100</LotRE_ElfGuardWood>
@@ -92,7 +92,7 @@
 	    </options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
 		<modExtensions>
 		  <li Class="JecsTools.FactionSettings">
 		    <entrySoundDef>LotRE_FanfareElfWoodland</entrySoundDef>
@@ -105,7 +105,7 @@
 	<label>Coastal Havens of the Elves</label>
     <description>These shoreline settlements populated by the Falathrim, or coast-elves, bring elf-kin closer to their true home. Only by taking the journey across the sea can most elves find peace from the weariness of the world. Haven port-cities provide elves with the means to make the journey they require, and are populated with many souls on the verge of taking the journey themselves.</description>
     <pawnsPlural>coast-elves</pawnsPlural>
-    <baseSelectionWeight>0.2</baseSelectionWeight>
+    <settlementGenerationWeight>0.2</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
@@ -130,7 +130,7 @@
 		</thingDefs>
 	</apparelStuffFilter>
 	<fixedName>Coastal Havens of the Elves</fixedName>
-	<baseNameMaker>LotRE_NamerFactionBaseElfSea</baseNameMaker>
+	<settlementNameMaker>LotRE_NamerFactionBaseElfSea</settlementNameMaker>
 	<techLevel>Medieval</techLevel>
 	<backstoryCategory>Civil</backstoryCategory>
 	<geneticVariance>0.8</geneticVariance>
@@ -159,7 +159,7 @@
     </allowedArrivalTemperatureRange>
     <pawnGroupMakers>
       <li>
-        <kindDef>Normal</kindDef>
+        <kindDef>Combat</kindDef>
         <options>
 		  <LotRE_ElfVillagerSea>50</LotRE_ElfVillagerSea>
 		  <LotRE_ElfGuardSea>100</LotRE_ElfGuardSea>
@@ -182,7 +182,7 @@
 		</guards>
       </li>
       <li>
-        <kindDef>FactionBase</kindDef>
+        <kindDef>Settlement</kindDef>
         <options>
 		  <LotRE_ElfVillagerSea>100</LotRE_ElfVillagerSea>
 		  <LotRE_ElfGuardSea>100</LotRE_ElfGuardSea>
@@ -191,7 +191,7 @@
 		</options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
 		<modExtensions>
 		  <li Class="JecsTools.FactionSettings">
 		    <entrySoundDef>LotRE_FanfareElfSea</entrySoundDef>
@@ -205,7 +205,7 @@
 	<label>High Council of the Elves</label>
     <description>While largely populated by the Ñoldor, or the deep-elves (named for their wisdom), this collective organization of many elves has taken it upon their shoulders to intervene in affairs on behalf of other kindred. Their realms stand as strongholds for well trained troops, as well as locales to recruit agents, and fellowships, for their cause.</description>
     <pawnsPlural>high-elves</pawnsPlural>
-    <baseSelectionWeight>0.2</baseSelectionWeight>
+    <settlementGenerationWeight>0.2</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
@@ -230,7 +230,7 @@
 		</thingDefs>
 	</apparelStuffFilter>
 	<fixedName>High Council of the Elves</fixedName>
-	<baseNameMaker>LotRE_NamerFactionBaseElfHigh</baseNameMaker>
+	<settlementNameMaker>LotRE_NamerFactionBaseElfHigh</settlementNameMaker>
 	<techLevel>Neolithic</techLevel>
 	<backstoryCategory>Civil</backstoryCategory>
 	<geneticVariance>0.8</geneticVariance>
@@ -259,7 +259,7 @@
     </allowedArrivalTemperatureRange>
     <pawnGroupMakers>
       <li>
-        <kindDef>Normal</kindDef>
+        <kindDef>Combat</kindDef>
         <options>
 		  <LotRE_ElfVillagerHigh>50</LotRE_ElfVillagerHigh>
 		  <LotRE_ElfGuardHigh>100</LotRE_ElfGuardHigh>
@@ -282,7 +282,7 @@
 		</guards>
       </li>
       <li>
-        <kindDef>FactionBase</kindDef>
+        <kindDef>Settlement</kindDef>
         <options>
 		  <LotRE_ElfVillagerHigh>100</LotRE_ElfVillagerHigh>
 		  <LotRE_ElfGuardHigh>100</LotRE_ElfGuardHigh>
@@ -291,7 +291,7 @@
 	    </options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
 		<modExtensions>
 		  <li Class="JecsTools.FactionSettings">
 		    <entrySoundDef>LotRE_FanfareElfHigh</entrySoundDef>

@@ -55,7 +55,7 @@
       <min>300</min>
       <max>900</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>0</min>
       <max>250</max>
@@ -119,7 +119,7 @@
       <min>150</min>
       <max>300</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <techHediffsMoney>
       <min>0</min>
       <max>35</max>
@@ -196,7 +196,7 @@
       <min>3300</min>
       <max>3900</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>3200</min>
       <max>3600</max>
@@ -215,7 +215,7 @@
 	<apparelRequired>
       <li>LotRE_ElfApparel_WoodElfCrown</li>
     </apparelRequired>
-    <apparelAllowHeadwearChance>1.0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
   </PawnKindDef>
   
     
@@ -238,7 +238,7 @@
       <min>300</min>
       <max>900</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>400</min>
       <max>700</max>
@@ -284,7 +284,7 @@
       <min>300</min>
       <max>900</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>400</min>
       <max>700</max>

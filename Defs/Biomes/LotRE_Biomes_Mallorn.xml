@@ -7,7 +7,7 @@
     <workerClass>Elves.MallornBiomeWorker</workerClass>
     <animalDensity>2.8</animalDensity>
     <plantDensity>0.53</plantDensity>
-    <factionBaseSelectionWeight>1</factionBaseSelectionWeight>
+    <factionsettlementGenerationWeight>1</factionsettlementGenerationWeight>
     <pathCost_spring>1750</pathCost_spring>
     <pathCost_summer>1750</pathCost_summer>
     <pathCost_fall>1750</pathCost_fall>
@@ -119,7 +119,7 @@
       <Raccoon>0.4</Raccoon>
 	  <Deer>0.03</Deer>
       <FoxRed>0.02</FoxRed>
-	  <GrizzlyBear>0.01</GrizzlyBear>
+	  <Bear_Grizzly>0.01</Bear_Grizzly>
       <Cougar>0.007</Cougar>
       <Lynx>0.007</Lynx>
 	  <Warg>0.007</Warg>

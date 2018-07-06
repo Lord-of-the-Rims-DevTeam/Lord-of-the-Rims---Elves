@@ -4,8 +4,8 @@
   <ThingDef ParentName="LotRE_BuildingBase">
     <defName>LotRE_WallElven</defName>
     <label>elven carved wall</label>
-    <thingClass>Building</thingClass>
-    <category>Building</category>
+    <thingClass>Buildings</thingClass>
+    <category>Building</category><thingCategories><li>Buildings</li></thingCategories>
     <description>This carved wall features a vine-like design throughout, reminiscent of woodwork found decorating the rooms of Rivendell.</description>
     <graphicData>
       <texPath>Things/Building/Linked/trisscarCarvedElvenWalls_Atlas</texPath>

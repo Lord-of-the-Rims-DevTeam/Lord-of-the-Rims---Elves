@@ -30,7 +30,7 @@
       <color>(240,218,165)</color>
       <constructEffect>ConstructWood</constructEffect>
       <appearance>Planks</appearance>
-      <soundImpactStuff>BulletImpactWood</soundImpactStuff>
+      <soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
       <soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
       <statFactors>
@@ -39,7 +39,7 @@
         <Flammability>1</Flammability>
         <WorkToMake>0.8</WorkToMake>
 		<WorkToBuild>0.8</WorkToBuild>
-        <DoorOpenSpeed>1.15</DoorOpenSpeed>
+        <doorOpenSpeed>1.15</doorOpenSpeed>
         <MeleeWeapon_CooldownMultiplier>0.85</MeleeWeapon_CooldownMultiplier>
       </statFactors>
     </stuffProps>
