@@ -28,7 +28,7 @@
 			<WorkToMake>10000</WorkToMake>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Mass>1.25</Mass>
-			<Weapon_Bulk>2.0</Weapon_Bulk>
+			
 		</statBases>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>-0.6</ShootingAccuracyPawn>
@@ -112,7 +112,7 @@
 			<WorkToMake>7500</WorkToMake>
 			<MaxHitPoints>50</MaxHitPoints>
 			<Mass>1</Mass>
-			<Weapon_Bulk>1.0</Weapon_Bulk>
+			
 		</statBases>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>-0.4</ShootingAccuracyPawn>
