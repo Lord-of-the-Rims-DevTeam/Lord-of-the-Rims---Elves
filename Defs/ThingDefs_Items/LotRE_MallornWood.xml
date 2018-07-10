@@ -39,11 +39,11 @@
         <Flammability>1</Flammability>
         <WorkToMake>0.8</WorkToMake>
 		<WorkToBuild>0.8</WorkToBuild>
-        <doorOpenSpeed>1.15</doorOpenSpeed>
+        <DoorOpenSpeed>1.15</DoorOpenSpeed>
         <MeleeWeapon_CooldownMultiplier>0.85</MeleeWeapon_CooldownMultiplier>
       </statFactors>
     </stuffProps>
-    <isBodyPartOrImplant>true</isBodyPartOrImplant>
+     
     <thingCategories>
       <li>ResourcesRaw</li>
     </thingCategories>

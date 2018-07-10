@@ -6,7 +6,7 @@ namespace Elves
 {
     public class MallornBiomeWorker : BiomeWorker
     {
-        public override float GetScore(Tile tile)
+        public override float GetScore(Tile tile, int tileID)
         {
             var minRainfall = 610.0;
             var minTemperature = -10.0;

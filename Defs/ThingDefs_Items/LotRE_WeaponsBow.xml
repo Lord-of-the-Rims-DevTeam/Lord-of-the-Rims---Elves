@@ -25,7 +25,7 @@
       <texPath>Things/Item/Equipment/WeaponRanged/LotRE_MirkwoodBow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>BowRecurve</soundInteract>
+    <soundInteract>Bow_Recurve</soundInteract>
     <costList>
       <WoodLog>60</WoodLog>
     </costList>
@@ -48,7 +48,7 @@
         <li>FueledSmithy</li>
         <li>CraftingSpot</li>
       </recipeUsers>
-      <researchPrerequisite>Greatbows</researchPrerequisite>
+      <researchPrerequisite>Greatbow</researchPrerequisite>
     </recipeMaker>
     <verbs>
       <li>
@@ -101,7 +101,7 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>(2.0,2.0)</drawSize>
     </graphicData>
-    <soundInteract>BowRecurve</soundInteract>
+    <soundInteract>Bow_Recurve</soundInteract>
     <costList>
       <WoodLog>75</WoodLog>
 	  <Gold>5</Gold>
@@ -126,7 +126,7 @@
         <li>FueledSmithy</li>
         <li>CraftingSpot</li>
       </recipeUsers>
-      <researchPrerequisite>Greatbows</researchPrerequisite>
+      <researchPrerequisite>Greatbow</researchPrerequisite>
     </recipeMaker>
     <verbs>
       <li>
@@ -179,7 +179,7 @@
       <graphicClass>Graphic_Single</graphicClass>
 	  <drawSize>(2.0,2.0)</drawSize>
     </graphicData>
-    <soundInteract>BowRecurve</soundInteract>
+    <soundInteract>Bow_Recurve</soundInteract>
     <costList>
       <LotRE_WoodLogMallorn>150</LotRE_WoodLogMallorn>
 	  <Gold>15</Gold>
@@ -204,7 +204,7 @@
         <li>FueledSmithy</li>
         <li>CraftingSpot</li>
       </recipeUsers>
-      <researchPrerequisite>Greatbows</researchPrerequisite>
+      <researchPrerequisite>Greatbow</researchPrerequisite>
     </recipeMaker>
     <verbs>
       <li>

@@ -63,7 +63,7 @@
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Elf/Apparel/Helmet/sheidulaElfCrown_front</texPath>
+      <texPath>Things/Pawn/Elf/Apparel/Helmet/sheidulaElfCrown_north</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>15</costStuffCount>
@@ -161,7 +161,7 @@
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Elf/Apparel/Helmet/painlessVikingGaladhrimHelm_front</texPath>
+      <texPath>Things/Pawn/Elf/Apparel/Helmet/painlessVikingGaladhrimHelm_north</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>

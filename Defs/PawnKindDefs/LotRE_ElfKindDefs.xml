@@ -57,8 +57,8 @@
     </apparelMoney>
     <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <weaponMoney>
-      <min>0</min>
-      <max>250</max>
+      <min>356</min>
+      <max>500</max>
     </weaponMoney>
     <weaponTags>
       <li>ElvenMelee</li>

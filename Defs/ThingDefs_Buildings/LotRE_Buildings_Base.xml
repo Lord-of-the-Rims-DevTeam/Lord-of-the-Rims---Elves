@@ -3,7 +3,7 @@
 	
   <ThingDef Name="LotRE_BuildingBase" Abstract="True">
     <category>Building</category><thingCategories><li>Buildings</li></thingCategories>
-    <thingClass>Buildings</thingClass>
+    <thingClass>Building</thingClass>
     <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <selectable>true</selectable>
     <drawerType>MapMeshAndRealTime</drawerType>

@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>LotRE_Leather_Elf</defName>
+    <label>elf leather</label>
+    <description>Tanned, dried, scraped elf skin. Most people find this material horrifying. Some find it fascinating. While a decent leather, it neither protects nor insulates particularly well.</description>
+    <graphicData>
+      <color>(211,194,143)</color>
+      <colorTwo>(211,194,143)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MarketValue>4.6</MarketValue>
+      <StuffPower_Armor_Sharp>0.65</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>13</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>13</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(211,194,143)</color>
+      <commonality>0.002</commonality>
+    </stuffProps>
+  </ThingDef>
+  
+
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>LotRE_ElfStandardRace</defName>
     <label>elf</label>
@@ -242,10 +264,13 @@
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
       <lifeExpectancy>250</lifeExpectancy>
+	  <leatherDef>LotRE_Leather_Elf</leatherDef>
+	  <!--
       <leatherColor>(211,194,143)</leatherColor>
       <leatherCommonalityFactor>0.01</leatherCommonalityFactor>
       <leatherInsulation>0.70</leatherInsulation>
       <leatherMarketValueFactor>2</leatherMarketValueFactor>
+	  -->
       <nameCategory>HumanStandard</nameCategory>
       <body>Human</body>
       <baseBodySize>1</baseBodySize>
@@ -312,29 +337,28 @@
         <li>LotRE_ElfTraitsGiver</li>
       </hediffGiverSets>
     </race>
-    <recipes>
-      <li>InstallPowerClaw</li>
-      <li>InstallScytherBlade</li>
-      <li>InstallBionicEye</li>
-      <li>InstallBionicArm</li>
-      <li>InstallBionicLeg</li>
-      <li>InstallSimpleProstheticArm</li>
-      <li>InstallSimpleProstheticLeg</li>
-      <li>InstallPegLeg</li>
-      <li>InstallDenture</li>
-      <li>InstallJoywire</li>
-      <li>InstallPainstopper</li>
-      <li>InstallNaturalHeart</li>
-      <li>InstallNaturalLung</li>
-      <li>InstallNaturalKidney</li>
-      <li>InstallNaturalLiver</li>
-      <li>ExciseCarcinoma</li>
-      <li>AdministerMechSerumHealer</li>
-      <li>RemoveBodyPart</li>
-      <li>Euthanize</li>
-      <li>Anesthetize</li>
-    </recipes>
   </AlienRace.ThingDef_AlienRace>
+  
+  
+  <ThingDef ParentName="LeatherBase">
+    <defName>LotRE_Leather_ElfHalf</defName>
+    <label>half-elf leather</label>
+    <description>Tanned, dried, scraped half-elf skin. Most people find this material horrifying. Some find it fascinating. While a decent leather, it neither protects nor insulates particularly well.</description>
+    <graphicData>
+      <color>(211,194,143)</color>
+      <colorTwo>(211,194,143)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MarketValue>4.7</MarketValue>
+      <StuffPower_Armor_Sharp>0.65</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>13</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>13</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(211,194,143)</color>
+      <commonality>0.002</commonality>
+    </stuffProps>
+  </ThingDef>
   
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>LotRE_ElfStandardRaceHalf</defName>
@@ -527,10 +551,7 @@
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
       <lifeExpectancy>250</lifeExpectancy>
-      <leatherColor>(211,194,143)</leatherColor>
-      <leatherCommonalityFactor>0.01</leatherCommonalityFactor>
-      <leatherInsulation>0.70</leatherInsulation>
-      <leatherMarketValueFactor>2</leatherMarketValueFactor>
+	  <leatherDef>LotRE_Leather_ElfHalf</leatherDef>
       <nameCategory>HumanStandard</nameCategory>
       <body>Human</body>
       <baseBodySize>1</baseBodySize>
@@ -597,28 +618,6 @@
         <li>LotRE_ElfTraitsGiverHalf</li>
       </hediffGiverSets>
     </race>
-    <recipes>
-      <li>InstallPowerClaw</li>
-      <li>InstallScytherBlade</li>
-      <li>InstallBionicEye</li>
-      <li>InstallBionicArm</li>
-      <li>InstallBionicLeg</li>
-      <li>InstallSimpleProstheticArm</li>
-      <li>InstallSimpleProstheticLeg</li>
-      <li>InstallPegLeg</li>
-      <li>InstallDenture</li>
-      <li>InstallJoywire</li>
-      <li>InstallPainstopper</li>
-      <li>InstallNaturalHeart</li>
-      <li>InstallNaturalLung</li>
-      <li>InstallNaturalKidney</li>
-      <li>InstallNaturalLiver</li>
-      <li>ExciseCarcinoma</li>
-      <li>AdministerMechSerumHealer</li>
-      <li>RemoveBodyPart</li>
-      <li>Euthanize</li>
-      <li>Anesthetize</li>
-    </recipes>
   </AlienRace.ThingDef_AlienRace>
   
 </Defs>

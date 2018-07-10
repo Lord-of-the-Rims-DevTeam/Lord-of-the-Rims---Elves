@@ -13,18 +13,11 @@ namespace Elves
         static HarmonyFactions()
         {
             HarmonyInstance harmony = HarmonyInstance.Create("rimworld.lotr.elves");
-
-            harmony.Patch(AccessTools.Method(typeof(TileFinder), "RandomSettlementTileFor"), new HarmonyMethod(typeof(HarmonyFactions).GetMethod("RandomSettlementTileFor_PreFix")), null);
-            
+            harmony.Patch(AccessTools.Method(typeof(TileFinder), "RandomSettlementTileFor"), new HarmonyMethod(typeof(HarmonyFactions).GetMethod("RandomSettlementTileFor_PreFix")), null);            
         }
 
         public static bool RandomSettlementTileFor_PreFix(ref int __result, Faction faction)
         {
-            //if (faction.def.defName == "TheAgency")
-            //{
-            //    __result = RandomSettlementTileFor_TheAgency(faction);
-            //    return false;
-            //}
             if (faction?.def?.defName == "LotRE_ElfFactionSea")
             {
                 __result = RandomSettlementTileFor_SeaElves(faction);
@@ -57,9 +50,9 @@ namespace Elves
                     {
                         return 0f;
                     }
-                    if (tile.rivers != null && tile.rivers.Count > 0)
+                    if (tile.Rivers != null && tile.Rivers.Count > 0)
                         return 1000f;
-                    return 0f; //tile.biome.factionBaseSelectionWeight;
+                    return 0f; //tile.biome.settlementSelectionWeight;
                 }, out num))
                 {
                     if (TileFinder.IsValidTileForNewSettlement(num, null))
@@ -88,7 +81,7 @@ namespace Elves
                          }
                          if (tile.biome == BiomeDef.Named("LotRE_MallornForest"))
                              return 1000f;
-                         return 0f; //tile.biome.factionBaseSelectionWeight;
+                         return 0f; //tile.biome.settlementSelectionWeight;
                      }, out num))
                     {
                     if (TileFinder.IsValidTileForNewSettlement(num, null))
@@ -129,7 +122,7 @@ namespace Elves
                              }
                          }
 
-                         return tile.biome.factionBaseSelectionWeight;
+                         return tile.biome.settlementSelectionWeight;
                      }, out num))
                 {
                     if (TileFinder.IsValidTileForNewSettlement(num, null))

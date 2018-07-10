@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="LotRE_BuildingBase">
+  <ThingDef ParentName="BuildingBase">
     <defName>LotRE_WallElven</defName>
     <label>elven carved wall</label>
-    <thingClass>Buildings</thingClass>
-    <category>Building</category><thingCategories><li>Buildings</li></thingCategories>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
     <description>This carved wall features a vine-like design throughout, reminiscent of woodwork found decorating the rooms of Rivendell.</description>
     <graphicData>
       <texPath>Things/Building/Linked/trisscarCarvedElvenWalls_Atlas</texPath>
@@ -26,9 +26,6 @@
         <edgeRight>Damage/Edge</edgeRight>
       </damageData>
     </graphicData>
-    <blueprintGraphicData>
-      <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
-    </blueprintGraphicData>
     <uiIconPath>Things/Building/Linked/trisscarCarvedElvenWalls_MenuIcon</uiIconPath>
     <statBases>
       <MaxHitPoints>360</MaxHitPoints>
@@ -61,6 +58,9 @@
       <li>Stony</li>
     </stuffCategories>
     <building>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
       <isInert>true</isInert>
     </building>
     <damageMultipliers>

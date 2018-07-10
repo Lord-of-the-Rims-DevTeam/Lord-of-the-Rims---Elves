@@ -1,22 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
   <BiomeDef>
     <defName>LotRE_MallornForest</defName>
     <label>mallorn forest</label>
-    <description>...</description>
+    <description>Within this region lies a bountiful forest of silver-grey barked mallorn trees. During the summer months, the trees have green leaves, but turn to gold in the autumn, winter, and spring.</description>
     <workerClass>Elves.MallornBiomeWorker</workerClass>
     <animalDensity>2.8</animalDensity>
     <plantDensity>0.53</plantDensity>
-    <factionsettlementGenerationWeight>1</factionsettlementGenerationWeight>
-    <pathCost_spring>1750</pathCost_spring>
-    <pathCost_summer>1750</pathCost_summer>
-    <pathCost_fall>1750</pathCost_fall>
-    <pathCost_winter>1750</pathCost_winter>
+    <settlementSelectionWeight>0.9</settlementSelectionWeight>
+	<movementDifficulty>1</movementDifficulty>
+    <forageability>0.75</forageability>
+    <foragedFood>RawBerries</foragedFood>
+    <wildPlantRegrowDays>25</wildPlantRegrowDays>
     <texture>World/Biomes/Mallorns</texture>
-        <soundsAmbient>
+    <soundsAmbient>
       <li>AmbientNightInsects_Standard</li>
     </soundsAmbient>
-    <diseaseMtbDays>45</diseaseMtbDays>
+    <diseaseMtbDays>60</diseaseMtbDays>
     <diseases>
       <li>
         <diseaseInc>Disease_Flu</diseaseInc>
@@ -27,24 +28,29 @@
         <commonality>100</commonality>
       </li>
       <li>
-        <diseaseInc>Disease_Malaria</diseaseInc>
-        <commonality>100</commonality>
-      </li>
-      <li>
-        <diseaseInc>Disease_FibrousMechanites</diseaseInc>
-        <commonality>30</commonality>
-      </li>
-      <li>
-        <diseaseInc>Disease_SensoryMechanites</diseaseInc>
-        <commonality>30</commonality>
-      </li>
-      <li>
         <diseaseInc>Disease_GutWorms</diseaseInc>
         <commonality>50</commonality>
       </li>
       <li>
+        <diseaseInc>Disease_FibrousMechanites</diseaseInc>
+        <commonality>0</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_SensoryMechanites</diseaseInc>
+        <commonality>0</commonality>
+      </li>
+      <li>
         <diseaseInc>Disease_MuscleParasites</diseaseInc>
         <commonality>50</commonality>
+      </li>
+      
+      <li>
+        <diseaseInc>Disease_AnimalFlu</diseaseInc>
+        <commonality>100</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_AnimalPlague</diseaseInc>
+        <commonality>100</commonality>
       </li>
     </diseases>
     <terrainsByFertility>
@@ -102,13 +108,14 @@
       <SnowHard>0</SnowHard>
     </baseWeatherCommonalities>
     <wildPlants>
-		<PlantTallGrass>1.20</PlantTallGrass>
-		<PlantGrass>0.8</PlantGrass>
+		<Plant_TallGrass>1.20</Plant_TallGrass>
+		<Plant_Grass>0.8</Plant_Grass>
+		<Plant_Brambles>1.0</Plant_Brambles>
 		<LotRE_PlantTreeBirchGolden>0.2</LotRE_PlantTreeBirchGolden>
-		<PlantDandelion>0.36</PlantDandelion>
+		<Plant_Dandelion>0.36</Plant_Dandelion>
 		<LotRE_PlantTreeMallorn>0.011</LotRE_PlantTreeMallorn>
-		<PlantRaspberry>0.1</PlantRaspberry>
-		<PlantWildHealroot>0.05</PlantWildHealroot>
+		<Plant_Berry>0.1</Plant_Berry>
+		<Plant_HealrootWild>0.05</Plant_HealrootWild>
 	</wildPlants>
     <wildAnimals>
       <Squirrel>2</Squirrel>
@@ -118,18 +125,18 @@
 	  <WildBoar>0.5</WildBoar>
       <Raccoon>0.4</Raccoon>
 	  <Deer>0.03</Deer>
-      <FoxRed>0.02</FoxRed>
+      <Fox_Red>0.02</Fox_Red>
 	  <Bear_Grizzly>0.01</Bear_Grizzly>
       <Cougar>0.007</Cougar>
       <Lynx>0.007</Lynx>
 	  <Warg>0.007</Warg>
-	  <WolfTimber>0.07</WolfTimber>
+	  <Wolf_Timber>0.07</Wolf_Timber>
 	  <Ibex>0.0001</Ibex>
       <Caribou>0.0001</Caribou>
       <Muffalo>0.0001</Muffalo>
       <Megasloth>0.00001</Megasloth>
-      <WolfArctic>0.01</WolfArctic>
-      <FoxArctic>0.01</FoxArctic>
+      <Wolf_Arctic>0.01</Wolf_Arctic>
+      <Fox_Arctic>0.01</Fox_Arctic>
     </wildAnimals>
     <allowedPackAnimals>
       <li>Muffalo</li>

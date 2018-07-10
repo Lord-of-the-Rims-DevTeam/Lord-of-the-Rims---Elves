@@ -25,6 +25,7 @@
       <li>Stony</li>
 	</stuffCategories>
     <statBases>
+	  <Mass>100</Mass>
 	  <MaxHitPoints>500</MaxHitPoints>
       <WorkToBuild>1450</WorkToBuild>
     </statBases>

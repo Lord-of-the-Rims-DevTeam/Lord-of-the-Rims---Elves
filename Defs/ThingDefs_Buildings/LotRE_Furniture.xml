@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
-  <ThingDef ParentName="LotRE_TableGatherSpotBase">
+  <ThingDef ParentName="TableGatherSpotBase">
     <defName>LotRE_ElvishTable2x2c</defName>
     <label>elvish table (2x2)</label>
     <graphicData>
@@ -29,7 +29,7 @@
     <rotatable>true</rotatable>
   </ThingDef>
   
-  <ThingDef ParentName="LotRE_ArtableFurnitureBase">
+  <ThingDef ParentName="ArtableFurnitureBase">
     <defName>LotRE_Chair</defName>
     <label>elven chair</label>
     <graphicData>
@@ -73,11 +73,10 @@
     </building>
   </ThingDef>
   
-  <ThingDef ParentName="LotRE_ArtableFurnitureBase">
+  <ThingDef ParentName="ArtableFurnitureBase">
     <defName>LotRE_ElvenCandelabra</defName>
     <label>elven candelabra</label>
     <description>A mount for wax candles to light an area. Can be automatically refueled with wax. Produces a small amount of heat.</description>
-    <category>Building</category><thingCategories><li>Buildings</li></thingCategories>
     <graphicData>
       <texPath>Things/Building/ElvishCandelabra/jecrellElvishCandelabra</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -199,7 +198,7 @@
   </ThingDef>
   
   
-  <ThingDef ParentName="LotRE_ArtableBedBase">
+  <ThingDef ParentName="ArtableBedBase">
     <defName>LotRE_ElvenRoyalBed</defName>
     <label>Elvish royal bed</label>
     <description>A statue of Estë helps soothe souls in this Elven bed. It is very comfy and beautiful. Fits two.</description>
@@ -254,30 +253,11 @@
     <castEdgeShadows>True</castEdgeShadows>
     <designationHotKey>Misc4</designationHotKey>
     <techLevel>Medieval</techLevel>
-    <researchPrerequisites><li>Beds</li></researchPrerequisites>
+    <researchPrerequisites><li>ComplexFurniture</li></researchPrerequisites>
   </ThingDef>
   
   
-  
-  <ThingDef ParentName="LotRE_FurnitureBase" Name="LotRE_BedBase" Abstract="True">
-    <thingClass>Building_Bed</thingClass>
-    <altitudeLayer>Building</altitudeLayer>
-    <comps>
-      <li Class="CompProperties_RoomIdentifier">
-        <roomStat>Impressiveness</roomStat>
-      </li>
-    </comps>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <canOverlapZones>false</canOverlapZones>
-    <placeWorkers>
-      <li>PlaceWorker_ShowFacilitiesConnections</li>
-    </placeWorkers>
-    <passability>PassThroughOnly</passability>
-    <defaultPlacingRot>South</defaultPlacingRot>
-  </ThingDef>
-  
-  
-  <ThingDef ParentName="LotRE_BedWithQualityBase">
+  <ThingDef ParentName="BedWithQualityBase">
     <defName>LotRE_ElvenBed</defName>
     <label>Elvish lounge bed</label>
     <description>A cushioned lounge for resting, these Elvish beds are suited for weary souls in much need of rest from the weight of the mortal world.</description>
@@ -326,97 +306,7 @@
     <castEdgeShadows>False</castEdgeShadows>
     <designationHotKey>Misc2</designationHotKey>
     <techLevel>Medieval</techLevel>
-    <researchPrerequisites><li>Beds</li></researchPrerequisites>
+    <researchPrerequisites><li>ComplexFurniture</li></researchPrerequisites>
   </ThingDef>
-  
-  
-  <!-- Bases -->
-
-  <ThingDef Name="LotRE_BedWithQualityBase" ParentName="LotRE_BedBase" Abstract="True">
-    <comps>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-    </comps>
-  </ThingDef>
-
-  <ThingDef Name="LotRE_ArtableBedBase" ParentName="LotRE_BedWithQualityBase" Abstract="True">
-    <comps>
-      <li Class="CompProperties_Art">
-        <nameMaker>NamerArtFurniture</nameMaker>
-        <descriptionMaker>ArtDescription_Furniture</descriptionMaker>
-        <minQualityForArtistic>Excellent</minQualityForArtistic>
-      </li>
-    </comps>
-    <inspectorTabs>
-      <li>ITab_Art</li>
-    </inspectorTabs>
-  </ThingDef>
-  
-  
-  <ThingDef Name="LotRE_FurnitureBase" ParentName="LotRE_BuildingBase" Abstract="True">
-    <designationCategory>Furniture</designationCategory>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <tradeTags>
-      <li>Furniture</li>
-    </tradeTags>
-  </ThingDef>
-  
-  <ThingDef Name="LotRE_FurnitureWithQualityBase" ParentName="LotRE_FurnitureBase" Abstract="True">
-    <comps>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-    </comps>
-  </ThingDef>
-
-  <ThingDef Name="LotRE_ArtableFurnitureBase" ParentName="LotRE_FurnitureWithQualityBase" Abstract="True">
-    <comps>
-      <li Class="CompProperties_Art">
-        <nameMaker>NamerArtFurniture</nameMaker>
-        <descriptionMaker>ArtDescription_Furniture</descriptionMaker>
-        <minQualityForArtistic>Excellent</minQualityForArtistic>
-			</li>
-    </comps>
-    <inspectorTabs>
-      <li>ITab_Art</li>
-    </inspectorTabs>
-  </ThingDef>
-
-
-  <!-- Table base -->
-  <ThingDef Abstract="True" ParentName="LotRE_FurnitureWithQualityBase" Name="LotRE_TableBase">
-    <thingClass>Buildings</thingClass>
-    <altitudeLayer>Building</altitudeLayer>
-    <description>People eat off tables when chairs are placed facing them.</description>
-    <passability>PassThroughOnly</passability>
-    <castEdgeShadows>true</castEdgeShadows>
-    <pathCost>60</pathCost>
-    <fillPercent>0.4</fillPercent>
-    <socialPropernessMatters>true</socialPropernessMatters>
-    <canOverlapZones>false</canOverlapZones>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-      <li>Stony</li>
-    </stuffCategories>
-    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <staticSunShadowHeight>0.20</staticSunShadowHeight>
-    <surfaceType>Eat</surfaceType>
-    <comps>
-			<li Class="CompProperties_RoomIdentifier">
-				<roomStat>Impressiveness</roomStat>
-			</li>
-    </comps>
-  </ThingDef>
-
-  <ThingDef Abstract="True" ParentName="LotRE_TableBase" Name="LotRE_TableGatherSpotBase">
-    <comps>
-      <li>
-        <compClass>CompGatherSpot</compClass>
-      </li>
-    </comps>
-  </ThingDef>
-  
   
 </Defs>

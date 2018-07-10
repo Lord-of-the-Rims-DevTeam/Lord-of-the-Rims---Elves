@@ -425,7 +425,7 @@
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
     </recipeMaker>
     <graphicData>
-      <texPath>Things/Pawn/Elf/Apparel/Armor/painlessVikingGaladhrim_Male_front</texPath>
+      <texPath>Things/Pawn/Elf/Apparel/Armor/painlessVikingGaladhrim_Male_north</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>

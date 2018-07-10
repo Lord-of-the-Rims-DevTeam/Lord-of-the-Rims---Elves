@@ -1,26 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <TerrainDef Name="LotRE_FloorBase" Abstract="True">
-    <layerable>true</layerable>
-    <affordances>
-      <li>Light</li>
-      <li>Heavy</li>
-      <li>SmoothHard</li>
-    </affordances>
-    <statBases>
-      <WorkToBuild>135</WorkToBuild>
-    </statBases>
-    <designationCategory>Floors</designationCategory>
-    <fertility>0</fertility>
-    <constructEffect>ConstructDirt</constructEffect>
-    <acceptTerrainSourceFilth>True</acceptTerrainSourceFilth>
-    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-  </TerrainDef>
-
   <!-- ================= Misc ================= -->
 
-	<TerrainDef  ParentName="LotRE_FloorBase">
+	<TerrainDef  ParentName="FloorBase">
 		<defName>LotRE_MallornPlankFloor</defName>
 		<label>mallorn-wood floor</label>
 		<renderPrecedence>250</renderPrecedence>
@@ -39,7 +22,7 @@
 		<designationHotKey>Misc7</designationHotKey>
 	</TerrainDef>
 	
-	<TerrainDef  ParentName="LotRE_FloorBase">
+	<TerrainDef  ParentName="FloorBase">
 		<defName>LotRE_MallornPlankFloorTwo</defName>
 		<label>mallorn-wood floor (bark)</label>
 		<renderPrecedence>250</renderPrecedence>
