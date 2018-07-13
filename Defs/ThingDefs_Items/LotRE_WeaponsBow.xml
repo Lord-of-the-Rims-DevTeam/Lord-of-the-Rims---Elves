@@ -62,7 +62,7 @@
     </verbs>
     <tools>
       <li>
-	    <id>LotR_MirkwoodArrowTool</id>
+	    
 		<label>arrow</label>
         <capacities>
           <li>Blunt</li>
@@ -142,7 +142,7 @@
     </verbs>
     <tools>
       <li>
-	    <id>LotR_GaladhrimArrowTool</id>
+	    
 		<label>arrow</label>
         <capacities>
           <li>Blunt</li>
@@ -222,7 +222,7 @@
     </verbs>
     <tools>
       <li>
-	    <id>LotR_RivendellArrowTool</id>
+	    
 		<label>arrow</label>
         <capacities>
           <li>Blunt</li>

@@ -12,7 +12,7 @@
     </statBases>
     <tools>
       <li>
-	    <id>LotR_LorienDeerLeftHoofTool</id>
+	    
         <label>left hoof</label>
         <capacities>
           <li>Blunt</li>
@@ -23,7 +23,7 @@
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
       </li>
       <li>
-	    <id>LotR_LorienDeerRightHoofTool</id>
+	    
         <label>right hoof</label>
         <capacities>
           <li>Blunt</li>
@@ -34,7 +34,7 @@
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
       <li>
-	    <id>LotR_LorienDeerTeethTool</id>
+	    
 		<label>teeth</label>
         <capacities>
           <li>Bite</li>
@@ -44,7 +44,7 @@
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
       <li>
-	    <id>LotR_LorienDeerHeadTool</id>
+	    
         <label>head</label>
         <capacities>
           <li>Blunt</li>
