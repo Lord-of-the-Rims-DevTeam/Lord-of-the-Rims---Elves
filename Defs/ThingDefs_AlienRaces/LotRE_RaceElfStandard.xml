@@ -22,6 +22,44 @@
     </stuffProps>
   </ThingDef>
   
+  <AlienRace.RaceSettings>
+    <defName>LotRE_ElfSettings</defName>
+	  <pawnKindSettings>
+		<alienrefugeekinds>
+			<li>
+				<kindDefs>
+					<li>LotRE_Villager</li>
+				</kindDefs>
+				<chance>10.0</chance>
+			</li>
+		</alienrefugeekinds>
+		<alienslavekinds>
+			<li>
+				<kindDefs>
+					<li>LotRE_ElfSlave</li>
+				</kindDefs>
+				<chance>10.0</chance>
+			</li>
+		</alienslavekinds>
+		<startingColonists>
+		  <li>
+			<pawnKindEntries>
+			  <li>
+				<kindDefs>
+				  <li>LotRE_ElfColonist</li>
+				</kindDefs>
+				<chance>10.0</chance>
+			  </li>
+			</pawnKindEntries>
+			<factionDefs>
+			  <li>PlayerColony</li> 
+			  <li>LotRPlayerColony</li> 
+			</factionDefs>
+		  </li>
+		</startingColonists>
+	  </pawnKindSettings>
+  </AlienRace.RaceSettings>
+  
 
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>LotRE_ElfStandardRace</defName>
@@ -160,40 +198,6 @@
 		</alienPartGenerator>
 		
 	  </generalSettings>
-	  <pawnKindSettings>
-		<alienrefugeekinds>
-			<li>
-				<kindDefs>
-					<li>LotRE_Villager</li>
-				</kindDefs>
-				<chance>10.0</chance>
-			</li>
-		</alienrefugeekinds>
-		<alienslavekinds>
-			<li>
-				<kindDefs>
-					<li>LotRE_ElfSlave</li>
-				</kindDefs>
-				<chance>10.0</chance>
-			</li>
-		</alienslavekinds>
-		<startingColonists>
-		  <li>
-			<pawnKindEntries>
-			  <li>
-				<kindDefs>
-				  <li>LotRE_ElfColonist</li>
-				</kindDefs>
-				<chance>10.0</chance>
-			  </li>
-			</pawnKindEntries>
-			<factionDefs>
-			  <li>PlayerColony</li> 
-			  <li>LotRPlayerColony</li> 
-			</factionDefs>
-		  </li>
-		</startingColonists>
-	  </pawnKindSettings>
 	  <hairSettings>
         <hasHair>true</hasHair>	  
 		<hairTags>
@@ -253,7 +257,7 @@
         <power>5</power>
         <cooldownTime>1.8</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -360,6 +364,27 @@
     </stuffProps>
   </ThingDef>
   
+  <AlienRace.RaceSettings>
+    <defName>LotRE_ElfHalfSettings</defName>
+	  <pawnKindSettings>
+		<startingColonists>
+		  <li>
+			<pawnKindEntries>
+			  <li>
+				<kindDefs>
+				  <li>LotRE_HalfElfColonist</li>
+				</kindDefs>
+				<chance>1.0</chance>
+			  </li>
+			</pawnKindEntries>
+			<factionDefs>
+			  <li>PlayerColony</li> 
+			</factionDefs>
+		  </li>
+		</startingColonists>
+	  </pawnKindSettings>
+  </AlienRace.RaceSettings>
+  
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>LotRE_ElfStandardRaceHalf</defName>
     <label>half-elf</label>
@@ -464,23 +489,7 @@
 		</alienPartGenerator>
 		
 	  </generalSettings>
-	  <pawnKindSettings>
-		<startingColonists>
-		  <li>
-			<pawnKindEntries>
-			  <li>
-				<kindDefs>
-				  <li>LotRE_HalfElfColonist</li>
-				</kindDefs>
-				<chance>1.0</chance>
-			  </li>
-			</pawnKindEntries>
-			<factionDefs>
-			  <li>PlayerColony</li> 
-			</factionDefs>
-		  </li>
-		</startingColonists>
-	  </pawnKindSettings>
+
 	  <hairSettings>
         <hasHair>true</hasHair>	  
 		<hairTags>
@@ -540,7 +549,7 @@
         <power>5</power>
         <cooldownTime>1.8</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
