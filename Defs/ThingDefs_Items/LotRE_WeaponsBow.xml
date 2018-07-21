@@ -3,7 +3,7 @@
 
 <!-- Tier 1 -->
 
-  <ThingDef ParentName="LotRE_BaseProjectileNeolithic">
+  <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>LotRE_Arrow_Mirkwood</defName>
     <label>mirkwood arrow</label>
     <graphicData>
@@ -12,12 +12,14 @@
     </graphicData>
     <projectile>
       <flyOverhead>false</flyOverhead>
-      <damageDef>ArrowHighVelocity</damageDef>
-      <damageAmountBase>12</damageAmountBase>
-      <speed>62</speed>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>17</damageAmountBase>
+      <speed>62</speed>	  
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.225</armorPenetrationBase>
     </projectile>
   </ThingDef>
-  <ThingDef ParentName="LotRE_BaseWeaponNeolithic">
+  <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>LotRE_Bow_Mirkwood</defName>
     <label>mirkwood-elf bow</label>
     <description>Efficient at both close and medium range, this rapid-fire bow provides maximum stopping power for threats to Elven strongholds.</description>
@@ -30,14 +32,13 @@
       <WoodLog>60</WoodLog>
     </costList>
     <statBases>
-      <WorkToMake>18000</WorkToMake>
+      <WorkToMake>10000</WorkToMake>
       <Mass>0.7</Mass>
       <AccuracyTouch>0.96</AccuracyTouch>
       <AccuracyShort>0.87</AccuracyShort>
       <AccuracyMedium>0.77</AccuracyMedium>
       <AccuracyLong>0.60</AccuracyLong>
       <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
-      
     </statBases>
     <weaponTags>
       <li>ElvenRanged</li>
@@ -76,7 +77,7 @@
 
 <!-- Tier 2 -->
 
-  <ThingDef ParentName="LotRE_BaseProjectileNeolithic">
+  <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>LotRE_Arrow_Galadhrim</defName>
     <label>galadhrim arrow</label>
     <graphicData>
@@ -84,13 +85,15 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <flyOverhead>false</flyOverhead>
+	  <flyOverhead>false</flyOverhead>
       <damageDef>ArrowHighVelocity</damageDef>
       <damageAmountBase>26</damageAmountBase>
-      <speed>58</speed>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>40</speed>	  
+      <armorPenetrationBase>0.333</armorPenetrationBase>
     </projectile>
   </ThingDef>
-  <ThingDef ParentName="LotRE_BaseWeaponNeolithic">
+  <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>LotRE_Bow_Galadhrim</defName>
     <label>galadhrim-elf bow</label>
     <description>The longbow preferred by the Galadhrim. A powerful long range weapon.</description>
@@ -116,7 +119,6 @@
       <AccuracyMedium>0.82</AccuracyMedium>
       <AccuracyLong>0.77</AccuracyLong>
       <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
-      
     </statBases>
     <weaponTags>
       <li>ElvenRanged</li>
@@ -136,6 +138,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>LotRE_Arrow_Galadhrim</defaultProjectile>
         <warmupTime>1.5</warmupTime>
+		<minRange>1.5</minRange>
         <range>44</range>
         <soundCast>LotRE_BowLongbow</soundCast>
       </li>
@@ -156,7 +159,7 @@
 
 <!-- Tier 3 -->
 
-  <ThingDef ParentName="LotRE_BaseProjectileNeolithic">
+  <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>LotRE_Arrow_Rivendell</defName>
     <label>rivendell arrow</label>
     <graphicData>
@@ -164,13 +167,15 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-      <flyOverhead>false</flyOverhead>
+	  <flyOverhead>false</flyOverhead>
       <damageDef>ArrowHighVelocity</damageDef>
       <damageAmountBase>28</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <armorPenetrationBase>0.5</armorPenetrationBase>
       <speed>55</speed>
     </projectile>
   </ThingDef>
-  <ThingDef ParentName="LotRE_BaseWeaponNeolithic">
+  <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>LotRE_Bow_Rivendell</defName>
     <label>rivendell-elf bow</label>
     <description>The High Elves of Rivendell utilize an exceptional longbow that has devestating damage and pinpoint accuracy.</description>

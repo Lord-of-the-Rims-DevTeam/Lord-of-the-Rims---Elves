@@ -4,7 +4,7 @@
 <!-- Tier 1 -->
 
 
-	<ThingDef ParentName="LotRE_BaseMeleeWeapon_Sharp_Quality">
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRE_MeleeWeapon_WhiteKnives</defName>
     <label>elf white knives</label>
     <description>Twin white knives provide fast and deadly melee damage to quickly dispatch many foes from the battlefield.</description>
@@ -77,6 +77,9 @@
       </li>
     </tools>
     <recipeMaker>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
       <researchPrerequisite>LongBlades</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
@@ -84,7 +87,7 @@
 <!-- Tier 2 -->
 
 
-	<ThingDef ParentName="LotRE_BaseMeleeWeapon_Sharp_Quality">
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRE_MeleeWeapon_Saber</defName>
     <label>elf saber</label>
     <description>A true weapon to match the Elves. A tall curved yet slender blade with a hilt decorated with precious metals. Useful for graceful sweeping strikes.</description>
@@ -149,14 +152,17 @@
         <cooldownTime>2.3</cooldownTime>
       </li>
     </tools>
-    <recipeMaker>
+    <recipeMaker>      
+	  <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
       <researchPrerequisite>LongBlades</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
 
 <!-- Tier 3 -->
 
-	<ThingDef ParentName="LotRE_BaseMeleeWeapon_Sharp_Quality">
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRE_MeleeWeapon_Lhang</defName>
     <label>elf lhang</label>
     <description>A true weapon to match the Elves. A tall curved yet slender blade with a hilt decorated with precious metals. Useful for graceful sweeping strikes.</description>
@@ -221,6 +227,9 @@
       </li>
     </tools>
     <recipeMaker>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
       <researchPrerequisite>LongBlades</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
