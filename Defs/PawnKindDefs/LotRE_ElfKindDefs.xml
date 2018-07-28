@@ -226,6 +226,7 @@
     <defaultFactionType>LotRE_ElfFactionWood</defaultFactionType>
     <backstoryCategory>LotRE_BackstoryElf</backstoryCategory>
     <combatPower>120</combatPower>
+    <isFighter>true</isFighter>
     <maxGenerationAge>6500</maxGenerationAge>
     <gearHealthRange>
       <min>0.5</min>
@@ -272,6 +273,7 @@
     <defaultFactionType>LotRE_ElfFactionWood</defaultFactionType>
     <backstoryCategory>LotRE_BackstoryElf</backstoryCategory>
     <combatPower>120</combatPower>
+    <isFighter>true</isFighter>
     <maxGenerationAge>6500</maxGenerationAge>
     <gearHealthRange>
       <min>0.5</min>

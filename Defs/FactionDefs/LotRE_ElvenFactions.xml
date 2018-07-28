@@ -71,7 +71,9 @@
       <li>
         <kindDef>Peaceful</kindDef>
         <options>
-		  <LotRE_ElfVillagerWoodland>50</LotRE_ElfVillagerWoodland>
+		  <LotRE_ElfVillagerWoodland>250</LotRE_ElfVillagerWoodland>
+		  <LotRE_ElfGuardWood>100</LotRE_ElfGuardWood>
+		  <LotRE_ElfArcherWood>100</LotRE_ElfArcherWood>
 	    </options>
       </li>
       <li>
@@ -184,7 +186,9 @@
       <li>
         <kindDef>Peaceful</kindDef>
         <options>
-		  <LotRE_ElfVillagerSea>50</LotRE_ElfVillagerSea>
+		  <LotRE_ElfVillagerSea>250</LotRE_ElfVillagerSea>
+		  <LotRE_ElfGuardSea>100</LotRE_ElfGuardSea>
+		  <LotRE_ElfArcherSea>100</LotRE_ElfArcherSea>
 	    </options>
       </li>
       <li>
@@ -298,7 +302,9 @@
       <li>
         <kindDef>Peaceful</kindDef>
         <options>
-		  <LotRE_ElfVillagerHigh>50</LotRE_ElfVillagerHigh>
+		  <LotRE_ElfVillagerHigh>250</LotRE_ElfVillagerHigh>
+		  <LotRE_ElfGuardHigh>100</LotRE_ElfGuardHigh>
+		  <LotRE_ElfArcherHigh>100</LotRE_ElfArcherHigh>
 		</options>
       </li>
       <li>
