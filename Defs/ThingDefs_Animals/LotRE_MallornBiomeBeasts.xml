@@ -124,8 +124,8 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.0</drawSize>
+          <texPath>Things/Pawn/Animal/Deer/Dessicated_DeerBaby</texPath>
+          <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -140,8 +140,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.15</drawSize>
+          <texPath>Things/Pawn/Animal/Deer/Dessicated_DeerBaby</texPath>
+          <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -166,9 +166,13 @@
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.35</drawSize>
+          <texPath>Things/Pawn/Animal/Caribou/Dessicated_Caribou</texPath>
+          <drawSize>5.4</drawSize>
         </dessicatedBodyGraphicData>
+        <femaleDessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Deer/Dessicated_DeerFemale</texPath>
+          <drawSize>2.5</drawSize>
+        </femaleDessicatedBodyGraphicData>
       </li>
     </lifeStages>
   </PawnKindDef>
@@ -196,8 +200,8 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.0</drawSize>
+          <texPath>Things/Pawn/Animal/Deer/Dessicated_DeerBaby</texPath>
+          <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -212,8 +216,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.15</drawSize>
+          <texPath>Things/Pawn/Animal/Deer/Dessicated_DeerBaby</texPath>
+          <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -238,9 +242,13 @@
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.35</drawSize>
+          <texPath>Things/Pawn/Animal/Deer/Dessicated_DeerMale</texPath>
+          <drawSize>5.2</drawSize>
         </dessicatedBodyGraphicData>
+        <femaleDessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Deer/Dessicated_DeerFemale</texPath>
+          <drawSize>2.7</drawSize>
+        </femaleDessicatedBodyGraphicData>
       </li>
     </lifeStages>
   </PawnKindDef>
