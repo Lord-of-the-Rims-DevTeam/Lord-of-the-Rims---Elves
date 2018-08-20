@@ -68,7 +68,7 @@
 	<alienRace>
 	  <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
-	    <pawnsSpecificBackstories>true</pawnsSpecificBackstories>
+	    <allowHumanBios>false</allowHumanBios>
 	    <notXenophobistTowards>
 		  <li>LotRH_HobbitStandardRace</li>
 	    </notXenophobistTowards>
@@ -391,7 +391,7 @@
     <description>Those born between the world of immortality and mortality.</description>
 	<alienRace>
 	  <generalSettings>
-	    <pawnsSpecificBackstories>true</pawnsSpecificBackstories>
+	    <allowHumanBios>false</allowHumanBios>
 		<immuneToAge>true</immuneToAge>
             <forcedRaceTraitEntries>
                 <li>

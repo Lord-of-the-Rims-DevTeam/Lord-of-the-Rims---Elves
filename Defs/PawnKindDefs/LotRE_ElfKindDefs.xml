@@ -6,7 +6,7 @@
 	<race>LotRE_ElfStandardRace</race>
     <label>colonist (elf)</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
-    <backstoryCategory>LotRE_BackstoryElf</backstoryCategory>
+    <backstoryCategories><li>LotRE_BackstoryElf</li></backstoryCategories>
     <chemicalAddictionChance>0.0</chemicalAddictionChance>
     <apparelTags>
       <li>LotRE_ElvenApparel</li>
@@ -23,7 +23,7 @@
 	<race>LotRE_ElfStandardRaceHalf</race>
     <label>colonist (half-elf)</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
-    <backstoryCategory>LotRE_BackstoryElf</backstoryCategory>
+    <backstoryCategories><li>LotRE_BackstoryElf</li></backstoryCategories>
     <chemicalAddictionChance>0.0</chemicalAddictionChance>
     <apparelTags>
       <li>LotRE_ElvenApparel</li>
@@ -40,7 +40,7 @@
 	<race>LotRE_ElfStandardRace</race>
     <label>elf-villager</label>
     <defaultFactionType>LotRE_ElfFactionWood</defaultFactionType>
-    <backstoryCategory>LotRE_BackstoryElf</backstoryCategory>
+    <backstoryCategories><li>LotRE_BackstoryElf</li></backstoryCategories>
     <combatPower>30</combatPower>
     <itemQuality>Poor</itemQuality>
     <isFighter>false</isFighter>
@@ -103,7 +103,7 @@
     <race>LotRE_ElfStandardRace</race>
     <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
     <defaultFactionType>LotRE_ElfFactionWood</defaultFactionType>
-    <backstoryCategory>LotRE_BackstoryElf</backstoryCategory>
+    <backstoryCategories><li>LotRE_BackstoryElf</li></backstoryCategories>
     <itemQuality>Shoddy</itemQuality>
     <backstoryCryptosleepCommonality>0.0</backstoryCryptosleepCommonality>
     <isFighter>false</isFighter>
@@ -224,7 +224,7 @@
     <label>elf-guard</label>
 	<race>LotRE_ElfStandardRace</race>
     <defaultFactionType>LotRE_ElfFactionWood</defaultFactionType>
-    <backstoryCategory>LotRE_BackstoryElf</backstoryCategory>
+    <backstoryCategories><li>LotRE_BackstoryElf</li></backstoryCategories>
     <combatPower>120</combatPower>
     <isFighter>true</isFighter>
     <maxGenerationAge>6500</maxGenerationAge>
@@ -271,7 +271,7 @@
     <label>elf-archer</label>
 	<race>LotRE_ElfStandardRace</race>
     <defaultFactionType>LotRE_ElfFactionWood</defaultFactionType>
-    <backstoryCategory>LotRE_BackstoryElf</backstoryCategory>
+    <backstoryCategories><li>LotRE_BackstoryElf</li></backstoryCategories>
     <combatPower>120</combatPower>
     <isFighter>true</isFighter>
     <maxGenerationAge>6500</maxGenerationAge>
