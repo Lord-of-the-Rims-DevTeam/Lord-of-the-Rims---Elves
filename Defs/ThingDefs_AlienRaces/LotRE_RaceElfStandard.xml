@@ -391,6 +391,7 @@
     <description>Those born between the world of immortality and mortality.</description>
 	<alienRace>
 	  <generalSettings>
+
 	    <allowHumanBios>false</allowHumanBios>
 		<immuneToAge>true</immuneToAge>
             <forcedRaceTraitEntries>
