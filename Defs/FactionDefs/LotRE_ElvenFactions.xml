@@ -26,7 +26,7 @@
 	<fixedName>Woodland Domain of the Elves</fixedName>
 	<settlementNameMaker>LotRE_NamerFactionBaseElfWoodland</settlementNameMaker>
 	<techLevel>Medieval</techLevel>
-	<backstoryCategories><li>Civil</li></backstoryCategories>
+	<backstoryCategories><li>LotRE_BackstoryElf</li></backstoryCategories>
 	<geneticVariance>0.8</geneticVariance>
 	<hairTags>
 		<li>Rural</li>
@@ -148,7 +148,7 @@
 	<fixedName>Coastal Havens of the Elves</fixedName>
 	<settlementNameMaker>LotRE_NamerFactionBaseElfSea</settlementNameMaker>
 	<techLevel>Medieval</techLevel>
-	<backstoryCategories><li>Civil</li></backstoryCategories>
+	<backstoryCategories><li>LotRE_BackstoryElf</li></backstoryCategories>
 	<geneticVariance>0.8</geneticVariance>
 	<hairTags>
 		<li>Rural</li>
@@ -264,7 +264,7 @@
 	<fixedName>High Council of the Elves</fixedName>
 	<settlementNameMaker>LotRE_NamerFactionBaseElfHigh</settlementNameMaker>
 	<techLevel>Neolithic</techLevel>
-	<backstoryCategories><li>Civil</li></backstoryCategories>
+	<backstoryCategories><li>LotRE_BackstoryElf</li></backstoryCategories>
 	<geneticVariance>0.8</geneticVariance>
 	<hairTags>
 		<li>Rural</li>

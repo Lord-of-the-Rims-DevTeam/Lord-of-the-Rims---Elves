@@ -5,7 +5,7 @@
    <!-- Without vegetable garden, Lembas bread is produced with lembas cornmeal. -->
    <RecipeDef>
 	<defName>LotRE_BakeElvishBread</defName>
-	<label>bake two elvish bread loafs</label>
+	<label>bake elvish bread loaf</label>
 	<description>Bake delicious elvish bread, which can be used to make Elven waybread. \n\nMakes 1 loaf.</description>
 	<jobString>Baking elvish bread.</jobString>
 	<workSpeedStat>CookSpeed</workSpeedStat>

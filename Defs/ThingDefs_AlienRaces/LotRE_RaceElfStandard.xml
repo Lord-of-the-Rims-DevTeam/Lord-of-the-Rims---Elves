@@ -69,10 +69,10 @@
 	  <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
 	    <allowHumanBios>false</allowHumanBios>
+		<immuneToAge>true</immuneToAge>
 	    <notXenophobistTowards>
 		  <li>LotRH_HobbitStandardRace</li>
 	    </notXenophobistTowards>
-		<immuneToAge>true</immuneToAge>
             <forcedRaceTraitEntries>
                 <li>
                     <defName>Beauty</defName>
