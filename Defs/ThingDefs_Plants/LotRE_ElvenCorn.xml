@@ -67,6 +67,9 @@
     <graphicData>
       <texPath>Things/Item/Meal/LembasFlour</texPath>
     </graphicData>
+    <thingCategories>
+      <li>PlantFoodRaw</li>
+    </thingCategories>
     <statBases>
       <MarketValue>3.5</MarketValue>
     </statBases>

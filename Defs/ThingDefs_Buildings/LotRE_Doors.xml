@@ -35,7 +35,7 @@
       <texPath>Things/Building/ElvishGate/edmundWulfgarthElvenGateMover</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
-      <drawSize>(3,3)</drawSize>
+      <drawSize>(4,4)</drawSize>
       <damageData>
         <enabled>false</enabled>
       </damageData>
@@ -44,7 +44,7 @@
     <doorFrame>
       <texPath>Things/Building/ElvishGate/edmundWulfgarthElvenGateFrame</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(3,3)</drawSize>
+      <drawSize>(4,4)</drawSize>
       <damageData>
         <enabled>false</enabled>
       </damageData>
@@ -52,7 +52,7 @@
     <doorFrameSplit>
       <texPath>Things/Building/ElvishGate/edmundWulfgarthElvenGateFrameAsync</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(3,3)</drawSize>
+      <drawSize>(4,4)</drawSize>
       <damageData>
         <enabled>false</enabled>
       </damageData>
