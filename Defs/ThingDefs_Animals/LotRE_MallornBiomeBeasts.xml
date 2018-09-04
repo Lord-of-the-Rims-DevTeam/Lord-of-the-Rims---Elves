@@ -68,6 +68,8 @@
       <leatherLabel>lórien deerhide</leatherLabel>
       <leatherInsulation>1.15</leatherInsulation>
 	  -->
+      <nameOnTameChance>1</nameOnTameChance>
+      <trainability>Advanced</trainability>
       <meatLabel>lórien venison</meatLabel>
       <packAnimal>true</packAnimal>
       <wildness>0.65</wildness>

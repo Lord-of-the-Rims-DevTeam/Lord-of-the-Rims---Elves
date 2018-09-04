@@ -267,7 +267,7 @@
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
-      <lifeExpectancy>250</lifeExpectancy>
+      <lifeExpectancy>9999</lifeExpectancy>
 	  <leatherDef>LotRE_Leather_Elf</leatherDef>
 	  <!--
       <leatherColor>(211,194,143)</leatherColor>

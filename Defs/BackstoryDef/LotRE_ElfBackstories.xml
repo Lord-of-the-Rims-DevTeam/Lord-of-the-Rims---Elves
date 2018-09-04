@@ -90,7 +90,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfChildFour</defName>
     <title>Falmari elf-child</title>
-    <baseDescription>[PAWN_nameDef] grew up being taught the ways of art and song. The tales of [PAWN_possessive] people within the artistry had always kindled a great curiosity in [PAWN_possessive] heart. HE would often venture out into the nearby forests seeking a glimpse of the doings of the world outside the safety of the lands of [PAWN_possessive] kin.</baseDescription>
+    <baseDescription>[PAWN_nameDef] grew up being taught the ways of art and song. The tales of [PAWN_possessive] people within the artistry had always kindled a great curiosity in [PAWN_possessive] heart. [PAWN_pronoun] would often venture out into the nearby forests seeking a glimpse of the doings of the world outside the safety of the lands of [PAWN_possessive] kin.</baseDescription>
 	<slot>Childhood</slot>
     <skillGains>
       <li>
@@ -112,7 +112,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfChildFive</defName>
     <title>Nandor elf-child</title>
-    <baseDescription>Growing up in the forest, [PAWN_nameDef] spent [PAWN_possessive] time tending to the deer herds and tree groves, shut away from the outside world. HE knew little of the doings of those that lived beyond the wooden lands of [PAWN_possessive] kin but fostered great knowledge and kinship with the workings of the natural world around [PAWN_objective]. 
+    <baseDescription>Growing up in the forest, [PAWN_nameDef] spent [PAWN_possessive] time tending to the deer herds and tree groves, shut away from the outside world. [PAWN_pronoun] knew little of the doings of those that lived beyond the wooden lands of [PAWN_possessive] kin but fostered great knowledge and kinship with the workings of the natural world around [PAWN_objective]. 
 </baseDescription>
 	<slot>Childhood</slot>
     <skillGains>
@@ -149,7 +149,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultTwo</defName>
     <title>Elf soldier</title>
-    <baseDescription>[PAWN_nameDef] decided that HE was going to take up arms under [PAWN_possessive] lord’s name. [PAWN_pronoun] sought to test himself against stronger and stronger foes wherever he could find them. In doing so, [PAWN_pronoun] became so revered for [PAWN_possessive] abilities in combat that HE eventually became exceedingly proud and conceited.</baseDescription>
+    <baseDescription>[PAWN_nameDef] decided that [PAWN_pronoun] was going to take up arms under [PAWN_possessive] lord’s name. [PAWN_pronoun] sought to test himself against stronger and stronger foes wherever he could find them. In doing so, [PAWN_pronoun] became so revered for [PAWN_possessive] abilities in combat that [PAWN_pronoun] eventually became exceedingly proud and conceited.</baseDescription>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -207,7 +207,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultFive</defName>
     <title>Elf poet</title>
-    <baseDescription>As HE came of age, [PAWN_nameDef] grew quite fond of the art of weaving words. HE strove to become an orator of renown. [PAWN_possessive] charismatic command of language led [PAWN_objective] to be widely sought after, not just for poems, but for the comfort of [PAWN_possessive] company and [PAWN_possessive] skillful negotiations.</baseDescription>
+    <baseDescription>As [PAWN_pronoun] came of age, [PAWN_nameDef] grew quite fond of the art of weaving words. [PAWN_pronoun] strove to become an orator of renown. [PAWN_possessive] charismatic command of language led [PAWN_objective] to be widely sought after, not just for poems, but for the comfort of [PAWN_possessive] company and [PAWN_possessive] skillful negotiations.</baseDescription>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -254,7 +254,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultEight</defName>
     <title>Elf kinslayer</title>
-    <baseDescription>After HE was discovered murdering [PAWN_possessive] kin, [PAWN_nameDef] was exiled by [PAWN_possessive] brothers and sisters. [PAWN_pronoun] vowed revenge, and took to finding, hunting down, and killing [PAWN_possessive] siblings. When [PAWN_possessive] mission was complete, HE wandered the forests in search of more folk, kin or no kin, all would fail to stop [PAWN_objective].</baseDescription>
+    <baseDescription>After [PAWN_pronoun] was discovered murdering [PAWN_possessive] kin, [PAWN_nameDef] was exiled by [PAWN_possessive] brothers and sisters. [PAWN_pronoun] vowed revenge, and took to finding, hunting down, and killing [PAWN_possessive] siblings. When [PAWN_possessive] mission was complete, [PAWN_pronoun] wandered the forests in search of more folk, kin or no kin, all would fail to stop [PAWN_objective].</baseDescription>
     <maleCommonality>2</maleCommonality>
     <femaleCommonality>2</femaleCommonality>
 	<slot>Adulthood</slot>
@@ -286,7 +286,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultNine</defName>
     <title>Elf architect</title>
-    <baseDescription>Taking great interest in the deep history and methodology of Elven architecture, [PAWN_nameDef] spent decades studying how to perform feats of engineering that seemed impossible to the other peoples of the world. [PAWN_pronoun] soon became adept at shaping the world around [PAWN_objective], without destroying it, and HE became an expert Elven architect.</baseDescription>
+    <baseDescription>Taking great interest in the deep history and methodology of Elven architecture, [PAWN_nameDef] spent decades studying how to perform feats of engineering that seemed impossible to the other peoples of the world. [PAWN_pronoun] soon became adept at shaping the world around [PAWN_objective], without destroying it, and [PAWN_pronoun] became an expert Elven architect.</baseDescription>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -303,7 +303,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultTen</defName>
     <title>Yavinildi elf-maiden</title>
-    <baseDescription>[PAWN_nameDef] is one of the Yavinildi. [PAWN_pronoun] is a Maiden of Yavanna, charged with preparing lembas, the elven waybread, by using the lembas crops from the fields. This sacred duty is one HE takes very seriously, and the thought of anything attempting to spoil the purity of [PAWN_possessive] work is one that instantly raises [PAWN_nameDef]'s alarm.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is one of the Yavinildi. [PAWN_pronoun] is a Maiden of Yavanna, charged with preparing lembas, the elven waybread, by using the lembas crops from the fields. This sacred duty is one [PAWN_pronoun] takes very seriously, and the thought of anything attempting to spoil the purity of [PAWN_possessive] work is one that instantly raises [PAWN_nameDef]'s alarm.</baseDescription>
 	<slot>Adulthood</slot>
     <maleCommonality>0</maleCommonality>
     <skillGains>
@@ -321,7 +321,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultEleven</defName>
     <title>Elf healer</title>
-    <baseDescription>[PAWN_nameDef] was a master of the healing arts, and people came from all around in search of [PAWN_possessive] care, whether for the mending of the flesh, simple tonics, salves, and tinctures, or treatment of more serious debilitating diseases. It is even rumored that HE could, with but a touch, restore health to one’s heart and snatch away the aches in one’s limbs.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a master of the healing arts, and people came from all around in search of [PAWN_possessive] care, whether for the mending of the flesh, simple tonics, salves, and tinctures, or treatment of more serious debilitating diseases. It is even rumored that [PAWN_pronoun] could, with but a touch, restore health to one’s heart and snatch away the aches in one’s limbs.</baseDescription>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -334,7 +334,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultTwelve</defName>
     <title>Elf herbalist</title>
-    <baseDescription>[PAWN_nameDef] spent the summer of their lives healing others through nature’s bounties. Some herbs worked better than others, and through countless years of trial and error coupled with the wisdom of [PAWN_possessive] elders, HE became a herbalist.</baseDescription>
+    <baseDescription>[PAWN_nameDef] spent the summer of their lives healing others through nature’s bounties. Some herbs worked better than others, and through countless years of trial and error coupled with the wisdom of [PAWN_possessive] elders, [PAWN_pronoun] became a herbalist.</baseDescription>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
@@ -351,7 +351,7 @@
 <AlienRace.BackstoryDef ParentName="LotRE_BackstoryElf">
     <defName>LotRE_BackstoryElfAdultThirteen</defName>
     <title>Elf lord</title>
-    <baseDescription>For when the strength of MEN fails, an elf-lord stands ready. [PAWN_nameDef] attained the position after decades of serfice and the tragic loss of [PAWN_possessive] lord. At the behest of [PAWN_possessive] kin, HE arose as the ruler who would guide [PAWN_possessive] people for centuries to come.</baseDescription>
+    <baseDescription>For when the strength of MEN fails, an elf-lord stands ready. [PAWN_nameDef] attained the position after decades of serfice and the tragic loss of [PAWN_possessive] lord. At the behest of [PAWN_possessive] kin, [PAWN_pronoun] arose as the ruler who would guide [PAWN_possessive] people for centuries to come.</baseDescription>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>

@@ -13,7 +13,7 @@
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>Arrow</damageDef>
-      <damageAmountBase>17</damageAmountBase>
+      <damageAmountBase>9</damageAmountBase>
       <speed>62</speed>	  
       <stoppingPower>1.5</stoppingPower>
       <armorPenetrationBase>0.225</armorPenetrationBase>
@@ -87,7 +87,7 @@
     <projectile>
 	  <flyOverhead>false</flyOverhead>
       <damageDef>ArrowHighVelocity</damageDef>
-      <damageAmountBase>26</damageAmountBase>
+      <damageAmountBase>19</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>
       <speed>40</speed>	  
       <armorPenetrationBase>0.333</armorPenetrationBase>
@@ -169,7 +169,7 @@
     <projectile>
 	  <flyOverhead>false</flyOverhead>
       <damageDef>ArrowHighVelocity</damageDef>
-      <damageAmountBase>28</damageAmountBase>
+      <damageAmountBase>20</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>
       <armorPenetrationBase>0.5</armorPenetrationBase>
       <speed>55</speed>

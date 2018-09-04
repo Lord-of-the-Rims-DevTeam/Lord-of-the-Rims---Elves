@@ -18,7 +18,7 @@
         <capMods>
           <li>
             <capacity>BloodFiltration</capacity>
-            <postFactor>2.0</postFactor>
+            <postFactor>4.0</postFactor>
           </li>
           <li>
             <capacity>Sight</capacity>
