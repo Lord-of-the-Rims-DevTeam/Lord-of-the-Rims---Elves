@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DoorsExpanded.DoorExpandedDef Name="Elven_Fence_GateA" ParentName="HeronDoorBase">
+    <defName>Elven_Fence_GateA</defName>
+    <label>Elven, decorative fence gate.</label>
+    <thingClass>DoorsExpanded.Building_DoorExpanded</thingClass>
+    <description>Divides rooms. Must be manually opened and closed, which slows people down.</description>
+    <statBases>
+	  <Mass>60</Mass>
+	  <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>850</WorkToBuild>
+    </statBases>
+	<placeWorkers>
+      <li>JecsTools.PlaceWorker_Outline</li>
+    </placeWorkers>
+    <size>(1,1)</size>
+    <rotatable>false</rotatable>
+    <graphicData>
+      <texPath>Things/Building/Door/ElvenFenceGateA_Mover</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,2)</drawSize>
+      <damageData>
+        <!--  no damage marks because they don't move with the door
+        <rect>(0,0.12,1,0.76)</rect>-->
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Door/ElvenFenceGateA_MenuIcon</uiIconPath>
+    <costStuffCount>50</costStuffCount>
+    <designationHotKey>Misc1</designationHotKey>
+    <doorType>Standard</doorType>	
+  </DoorsExpanded.DoorExpandedDef>
+  
+  <DoorsExpanded.DoorExpandedDef Name="Elven_Fence_GateB" ParentName="HeronDoorBase">
+    <defName>Elven_Fence_GateB</defName>
+    <label>Elven, decorative fence gate.</label>
+    <thingClass>DoorsExpanded.Building_DoorExpanded</thingClass>
+    <description>Divides rooms. Must be manually opened and closed, which slows people down.</description>
+    <statBases>
+	  <Mass>60</Mass>
+	  <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>850</WorkToBuild>
+    </statBases>
+	<placeWorkers>
+      <li>JecsTools.PlaceWorker_Outline</li>
+    </placeWorkers>
+    <size>(1,1)</size>
+    <rotatable>true</rotatable>
+    <graphicData>
+      <texPath>Things/Building/Door/ElvenFenceGateB_Mover</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <damageData>
+        <!--  no damage marks because they don't move with the door
+        <rect>(0,0.12,1,0.76)</rect>-->
+        <enabled>true</enabled>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Door/ElvenFenceB_MenuIcon</uiIconPath>
+    <costStuffCount>50</costStuffCount>
+    <designationHotKey>Misc1</designationHotKey>
+    <doorType>Standard</doorType>	
+  </DoorsExpanded.DoorExpandedDef>
+  
+   
+ </Defs>
+
