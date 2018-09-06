@@ -450,8 +450,8 @@
       <li>Metallic</li>
     </stuffCategories>
 	<costList> 
-      <Silver>4</Silver>
-      <Gold>4</Gold> 
+      <Silver>5</Silver>
+      <Gold>5</Gold> 
 	</costList>	
     <statBases>
       <WorkToMake>20000</WorkToMake>
