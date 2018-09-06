@@ -451,7 +451,7 @@
     </stuffCategories>
 	<costList> 
       <Silver>5</Silver>
-      <Gold>5</Gold> 
+      <Gold>4</Gold> 
 	</costList>	
     <statBases>
       <WorkToMake>20000</WorkToMake>
