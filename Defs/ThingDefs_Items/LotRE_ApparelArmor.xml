@@ -140,7 +140,10 @@
       <Mass>0.3</Mass>
       <ArmorRating_Blunt>0.035</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.035</ArmorRating_Sharp>
-      <Insulation_Cold>-3</Insulation_Cold>
+      <Insulation_Cold>3</Insulation_Cold>
+      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
     </statBases>
     <apparel>
       <bodyPartGroups>
