@@ -523,11 +523,11 @@
     <stuffCategories>
       <li>Leathery</li>
     </stuffCategories>
-	<costList>
+	  <costList>
       <Steel>50</Steel>
       <Silver>50</Silver>
       <Gold>50</Gold>
-	</costList>	
+  	</costList>	
     <statBases>
       <WorkToMake>38000</WorkToMake>
       <MaxHitPoints>290</MaxHitPoints>
