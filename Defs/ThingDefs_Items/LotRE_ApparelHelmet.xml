@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
+  <!-- Tier 1 -->
+
   <ThingDef ParentName="ArmorHelmetMakeableBase">
-    <defName>LotRE_ElfApparel_BattleHelmet</defName>
-    <label>ñoldorin-elf helmet</label>
-    <description>A part of the Elven battle armor set used by the skilled Ñoldor, or deep-elves, named for their wisdom.</description>
+    <defName>LotRE_ElfApparel_BattleHelmetWood</defName>
+    <label>silvan-elf helmet</label>
+    <description>A part of the Elven battle armor set used by the Silvan Elves, or wood-elves.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
       <skillRequirements>
-        <Crafting>10</Crafting>
+        <Crafting>5</Crafting>
       </skillRequirements>
     </recipeMaker>
     <graphicData>
@@ -21,19 +23,19 @@
     <stuffCategories>
       <li>Leathery</li>
     </stuffCategories>
-	<costList>
+	  <costList>
       <Steel>20</Steel>
-      <Silver>1</Silver>
-      <Gold>1</Gold>
-	</costList>	
+      <Silver>20</Silver>
+      <Gold>10</Gold>
+	  </costList>	
     <statBases>
-      <WorkToMake>9000</WorkToMake>
-      <MaxHitPoints>130</MaxHitPoints>
-      <Mass>1.1</Mass>
-      <StuffEffectMultiplierArmor>0.82</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+      <WorkToMake>5500</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>2.0</Mass>
+      <StuffEffectMultiplierArmor>0.77</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>2.0</EquipDelay>
+      <EquipDelay>2.9</EquipDelay>
     </statBases>
 		<generateCommonality>2</generateCommonality>
 		<apparel>
@@ -44,64 +46,15 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-		  <tags>
-            <li>LotR_ElfMilitary</li>
-          </tags>
+			<tags>
+        <li>LotR_ElfMilitary</li>
+      </tags>
     </apparel>
   </ThingDef>
 
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
-    <defName>LotRE_ElfApparel_WoodElfCrown</defName>
-    <label>elf crown</label>
-    <description>A crown crafted in the shape of twigs and leaves to symbolize the woodland domain.</description>
-    <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-      <skillRequirements>
-        <Crafting>12</Crafting>
-      </skillRequirements>	  
-    </recipeMaker>
-    <graphicData>
-      <texPath>Things/Pawn/Elf/Apparel/Helmet/sheidulaElfCrown_north</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <costStuffCount>15</costStuffCount>
-    <stuffCategories>
-      <li>Woody</li>
-      <li>Metallic</li>
-    </stuffCategories>
-	<costList>
-      <Gold>2</Gold>
-      <Silver>2</Silver>
-	</costList>	
-    <statBases>
-      <WorkToMake>14000</WorkToMake>
-      <MaxHitPoints>130</MaxHitPoints>
-      <Mass>1.0</Mass>
-      <StuffEffectMultiplierArmor>0.62</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.6</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>2.0</EquipDelay>
-      <SellPriceFactor>2.5</SellPriceFactor>
-    </statBases>
-    <equippedStatOffsets>
-      <SocialImpact>0.3</SocialImpact>
-    </equippedStatOffsets>
-		<generateCommonality>0.01</generateCommonality>
-		<apparel>
-			<bodyPartGroups>
-				<li>FullHead</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Elf/Apparel/Helmet/sheidulaElfCrown</wornGraphicPath>
-			<layers>
-				<li>Overhead</li>
-			</layers>
-			<tags>
-        <li>LotR_ElfKing</li>
-      </tags>
-	  </apparel>
-  </ThingDef>
+  <!-- Tier 2 -->
 
+  
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>LotRE_ElfApparel_BattleHelmetSea</defName>
     <label>falathrim-elf helmet</label>
@@ -169,11 +122,11 @@
     <stuffCategories>
       <li>Leathery</li>
     </stuffCategories>
-	<costList>
+	  <costList>
       <Steel>20</Steel>
       <Silver>20</Silver>
       <Gold>10</Gold>
-	</costList>	
+	  </costList>	
     <statBases>
       <WorkToMake>6000</WorkToMake>
       <MaxHitPoints>120</MaxHitPoints>
@@ -198,15 +151,17 @@
     </apparel>
   </ThingDef>
 
+  <!-- Tier 3 -->
+
   <ThingDef ParentName="ArmorHelmetMakeableBase">
-    <defName>LotRE_ElfApparel_BattleHelmetWood</defName>
-    <label>silvan-elf helmet</label>
-    <description>A part of the Elven battle armor set used by the Silvan Elves, or wood-elves.</description>
+    <defName>LotRE_ElfApparel_BattleHelmet</defName>
+    <label>ñoldorin-elf helmet</label>
+    <description>A part of the Elven battle armor set used by the skilled Ñoldor, or deep-elves, named for their wisdom.</description>
     <techLevel>Medieval</techLevel>
     <recipeMaker>
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
       <skillRequirements>
-        <Crafting>5</Crafting>
+        <Crafting>10</Crafting>
       </skillRequirements>
     </recipeMaker>
     <graphicData>
@@ -218,19 +173,19 @@
     <stuffCategories>
       <li>Leathery</li>
     </stuffCategories>
-	<costList>
+	  <costList>
       <Steel>20</Steel>
-      <Silver>20</Silver>
-      <Gold>10</Gold>
-	</costList>	
+      <Silver>1</Silver>
+      <Gold>1</Gold>
+	  </costList>	
     <statBases>
-      <WorkToMake>5500</WorkToMake>
-      <MaxHitPoints>120</MaxHitPoints>
-      <Mass>2.0</Mass>
-      <StuffEffectMultiplierArmor>0.77</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+      <WorkToMake>9000</WorkToMake>
+      <MaxHitPoints>130</MaxHitPoints>
+      <Mass>1.1</Mass>
+      <StuffEffectMultiplierArmor>0.82</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>2.9</EquipDelay>
+      <EquipDelay>2.0</EquipDelay>
     </statBases>
 		<generateCommonality>2</generateCommonality>
 		<apparel>
@@ -241,12 +196,62 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<tags>
-        <li>LotR_ElfMilitary</li>
-      </tags>
+		  <tags>
+            <li>LotR_ElfMilitary</li>
+          </tags>
     </apparel>
   </ThingDef>
-  
-  
 
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>LotRE_ElfApparel_WoodElfCrown</defName>
+    <label>elf crown</label>
+    <description>A crown crafted in the shape of twigs and leaves to symbolize the woodland domain.</description>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>	  
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Elf/Apparel/Helmet/sheidulaElfCrown_north</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>15</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+      <li>Metallic</li>
+    </stuffCategories>
+	  <costList>
+      <Gold>2</Gold>
+      <Silver>2</Silver>
+	  </costList>	
+    <statBases>
+      <WorkToMake>14000</WorkToMake>
+      <MaxHitPoints>130</MaxHitPoints>
+      <Mass>1.0</Mass>
+      <StuffEffectMultiplierArmor>0.62</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.6</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.0</EquipDelay>
+      <SellPriceFactor>2.5</SellPriceFactor>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.3</SocialImpact>
+    </equippedStatOffsets>
+		<generateCommonality>0.01</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Pawn/Elf/Apparel/Helmet/sheidulaElfCrown</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+        <li>LotR_ElfKing</li>
+      </tags>
+	  </apparel>
+  </ThingDef>
+  
 </Defs>
