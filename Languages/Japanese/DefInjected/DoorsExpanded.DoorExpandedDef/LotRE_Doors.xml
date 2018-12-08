@@ -3,8 +3,8 @@
 
   <!-- Doors -->
 
-  <PH_DoorDoubleElvishGrand.label>エルヴンゲート(2x2)</PH_DoorDoubleElvishGrand.label>
-  <PH_DoorDoubleElvishGrand.description>エルフによって巧みに作られた荘厳な入り口の門扉です。</PH_DoorDoubleElvishGrand.description>
+  <PH_DoorDoubleElvenGrand.label>エルヴンゲート(2x2)</PH_DoorDoubleElvenGrand.label>
+  <PH_DoorDoubleElvenGrand.description>エルフによって巧みに作られた荘厳な入り口の門扉です。</PH_DoorDoubleElvenGrand.description>
 
 
 </LanguageData>

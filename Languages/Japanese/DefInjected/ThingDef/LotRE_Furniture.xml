@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <LotRE_ElvishTable2x2c.label>テーブル(エルフ)(2x2)</LotRE_ElvishTable2x2c.label>
-  <LotRE_ElvishTable2x2c.description>エルフたちが使うエルヴンテーブルです。イスを向き合うように配置すると、ここで食事を摂るようになります。</LotRE_ElvishTable2x2c.description>
-  <LotRE_ElvishTable2x2c_Blueprint.label>テーブル(エルフ)(2x2)(設計)</LotRE_ElvishTable2x2c_Blueprint.label>
-  <LotRE_ElvishTable2x2c_Blueprint_Install.label>テーブル(エルフ)(2x2)(移動先)</LotRE_ElvishTable2x2c_Blueprint_Install.label>
-  <LotRE_ElvishTable2x2c_Frame.label>テーブル(エルフ)(2x2)(施工)</LotRE_ElvishTable2x2c_Frame.label>
-  <LotRE_ElvishTable2x2c_Frame.description>エルフたちが使うエルヴンテーブルです。イスを向き合うように配置すると、ここで食事を摂るようになります。</LotRE_ElvishTable2x2c_Frame.description>
+  <LotRE_ElvenTable2x2c.label>テーブル(エルフ)(2x2)</LotRE_ElvenTable2x2c.label>
+  <LotRE_ElvenTable2x2c.description>エルフたちが使うエルヴンテーブルです。イスを向き合うように配置すると、ここで食事を摂るようになります。</LotRE_ElvenTable2x2c.description>
+  <LotRE_ElvenTable2x2c_Blueprint.label>テーブル(エルフ)(2x2)(設計)</LotRE_ElvenTable2x2c_Blueprint.label>
+  <LotRE_ElvenTable2x2c_Blueprint_Install.label>テーブル(エルフ)(2x2)(移動先)</LotRE_ElvenTable2x2c_Blueprint_Install.label>
+  <LotRE_ElvenTable2x2c_Frame.label>テーブル(エルフ)(2x2)(施工)</LotRE_ElvenTable2x2c_Frame.label>
+  <LotRE_ElvenTable2x2c_Frame.description>エルフたちが使うエルヴンテーブルです。イスを向き合うように配置すると、ここで食事を摂るようになります。</LotRE_ElvenTable2x2c_Frame.description>
 
   <LotRE_Chair.label>エルヴンチェア</LotRE_Chair.label>
   <LotRE_Chair.description>エルヴンテーブルの為の快適で魅力的な椅子です。 このデザイン形式はエルフに好まれます。</LotRE_Chair.description>
