@@ -3,7 +3,7 @@
 
   <ResearchTabDef>
     <defName>LotRE_ElvesTab</defName>
-    <label>Elves, Lacho calad, Drego morn</label>
+    <label>Elves</label>
   </ResearchTabDef>
 
   <ResearchProjectDef Name="ElvenResearch" Abstract="True">
@@ -129,19 +129,19 @@
       <li>LotRE_FurnitureOne</li>
     </prerequisites>
     <researchViewX>0.75</researchViewX>
-    <researchViewY>2</researchViewY>
+    <researchViewY>1.7</researchViewY>
   </ResearchProjectDef>
 
   <ResearchProjectDef ParentName="ElvenResearch">
     <defName>LotRE_FurnitureThree</defName>
-    <label>Elven Lighting</label>
-    <description>Unlock an Elven candelabra for providing light in dark places:\n- Elven candelabra</description>
-    <baseCost>150</baseCost>
+    <label>Regal Elven Furniture</label>
+    <description>Furniture of such high quality it could only be Elven made:\n- Elven royal bed</description>
+    <baseCost>250</baseCost>
     <prerequisites>
-      <li>LotRE_FurnitureTwo</li>
+      <li>LotRE_FurnitureOne</li>
     </prerequisites>
     <researchViewX>0.75</researchViewX>
-    <researchViewY>2</researchViewY>
+    <researchViewY>2.3</researchViewY>
   </ResearchProjectDef>
 
 </Defs>
