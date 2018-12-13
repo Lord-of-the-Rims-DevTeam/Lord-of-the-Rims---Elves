@@ -1,60 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
+
   <!-- Tier 1 -->
 
-  <ThingDef ParentName="ArmorHelmetMakeableBase">
-    <defName>LotRE_ElfApparel_BattleHelmetWood</defName>
-    <label>silvan-elf helmet</label>
-    <description>A part of the Elven battle armor set used by the Silvan Elves, or wood-elves.</description>
-    <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-      <skillRequirements>
-        <Crafting>5</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <graphicData>
-      <texPath>Things/Pawn/Elf/Apparel/Helmet/nackbladElvenHelmetDisplay</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-    </graphicData>
-    <costStuffCount>15</costStuffCount>
-    <stuffCategories>
-      <li>Leathery</li>
-    </stuffCategories>
-	  <costList>
-      <Steel>20</Steel>
-      <Silver>20</Silver>
-      <Gold>10</Gold>
-	  </costList>	
-    <statBases>
-      <WorkToMake>5500</WorkToMake>
-      <MaxHitPoints>120</MaxHitPoints>
-      <Mass>2.0</Mass>
-      <StuffEffectMultiplierArmor>0.77</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>2.9</EquipDelay>
-    </statBases>
-		<generateCommonality>2</generateCommonality>
-		<apparel>
-			<bodyPartGroups>
-				<li>FullHead</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Elf/Apparel/Helmet/nackbladElvenHelmet</wornGraphicPath>
-			<layers>
-				<li>Overhead</li>
-			</layers>
-			<tags>
-        <li>LotR_ElfMilitary</li>
-      </tags>
-    </apparel>
-  </ThingDef>
-
-  <!-- Tier 2 -->
-
-  
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>LotRE_ElfApparel_BattleHelmetSea</defName>
     <label>falathrim-elf helmet</label>
@@ -65,6 +13,7 @@
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
+      <researchPrerequisite>LotRE_ArmorTwo</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Elf/Apparel/Helmet/nackbladElvenHelmetDisplay</texPath>
@@ -87,20 +36,72 @@
     <equippedStatOffsets>
       <MoveSpeed>-0.04</MoveSpeed>
     </equippedStatOffsets>
-		<generateCommonality>2</generateCommonality>
-		<apparel>
-			<bodyPartGroups>
-				<li>FullHead</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Elf/Apparel/Helmet/nackbladElvenHelmet</wornGraphicPath>
-			<layers>
-				<li>Overhead</li>
-			</layers>
-			<tags>
+    <generateCommonality>2</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Elf/Apparel/Helmet/nackbladElvenHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
         <li>LotR_ElfMilitary</li>
       </tags>
     </apparel>
   </ThingDef>
+
+  <ThingDef ParentName="ArmorHelmetMakeableBase">
+    <defName>LotRE_ElfApparel_BattleHelmetWood</defName>
+    <label>silvan-elf helmet</label>
+    <description>A part of the Elven battle armor set used by the Silvan Elves, or wood-elves.</description>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>LotRE_ArmorTwo</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Elf/Apparel/Helmet/nackbladElvenHelmetDisplay</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costStuffCount>15</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costList>
+      <Steel>20</Steel>
+      <Silver>20</Silver>
+      <Gold>10</Gold>
+    </costList>
+    <statBases>
+      <WorkToMake>5500</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>2.0</Mass>
+      <StuffEffectMultiplierArmor>0.77</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>2.9</EquipDelay>
+    </statBases>
+    <generateCommonality>2</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Elf/Apparel/Helmet/nackbladElvenHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>LotR_ElfMilitary</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Tier 2 -->
 
   <ThingDef ParentName="ArmorHelmetMakeableBase">
     <defName>LotRE_ElfApparel_BattleHelmetTree</defName>
@@ -112,6 +113,7 @@
       <skillRequirements>
         <Crafting>7</Crafting>
       </skillRequirements>
+      <researchPrerequisite>LotRE_ArmorThree</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Elf/Apparel/Helmet/painlessVikingGaladhrimHelm_north</texPath>
@@ -122,11 +124,11 @@
     <stuffCategories>
       <li>Leathery</li>
     </stuffCategories>
-	  <costList>
+    <costList>
       <Steel>20</Steel>
       <Silver>20</Silver>
       <Gold>10</Gold>
-	  </costList>	
+    </costList>
     <statBases>
       <WorkToMake>6000</WorkToMake>
       <MaxHitPoints>120</MaxHitPoints>
@@ -136,16 +138,16 @@
       <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2.5</EquipDelay>
     </statBases>
-		<generateCommonality>2</generateCommonality>
-		<apparel>
-			<bodyPartGroups>
-				<li>FullHead</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Elf/Apparel/Helmet/painlessVikingGaladhrimHelm</wornGraphicPath>
-			<layers>
-				<li>Overhead</li>
-			</layers>
-			<tags>
+    <generateCommonality>2</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Elf/Apparel/Helmet/painlessVikingGaladhrimHelm</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
         <li>LotR_ElfMilitary</li>
       </tags>
     </apparel>
@@ -163,6 +165,7 @@
       <skillRequirements>
         <Crafting>10</Crafting>
       </skillRequirements>
+      <researchPrerequisite>LotRE_ArmorFour</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Elf/Apparel/Helmet/nackbladElvenHelmetDisplay</texPath>
@@ -173,11 +176,11 @@
     <stuffCategories>
       <li>Leathery</li>
     </stuffCategories>
-	  <costList>
+    <costList>
       <Steel>20</Steel>
       <Silver>1</Silver>
       <Gold>1</Gold>
-	  </costList>	
+    </costList>
     <statBases>
       <WorkToMake>9000</WorkToMake>
       <MaxHitPoints>130</MaxHitPoints>
@@ -187,18 +190,18 @@
       <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2.0</EquipDelay>
     </statBases>
-		<generateCommonality>2</generateCommonality>
-		<apparel>
-			<bodyPartGroups>
-				<li>FullHead</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Elf/Apparel/Helmet/nackbladElvenHelmet</wornGraphicPath>
-			<layers>
-				<li>Overhead</li>
-			</layers>
-		  <tags>
-            <li>LotR_ElfMilitary</li>
-          </tags>
+    <generateCommonality>2</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Elf/Apparel/Helmet/nackbladElvenHelmet</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>LotR_ElfMilitary</li>
+      </tags>
     </apparel>
   </ThingDef>
 
@@ -213,7 +216,8 @@
       <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
       <skillRequirements>
         <Crafting>12</Crafting>
-      </skillRequirements>	  
+      </skillRequirements>
+      <researchPrerequisite>LotRE_ArmorFour</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Elf/Apparel/Helmet/sheidulaElfCrown_north</texPath>
@@ -224,10 +228,10 @@
       <li>Woody</li>
       <li>Metallic</li>
     </stuffCategories>
-	  <costList>
+    <costList>
       <Gold>2</Gold>
       <Silver>2</Silver>
-	  </costList>	
+    </costList>
     <statBases>
       <WorkToMake>14000</WorkToMake>
       <MaxHitPoints>130</MaxHitPoints>
@@ -241,19 +245,19 @@
     <equippedStatOffsets>
       <SocialImpact>0.3</SocialImpact>
     </equippedStatOffsets>
-		<generateCommonality>0.01</generateCommonality>
-		<apparel>
-			<bodyPartGroups>
-				<li>FullHead</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Elf/Apparel/Helmet/sheidulaElfCrown</wornGraphicPath>
-			<layers>
-				<li>Overhead</li>
-			</layers>
-			<tags>
+    <generateCommonality>0.01</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Elf/Apparel/Helmet/sheidulaElfCrown</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
         <li>LotR_ElfKing</li>
       </tags>
-	  </apparel>
+    </apparel>
   </ThingDef>
-  
+
 </Defs>

@@ -109,5 +109,27 @@
   <!--======== Column 3 =========-->
   <!--======= Elves Furniture ======-->
 
+  <ResearchProjectDef ParentName="ElvenResearch">
+    <defName>LotRE_FurnitureOne</defName>
+    <label>Elven Furniture</label>
+    <description>Elven furniture is just as elegant as Elves themselves:\n- Elven Table (2x2)\n- Elven Chair\n- Elven Lounge Bed</description>
+    <baseCost>250</baseCost>
+    
+    <tags>
+      <li>LotRE_ElfScenario</li>
+    </tags>
+    <researchViewX>0</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="ElvenResearch">
+    <defName>LotRD_FurnitureTwo</defName>
+    <label>Dwarven Lighting</label>
+    <description>Unlock dwarven furniture for providing light in dark places:\n- Dwarven chandelier\n- Dwarven candelabra\n- Dwarven brazier box\n- Dwarven dresser</description>
+    <baseCost>250</baseCost>
+    
+    <researchViewX>0.75</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
 
 </Defs>

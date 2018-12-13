@@ -57,8 +57,10 @@
         </li>
       </options>
     </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>LotRE_ArmorOne</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
-
 
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>LotRE_Apparel_CapeCoastal</defName>
@@ -118,10 +120,13 @@
         </li>
       </options>
     </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>LotRE_ArmorOne</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <!-- Elf Robes -->
-    
+
   <ThingDef ParentName="ArmorSmithableBase">
     <defName>LotRE_ElfApparel_SimpleRobeWoodland</defName>
     <label>elf-robe (woodland)</label>
@@ -138,8 +143,8 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-			<MaxHitPoints>120</MaxHitPoints>
-			<WorkToMake>7500</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>7500</WorkToMake>
       <Mass>0.3</Mass>
       <ArmorRating_Blunt>0.035</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.035</ArmorRating_Sharp>
@@ -152,7 +157,7 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
-		<li>Arms</li>
+        <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Elf/Apparel/Robe/Robe</wornGraphicPath>
@@ -179,8 +184,10 @@
         </li>
       </options>
     </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>LotRE_ArmorOne</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
-
 
   <ThingDef ParentName="ArmorSmithableBase">
     <defName>LotRE_ElfApparel_SimpleRobeSea</defName>
@@ -210,7 +217,7 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
-		<li>Arms</li>
+        <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Elf/Apparel/Robe/Robe</wornGraphicPath>
@@ -237,8 +244,10 @@
         </li>
       </options>
     </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>LotRE_ArmorOne</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
-
 
   <ThingDef ParentName="ArmorSmithableBase">
     <defName>LotRE_ElfApparel_SimpleRobeHigh</defName>
@@ -263,12 +272,12 @@
       <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1.5</EquipDelay>
-	  </statBases>
+    </statBases>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
-		<li>Arms</li>
+        <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Elf/Apparel/Robe/Robe</wornGraphicPath>
@@ -282,22 +291,25 @@
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
-		  <!-- Primrose (Sandy Beach color) -->
+          <!-- Primrose (Sandy Beach color) -->
           <weight>10</weight>
           <only>RGBA(0.92,0.88,0.6,1)</only>
         </li>
         <li>
-		  <!-- Just Right (Red Sandy Beach color) -->
+          <!-- Just Right (Red Sandy Beach color) -->
           <weight>10</weight>
           <only>RGBA(0.91,0.80,0.68,1)</only>
         </li>
         <li>
-		  <!-- Aths Special (Nearly white beach color) -->
+          <!-- Aths Special (Nearly white beach color) -->
           <weight>10</weight>
           <only>RGBA(0.92,0.9,0.8,1)</only>
         </li>
       </options>
     </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>LotRE_ArmorOne</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <!-- Elf Armors -->
@@ -313,6 +325,7 @@
       <skillRequirements>
         <Crafting>10</Crafting>
       </skillRequirements>
+      <researchPrerequisite>LotRE_ArmorTwo</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmorDisplay</texPath>
@@ -342,29 +355,28 @@
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
-		<generateCommonality>2</generateCommonality>
-		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
+    <generateCommonality>2</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
         <li>Neck</li>
-				<li>Shoulders</li>
-				<li>Arms</li>
-				<li>Legs</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmor</wornGraphicPath>
-			<layers>
-				<li>Middle</li>
-				<li>Shell</li>
-			</layers>
-			<tags>
-			  <li>LotR_ElfMilitary</li>
-			</tags>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmor</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>LotR_ElfMilitary</li>
+      </tags>
       <defaultOutfitTags>
         <li>LotR_ElfWarrior</li>
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
-
 
   <ThingDef ParentName="ArmorSmithableBase">
     <defName>LotRE_ElfApparel_BattleArmorWood</defName>
@@ -376,6 +388,7 @@
       <skillRequirements>
         <Crafting>10</Crafting>
       </skillRequirements>
+      <researchPrerequisite>LotRE_ArmorTwo</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmorDisplay</texPath>
@@ -405,23 +418,23 @@
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
-		<generateCommonality>2</generateCommonality>
-		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
+    <generateCommonality>2</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
         <li>Neck</li>
-				<li>Shoulders</li>
-				<li>Arms</li>
-				<li>Legs</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmor</wornGraphicPath>
-			<layers>
-				<li>Middle</li>
-				<li>Shell</li>
-			</layers>
-			<tags>
-			  <li>LotR_ElfMilitary</li>
-			</tags>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmor</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>LotR_ElfMilitary</li>
+      </tags>
       <defaultOutfitTags>
         <li>LotR_ElfWarrior</li>
       </defaultOutfitTags>
@@ -440,6 +453,7 @@
       <skillRequirements>
         <Crafting>13</Crafting>
       </skillRequirements>
+      <researchPrerequisite>LotRE_ArmorThree</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Elf/Apparel/Armor/painlessVikingGaladhrim_Male_north</texPath>
@@ -454,10 +468,10 @@
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-    <costList> 
+    <costList>
       <Silver>4</Silver>
-      <Gold>4</Gold> 
-	  </costList>	
+      <Gold>4</Gold>
+    </costList>
     <statBases>
       <WorkToMake>20000</WorkToMake>
       <MaxHitPoints>250</MaxHitPoints>
@@ -473,23 +487,23 @@
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
-		<generateCommonality>2</generateCommonality>
-		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
+    <generateCommonality>2</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
         <li>Neck</li>
-				<li>Shoulders</li>
-				<li>Arms</li>
-				<li>Legs</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/painlessVikingGaladhrim</wornGraphicPath>
-			<layers>
-				<li>Middle</li>
-				<li>Shell</li>
-			</layers>
-			<tags>
-			  <li>LotR_ElfMilitary</li>
-			</tags>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/painlessVikingGaladhrim</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>LotR_ElfMilitary</li>
+      </tags>
       <defaultOutfitTags>
         <li>LotR_ElfWarrior</li>
       </defaultOutfitTags>
@@ -498,7 +512,7 @@
 
   <!-- Tier 3 -->
 
-	<ThingDef ParentName="ArmorSmithableBase">
+  <ThingDef ParentName="ArmorSmithableBase">
     <defName>LotRE_ElfApparel_BattleArmor</defName>
     <label>ñoldorin-elf armor</label>
     <description>Excellent reinforced leather armor laid with fine metals make the finest Elven battle armor for the Ñoldor, a valiant group of elves named the deep-elves for their wisdom and also named sword-elves for their skills in combat.</description>
@@ -508,6 +522,7 @@
       <skillRequirements>
         <Crafting>16</Crafting>
       </skillRequirements>
+      <researchPrerequisite>LotRE_ArmorFour</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmorDisplay</texPath>
@@ -523,11 +538,11 @@
     <stuffCategories>
       <li>Leathery</li>
     </stuffCategories>
-	  <costList>
+    <costList>
       <Steel>50</Steel>
       <Silver>50</Silver>
       <Gold>50</Gold>
-  	</costList>	
+    </costList>
     <statBases>
       <WorkToMake>38000</WorkToMake>
       <MaxHitPoints>290</MaxHitPoints>
@@ -543,23 +558,23 @@
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
-		<generateCommonality>2</generateCommonality>
-		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
+    <generateCommonality>2</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
         <li>Neck</li>
-				<li>Shoulders</li>
-				<li>Arms</li>
-				<li>Legs</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmor</wornGraphicPath>
-			<layers>
-				<li>Middle</li>
-				<li>Shell</li>
-			</layers>
-			<tags>
-			  <li>LotR_ElfMilitary</li>
-			</tags>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmor</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>LotR_ElfMilitary</li>
+      </tags>
       <defaultOutfitTags>
         <li>LotR_ElfWarrior</li>
       </defaultOutfitTags>

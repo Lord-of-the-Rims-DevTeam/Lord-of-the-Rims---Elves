@@ -8,7 +8,9 @@
 		<label>elf buckler</label>
 		<description>A nimble shield commonly used among the elves.</description>
 		<equipmentType>None</equipmentType>
-		<weaponTags><li>LotRE_ElvenShieldTier1</li></weaponTags>
+		<weaponTags>
+			<li>LotRE_ElvenShieldTier1</li>
+		</weaponTags>
 		<graphicData>
 			<texPath>Things/Pawn/Elf/Apparel/Shields/sheidulaElfShield</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -17,15 +19,14 @@
 		<techLevel>Medieval</techLevel>
 		<costStuffCount>50</costStuffCount>
 		<stuffCategories>
-		  <li>Leathery</li>
-		  <li>Metallic</li>
-		  <li>Woody</li>
+			<li>Leathery</li>
+			<li>Metallic</li>
+			<li>Woody</li>
 		</stuffCategories>
 		<statBases>
 			<WorkToMake>7500</WorkToMake>
 			<MaxHitPoints>50</MaxHitPoints>
 			<Mass>1</Mass>
-			
 		</statBases>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>-0.4</ShootingAccuracyPawn>
@@ -53,7 +54,7 @@
 				<!-- Blocking sytstem (Optional???) -->
 				<canBlockRanged>true</canBlockRanged>
 				<canBlockMelee>true</canBlockMelee>
-				<meleeBlockChanceFactor>5.0</meleeBlockChanceFactor> <!-- Default: 1.0 == 100% -->
+				<meleeBlockChanceFactor>5.0</meleeBlockChanceFactor>				<!-- Default: 1.0 == 100% -->
 				<rangedBlockChanceFactor>0.3</rangedBlockChanceFactor>
 				<!-- Shield damage system (Optional) -->
 				<shieldTakeDamage>true</shieldTakeDamage>
@@ -85,6 +86,9 @@
 				<cooldownTime>2.0</cooldownTime>
 			</li>
 		</tools>
+		<recipeMaker>
+			<researchPrerequisite>LotRE_ArmorTwo</researchPrerequisite>
+		</recipeMaker>
 	</ThingDef>
 
 	<!-- Tier 2 -->
@@ -94,7 +98,9 @@
 		<label>ñoldorin-elf shield</label>
 		<description>Shield commonly used alongside the armor of the Elves.</description>
 		<equipmentType>None</equipmentType>
-		<weaponTags><li>LotRE_ElvenShieldTier3</li></weaponTags>
+		<weaponTags>
+			<li>LotRE_ElvenShieldTier3</li>
+		</weaponTags>
 		<graphicData>
 			<texPath>Things/Pawn/Elf/Apparel/Shields/sheidulaElfShield</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -103,20 +109,19 @@
 		<techLevel>Medieval</techLevel>
 		<costStuffCount>50</costStuffCount>
 		<stuffCategories>
-		  <li>Leathery</li>
-		  <li>Metallic</li>
-		  <li>Woody</li>
+			<li>Leathery</li>
+			<li>Metallic</li>
+			<li>Woody</li>
 		</stuffCategories>
 		<costList>
-		  <Steel>50</Steel>
-		  <Silver>1</Silver>
-		  <Gold>1</Gold>
-		</costList>	
+			<Steel>50</Steel>
+			<Silver>1</Silver>
+			<Gold>1</Gold>
+		</costList>
 		<statBases>
 			<WorkToMake>10000</WorkToMake>
 			<MaxHitPoints>200</MaxHitPoints>
 			<Mass>1.25</Mass>
-			
 		</statBases>
 		<equippedStatOffsets>
 			<ShootingAccuracyPawn>-0.6</ShootingAccuracyPawn>
@@ -144,7 +149,7 @@
 				<!-- Blocking sytstem (Optional???) -->
 				<canBlockRanged>true</canBlockRanged>
 				<canBlockMelee>true</canBlockMelee>
-				<meleeBlockChanceFactor>10.0</meleeBlockChanceFactor> <!-- Default: 1.0 == 100% -->
+				<meleeBlockChanceFactor>10.0</meleeBlockChanceFactor>				<!-- Default: 1.0 == 100% -->
 				<rangedBlockChanceFactor>0.5</rangedBlockChanceFactor>
 				<!-- Shield damage system (Optional) -->
 				<shieldTakeDamage>true</shieldTakeDamage>
@@ -176,6 +181,9 @@
 				<cooldownTime>2.0</cooldownTime>
 			</li>
 		</tools>
+		<recipeMaker>
+			<researchPrerequisite>LotRE_ArmorFour</researchPrerequisite>
+		</recipeMaker>
 	</ThingDef>
 
 </Defs>
