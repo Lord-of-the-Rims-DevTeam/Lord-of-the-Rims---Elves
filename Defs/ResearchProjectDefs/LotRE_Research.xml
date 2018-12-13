@@ -3,12 +3,12 @@
 
   <ResearchTabDef>
     <defName>LotRE_ElvesTab</defName>
-	<label>Elves, Lacho calad, Drego morn</label>
+    <label>Elves, Lacho calad, Drego morn</label>
   </ResearchTabDef>
 
   <ResearchProjectDef Name="ElvenResearch" Abstract="True">
-	<techLevel>Neolithic</techLevel>
-	<tab>LotRE_ElvesTab</tab>
+    <techLevel>Neolithic</techLevel>
+    <tab>LotRE_ElvesTab</tab>
   </ResearchProjectDef>
 
   <ResearchProjectTagDef>
@@ -53,10 +53,10 @@
     <researchViewX>1.5</researchViewX>
     <researchViewY>0</researchViewY>
   </ResearchProjectDef>
-  
+
   <!--======== Column 2 =========-->
   <!--======= Elves Armor ======-->
-  
+
   <ResearchProjectDef ParentName="ElvenResearch">
     <defName>LotRE_ArmorOne</defName>
     <label>Apparel of the Quendi</label>
@@ -73,7 +73,7 @@
     <defName>LotRE_ArmorTwo</defName>
     <label>Buckler and Armor Smithing</label>
     <description>Prepare your Elves with armor and helmets for the horrors of war:\n- Falathrim-Elf Armor and Helmet\n- Silvan-Elf Armor and Helmet\n- Elf Buckler</description>
-    <baseCost>250</baseCost>                                                 
+    <baseCost>250</baseCost>
     <prerequisites>
       <li>LotRE_ArmorOne</li>
     </prerequisites>
@@ -86,7 +86,7 @@
     <label>Armor of the Eldar</label>
     <description>Protect your Elves with apparel of incredible elven quality:\n- Galadhrim-Elf Armor and Helmet</description>
     <baseCost>500</baseCost>
-    
+
     <prerequisites>
       <li>LotRE_ArmorTwo</li>
     </prerequisites>
@@ -114,7 +114,6 @@
     <label>Elven Furniture</label>
     <description>Elven furniture is just as elegant as Elves themselves:\n- Elven Table (2x2)\n- Elven Chair\n- Elven Lounge Bed</description>
     <baseCost>250</baseCost>
-    
     <tags>
       <li>LotRE_ElfScenario</li>
     </tags>
@@ -127,7 +126,6 @@
     <label>Dwarven Lighting</label>
     <description>Unlock dwarven furniture for providing light in dark places:\n- Dwarven chandelier\n- Dwarven candelabra\n- Dwarven brazier box\n- Dwarven dresser</description>
     <baseCost>250</baseCost>
-    
     <researchViewX>0.75</researchViewX>
     <researchViewY>2</researchViewY>
   </ResearchProjectDef>
