@@ -259,6 +259,9 @@
       </li>
     </comps>
     <designationCategory>Furniture</designationCategory>
+    <recipeMaker>
+      <researchPrerequisite>LotRE_FurnitureTwo</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <!-- Tier 3 -->
@@ -318,9 +321,9 @@
     <castEdgeShadows>True</castEdgeShadows>
     <designationHotKey>Misc4</designationHotKey>
     <techLevel>Medieval</techLevel>
-    <researchPrerequisites>
-      <li>ComplexFurniture</li>
-    </researchPrerequisites>
+    <recipeMaker>
+      <researchPrerequisite>LotRE_FurnitureThree</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
 </Defs>
