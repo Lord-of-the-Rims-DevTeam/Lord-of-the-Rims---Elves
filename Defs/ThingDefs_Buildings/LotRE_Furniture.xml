@@ -35,7 +35,7 @@
   </ThingDef>
 
   <ThingDef ParentName="BedWithQualityBase">
-    <defName>LotRE_ElvishBed</defName>
+    <defName>LotRE_ElvenBed</defName>
     <label>Elven lounge bed</label>
     <description>A cushioned lounge for resting, these Elven beds are suited for weary souls in much need of rest from the weight of the mortal world.</description>
     <graphicData>
