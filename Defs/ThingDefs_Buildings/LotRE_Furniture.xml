@@ -4,10 +4,10 @@
   <!-- Tier 1 -->
 
   <ThingDef ParentName="TableGatherSpotBase">
-    <defName>LotRE_ElvenTable2x2c</defName>
+    <defName>LotRE_ElvishTable2x2c</defName>
     <label>Elven table (2x2)</label>
     <graphicData>
-      <texPath>Things/Building/ElvenTable/trisscarElvenTable</texPath>
+      <texPath>Things/Building/ElvisTable/trisscarElvishTable</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2.2,2.2)</drawSize>
       <shaderType>CutoutComplex</shaderType>
@@ -39,7 +39,7 @@
     <label>Elven lounge bed</label>
     <description>A cushioned lounge for resting, these Elven beds are suited for weary souls in much need of rest from the weight of the mortal world.</description>
     <graphicData>
-      <texPath>Things/Building/ElvenBed/trisscarElvenSingleBed</texPath>
+      <texPath>Things/Building/ElvishBed/trisscarElvishSingleBed</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(2.5,2.5)</drawSize>
@@ -92,7 +92,7 @@
     <defName>LotRE_Chair</defName>
     <label>Elven Chair</label>
     <graphicData>
-      <texPath>Things/Building/ElvenChair/trisscarElvenChair</texPath>
+      <texPath>Things/Building/ElvishChair/trisscarElvishChair</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(3,3)</drawSize>
       <shaderType>CutoutComplex</shaderType>
@@ -142,7 +142,7 @@
     <label>elven candelabra</label>
     <description>A mount for wax candles to light an area. Can be automatically refueled with wax. Produces a small amount of heat.</description>
     <graphicData>
-      <texPath>Things/Building/ElvenCandelabra/jecrellElvenCandelabra</texPath>
+      <texPath>Things/Building/ElvishCandelabra/jecrellElvishCandelabra</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawRotated>false</drawRotated>
       <shaderType>CutoutComplex</shaderType>
@@ -272,7 +272,7 @@
     <description>A statue of Estë helps soothe souls in this Elven bed. It is very comfy and beautiful. Fits two.</description>
     <altitudeLayer>BuildingOnTop</altitudeLayer>
     <graphicData>
-      <texPath>Things/Building/ElvenRoyalBed/ElvenRoyalBed</texPath>
+      <texPath>Things/Building/ElvishRoyalBed/ElvenRoyalBed</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(6.5,6.5)</drawSize>
