@@ -7,7 +7,7 @@
     <defName>LotRE_ElvishTable2x2c</defName>
     <label>Elven table (2x2)</label>
     <graphicData>
-      <texPath>Things/Building/ElvisTable/trisscarElvishTable</texPath>
+      <texPath>Things/Building/ElvishTable/trisscarElvishTable</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2.2,2.2)</drawSize>
       <shaderType>CutoutComplex</shaderType>
