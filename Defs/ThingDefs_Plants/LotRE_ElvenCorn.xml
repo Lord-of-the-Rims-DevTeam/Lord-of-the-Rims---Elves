@@ -82,8 +82,8 @@
   </ThingDef>
   
    <ThingDef ParentName="MealRottable">
-      <defName>LotRE_ElvenBread</defName>
-      <label>Elven bread</label>
+      <defName>LotRE_ElvishBread</defName>
+      <label>Elvish bread</label>
       <description>An elegantly baked loaf of bread made from the golden ears of the lembas plant.</description>
       <graphicData>
       <texPath>Things/Item/Meal/ElfBread</texPath>
@@ -113,7 +113,7 @@
    <ThingDef ParentName="MealBase">
       <defName>LotRE_LembasWaybread</defName>
       <label>Lembas</label>
-      <description>Specially prepared slices of Elven bread that can last for months.</description>
+      <description>Specially prepared slices of Elvish bread that can last for months.</description>
       <graphicData>
       <texPath>Things/Item/Meal/Lembas</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -150,7 +150,7 @@
   
    <HediffDef>
     <defName>LotRE_HadElfBread</defName>
-    <label>Ate Elven bread.</label>
+    <label>Ate Elvish bread.</label>
     <initialSeverity>1</initialSeverity>
     <hediffClass>HediffWithComps</hediffClass>
     <comps>
@@ -161,7 +161,7 @@
     <stages>
         <li>
           <minSeverity>0</minSeverity>
-          <label>Well Fed: Elven Bread</label>
+          <label>Well Fed: Elvish Bread</label>
           <painFactor>0.9</painFactor>
             <capMods>
               <li>

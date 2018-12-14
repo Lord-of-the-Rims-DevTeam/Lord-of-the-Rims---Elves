@@ -9,7 +9,7 @@
 	    <modName>VGP Garden Gourmet</modName>
 	  </li>
 		<li Class="PatchOperationReplace">
-		  <xpath>*/RecipeDef[defName="LotRE_BakeElvenBread"]/recipeUsers</xpath>
+		  <xpath>*/RecipeDef[defName="LotRE_BakeElvishBread"]/recipeUsers</xpath>
 		  <value>
 		    <recipeUsers>
 		      <li>Oven</li>

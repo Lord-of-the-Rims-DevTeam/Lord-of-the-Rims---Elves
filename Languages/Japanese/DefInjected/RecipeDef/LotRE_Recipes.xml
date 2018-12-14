@@ -3,9 +3,9 @@
 
   <!-- Without vegetable garden, Lembas bread is produced with lembas cornmeal. -->
 
-  <LotRE_BakeElvenBread.label>エルフのパンを焼く</LotRE_BakeElvenBread.label>
-  <LotRE_BakeElvenBread.description>エルフ風のパンを作るのに使うことができる、美味しいエルフのパンを焼くことができます。\n\nパンのローフ(スライスする前の大きな塊)を1つ作ります。</LotRE_BakeElvenBread.description>
-  <LotRE_BakeElvenBread.jobString>エルフのパンを焼成中</LotRE_BakeElvenBread.jobString>
+  <LotRE_BakeElvishBread.label>エルフのパンを焼く</LotRE_BakeElvishBread.label>
+  <LotRE_BakeElvishBread.description>エルフ風のパンを作るのに使うことができる、美味しいエルフのパンを焼くことができます。\n\nパンのローフ(スライスする前の大きな塊)を1つ作ります。</LotRE_BakeElvishBread.description>
+  <LotRE_BakeElvishBread.jobString>エルフのパンを焼成中</LotRE_BakeElvishBread.jobString>
 
   <LotRE_PrepareLembas.label>レンバスの行糧</LotRE_PrepareLembas.label>
   <LotRE_PrepareLembas.description>窮地で非常用食品よりもはるかに役に立つ長持ちするパンやレンバスを用意してください。\n\nレンバスを2つ作成します。</LotRE_PrepareLembas.description>
