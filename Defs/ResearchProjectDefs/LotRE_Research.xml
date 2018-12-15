@@ -3,7 +3,7 @@
 
   <ResearchTabDef>
     <defName>LotRE_ElvesTab</defName>
-    <label>Elves</label>
+    <label>Elves, Quendi</label>
   </ResearchTabDef>
 
   <ResearchProjectDef Name="ElvenResearch" Abstract="True">
@@ -16,11 +16,11 @@
   </ResearchProjectTagDef>
 
   <!--======== Column 1 =========-->
-  <!--======= Elves Weapons ======-->
+  <!--======= Elven Weapons ======-->
 
   <ResearchProjectDef ParentName="ElvenResearch">
     <defName>LotRE_WeaponsOne</defName>
-    <label>Lacho calad!</label>
+    <label>Quendi!</label>
     <description>&lt;i&gt;Elves!&lt;/i&gt;\n\nUnlock only the most simplistic Elven weapons:\n- Elf White Knives\n- Mirkwood-Elf Bow</description>
     <baseCost>250</baseCost>
     <tags>
@@ -32,7 +32,7 @@
 
   <ResearchProjectDef ParentName="ElvenResearch">
     <defName>LotRE_WeaponsTwo</defName>
-    <label>Drego morn!</label>
+    <label>Lacho calad!</label>
     <description>&lt;i&gt;War tools of the Elves!&lt;/i&gt;\n\nUnlock proper Elven weapons:\n- Elf Saber\n- Galadhrim-Elf Bow</description>
     <baseCost>500</baseCost>
     <prerequisites>
@@ -44,7 +44,7 @@
 
   <ResearchProjectDef ParentName="ElvenResearch">
     <defName>LotRE_WeaponsThree</defName>
-    <label>Khazâd ai-mênu!</label>
+    <label>Drego morn!</label>
     <description>&lt;i&gt;The Elves are upon you!&lt;/i&gt;\n\nUnlock weapons worthy of the Firstborn of Middle Earth:\n- Elf Lhang\n- Rivendell-Elf Bow</description>
     <baseCost>750</baseCost>
     <prerequisites>
@@ -55,7 +55,7 @@
   </ResearchProjectDef>
 
   <!--======== Column 2 =========-->
-  <!--======= Elves Armor ======-->
+  <!--======= Elven Armor ======-->
 
   <ResearchProjectDef ParentName="ElvenResearch">
     <defName>LotRE_ArmorOne</defName>
@@ -84,7 +84,7 @@
   <ResearchProjectDef ParentName="ElvenResearch">
     <defName>LotRE_ArmorThree</defName>
     <label>Armor of the Eldar</label>
-    <description>Protect your Elves with apparel of incredible elven quality:\n- Galadhrim-Elf Armor and Helmet</description>
+    <description>Protect your Elves with apparel of incredible Elven quality:\n- Galadhrim-Elf Armor and Helmet</description>
     <baseCost>500</baseCost>
     <prerequisites>
       <li>LotRE_ArmorTwo</li>
@@ -106,7 +106,7 @@
   </ResearchProjectDef>
 
   <!--======== Column 3 =========-->
-  <!--======= Elves Furniture ======-->
+  <!--======= Elven Furniture ======-->
 
   <ResearchProjectDef ParentName="ElvenResearch">
     <defName>LotRE_FurnitureOne</defName>
