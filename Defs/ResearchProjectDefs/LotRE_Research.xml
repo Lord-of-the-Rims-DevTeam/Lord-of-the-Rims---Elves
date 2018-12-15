@@ -144,4 +144,40 @@
     <researchViewY>2.3</researchViewY>
   </ResearchProjectDef>
 
+  <!--======== Column 3 =========-->
+  <!--======= Elven Structures ======-->
+
+  <ResearchProjectDef ParentName="ElvenResearch">
+    <defName>LotRE_StructuresOne</defName>
+    <label>Living Fences</label>
+    <description>Create fences almost as beautiful as the Elves themselves:\n- Elven decorative fence\n- Elven, decorative fence gate</description>
+    <baseCost>400</baseCost>
+    <researchViewX>0</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="ElvenResearch">
+    <defName>LotRE_StructuresTwo</defName>
+    <label>Woodland Hearth</label>
+    <description>Create walls with exquisite Elven details:\n- Elven Carved Wall</description>
+    <baseCost>400</baseCost>
+    <prerequisites>
+      <li>LotRE_StructuresOne</li>
+    </prerequisites>
+    <researchViewX>0.1</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef ParentName="ElvenResearch">
+    <defName>LotRE_StructuresThree</defName>
+    <label>Elven Fortifications</label>
+    <description>Elven made gates are both beautiful and strong:\n- Elven Grand Gate\n- Elven Carved Embrasure</description>
+    <baseCost>700</baseCost>
+    <prerequisites>
+      <li>LotRE_StructuresTwo</li>
+    </prerequisites>
+    <researchViewX>0.2</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+
 </Defs>

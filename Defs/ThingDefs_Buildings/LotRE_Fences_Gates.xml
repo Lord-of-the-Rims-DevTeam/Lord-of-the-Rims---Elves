@@ -7,11 +7,11 @@
     <thingClass>DoorsExpanded.Building_DoorExpanded</thingClass>
     <description>Divides rooms. Must be manually opened and closed, which slows people down.</description>
     <statBases>
-	  <Mass>60</Mass>
-	  <MaxHitPoints>200</MaxHitPoints>
+      <Mass>60</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
       <WorkToBuild>850</WorkToBuild>
     </statBases>
-	<placeWorkers>
+    <placeWorkers>
       <li>JecsTools.PlaceWorker_Outline</li>
     </placeWorkers>
     <size>(1,1)</size>
@@ -29,20 +29,23 @@
     <uiIconPath>Things/Building/Door/ElvenFenceGateA_MenuIcon</uiIconPath>
     <costStuffCount>50</costStuffCount>
     <designationHotKey>Misc1</designationHotKey>
-    <doorType>Standard</doorType>	
+    <doorType>Standard</doorType>
+    <recipeMaker>
+      <researchPrerequisite>LotRE_StructuresOne</researchPrerequisite>
+    </recipeMaker>
   </DoorsExpanded.DoorExpandedDef>
-  
+
   <DoorsExpanded.DoorExpandedDef Name="Elven_Fence_GateB" ParentName="HeronDoorBase">
     <defName>Elven_Fence_GateB</defName>
     <label>Elven, decorative fence gate.</label>
     <thingClass>DoorsExpanded.Building_DoorExpanded</thingClass>
     <description>Divides rooms. Must be manually opened and closed, which slows people down.</description>
     <statBases>
-	  <Mass>60</Mass>
-	  <MaxHitPoints>200</MaxHitPoints>
+      <Mass>60</Mass>
+      <MaxHitPoints>200</MaxHitPoints>
       <WorkToBuild>850</WorkToBuild>
     </statBases>
-	<placeWorkers>
+    <placeWorkers>
       <li>JecsTools.PlaceWorker_Outline</li>
     </placeWorkers>
     <size>(1,1)</size>
@@ -60,9 +63,11 @@
     <uiIconPath>Things/Building/Door/ElvenFenceB_MenuIcon</uiIconPath>
     <costStuffCount>50</costStuffCount>
     <designationHotKey>Misc1</designationHotKey>
-    <doorType>Standard</doorType>	
+    <doorType>Standard</doorType>
+    <recipeMaker>
+      <researchPrerequisite>LotRE_StructuresOne</researchPrerequisite>
+    </recipeMaker>
   </DoorsExpanded.DoorExpandedDef>
-  
-   
- </Defs>
+
+</Defs>
 

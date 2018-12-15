@@ -70,7 +70,9 @@
       </li>
     </damageMultipliers>
     <designationHotKey>Misc3</designationHotKey>
+    <recipeMaker>
+      <researchPrerequisite>LotRE_StructuresOne</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
-  
-  
-  </Defs>
+
+</Defs>

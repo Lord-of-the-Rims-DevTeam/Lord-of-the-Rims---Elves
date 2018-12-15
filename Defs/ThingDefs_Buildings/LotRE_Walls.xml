@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="BuildingBase">
     <defName>LotRE_WallElven</defName>
-    <label>elven carved wall</label>
+    <label>Elven Carved Wall</label>
     <thingClass>Building</thingClass>
     <category>Building</category>
     <description>This carved wall features a vine-like design throughout, reminiscent of woodwork found decorating the rooms of Rivendell.</description>
@@ -70,11 +70,14 @@
       </li>
     </damageMultipliers>
     <designationHotKey>Misc3</designationHotKey>
+    <recipeMaker>
+      <researchPrerequisite>LotRE_StructuresTwo</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
     <defName>LotRE_WallElvenEmbrasure</defName>
-    <label>elven carved embrasure</label>
+    <label>Elven Carved Embrasure</label>
     <thingClass>Building</thingClass>
     <category>Building</category>
     <description>This carved embrasure allows for heavy cover targeting. It features a vine-like design throughout, reminiscent of woodwork found decorating the rooms of Rivendell.</description>
@@ -141,6 +144,9 @@
       </li>
     </damageMultipliers>
     <designationHotKey>Misc3</designationHotKey>
+    <recipeMaker>
+      <researchPrerequisite>LotRE_StructuresThree</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
 </Defs>
