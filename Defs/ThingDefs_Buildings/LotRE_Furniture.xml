@@ -29,9 +29,9 @@
     <size>(2,2)</size>
     <costStuffCount>50</costStuffCount>
     <rotatable>true</rotatable>
-    <recipeMaker>
-      <researchPrerequisite>LotRE_FurnitureOne</researchPrerequisite>
-    </recipeMaker>
+    <researchPrerequisites>
+      <li>LotRE_FurnitureOne</li>
+    </researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="BedWithQualityBase">
@@ -83,9 +83,9 @@
     <castEdgeShadows>False</castEdgeShadows>
     <designationHotKey>Misc2</designationHotKey>
     <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>LotRE_FurnitureOne</researchPrerequisite>
-    </recipeMaker>
+    <researchPrerequisites>
+      <li>LotRE_FurnitureOne</li>
+    </researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="ArtableFurnitureBase">
@@ -130,9 +130,9 @@
     <building>
       <isSittable>true</isSittable>
     </building>
-    <recipeMaker>
-      <researchPrerequisite>LotRE_FurnitureOne</researchPrerequisite>
-    </recipeMaker>
+    <researchPrerequisites>
+      <li>LotRE_FurnitureOne</li>
+    </researchPrerequisites>
   </ThingDef>
 
   <!-- Tier 2 -->
@@ -259,9 +259,9 @@
       </li>
     </comps>
     <designationCategory>Furniture</designationCategory>
-    <recipeMaker>
-      <researchPrerequisite>LotRE_FurnitureTwo</researchPrerequisite>
-    </recipeMaker>
+    <researchPrerequisites>
+      <li>LotRE_FurnitureTwo</li>
+    </researchPrerequisites>
   </ThingDef>
 
   <!-- Tier 3 -->
@@ -321,9 +321,9 @@
     <castEdgeShadows>True</castEdgeShadows>
     <designationHotKey>Misc4</designationHotKey>
     <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <researchPrerequisite>LotRE_FurnitureThree</researchPrerequisite>
-    </recipeMaker>
+    <researchPrerequisites>
+      <li>LotRE_FurnitureThree</li>
+    </researchPrerequisites>
   </ThingDef>
 
 </Defs>
