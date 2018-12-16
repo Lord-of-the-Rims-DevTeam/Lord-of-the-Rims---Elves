@@ -70,9 +70,9 @@
       </li>
     </damageMultipliers>
     <designationHotKey>Misc3</designationHotKey>
-    <recipeMaker>
-      <researchPrerequisite>LotRE_StructuresTwo</researchPrerequisite>
-    </recipeMaker>
+    <researchPrerequisites>
+      <li>LotRE_StructuresTwo</li>
+    </researchPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
@@ -144,9 +144,9 @@
       </li>
     </damageMultipliers>
     <designationHotKey>Misc3</designationHotKey>
-    <recipeMaker>
-      <researchPrerequisite>LotRE_StructuresThree</researchPrerequisite>
-    </recipeMaker>
+    <researchPrerequisites>
+      <li>LotRE_StructuresThree</li>
+    </researchPrerequisites>
   </ThingDef>
 
 </Defs>

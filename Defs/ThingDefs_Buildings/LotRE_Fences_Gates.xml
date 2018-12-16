@@ -30,9 +30,9 @@
     <costStuffCount>50</costStuffCount>
     <designationHotKey>Misc1</designationHotKey>
     <doorType>Standard</doorType>
-    <recipeMaker>
-      <researchPrerequisite>LotRE_StructuresOne</researchPrerequisite>
-    </recipeMaker>
+    <researchPrerequisites>
+      <li>LotRE_StructuresOne</li>
+    </researchPrerequisites>
   </DoorsExpanded.DoorExpandedDef>
 
   <DoorsExpanded.DoorExpandedDef Name="Elven_Fence_GateB" ParentName="HeronDoorBase">
@@ -64,9 +64,9 @@
     <costStuffCount>50</costStuffCount>
     <designationHotKey>Misc1</designationHotKey>
     <doorType>Standard</doorType>
-    <recipeMaker>
-      <researchPrerequisite>LotRE_StructuresOne</researchPrerequisite>
-    </recipeMaker>
+    <researchPrerequisites>
+      <li>LotRE_StructuresOne</li>
+    </researchPrerequisites>
   </DoorsExpanded.DoorExpandedDef>
 
 </Defs>

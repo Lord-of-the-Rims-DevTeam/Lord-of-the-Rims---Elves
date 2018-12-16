@@ -59,9 +59,9 @@
     <doorType>Standard</doorType>
     <fixedPerspective>true</fixedPerspective>
     <rotatesSouth>false</rotatesSouth>
-    <recipeMaker>
-      <researchPrerequisite>LotRE_StructuresThree</researchPrerequisite>
-    </recipeMaker>
+    <researchPrerequisites>
+      <li>LotRE_StructuresThree</li>
+    </researchPrerequisites>
   </DoorsExpanded.DoorExpandedDef>
 
 </Defs>
