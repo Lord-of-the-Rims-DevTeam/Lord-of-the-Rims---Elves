@@ -180,4 +180,16 @@
     <researchViewY>3.3</researchViewY>
   </ResearchProjectDef>
 
+  <!--======== Column 5 =========-->
+  <!--======= Elven Recipes ======-->
+
+  <ResearchProjectDef ParentName="ElvenResearch">
+    <defName>LotRE_RecipesOne</defName>
+    <label></label>
+    <description>Lembas Bread, one bite is enough to fill the stomach of a grown man, or a fourth of a hobbit's:\n- Lembas flour\n- Elven bread loaf\n- Lembas</description>
+    <baseCost>700</baseCost>
+    <researchViewX>0</researchViewX>
+    <researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+
 </Defs>
