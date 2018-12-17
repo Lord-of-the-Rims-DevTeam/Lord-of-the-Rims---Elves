@@ -15,7 +15,7 @@
   <Make_LotRE_Apparel_CapeCoastal.jobString>エルヴンマント(海岸)を裁縫中</Make_LotRE_Apparel_CapeCoastal.jobString>
 
 
-  <!-- Recipe Users: TableMachining -->
+  <!-- Recipe Users: ElectricSmithy, FueledSmithy -->
 
   <Make_LotRE_ElfApparel_SimpleRobeWoodland.label>エルヴンローブ(森)を縫う</Make_LotRE_ElfApparel_SimpleRobeWoodland.label>
   <Make_LotRE_ElfApparel_SimpleRobeWoodland.description>エルヴンローブ(森)を縫う。</Make_LotRE_ElfApparel_SimpleRobeWoodland.description>
@@ -29,10 +29,6 @@
   <Make_LotRE_ElfApparel_SimpleRobeHigh.description>エルヴンローブ(高貴)を縫う。</Make_LotRE_ElfApparel_SimpleRobeHigh.description>
   <Make_LotRE_ElfApparel_SimpleRobeHigh.jobString>エルヴンローブ(高貴)を縫製中</Make_LotRE_ElfApparel_SimpleRobeHigh.jobString>
 
-  <Make_LotRE_ElfApparel_BattleArmor.label>エルヴンアーマー(ノルド)を作る</Make_LotRE_ElfApparel_BattleArmor.label>
-  <Make_LotRE_ElfApparel_BattleArmor.description>エルヴンアーマー(ノルド)を作る。</Make_LotRE_ElfApparel_BattleArmor.description>
-  <Make_LotRE_ElfApparel_BattleArmor.jobString>エルヴンアーマー(ノルド)を作製中</Make_LotRE_ElfApparel_BattleArmor.jobString>
-
   <Make_LotRE_ElfApparel_BattleArmorSea.label>エルヴンアーマー(海岸)を作る</Make_LotRE_ElfApparel_BattleArmorSea.label>
   <Make_LotRE_ElfApparel_BattleArmorSea.description>エルヴンアーマー(海岸)を作る。</Make_LotRE_ElfApparel_BattleArmorSea.description>
   <Make_LotRE_ElfApparel_BattleArmorSea.jobString>エルヴンアーマー(海岸)を作製中</Make_LotRE_ElfApparel_BattleArmorSea.jobString>
@@ -44,6 +40,13 @@
   <Make_LotRE_ElfApparel_BattleArmorWood.label>エルヴンアーマー(森)を作る</Make_LotRE_ElfApparel_BattleArmorWood.label>
   <Make_LotRE_ElfApparel_BattleArmorWood.description>エルヴンアーマー(森)を作る。</Make_LotRE_ElfApparel_BattleArmorWood.description>
   <Make_LotRE_ElfApparel_BattleArmorWood.jobString>エルヴンアーマー(森)を作製中</Make_LotRE_ElfApparel_BattleArmorWood.jobString>
+
+  <Make_LotRE_ElfApparel_BattleArmor.label>エルヴンアーマー(ノルド)を作る</Make_LotRE_ElfApparel_BattleArmor.label>
+  <Make_LotRE_ElfApparel_BattleArmor.description>エルヴンアーマー(ノルド)を作る。</Make_LotRE_ElfApparel_BattleArmor.description>
+  <Make_LotRE_ElfApparel_BattleArmor.jobString>エルヴンアーマー(ノルド)を作製中</Make_LotRE_ElfApparel_BattleArmor.jobString>
+
+
+  <!-- Recipe Users: TableMachining -->
 
   <Make_LotRE_ElfApparel_BattleHelmet.label>エルヴンヘルム(ノルド)を作る</Make_LotRE_ElfApparel_BattleHelmet.label>
   <Make_LotRE_ElfApparel_BattleHelmet.description>エルヴンヘルム(ノルド)を作る。</Make_LotRE_ElfApparel_BattleHelmet.description>
