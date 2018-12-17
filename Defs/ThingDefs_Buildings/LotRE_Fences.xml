@@ -70,7 +70,9 @@
       </li>
     </damageMultipliers>
     <designationHotKey>Misc3</designationHotKey>
+    <researchPrerequisites>
+      <li>LotRE_StructuresOne</li>
+    </researchPrerequisites>
   </ThingDef>
-  
-  
-  </Defs>
+
+</Defs>

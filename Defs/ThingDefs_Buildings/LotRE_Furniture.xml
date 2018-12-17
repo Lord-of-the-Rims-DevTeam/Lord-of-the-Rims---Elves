@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
+
+  <!-- Tier 1 -->
+
   <ThingDef ParentName="TableGatherSpotBase">
     <defName>LotRE_ElvishTable2x2c</defName>
-    <label>elvish table (2x2)</label>
+    <label>Elven table (2x2)</label>
     <graphicData>
       <texPath>Things/Building/ElvishTable/trisscarElvishTable</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2.2,2.2)</drawSize>
-	  <shaderType>CutoutComplex</shaderType>
+      <shaderType>CutoutComplex</shaderType>
       <damageData>
         <rect>(0.05,0.27,1.9,1.73)</rect>
         <cornerTL>Damage/Corner</cornerTL>
@@ -27,16 +29,73 @@
     <size>(2,2)</size>
     <costStuffCount>50</costStuffCount>
     <rotatable>true</rotatable>
+    <researchPrerequisites>
+      <li>LotRE_FurnitureOne</li>
+    </researchPrerequisites>
   </ThingDef>
-  
+
+  <ThingDef ParentName="BedWithQualityBase">
+    <defName>LotRE_ElvenBed</defName>
+    <label>Elven lounge bed</label>
+    <description>A cushioned lounge for resting, these Elven beds are suited for weary souls in much need of rest from the weight of the mortal world.</description>
+    <graphicData>
+      <texPath>Things/Building/ElvishBed/trisscarElvishSingleBed</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(2.5,2.5)</drawSize>
+      <damageData>
+        <rect>(0,0.05,1,1.95)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>EndTable</li>
+          <li>Dresser</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Beauty>2</Beauty>
+      <WorkToBuild>870</WorkToBuild>
+      <Mass>35</Mass>
+      <BedRestEffectiveness>1.2</BedRestEffectiveness>
+      <Comfort>0.8</Comfort>
+      <ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
+      <SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+    </statBases>
+    <size>(1,2)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>30</costStuffCount>
+    <building>
+      <bed_showSleeperBody>true</bed_showSleeperBody>
+      <bed_healPerDay>3</bed_healPerDay>
+    </building>
+    <fillPercent>0.4</fillPercent>
+    <pathCost>40</pathCost>
+    <staticSunShadowHeight>0.17</staticSunShadowHeight>
+    <castEdgeShadows>False</castEdgeShadows>
+    <designationHotKey>Misc2</designationHotKey>
+    <techLevel>Medieval</techLevel>
+    <researchPrerequisites>
+      <li>LotRE_FurnitureOne</li>
+    </researchPrerequisites>
+  </ThingDef>
+
   <ThingDef ParentName="ArtableFurnitureBase">
     <defName>LotRE_Chair</defName>
-    <label>elven chair</label>
+    <label>Elven Chair</label>
     <graphicData>
       <texPath>Things/Building/ElvishChair/trisscarElvishChair</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(3,3)</drawSize>
-	  <shaderType>CutoutComplex</shaderType>
+      <shaderType>CutoutComplex</shaderType>
       <shadowData>
         <volume>(0.3, 0.6, 0.3)</volume>
       </shadowData>
@@ -71,8 +130,13 @@
     <building>
       <isSittable>true</isSittable>
     </building>
+    <researchPrerequisites>
+      <li>LotRE_FurnitureOne</li>
+    </researchPrerequisites>
   </ThingDef>
-  
+
+  <!-- Tier 2 -->
+
   <ThingDef ParentName="ArtableFurnitureBase">
     <defName>LotRE_ElvenCandelabra</defName>
     <label>elven candelabra</label>
@@ -81,31 +145,31 @@
       <texPath>Things/Building/ElvishCandelabra/jecrellElvishCandelabra</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawRotated>false</drawRotated>
-	  <shaderType>CutoutComplex</shaderType>
-	  <drawSize>3</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>3</drawSize>
       <damageData>
         <rect>(0.35,0.35,0.3,0.3)</rect>
       </damageData>
     </graphicData>
     <stuffCategories>
-	  <li>Woody</li>
+      <li>Woody</li>
       <li>Metallic</li>
       <li>Stony</li>
     </stuffCategories>
-    <costStuffCount>60</costStuffCount>	
+    <costStuffCount>60</costStuffCount>
     <rotatable>false</rotatable>
     <altitudeLayer>BuildingOnTop</altitudeLayer>
     <passability>PassThroughOnly</passability>
-	<pathCost>8</pathCost>
+    <pathCost>8</pathCost>
     <tickerType>Normal</tickerType>
     <drawerType>RealtimeOnly</drawerType>
     <fillPercent>0.15</fillPercent>
     <statBases>
-      <Mass>4.0</Mass>	
+      <Mass>4.0</Mass>
       <MaxHitPoints>110</MaxHitPoints>
       <WorkToBuild>1500</WorkToBuild>
       <Flammability>0</Flammability>
-	  <Beauty>10</Beauty>
+      <Beauty>10</Beauty>
     </statBases>
     <selectable>true</selectable>
     <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
@@ -137,73 +201,77 @@
       </li>
       <li Class="CompOverlays.CompProperties_Overlays">
         <overlays>
-		  <li>
-			<graphicData>
-			  <texPath>Things/Special/Fire</texPath>
-			  <graphicClass>Elves.Graphic_CustomFlicker</graphicClass>
-			  <shaderType>TransparentPostLight</shaderType>
-			  <drawSize>0.17</drawSize>
-			</graphicData>
-			<offset>(-0.32,0.1,0.67)</offset>
-		  </li>
-		  <li>
-			<graphicData>
-			  <texPath>Things/Special/Fire</texPath>
-			  <graphicClass>Elves.Graphic_CustomFlicker</graphicClass>
-			  <shaderType>TransparentPostLight</shaderType>
-			  <drawSize>0.17</drawSize>
-			</graphicData>
-			<offset>(-0.08,0.1,0.9)</offset>
-		  </li>
-		  <li>
-			<graphicData>
-			  <texPath>Things/Special/Fire</texPath>
-			  <graphicClass>Elves.Graphic_CustomFlicker</graphicClass>
-			  <shaderType>TransparentPostLight</shaderType>
-			  <drawSize>0.17</drawSize>
-			</graphicData>
-			<offset>(-0.2,0.1,1.0)</offset>
-		  </li>
-		  <li>
-			<graphicData>
-			  <texPath>Things/Special/Fire</texPath>
-			  <graphicClass>Elves.Graphic_CustomFlicker</graphicClass>
-			  <shaderType>TransparentPostLight</shaderType>
-			  <drawSize>0.17</drawSize>
-			</graphicData>
-			<offset>(0.23,0.1,1.0)</offset>
-		  </li>
-		  <li>
-			<graphicData>
-			  <texPath>Things/Special/Fire</texPath>
-			  <graphicClass>Elves.Graphic_CustomFlicker</graphicClass>
-			  <shaderType>TransparentPostLight</shaderType>
-			  <drawSize>0.17</drawSize>
-			</graphicData>
-			<offset>(0.125,0.1,0.9)</offset>
-		  </li>
-		  <li>
-			<graphicData>
-			  <texPath>Things/Special/Fire</texPath>
-			  <graphicClass>Elves.Graphic_CustomFlicker</graphicClass>
-			  <shaderType>TransparentPostLight</shaderType>
-			  <drawSize>0.17</drawSize>
-			</graphicData>
-			<offset>(0.32,0.1,0.67)</offset>
-		  </li>
-		</overlays>
+          <li>
+            <graphicData>
+              <texPath>Things/Special/Fire</texPath>
+              <graphicClass>Elves.Graphic_CustomFlicker</graphicClass>
+              <shaderType>TransparentPostLight</shaderType>
+              <drawSize>0.17</drawSize>
+            </graphicData>
+            <offset>(-0.32,0.1,0.67)</offset>
+          </li>
+          <li>
+            <graphicData>
+              <texPath>Things/Special/Fire</texPath>
+              <graphicClass>Elves.Graphic_CustomFlicker</graphicClass>
+              <shaderType>TransparentPostLight</shaderType>
+              <drawSize>0.17</drawSize>
+            </graphicData>
+            <offset>(-0.08,0.1,0.9)</offset>
+          </li>
+          <li>
+            <graphicData>
+              <texPath>Things/Special/Fire</texPath>
+              <graphicClass>Elves.Graphic_CustomFlicker</graphicClass>
+              <shaderType>TransparentPostLight</shaderType>
+              <drawSize>0.17</drawSize>
+            </graphicData>
+            <offset>(-0.2,0.1,1.0)</offset>
+          </li>
+          <li>
+            <graphicData>
+              <texPath>Things/Special/Fire</texPath>
+              <graphicClass>Elves.Graphic_CustomFlicker</graphicClass>
+              <shaderType>TransparentPostLight</shaderType>
+              <drawSize>0.17</drawSize>
+            </graphicData>
+            <offset>(0.23,0.1,1.0)</offset>
+          </li>
+          <li>
+            <graphicData>
+              <texPath>Things/Special/Fire</texPath>
+              <graphicClass>Elves.Graphic_CustomFlicker</graphicClass>
+              <shaderType>TransparentPostLight</shaderType>
+              <drawSize>0.17</drawSize>
+            </graphicData>
+            <offset>(0.125,0.1,0.9)</offset>
+          </li>
+          <li>
+            <graphicData>
+              <texPath>Things/Special/Fire</texPath>
+              <graphicClass>Elves.Graphic_CustomFlicker</graphicClass>
+              <shaderType>TransparentPostLight</shaderType>
+              <drawSize>0.17</drawSize>
+            </graphicData>
+            <offset>(0.32,0.1,0.67)</offset>
+          </li>
+        </overlays>
       </li>
     </comps>
     <designationCategory>Furniture</designationCategory>
+    <researchPrerequisites>
+      <li>LotRE_FurnitureTwo</li>
+    </researchPrerequisites>
   </ThingDef>
-  
-  
+
+  <!-- Tier 3 -->
+
   <ThingDef ParentName="ArtableBedBase">
     <defName>LotRE_ElvenRoyalBed</defName>
-    <label>Elvish royal bed</label>
+    <label>Elven royal bed</label>
     <description>A statue of Estë helps soothe souls in this Elven bed. It is very comfy and beautiful. Fits two.</description>
     <altitudeLayer>BuildingOnTop</altitudeLayer>
-	<graphicData>
+    <graphicData>
       <texPath>Things/Building/ElvishRoyalBed/ElvenRoyalBed</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
@@ -229,8 +297,8 @@
       <BedRestEffectiveness>1.05</BedRestEffectiveness>
       <Comfort>0.90</Comfort>
       <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
-			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
-		</statBases>
+      <SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+    </statBases>
     <size>(2,2)</size>
     <stuffCategories>
       <li>Metallic</li>
@@ -253,60 +321,9 @@
     <castEdgeShadows>True</castEdgeShadows>
     <designationHotKey>Misc4</designationHotKey>
     <techLevel>Medieval</techLevel>
-    <researchPrerequisites><li>ComplexFurniture</li></researchPrerequisites>
+    <researchPrerequisites>
+      <li>LotRE_FurnitureThree</li>
+    </researchPrerequisites>
   </ThingDef>
-  
-  
-  <ThingDef ParentName="BedWithQualityBase">
-    <defName>LotRE_ElvenBed</defName>
-    <label>Elvish lounge bed</label>
-    <description>A cushioned lounge for resting, these Elvish beds are suited for weary souls in much need of rest from the weight of the mortal world.</description>
-    <graphicData>
-      <texPath>Things/Building/ElvishBed/trisscarElvishSingleBed</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <drawSize>(2.5,2.5)</drawSize>
-      <damageData>
-        <rect>(0,0.05,1,1.95)</rect>
-      </damageData>
-    </graphicData>
-    <comps>
-      <li Class="CompProperties_AffectedByFacilities">
-        <linkableFacilities>
-          <li>EndTable</li>
-          <li>Dresser</li>
-        </linkableFacilities>
-      </li>
-    </comps>
-    <statBases>
-      <MaxHitPoints>120</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <Beauty>2</Beauty>
-      <WorkToBuild>870</WorkToBuild>
-      <Mass>35</Mass>
-      <BedRestEffectiveness>1.2</BedRestEffectiveness>
-      <Comfort>0.8</Comfort>
-      <ImmunityGainSpeedFactor>1.15</ImmunityGainSpeedFactor>
-			<SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
-    </statBases>
-    <size>(1,2)</size>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-      <li>Stony</li>
-    </stuffCategories>
-    <costStuffCount>30</costStuffCount>
-    <building>
-      <bed_showSleeperBody>true</bed_showSleeperBody>
-      <bed_healPerDay>3</bed_healPerDay>
-    </building>
-    <fillPercent>0.4</fillPercent>
-    <pathCost>40</pathCost>
-    <staticSunShadowHeight>0.17</staticSunShadowHeight>
-    <castEdgeShadows>False</castEdgeShadows>
-    <designationHotKey>Misc2</designationHotKey>
-    <techLevel>Medieval</techLevel>
-    <researchPrerequisites><li>ComplexFurniture</li></researchPrerequisites>
-  </ThingDef>
-  
+
 </Defs>

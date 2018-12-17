@@ -2,6 +2,9 @@
 RimworldModReleaseTool.exe
 *.psd
 Source/DiscordWebhookToken.txt
+/Source/.vs/Elves/v15/Server/sqlite3/
+/Source/Elves/obj/Debug/
+Elves.dll
 
 # Prevents node or other packages.
 

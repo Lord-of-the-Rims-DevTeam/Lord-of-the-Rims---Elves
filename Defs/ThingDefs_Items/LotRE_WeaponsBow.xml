@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<!-- Tier 1 -->
+  <!-- Tier 1 -->
 
   <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>LotRE_Arrow_Mirkwood</defName>
@@ -14,7 +14,7 @@
       <flyOverhead>false</flyOverhead>
       <damageDef>Arrow</damageDef>
       <damageAmountBase>9</damageAmountBase>
-      <speed>62</speed>	  
+      <speed>62</speed>
       <stoppingPower>1.5</stoppingPower>
       <armorPenetrationBase>0.225</armorPenetrationBase>
     </projectile>
@@ -49,7 +49,7 @@
         <li>FueledSmithy</li>
         <li>CraftingSpot</li>
       </recipeUsers>
-      <researchPrerequisite>Greatbow</researchPrerequisite>
+      <researchPrerequisite>LotRE_WeaponsOne</researchPrerequisite>
     </recipeMaker>
     <verbs>
       <li>
@@ -63,8 +63,7 @@
     </verbs>
     <tools>
       <li>
-	    
-		<label>arrow</label>
+        <label>arrow</label>
         <capacities>
           <li>Blunt</li>
           <li>Poke</li>
@@ -75,7 +74,7 @@
     </tools>
   </ThingDef>
 
-<!-- Tier 2 -->
+  <!-- Tier 2 -->
 
   <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>LotRE_Arrow_Galadhrim</defName>
@@ -85,11 +84,11 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-	  <flyOverhead>false</flyOverhead>
+      <flyOverhead>false</flyOverhead>
       <damageDef>ArrowHighVelocity</damageDef>
       <damageAmountBase>19</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>
-      <speed>40</speed>	  
+      <speed>40</speed>
       <armorPenetrationBase>0.333</armorPenetrationBase>
     </projectile>
   </ThingDef>
@@ -98,18 +97,18 @@
     <label>galadhrim-elf bow</label>
     <description>The longbow preferred by the Galadhrim. A powerful long range weapon.</description>
     <comps>
-	  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-	  </li>
-	</comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      </li>
+    </comps>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/LotRE_GaladhrimBow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>(2.0,2.0)</drawSize>
+      <drawSize>(2.0,2.0)</drawSize>
     </graphicData>
     <soundInteract>Bow_Recurve</soundInteract>
     <costList>
       <WoodLog>75</WoodLog>
-	  <Gold>5</Gold>
+      <Gold>5</Gold>
     </costList>
     <statBases>
       <WorkToMake>22000</WorkToMake>
@@ -130,7 +129,7 @@
         <li>FueledSmithy</li>
         <li>CraftingSpot</li>
       </recipeUsers>
-      <researchPrerequisite>Greatbow</researchPrerequisite>
+      <researchPrerequisite>LotRE_WeaponsTwo</researchPrerequisite>
     </recipeMaker>
     <verbs>
       <li>
@@ -138,15 +137,15 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>LotRE_Arrow_Galadhrim</defaultProjectile>
         <warmupTime>1.5</warmupTime>
-		<minRange>1.5</minRange>
+        <minRange>1.5</minRange>
         <range>44</range>
         <soundCast>LotRE_BowLongbow</soundCast>
       </li>
     </verbs>
     <tools>
       <li>
-	    
-		<label>arrow</label>
+
+        <label>arrow</label>
         <capacities>
           <li>Blunt</li>
           <li>Poke</li>
@@ -157,7 +156,7 @@
     </tools>
   </ThingDef>
 
-<!-- Tier 3 -->
+  <!-- Tier 3 -->
 
   <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>LotRE_Arrow_Rivendell</defName>
@@ -167,7 +166,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
-	  <flyOverhead>false</flyOverhead>
+      <flyOverhead>false</flyOverhead>
       <damageDef>ArrowHighVelocity</damageDef>
       <damageAmountBase>20</damageAmountBase>
       <stoppingPower>1.5</stoppingPower>
@@ -180,18 +179,18 @@
     <label>rivendell-elf bow</label>
     <description>The High Elves of Rivendell utilize an exceptional longbow that has devestating damage and pinpoint accuracy.</description>
     <comps>
-	  <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-	  </li>
-	</comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      </li>
+    </comps>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/LotRE_NoldorinBow</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>(2.0,2.0)</drawSize>
+      <drawSize>(2.0,2.0)</drawSize>
     </graphicData>
     <soundInteract>Bow_Recurve</soundInteract>
     <costList>
       <LotRE_WoodLogMallorn>150</LotRE_WoodLogMallorn>
-	  <Gold>15</Gold>
+      <Gold>15</Gold>
     </costList>
     <statBases>
       <WorkToMake>29000</WorkToMake>
@@ -201,7 +200,6 @@
       <AccuracyMedium>0.86</AccuracyMedium>
       <AccuracyLong>0.79</AccuracyLong>
       <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
-      
     </statBases>
     <weaponTags>
       <li>ElvenRanged</li>
@@ -213,7 +211,7 @@
         <li>FueledSmithy</li>
         <li>CraftingSpot</li>
       </recipeUsers>
-      <researchPrerequisite>Greatbow</researchPrerequisite>
+      <researchPrerequisite>LotRE_WeaponsThree</researchPrerequisite>
     </recipeMaker>
     <verbs>
       <li>
@@ -227,8 +225,7 @@
     </verbs>
     <tools>
       <li>
-	    
-		<label>arrow</label>
+        <label>arrow</label>
         <capacities>
           <li>Blunt</li>
           <li>Poke</li>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <!-- Elf Capes -->
 
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>LotRE_Apparel_Cape</defName>
@@ -56,6 +57,9 @@
         </li>
       </options>
     </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>LotRE_ArmorOne</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <ThingDef ParentName="ApparelMakeableBase">
@@ -116,9 +120,13 @@
         </li>
       </options>
     </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>LotRE_ArmorOne</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
-    
+  <!-- Elf Robes -->
+
   <ThingDef ParentName="ArmorSmithableBase">
     <defName>LotRE_ElfApparel_SimpleRobeWoodland</defName>
     <label>elf-robe (woodland)</label>
@@ -135,8 +143,8 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-			<MaxHitPoints>120</MaxHitPoints>
-			<WorkToMake>7500</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>7500</WorkToMake>
       <Mass>0.3</Mass>
       <ArmorRating_Blunt>0.035</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.035</ArmorRating_Sharp>
@@ -149,7 +157,7 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
-		<li>Arms</li>
+        <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Elf/Apparel/Robe/Robe</wornGraphicPath>
@@ -176,8 +184,10 @@
         </li>
       </options>
     </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>LotRE_ArmorOne</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
-
 
   <ThingDef ParentName="ArmorSmithableBase">
     <defName>LotRE_ElfApparel_SimpleRobeSea</defName>
@@ -207,7 +217,7 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
-		<li>Arms</li>
+        <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Elf/Apparel/Robe/Robe</wornGraphicPath>
@@ -234,6 +244,9 @@
         </li>
       </options>
     </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisite>LotRE_ArmorOne</researchPrerequisite>
+    </recipeMaker>
   </ThingDef>
 
   <ThingDef ParentName="ArmorSmithableBase">
@@ -259,12 +272,12 @@
       <StuffEffectMultiplierInsulation_Cold>0.80</StuffEffectMultiplierInsulation_Cold>
       <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>1.5</EquipDelay>
-	</statBases>
+    </statBases>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
-		<li>Arms</li>
+        <li>Arms</li>
         <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Elf/Apparel/Robe/Robe</wornGraphicPath>
@@ -278,94 +291,30 @@
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
-		  <!-- Primrose (Sandy Beach color) -->
+          <!-- Primrose (Sandy Beach color) -->
           <weight>10</weight>
           <only>RGBA(0.92,0.88,0.6,1)</only>
         </li>
         <li>
-		  <!-- Just Right (Red Sandy Beach color) -->
+          <!-- Just Right (Red Sandy Beach color) -->
           <weight>10</weight>
           <only>RGBA(0.91,0.80,0.68,1)</only>
         </li>
         <li>
-		  <!-- Aths Special (Nearly white beach color) -->
+          <!-- Aths Special (Nearly white beach color) -->
           <weight>10</weight>
           <only>RGBA(0.92,0.9,0.8,1)</only>
         </li>
       </options>
     </colorGenerator>
-  </ThingDef>
-
-	<ThingDef ParentName="ArmorSmithableBase">
-    <defName>LotRE_ElfApparel_BattleArmor</defName>
-    <label>ñoldorin-elf armor</label>
-    <description>Excellent reinforced leather armor laid with fine metals make the finest Elven battle armor for the Ñoldor, a valiant group of elves named the deep-elves for their wisdom and also named sword-elves for their skills in combat.</description>
-    <techLevel>Medieval</techLevel>
     <recipeMaker>
-      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-      <skillRequirements>
-        <Crafting>16</Crafting>
-      </skillRequirements>
+      <researchPrerequisite>LotRE_ArmorOne</researchPrerequisite>
     </recipeMaker>
-    <graphicData>
-      <texPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmorDisplay</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-    </graphicData>
-
-    <!-- <co+0.stStuffCount>250</costStuffCount> -->
-    <!-- <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories> -->
-    <costStuffCount>50</costStuffCount>
-    <stuffCategories>
-      <li>Leathery</li>
-    </stuffCategories>
-	<costList>
-      <Steel>50</Steel>
-      <Silver>50</Silver>
-      <Gold>50</Gold>
-	</costList>	
-    <statBases>
-      <WorkToMake>38000</WorkToMake>
-      <MaxHitPoints>290</MaxHitPoints>
-      <Mass>8</Mass>
-      <StuffEffectMultiplierArmor>0.82</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>5</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <MoveSpeed>-0.07</MoveSpeed>
-    </equippedStatOffsets>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
-		<generateCommonality>2</generateCommonality>
-		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
-        <li>Neck</li>
-				<li>Shoulders</li>
-				<li>Arms</li>
-				<li>Legs</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmor</wornGraphicPath>
-			<layers>
-				<li>Middle</li>
-				<li>Shell</li>
-			</layers>
-			<tags>
-			  <li>LotR_ElfMilitary</li>
-			</tags>
-      <defaultOutfitTags>
-        <li>LotR_ElfWarrior</li>
-      </defaultOutfitTags>
-    </apparel>
   </ThingDef>
 
-  
-  
+  <!-- Elf Armors -->
+  <!-- Tier 1 -->
+
   <ThingDef ParentName="ArmorSmithableBase">
     <defName>LotRE_ElfApparel_BattleArmorSea</defName>
     <label>falathrim-elf armor</label>
@@ -376,6 +325,7 @@
       <skillRequirements>
         <Crafting>10</Crafting>
       </skillRequirements>
+      <researchPrerequisite>LotRE_ArmorTwo</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmorDisplay</texPath>
@@ -405,89 +355,23 @@
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
-		<generateCommonality>2</generateCommonality>
-		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
+    <generateCommonality>2</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
         <li>Neck</li>
-				<li>Shoulders</li>
-				<li>Arms</li>
-				<li>Legs</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmor</wornGraphicPath>
-			<layers>
-				<li>Middle</li>
-				<li>Shell</li>
-			</layers>
-			<tags>
-			  <li>LotR_ElfMilitary</li>
-			</tags>
-      <defaultOutfitTags>
-        <li>LotR_ElfWarrior</li>
-      </defaultOutfitTags>
-    </apparel>
-  </ThingDef>
-
-  <ThingDef ParentName="ArmorSmithableBase">
-    <defName>LotRE_ElfApparel_BattleArmorTree</defName>
-    <label>galadhrim-elf armor</label>
-    <description>This beautiful armor crafted in the style of the Galadhrim. The Galadhrim, or tree people, are Silvan elves who live in the great Mallorn trees of forests such as Lothlorien. This armor features elements of leaves that have been plated with elements of gold and silver.</description>
-    <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
-      <skillRequirements>
-        <Crafting>13</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <graphicData>
-      <texPath>Things/Pawn/Elf/Apparel/Armor/painlessVikingGaladhrim_Male_north</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-    </graphicData>
-    <!-- <co+0.stStuffCount>250</costStuffCount> -->
-    <!-- <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories> -->
-    <costStuffCount>50</costStuffCount>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-	<costList> 
-      <Silver>4</Silver>
-      <Gold>4</Gold> 
-	</costList>	
-    <statBases>
-      <WorkToMake>20000</WorkToMake>
-      <MaxHitPoints>250</MaxHitPoints>
-      <Mass>7</Mass>
-      <StuffEffectMultiplierArmor>0.78</StuffEffectMultiplierArmor>
-      <StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
-      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
-      <EquipDelay>4</EquipDelay>
-    </statBases>
-    <equippedStatOffsets>
-      <MoveSpeed>-0.08</MoveSpeed>
-    </equippedStatOffsets>
-    <thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
-		<generateCommonality>2</generateCommonality>
-		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
-        <li>Neck</li>
-				<li>Shoulders</li>
-				<li>Arms</li>
-				<li>Legs</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/painlessVikingGaladhrim</wornGraphicPath>
-			<layers>
-				<li>Middle</li>
-				<li>Shell</li>
-			</layers>
-			<tags>
-			  <li>LotR_ElfMilitary</li>
-			</tags>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmor</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>LotR_ElfMilitary</li>
+      </tags>
       <defaultOutfitTags>
         <li>LotR_ElfWarrior</li>
       </defaultOutfitTags>
@@ -504,6 +388,7 @@
       <skillRequirements>
         <Crafting>10</Crafting>
       </skillRequirements>
+      <researchPrerequisite>LotRE_ArmorTwo</researchPrerequisite>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmorDisplay</texPath>
@@ -533,23 +418,163 @@
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
-		<generateCommonality>2</generateCommonality>
-		<apparel>
-			<bodyPartGroups>
-				<li>Torso</li>
+    <generateCommonality>2</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
         <li>Neck</li>
-				<li>Shoulders</li>
-				<li>Arms</li>
-				<li>Legs</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmor</wornGraphicPath>
-			<layers>
-				<li>Middle</li>
-				<li>Shell</li>
-			</layers>
-			<tags>
-			  <li>LotR_ElfMilitary</li>
-			</tags>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmor</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>LotR_ElfMilitary</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>LotR_ElfWarrior</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Tier 2 -->
+
+  <ThingDef ParentName="ArmorSmithableBase">
+    <defName>LotRE_ElfApparel_BattleArmorTree</defName>
+    <label>galadhrim-elf armor</label>
+    <description>This beautiful armor crafted in the style of the Galadhrim. The Galadhrim, or tree people, are Silvan elves who live in the great Mallorn trees of forests such as Lothlorien. This armor features elements of leaves that have been plated with elements of gold and silver.</description>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>13</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>LotRE_ArmorThree</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Elf/Apparel/Armor/painlessVikingGaladhrim_Male_north</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <!-- <co+0.stStuffCount>250</costStuffCount> -->
+    <!-- <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories> -->
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <Silver>4</Silver>
+      <Gold>4</Gold>
+    </costList>
+    <statBases>
+      <WorkToMake>20000</WorkToMake>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Mass>7</Mass>
+      <StuffEffectMultiplierArmor>0.78</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>4</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.08</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <generateCommonality>2</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/painlessVikingGaladhrim</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>LotR_ElfMilitary</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>LotR_ElfWarrior</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+
+  <!-- Tier 3 -->
+
+  <ThingDef ParentName="ArmorSmithableBase">
+    <defName>LotRE_ElfApparel_BattleArmor</defName>
+    <label>ñoldorin-elf armor</label>
+    <description>Excellent reinforced leather armor laid with fine metals make the finest Elven battle armor for the Ñoldor, a valiant group of elves named the deep-elves for their wisdom and also named sword-elves for their skills in combat.</description>
+    <techLevel>Medieval</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>16</Crafting>
+      </skillRequirements>
+      <researchPrerequisite>LotRE_ArmorFour</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmorDisplay</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+
+    <!-- <co+0.stStuffCount>250</costStuffCount> -->
+    <!-- <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories> -->
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costList>
+      <Steel>50</Steel>
+      <Silver>50</Silver>
+      <Gold>50</Gold>
+    </costList>
+    <statBases>
+      <WorkToMake>38000</WorkToMake>
+      <MaxHitPoints>290</MaxHitPoints>
+      <Mass>8</Mass>
+      <StuffEffectMultiplierArmor>0.82</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.07</MoveSpeed>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <generateCommonality>2</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Elf/Apparel/Armor/nackbladElvenArmor</wornGraphicPath>
+      <layers>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>LotR_ElfMilitary</li>
+      </tags>
       <defaultOutfitTags>
         <li>LotR_ElfWarrior</li>
       </defaultOutfitTags>
