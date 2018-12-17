@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LotRE_FenceElven.label>エルヴン フェンス (装飾)</LotRE_FenceElven.label>
+  <LotRE_FenceElven.description>装飾されたエルヴンフェンスです。</LotRE_FenceElven.description>
+  <Blueprint_LotRE_FenceElven.label>エルヴン フェンス (装飾)(設計)</Blueprint_LotRE_FenceElven.label>
+  <Frame_LotRE_FenceElven.label>エルヴン フェンス (装飾)(施工)</Frame_LotRE_FenceElven.label>
+  <Frame_LotRE_FenceElven.description>装飾されたエルヴンフェンスです。</Frame_LotRE_FenceElven.description>
+
+
+</LanguageData>
