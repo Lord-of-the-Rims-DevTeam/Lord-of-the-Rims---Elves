@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Elven Weapons -->
+
+  <LotRE_WeaponsOne.label>クウェンディ！</LotRE_WeaponsOne.label>
+  <LotRE_WeaponsOne.description>&lt;i&gt;エルフ！&lt;/i&gt;\n\n最も単純なエルフの武器だけを解除します：\n-エルヴンホワイトナイフ\n-エルヴンボウ(闇の森)</LotRE_WeaponsOne.description>
+
+  <LotRE_WeaponsTwo.label>明りを灯せ！</LotRE_WeaponsTwo.label>
+  <LotRE_WeaponsTwo.description>&lt;i&gt;エルフ族の武具を見よ！&lt;/i&gt;\n\n適切なエルフの武器を解除します：\n-エルヴンサーベル\n-エルヴンボウ(樹木)</LotRE_WeaponsTwo.description>
+
+  <LotRE_WeaponsThree.label>夜を退けよ！</LotRE_WeaponsThree.label>
+  <LotRE_WeaponsThree.description>&lt;i&gt;エルフ族が来たぞ！&lt;/i&gt;\n\n中つ国のイルーヴァタールの長子たちにふさわしい武器を解除します：\n-エルヴンラング\n-エルヴンボウ(裂け谷)</LotRE_WeaponsThree.description>
+
+
+  <!-- Elven Armor -->
+
+  <LotRE_ArmorOne.label>クウェンディの衣服</LotRE_ArmorOne.label>
+  <LotRE_ArmorOne.description>エル・イルーヴァタール(万物の父)自身によって創造され、エルフの伝承では、エルの子らの他の者たちとは異なり、人間やドワーフに似ています。エルフの体格には特別な仕立てが必要です。研究で解放される快適な大きさエルフの衣服：\n-エルヴンマント\n-エルヴンローブ</LotRE_ArmorOne.description>
+
+  <LotRE_ArmorTwo.label>バックラーと鎧の製造</LotRE_ArmorTwo.label>
+  <LotRE_ArmorTwo.description>戦うべき脅威のために鎧とヘルメットであなたのエルフを保護します：\n-ファラスリム()のエルヴンアーマーとヘルム\n-シルヴァン（森)エルヴンアーマーとヘルム\n-エルヴンバックラー</LotRE_ArmorTwo.description>
+
+  <LotRE_ArmorThree.label>エルダールエルフの鎧</LotRE_ArmorThree.label>
+  <LotRE_ArmorThree.description>素晴らしい品質なエルフの衣服であなたのエルフを防護します：\n-ガラズリム(樹木)エルヴンアーマーとヘルメット</LotRE_ArmorThree.description>
+
+  <LotRE_ArmorFour.label>ノルドエルフの鎧</LotRE_ArmorFour.label>
+  <LotRE_ArmorFour.description>象眼され、磨かれ、そして驚くほど優れた品質の鎧を作り出し、真に価値のあるイルーヴァタールの子らを防護します：\n-ノルドール(ノルド)のエルヴンアーマーやヘルメットとシールド\n-エルヴンクラウン</LotRE_ArmorFour.description>
+
+
+  <!-- Elven Furniture -->
+
+  <LotRE_FurnitureOne.label>エルフ族の家具</LotRE_FurnitureOne.label>
+  <LotRE_FurnitureOne.description>エルフ族の家具は、エルフ族たちと同じくらい上品です。\n-テーブル(エルフ)(2x2)\n-エルヴンチェア\n-ラウンジベッド(エルフ)</LotRE_FurnitureOne.description>
+
+  <LotRE_FurnitureTwo.label>エルフ族の照明</LotRE_FurnitureTwo.label>
+  <LotRE_FurnitureTwo.description>暗い場所で明りを提供するためのエルフ族の枝付燭台を解除します：\n-枝付燭台(エルフ)</LotRE_FurnitureTwo.description>
+
+  <LotRE_FurnitureThree.label>豪華なエルフ族の家具</LotRE_FurnitureThree.label>
+  <LotRE_FurnitureThree.description>このような高品質の家具は、エルフ族のみが作ることができます：\n-豪華なベッド(エルフ)</LotRE_FurnitureThree.description>
+
+
+  <!-- Elven Structures -->
+
+  <LotRE_StructuresOne.label>生けるフェンス</LotRE_StructuresOne.label>
+  <LotRE_StructuresOne.description>エルフたちと同じくらい美しいフェンスを作ります：\n-エルヴンフェンス（装飾)\n-エルヴンフェンスゲート（装飾)</LotRE_StructuresOne.description>
+
+  <LotRE_StructuresTwo.label>森の生命力</LotRE_StructuresTwo.label>
+  <LotRE_StructuresTwo.description>絶妙なエルフ族の技能を使い壁を作成します：\n-装飾された壁(エルフ)</LotRE_StructuresTwo.description>
+
+  <LotRE_StructuresThree.label>エルフの城塞建築</LotRE_StructuresThree.label>
+  <LotRE_StructuresThree.description>エルフが作った城門は美しさと強さが兼ね備えられています：\n-エルヴンゲート(2x2)\n-装飾された矢狭間 (エルフ)</LotRE_StructuresThree.description>
+
+
+  <!-- Elven Recipes -->
+
+  <LotRE_RecipesOne.label>レンバスの行糧</LotRE_RecipesOne.label>
+  <LotRE_RecipesOne.description>エルフのパンや行糧1つは、成人した男性なら一回分、ホビットならその4回分の食事量になります：\n-レンバスの粉\n-エルフのパン\n-レンバスの行糧</LotRE_RecipesOne.description>
+
+
+</LanguageData>
