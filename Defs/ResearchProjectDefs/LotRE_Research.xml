@@ -7,7 +7,7 @@
   </ResearchTabDef>
 
   <ResearchProjectDef Name="ElvenResearch" Abstract="True">
-    <techLevel>Neolithic</techLevel>
+    <techLevel>Medieval</techLevel>
     <tab>LotRE_ElvesTab</tab>
   </ResearchProjectDef>
 
