@@ -2,7 +2,9 @@
 <ModMetaData>
   <name>Lord of the Rims - Elves</name>
   <author>Jecrell</author>
-  <targetVersion>1.0.2059</targetVersion>
+  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
   <description>1.21.0.0 (12-17-2018)
 
 Adds Elves to RimWorld.
