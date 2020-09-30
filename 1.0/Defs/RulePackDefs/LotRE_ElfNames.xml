@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>LotRE_ElfMaleNamer</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[pack]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>pack</keyword>
+          <path>NameBanks/Names_ElvesMale</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>LotRE_ElfFemaleNamer</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[pack]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>pack</keyword>
+          <path>NameBanks/Names_ElvesFemale</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>LotRE_NamerFactionBaseElfWoodland</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[pack]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>pack</keyword>
+          <path>NameBanks/Names_BaseElfWoodland</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>LotRE_NamerFactionBaseElfSea</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[pack]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>pack</keyword>
+          <path>NameBanks/Names_BaseElfSea</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>LotRE_NamerFactionBaseElfHigh</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name-&gt;[pack]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>pack</keyword>
+          <path>NameBanks/Names_BaseElfHigh</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+</Defs>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LotR_HorseRace.label>ウマ</LotR_HorseRace.label>
+  <LotR_HorseRace.description>成人男性ほどの大きさをした草食動物で、しばしばそのスピードと頑強なスタミナのために利用されます。一般的には脅かさない限り平和的です。</LotR_HorseRace.description>
+  <LotR_HorseRace.tools.0.label>左ひづめ</LotR_HorseRace.tools.0.label>
+  <LotR_HorseRace.tools.1.label>右ひづめ</LotR_HorseRace.tools.1.label>
+  <LotR_HorseRace.tools.3.label>頭つき</LotR_HorseRace.tools.3.label>
+  <LotR_HorseRace_Leather.label>ウマの皮</LotR_HorseRace_Leather.label>
+  <LotR_HorseRace_Leather.description>ウマの皮</LotR_HorseRace_Leather.description>
+  <LotR_HorseRace_Leather.stuffProps.stuffAdjective>ウマの皮</LotR_HorseRace_Leather.stuffProps.stuffAdjective>
+  <LotR_HorseRace_Meat.label>ウマの肉</LotR_HorseRace_Meat.label>
+  <LotR_HorseRace_Meat.description>ウマの肉</LotR_HorseRace_Meat.description>
+  <LotR_HorseRace_Corpse.label>ウマの死骸</LotR_HorseRace_Corpse.label>
+  <LotR_HorseRace_Corpse.description>ウマの死骸</LotR_HorseRace_Corpse.description>
+</LanguageData>

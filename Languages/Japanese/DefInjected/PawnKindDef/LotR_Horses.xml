@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LotR_HorseKind.label>ウマ</LotR_HorseKind.label>
+  <LotR_HorseKind.labelPlural>ウマたち</LotR_HorseKind.labelPlural>
+  <LotR_HorseKind.lifeStages.0.label>子ウマ</LotR_HorseKind.lifeStages.0.label>
+  <LotR_HorseKind.lifeStages.0.labelPlural>子ウマたち</LotR_HorseKind.lifeStages.0.labelPlural>
+  <LotR_HorseKind.lifeStages.0.labelMale>男性 子ウマ</LotR_HorseKind.lifeStages.0.labelMale>
+  <LotR_HorseKind.lifeStages.0.labelMalePlural>男性 子ウマたち</LotR_HorseKind.lifeStages.0.labelMalePlural>
+  <LotR_HorseKind.lifeStages.0.labelFemale>女性 子ウマ</LotR_HorseKind.lifeStages.0.labelFemale>
+  <LotR_HorseKind.lifeStages.0.labelFemalePlural>女性 子ウマたち</LotR_HorseKind.lifeStages.0.labelFemalePlural>
+  <LotR_HorseKind.lifeStages.1.label>若ウマ</LotR_HorseKind.lifeStages.1.label>
+  <LotR_HorseKind.lifeStages.1.labelPlural>若ウマ</LotR_HorseKind.lifeStages.1.labelPlural>
+  <LotR_HorseKind.lifeStages.1.labelMale>男性 若ウマ</LotR_HorseKind.lifeStages.1.labelMale>
+  <LotR_HorseKind.lifeStages.1.labelMalePlural>男性 若ウマたち</LotR_HorseKind.lifeStages.1.labelMalePlural>
+  <LotR_HorseKind.lifeStages.1.labelFemale>女性 若ウマ</LotR_HorseKind.lifeStages.1.labelFemale>
+  <LotR_HorseKind.lifeStages.1.labelFemalePlural>女性 若ウマたち</LotR_HorseKind.lifeStages.1.labelFemalePlural>
+  <LotR_HorseKind.lifeStages.2.label>ウマ</LotR_HorseKind.lifeStages.2.label>
+  <LotR_HorseKind.lifeStages.2.labelPlural>ウマ</LotR_HorseKind.lifeStages.2.labelPlural>
+  <LotR_HorseKind.lifeStages.2.labelMale>男性 ウマ</LotR_HorseKind.lifeStages.2.labelMale>
+  <LotR_HorseKind.lifeStages.2.labelMalePlural>男性 ウマたち</LotR_HorseKind.lifeStages.2.labelMalePlural>
+  <LotR_HorseKind.lifeStages.2.labelFemale>女性 ウマ</LotR_HorseKind.lifeStages.2.labelFemale>
+  <LotR_HorseKind.lifeStages.2.labelFemalePlural>女性 ウマたち</LotR_HorseKind.lifeStages.2.labelFemalePlural>
+  <LotR_HorseKind.labelMale>男性 ウマ</LotR_HorseKind.labelMale>
+  <LotR_HorseKind.labelMalePlural>男性 ウマたち</LotR_HorseKind.labelMalePlural>
+  <LotR_HorseKind.labelFemale>女性 ウマ</LotR_HorseKind.labelFemale>
+  <LotR_HorseKind.labelFemalePlural>女性 ウマたち</LotR_HorseKind.labelFemalePlural>
+</LanguageData>

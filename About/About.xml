@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Lord of the Rims - Elves (Continued)</name>
+  <packageId>Mlie.LordoftheRimsElves</packageId>
+  <author>Jecrell</author>
+  <url>https://github.com/emipa606/LordoftheRimsElves</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>jecrell.jecstools</packageId>
+      <displayName>JecsTools</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2195729899</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>jecrell.doorsexpanded</packageId>
+      <displayName>Doors Expanded (Dev)</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2195733555</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+      <downloadUrl>https://github.com/erdelf/AlienRaces/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>jecrell.jecstools</li>
+    <li>jecrell.doorsexpanded</li>
+    <li>erdelf.HumanoidAlienRaces</li>
+    <li>CETeam.CombatExtended</li>
+  </loadAfter>
+  <description>Update of Jecrells mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1400234784
+
+[img]https://i.imgur.com/GYswkZ7.png[/img]
+
+Support-chat:
+https://invite.gg/mlie
+
+Non-steam version:
+https://github.com/emipa606/LordoftheRimsElves
+		
+- This is an unofficial port
+- This will be removed when/if Jecrell comes back
+
+--- Original Description ---
+Adds Elves to RimWorld.
+Includes:
+Playable Elven race
+Starter Elven scenario
+Three Elven factions
+Mountable (with Giddy-Up!) horses and Lothlorien deer
+A new giant tree biome: Mallorn Forest
+Lembas and Elven bread, which is compatible with Vegetable Garden
+Also includes Elven armor, weapons, walls, doors, and furniture
+Requires:
+JecsTools, DoorsExpanded, and Humanoid Alien Races
+
+Mod Showcase from BarKy
+https://www.youtube.com/watch?v=eL5km_cX4Ck
+
+(Apologies that this workshop page isn't very nice. It's 3AM, so I'll fix this up to look nicer tomorrow! =D)</description>
+</ModMetaData>
