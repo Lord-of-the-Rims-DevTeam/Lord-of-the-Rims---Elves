@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="ModCheck.isModLoaded">
+        <modName>Lord of the Rims - Elves</modName>
+        <yourMod>Lord of the Rims CE Patch</yourMod>
+      </li>
+      <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>LotRE_Bow_Mirkwood</defName>
+        <statBases>
+          <SightsEfficiency>0.95</SightsEfficiency>
+          <ShotSpread>1</ShotSpread>
+          <SwayFactor>2</SwayFactor>
+          <Bulk>3</Bulk>
+          <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+        </statBases>
+        <Properties>
+          <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>Projectile_LotRE_Arrow_Mirkwood</defaultProjectile>
+          <warmupTime>0.6</warmupTime>
+          <range>38</range>
+          <soundCast>LotRE_BowMirkwood</soundCast>
+        </Properties>
+        <AmmoUser>
+          <ammoSet>AmmoSet_LotRE_Arrow_Mirkwood</ammoSet>
+        </AmmoUser>
+        <FireModes>
+          <aiAimMode>AimedShot</aiAimMode>
+        </FireModes>
+        <weaponTags>
+          <li>ElvenRanged</li>
+        </weaponTags>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="LotRE_Bow_Mirkwood"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <capacities>
+                <li>Blunt</li>
+                <li>Poke</li>
+              </capacities>
+              <power>8</power>
+              <cooldownTime>1.6</cooldownTime>
+              <armorPenetration>0.1</armorPenetration>
+            </li>
+          </tools>
+        </value>
+      </li>
+      <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>LotRE_Bow_Galadhrim</defName>
+        <statBases>
+          <SightsEfficiency>1.1</SightsEfficiency>
+          <ShotSpread>1</ShotSpread>
+          <SwayFactor>1.8</SwayFactor>
+          <Bulk>3</Bulk>
+          <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+        </statBases>
+        <Properties>
+          <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>Projectile_LotRE_Arrow_Galadhrim</defaultProjectile>
+          <warmupTime>1.5</warmupTime>
+          <range>44</range>
+          <soundCast>LotRE_BowLongbow</soundCast>
+        </Properties>
+        <AmmoUser>
+          <ammoSet>AmmoSet_LotRE_Arrow_Galadhrim</ammoSet>
+        </AmmoUser>
+        <FireModes>
+          <aiAimMode>AimedShot</aiAimMode>
+        </FireModes>
+        <weaponTags>
+          <li>ElvenRanged</li>
+          <li>ElvenRangedStrong</li>
+        </weaponTags>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="LotRE_Bow_Galadhrim"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <capacities>
+                <li>Blunt</li>
+                <li>Poke</li>
+              </capacities>
+              <power>8</power>
+              <cooldownTime>1.6</cooldownTime>
+              <armorPenetration>0.1</armorPenetration>
+            </li>
+          </tools>
+        </value>
+      </li>
+      <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+        <defName>LotRE_Bow_Rivendell</defName>
+        <statBases>
+          <SightsEfficiency>1.25</SightsEfficiency>
+          <ShotSpread>1</ShotSpread>
+          <SwayFactor>1.35</SwayFactor>
+          <Bulk>3</Bulk>
+          <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+        </statBases>
+        <Properties>
+          <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>Projectile_LotRE_Arrow_Rivendell</defaultProjectile>
+          <warmupTime>1.4</warmupTime>
+          <range>46</range>
+          <soundCast>LotRE_BowLongbow</soundCast>
+        </Properties>
+        <AmmoUser>
+          <ammoSet>AmmoSet_LotRE_Arrow_Rivendell</ammoSet>
+        </AmmoUser>
+        <FireModes>
+          <aiAimMode>AimedShot</aiAimMode>
+        </FireModes>
+        <weaponTags>
+          <li>ElvenRanged</li>
+          <li>ElvenRangedMighty</li>
+        </weaponTags>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="LotRE_Bow_Rivendell"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <capacities>
+                <li>Blunt</li>
+                <li>Poke</li>
+              </capacities>
+              <power>8</power>
+              <cooldownTime>1.6</cooldownTime>
+              <armorPenetration>0.1</armorPenetration>
+            </li>
+          </tools>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
