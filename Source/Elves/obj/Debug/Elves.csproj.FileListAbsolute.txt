@@ -1,8 +1,0 @@
-D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Elves\Source\Elves\obj\Debug\Elves.csprojResolveAssemblyReference.cache
-D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Elves\Assemblies\Elves.dll
-D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Elves\Source\Elves\obj\Debug\Elves.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Elves\Assemblies\Elves.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Elves\Source\Elves\obj\Debug\Elves.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Elves\Source\Elves\obj\Debug\Elves.csprojAssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Elves\Source\Elves\obj\Debug\Elves.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Elves\Source\Elves\obj\Debug\Elves.csproj.CopyComplete
