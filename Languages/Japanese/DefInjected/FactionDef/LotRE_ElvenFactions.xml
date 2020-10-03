@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LotRE_ElfFactionWood.label>森エルフの王国</LotRE_ElfFactionWood.label>
+  <LotRE_ElfFactionWood.description>伝説によると、この森林地帯の避難所は暗闇のエルフ(モリクウェンディ)に属しています。この土地の支配者であるガラドリエルは、三つの指輪のうちの一つで力の指輪(水の指輪ネンヤ)を使用して避難所を作成して、何世紀にもわたって歓迎されない者たちが侵入することを退けた霧の中に、その場所自体が隠されることを可能にしました。とても恵まれた人々は森の避難所に入ることができ、森の中にある土地の優雅さによって時の流れと悪による影響が及ぶのを防ぐ力によって外界の疲れを遅らせていると感じることができます。</LotRE_ElfFactionWood.description>
+  <LotRE_ElfFactionWood.fixedName>森エルフの王国</LotRE_ElfFactionWood.fixedName>
+  <LotRE_ElfFactionWood.pawnsPlural>森エルフ</LotRE_ElfFactionWood.pawnsPlural>
+  <LotRE_ElfFactionWood.leaderTitle>エルフの王</LotRE_ElfFactionWood.leaderTitle>
+  <LotRE_ElfFactionSea.label>海岸エルフの港町</LotRE_ElfFactionSea.label>
+  <LotRE_ElfFactionSea.description>ファラスリム族、または海岸エルフによって入植されたこれら海岸線沿いの集落は、エルフ族にとって真の故郷と呼べるものへ発展しました。海を渡って旅するだけで、ほとんどのエルフは世界の疲れから平和を見つけることができるでしょう。かつてのブリソンバールとエグラレストなどのように灰色港(ミスロンド)と呼ばれるヘブンの港町はエルフに中つ国を去る旅へと出る手段を提供し、旅に出る寸前の多くの魂たちが住んでいます。</LotRE_ElfFactionSea.description>
+  <LotRE_ElfFactionSea.fixedName>海岸エルフの港町ヘブン</LotRE_ElfFactionSea.fixedName>
+  <LotRE_ElfFactionSea.pawnsPlural>海岸エルフ</LotRE_ElfFactionSea.pawnsPlural>
+  <LotRE_ElfFactionSea.leaderTitle>領主</LotRE_ElfFactionSea.leaderTitle>
+  <LotRE_ElfFactionHigh.label>高貴エルフの高等評議会</LotRE_ElfFactionHigh.label>
+  <LotRE_ElfFactionHigh.description>その大部分はノルドール族、または知識深きエルフ（彼らの持つ知恵によって名づけられた）たちによって構成されていますが、この大勢のエルフで構成された集団組織は他の同族たちのためにするべき事を成すために介入し、肩代わりを行ってきました。彼らの領土である裂け谷は、よく訓練された軍隊とその土地で雇った傭兵などで守られ、フェローシップとその困難のための要塞として役立ちます。</LotRE_ElfFactionHigh.description>
+  <LotRE_ElfFactionHigh.fixedName>高貴エルフの高等評議会</LotRE_ElfFactionHigh.fixedName>
+  <LotRE_ElfFactionHigh.pawnsPlural>高貴エルフ</LotRE_ElfFactionHigh.pawnsPlural>
+  <LotRE_ElfFactionHigh.leaderTitle>王</LotRE_ElfFactionHigh.leaderTitle>
+</LanguageData>
