@@ -4,6 +4,7 @@
   <ThingDef ParentName="TableGatherSpotBase">
     <defName>LotRE_ElvishTable2x2c</defName>
     <label>Elven table (2x2)</label>
+    <description>Can be rotated when placing to get different looks.</description>
     <graphicData>
       <texPath>Things/Building/ElvishTable/trisscarElvishTable</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -17,6 +18,7 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
+    <uiIconPath>Things/Building/ElvishTable/trisscarElvishTable_UI</uiIconPath>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToBuild>1500</WorkToBuild>
@@ -267,7 +269,8 @@
       <texPath>Things/Building/ElvishRoyalBed/ElvenRoyalBed</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>(6.5,6.5)</drawSize>
+      <drawSize>(4,4)</drawSize>
+      <drawOffset>(0,0,0.7)</drawOffset>
       <damageData>
         <rect>(0,0.05,2,1.95)</rect>
       </damageData>
@@ -292,6 +295,7 @@
       <SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
     </statBases>
     <size>(2,2)</size>
+    <uiIconScale>0.75</uiIconScale>
     <stuffCategories>
       <li>Metallic</li>
       <li>Woody</li>
