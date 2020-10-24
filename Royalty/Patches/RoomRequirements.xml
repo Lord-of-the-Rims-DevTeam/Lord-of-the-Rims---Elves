@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <!-- First patch is an easy one: Just add the elven royal bed to the acceptable beds in a noble's bedroom whenever a vanilly royal bed is acceptable:  -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/RoyalTitleDef/bedroomRequirements/li[@Class = "RoomRequirement_ThingAnyOf"]/things[li = "RoyalBed"]</xpath>
+    <value>
+      <li>LotRE_ElvenRoyalBed</li>
+    </value>
+  </Operation>
+</Patch>
