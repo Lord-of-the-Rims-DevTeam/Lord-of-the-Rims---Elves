@@ -7,4 +7,46 @@
       <li>LotRE_ElvenRoyalBed</li>
     </value>
   </Operation>
+
+  <!-- Now, this next bit is less elegant: There is no existing RoomRequirement class that accepts multiple kinds of things AND requires multiple instances of them.
+        Vanilla uses RoomRequirement_ThingCount to require 2 or more braziers, but there is no "RoomRequirement_ThingCountAnyOf" to "require 2 braziers and/or dwarven braizers".
+        We can write one of course, and that's what I did, but this will not be compatible with other mods that do the same because they will have their own classes in their own namespace.
+        Whichever mod comes first will succeed, and all others will fail. I've tried to work around that by ignoring the namespace so if someone did exactly the same as me and named their class either
+        "RoomRequirement_ThingCountAnyOf" or "RoomRequirement_ThingAnyOfCount", it will work if we are loaded after them. If they decided to go with something else completely, I have no way of planning for that.
+        This should also work if vanilla decides to introduce and use such a class (with one of those names) as we will just add our furniture to that, and of course it's compatible to other LotR mods..
+  -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <!-- first ensure that Elves.RoomRequirement_ThingCountAnyOf is used instead of RoomRequirement_ThingCount (ignoring any errors if it was already replaced) -->
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>/Defs/RoyalTitleDef/throneRoomRequirements/li[@Class = "RoomRequirement_ThingCount"][thingDef = "Brazier"]</xpath>
+        <value>
+          <li Class="Elves.RoomRequirement_ThingCountAnyOf">
+            <things>
+              <li>Brazier</li>
+            </things>
+            <count>2</count>
+          </li>
+        </value>
+      </li>
+      <!-- now either another mod has already created a RoomRequirement_ThingCountAnyOf or we did it ourselves, so add elven furniture to the requirements: -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RoyalTitleDef/throneRoomRequirements/li[contains(@Class, "RoomRequirement_ThingCountAnyOf") or contains(@Class, "RoomRequirement_ThingAnyOfCount")]/things[li = "Brazier"]</xpath>
+        <value>
+          <li>LotRE_ElvenCandelabra</li>
+        </value>
+      </li>
+      <!-- these new light sources must also be lit! -->
+      <li Class="PatchOperationInsert">
+        <xpath>/Defs/RoyalTitleDef/throneRoomRequirements/li[@Class = "RoomRequirement_AllThingsAreGlowing"][labelKey = "RoomRequirementAllBraziersMustBeLit"]</xpath>
+        <value>
+          <li Class="RoomRequirement_AllThingsAreGlowing">
+            <labelKey>LotRE_RoomRequirementAllCandelabraMustBeLit</labelKey>
+            <thingDef>LotRE_ElvenCandelabra</thingDef>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
 </Patch>
