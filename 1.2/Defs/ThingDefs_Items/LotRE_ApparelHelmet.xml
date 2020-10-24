@@ -183,6 +183,9 @@
       <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
       <EquipDelay>2.0</EquipDelay>
     </statBases>
+    <thingCategories>
+      <li>HeadgearNoble</li>
+    </thingCategories>
     <generateCommonality>2</generateCommonality>
     <apparel>
       <bodyPartGroups>
@@ -194,6 +197,9 @@
       </layers>
       <tags>
         <li>LotR_ElfMilitary</li>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier5</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -233,6 +239,9 @@
       <EquipDelay>2.0</EquipDelay>
       <SellPriceFactor>2.5</SellPriceFactor>
     </statBases>
+    <thingCategories>
+      <li>HeadgearNoble</li>
+    </thingCategories>
     <equippedStatOffsets>
       <SocialImpact>0.3</SocialImpact>
     </equippedStatOffsets>
@@ -247,6 +256,10 @@
       </layers>
       <tags>
         <li>LotR_ElfKing</li>
+        <li>Royal</li>
+        <li>RoyalTier5</li>
+        <li>RoyalTier6</li>
+        <li>RoyalTier7</li>
       </tags>
     </apparel>
   </ThingDef>
