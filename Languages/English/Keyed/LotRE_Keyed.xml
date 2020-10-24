@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <LotRE_Elves>Elves</LotRE_Elves>
+  <LotRE_RoomRequirementTotal>{0} in total of any of these:</LotRE_RoomRequirementTotal>
 
 </LanguageData>
