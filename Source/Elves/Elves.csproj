@@ -62,6 +62,7 @@
     <Compile Include="HediffGiver_RacialTraits.cs" />
     <Compile Include="MallornBiomeWorker.cs" />
     <Compile Include="MallornTree.cs" />
+    <Compile Include="RoomRequirement_ThingCountAnyOf.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
