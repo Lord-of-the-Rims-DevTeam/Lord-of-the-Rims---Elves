@@ -9,12 +9,12 @@
     <li>/</li>
     <li>1.1</li>
     <li IfModActive="CETeam.CombatExtended">CE/1.2</li>
-    <li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
+    <li IfModActive="Ludeon.Rimworld.Royalty">Royalty/1.1</li>
   </v1.1>
   <v1.2>
     <li>/</li>
     <li>1.2</li>
     <li IfModActive="CETeam.CombatExtended">CE/1.2</li>
-    <li IfModActive="Ludeon.Rimworld.Royalty">Royalty</li>
+    <li IfModActive="Ludeon.Rimworld.Royalty">Royalty/1.1</li>
   </v1.2>
 </loadFolders>
