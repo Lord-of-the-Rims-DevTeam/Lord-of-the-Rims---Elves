@@ -26,9 +26,10 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Bow_Recurve</soundInteract>
-    <costList>
-      <WoodLog>60</WoodLog>
-    </costList>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>60</costStuffCount>
     <statBases>
       <WorkToMake>10000</WorkToMake>
       <Mass>0.7</Mass>
@@ -102,8 +103,11 @@
       <drawSize>(2.0,2.0)</drawSize>
     </graphicData>
     <soundInteract>Bow_Recurve</soundInteract>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+    <costStuffCount>75</costStuffCount>
     <costList>
-      <WoodLog>75</WoodLog>
       <Gold>5</Gold>
     </costList>
     <statBases>
