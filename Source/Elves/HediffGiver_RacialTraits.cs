@@ -6,7 +6,7 @@ namespace Elves
     {
         public override void OnIntervalPassed(Pawn pawn, Hediff cause)
         {
-            HealthUtility.AdjustSeverity(pawn, this.hediff, 1f);
+            HealthUtility.AdjustSeverity(pawn, hediff, 1f);
         }
     }
 }

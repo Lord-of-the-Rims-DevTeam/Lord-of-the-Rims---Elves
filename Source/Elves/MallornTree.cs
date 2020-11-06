@@ -10,8 +10,8 @@ namespace Elves
         private int nextSpawnTimestamp = -1;
         private const int spawnEveryDays = 1;
         
-        private GraphicData MallornGreen => this.def.building.fullGraveGraphicData;
-        private GraphicData ImmatureMallornGreen => this.def.building.trapUnarmedGraphicData;
+        private GraphicData MallornGreen => def.building.fullGraveGraphicData;
+        private GraphicData ImmatureMallornGreen => def.building.trapUnarmedGraphicData;
 
 
         public override Graphic Graphic
@@ -20,13 +20,16 @@ namespace Elves
             {
                 if (isSummer)
                 {
-                    if (this.def.plant.immatureGraphic != null && !this.HarvestableNow)
+                    if (def.plant.immatureGraphic != null && !HarvestableNow)
                     {
                         return ImmatureMallornGreen.Graphic;
                     }
                     return MallornGreen.Graphic;
                 }
-                else return base.Graphic;
+                else
+                {
+                    return base.Graphic;
+                }
             }
         }
 
@@ -65,8 +68,16 @@ namespace Elves
             {
                 var isSpring = GenLocalDate.Season(MapHeld) == Season.Spring;
                 isSummer = GenLocalDate.Season(MapHeld) == Season.Summer;
-                if (!isSpring) return;
-                if (Find.TickManager.TicksGame < nextSpawnTimestamp) return;
+                if (!isSpring)
+                {
+                    return;
+                }
+
+                if (Find.TickManager.TicksGame < nextSpawnTimestamp)
+                {
+                    return;
+                }
+
                 if (nextSpawnTimestamp != -1)
                 {
                     TrySpawnFilth();

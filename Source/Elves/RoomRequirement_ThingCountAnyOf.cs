@@ -7,13 +7,13 @@ namespace Elves
     {
         public override bool Met(Room r, Pawn p = null)
         {
-            return this.Count(r) >= this.count;
+            return Count(r) >= count;
         }
 
         public int Count(Room r)
         {
-            int thingCount = 0;
-            foreach (ThingDef def in this.things)
+            var thingCount = 0;
+            foreach (ThingDef def in things)
             {
                 thingCount += r.ThingCount(def);
             }
@@ -22,10 +22,10 @@ namespace Elves
 
         public override string Label(Room r = null)
         {
-            bool useLabelKey = !this.labelKey.NullOrEmpty();
-            string text = (useLabelKey ? this.labelKey : "LotRE_RoomRequirementTotal").Translate(this.count);
+            var useLabelKey = !labelKey.NullOrEmpty();
+            string text = (useLabelKey ? labelKey : "LotRE_RoomRequirementTotal").Translate(count);
             // after the introductory label, print all required things (indented so they are grouped visually):
-            foreach (ThingDef def in this.things)
+            foreach (ThingDef def in things)
             {
                 text = string.Concat(new object[]
                 {
@@ -51,11 +51,11 @@ namespace Elves
 
         public override IEnumerable<string> ConfigErrors()
         {
-            foreach (string text in base.ConfigErrors())
+            foreach (var text in base.ConfigErrors())
             {
                 yield return text;
             }
-            if (this.count <= 0)
+            if (count <= 0)
             {
                 yield return "count must be larger than 0";
             }

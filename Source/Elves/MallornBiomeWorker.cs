@@ -27,7 +27,7 @@ namespace Elves
             {
                 return 0f;
             }
-            return (float)(16.0 + (tile.temperature - 7.0) + (tile.rainfall - minRainfall) / 180.0);
+            return (float)(16.0 + (tile.temperature - 7.0) + ((tile.rainfall - minRainfall) / 180.0));
         }
     }
 }

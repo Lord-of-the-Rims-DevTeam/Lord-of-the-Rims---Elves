@@ -136,6 +136,7 @@
     </stuffCategories>
     <thingCategories>
       <li>Apparel</li>
+      <li>ApparelNoble</li>
     </thingCategories>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
@@ -161,6 +162,8 @@
       </layers>
       <tags>
         <li>LotRE_ElvenApparel</li>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
       </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -197,6 +200,7 @@
     </stuffCategories>
     <thingCategories>
       <li>Apparel</li>
+      <li>ApparelNoble</li>
     </thingCategories>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
@@ -220,6 +224,8 @@
       </layers>
       <tags>
         <li>LotRE_ElvenApparel</li>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
       </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -256,6 +262,7 @@
     </stuffCategories>
     <thingCategories>
       <li>Apparel</li>
+      <li>ApparelNoble</li>
     </thingCategories>
     <statBases>
       <MaxHitPoints>120</MaxHitPoints>
@@ -279,6 +286,8 @@
       </layers>
       <tags>
         <li>LotRE_ElvenApparel</li>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
       </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -542,6 +551,7 @@
     </equippedStatOffsets>
     <thingCategories>
       <li>Apparel</li>
+      <li>ApparelNoble</li>
     </thingCategories>
     <generateCommonality>2</generateCommonality>
     <apparel>
@@ -559,6 +569,9 @@
       </layers>
       <tags>
         <li>LotR_ElfMilitary</li>
+        <li>Royal</li>
+        <li>RoyalTier2</li>
+        <li>RoyalTier5</li>
       </tags>
       <defaultOutfitTags>
         <li>LotR_ElfWarrior</li>
