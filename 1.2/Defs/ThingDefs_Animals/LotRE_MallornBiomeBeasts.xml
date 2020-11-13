@@ -11,6 +11,15 @@
     </statBases>
     <tools>
       <li>
+        <label>antlers</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>19</power>
+        <cooldownTime>2.25</cooldownTime>
+        <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
         <label>left hoof</label>
         <capacities>
           <li>Blunt</li>
@@ -51,7 +60,7 @@
       </li>
     </tools>
     <race>
-      <body>QuadrupedAnimalWithHooves</body>
+      <body>QuadrupedAnimalWithHoovesAndHorns_Elves</body>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>2.1</baseBodySize>
       <baseHealthScale>2.1</baseHealthScale>

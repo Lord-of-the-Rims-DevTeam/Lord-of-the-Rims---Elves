@@ -25,7 +25,7 @@
       <alienrefugeekinds>
         <li>
           <kindDefs>
-            <li>LotRE_Villager</li>
+            <li>LotRE_ElfVillager</li>
           </kindDefs>
           <chance>10.0</chance>
         </li>
@@ -50,7 +50,7 @@
           </pawnKindEntries>
           <factionDefs>
             <li>PlayerColony</li>
-            <li>LotRPlayerColony</li>
+            <li>LotRE_PlayerColony</li>
           </factionDefs>
         </li>
       </startingColonists>
