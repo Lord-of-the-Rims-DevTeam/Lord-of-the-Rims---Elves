@@ -170,7 +170,7 @@
     <costList>
       <WoodLog>10</WoodLog>
       <Silver>100</Silver>
-      <Gold>100</Gold>
+      <Gold>10</Gold>
     </costList>
     <statBases>
       <WorkToMake>28000</WorkToMake>

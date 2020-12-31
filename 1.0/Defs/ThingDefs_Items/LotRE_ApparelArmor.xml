@@ -457,8 +457,8 @@
       <li>Metallic</li>
     </stuffCategories>
     <costList>
-      <Silver>400</Silver>
-      <Gold>400</Gold>
+      <Silver>100</Silver>
+      <Gold>25</Gold>
     </costList>
     <statBases>
       <WorkToMake>20000</WorkToMake>
@@ -525,8 +525,8 @@
     </stuffCategories>
     <costList>
       <Steel>50</Steel>
-      <Silver>500</Silver>
-      <Gold>500</Gold>
+      <Silver>150</Silver>
+      <Gold>20</Gold>
     </costList>
     <statBases>
       <WorkToMake>38000</WorkToMake>
