@@ -270,7 +270,6 @@
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(4,4)</drawSize>
-      <drawOffset>(0,0,0.7)</drawOffset>
       <damageData>
         <rect>(0,0.05,2,1.95)</rect>
       </damageData>

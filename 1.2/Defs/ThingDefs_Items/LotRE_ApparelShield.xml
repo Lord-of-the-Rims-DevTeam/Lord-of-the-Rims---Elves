@@ -112,8 +112,8 @@
     </stuffCategories>
     <costList>
       <Steel>50</Steel>
-      <Silver>1</Silver>
-      <Gold>1</Gold>
+      <Silver>100</Silver>
+      <Gold>100</Gold>
     </costList>
     <statBases>
       <WorkToMake>10000</WorkToMake>

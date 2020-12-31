@@ -12,6 +12,10 @@
         <Crafting>7</Crafting>
       </skillRequirements>
       <researchPrerequisite>LotRE_ArmorTwo</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Elf/Apparel/Helmet/nackbladElvenHelmetDisplay</texPath>
@@ -59,6 +63,10 @@
         <Crafting>5</Crafting>
       </skillRequirements>
       <researchPrerequisite>LotRE_ArmorTwo</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Elf/Apparel/Helmet/nackbladElvenHelmetDisplay</texPath>
@@ -109,6 +117,10 @@
         <Crafting>7</Crafting>
       </skillRequirements>
       <researchPrerequisite>LotRE_ArmorThree</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Elf/Apparel/Helmet/painlessVikingGaladhrimHelm_north</texPath>
@@ -159,6 +171,10 @@
         <Crafting>10</Crafting>
       </skillRequirements>
       <researchPrerequisite>LotRE_ArmorFour</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Elf/Apparel/Helmet/nackbladElvenHelmetDisplay</texPath>
@@ -171,8 +187,8 @@
     </stuffCategories>
     <costList>
       <Steel>20</Steel>
-      <Silver>1</Silver>
-      <Gold>1</Gold>
+      <Silver>100</Silver>
+      <Gold>100</Gold>
     </costList>
     <statBases>
       <WorkToMake>9000</WorkToMake>
@@ -209,6 +225,10 @@
         <Crafting>12</Crafting>
       </skillRequirements>
       <researchPrerequisite>LotRE_ArmorFour</researchPrerequisite>
+      <recipeUsers>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
     </recipeMaker>
     <graphicData>
       <texPath>Things/Pawn/Elf/Apparel/Helmet/sheidulaElfCrown_north</texPath>
@@ -220,8 +240,8 @@
       <li>Metallic</li>
     </stuffCategories>
     <costList>
-      <Gold>2</Gold>
-      <Silver>2</Silver>
+      <Gold>200</Gold>
+      <Silver>200</Silver>
     </costList>
     <statBases>
       <WorkToMake>14000</WorkToMake>

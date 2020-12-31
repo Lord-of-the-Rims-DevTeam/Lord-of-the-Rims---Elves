@@ -122,7 +122,7 @@
     </recipeMaker>
   </ThingDef>
   <!-- Elf Robes -->
-  <ThingDef ParentName="ArmorSmithableBase">
+  <ThingDef ParentName="ApparelMakeableBase">
     <defName>LotRE_ElfApparel_SimpleRobeWoodland</defName>
     <label>elf-robe (woodland)</label>
     <description>A simple robe with green colors.</description>
@@ -186,7 +186,7 @@
       <researchPrerequisite>LotRE_ArmorOne</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
-  <ThingDef ParentName="ArmorSmithableBase">
+  <ThingDef ParentName="ApparelMakeableBase">
     <defName>LotRE_ElfApparel_SimpleRobeSea</defName>
     <label>elf-robe (coastal)</label>
     <description>A simple robe with sky blue tones.</description>
@@ -248,7 +248,7 @@
       <researchPrerequisite>LotRE_ArmorOne</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
-  <ThingDef ParentName="ArmorSmithableBase">
+  <ThingDef ParentName="ApparelMakeableBase">
     <defName>LotRE_ElfApparel_SimpleRobeHigh</defName>
     <label>elf-robe (noble)</label>
     <description>A simple robe with golden tones.</description>
@@ -466,8 +466,8 @@
       <li>Metallic</li>
     </stuffCategories>
     <costList>
-      <Silver>4</Silver>
-      <Gold>4</Gold>
+      <Silver>400</Silver>
+      <Gold>400</Gold>
     </costList>
     <statBases>
       <WorkToMake>20000</WorkToMake>
@@ -534,8 +534,8 @@
     </stuffCategories>
     <costList>
       <Steel>50</Steel>
-      <Silver>50</Silver>
-      <Gold>50</Gold>
+      <Silver>500</Silver>
+      <Gold>500</Gold>
     </costList>
     <statBases>
       <WorkToMake>38000</WorkToMake>

@@ -18,7 +18,7 @@
     <costStuffCount>133</costStuffCount>
     <costList>
       <WoodLog>10</WoodLog>
-      <Silver>1</Silver>
+      <Silver>100</Silver>
     </costList>
     <statBases>
       <WorkToMake>24500</WorkToMake>
@@ -97,7 +97,7 @@
     <costStuffCount>156</costStuffCount>
     <costList>
       <WoodLog>10</WoodLog>
-      <Silver>1</Silver>
+      <Silver>100</Silver>
     </costList>
     <statBases>
       <WorkToMake>26500</WorkToMake>
@@ -169,8 +169,8 @@
     <costStuffCount>180</costStuffCount>
     <costList>
       <WoodLog>10</WoodLog>
-      <Silver>1</Silver>
-      <Gold>1</Gold>
+      <Silver>100</Silver>
+      <Gold>100</Gold>
     </costList>
     <statBases>
       <WorkToMake>28000</WorkToMake>
