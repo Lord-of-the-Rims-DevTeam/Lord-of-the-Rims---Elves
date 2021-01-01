@@ -1,17 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRE_WallElven.label>装飾された壁(エルフ)</LotRE_WallElven.label>
   <LotRE_WallElven.description>この彫刻された壁には、裂け谷(リヴェンデル)の部屋を飾る木工細工を思わせるブドウの蔓ようなデザインが特徴です。</LotRE_WallElven.description>
-  <Blueprint_LotRE_WallElven.label>装飾された壁(エルフ)(設計)</Blueprint_LotRE_WallElven.label>
-  <Frame_LotRE_WallElven.label>装飾された壁(エルフ)(施工)</Frame_LotRE_WallElven.label>
-  <Frame_LotRE_WallElven.description>この彫刻された壁には、裂け谷(リヴェンデル)の部屋を飾る木工細工を思わせるブドウの蔓ようなデザインが特徴です。</Frame_LotRE_WallElven.description>
-
-  <LotRE_WallElvenEmbrasure.label>装飾された 矢狭間 (エルフ)</LotRE_WallElvenEmbrasure.label>
-  <LotRE_WallElvenEmbrasure.description>この彫刻された矢狭間は、より遮蔽率の高い状態での射撃を可能にします。裂け谷(リヴェンデル)の部屋を飾る木工細工を思わせるブドウの蔓ようなデザインが特徴です。</LotRE_WallElvenEmbrasure.description>
-  <Blueprint_LotRE_WallElvenEmbrasure.label>装飾された 矢狭間 (エルフ)(設計)</Blueprint_LotRE_WallElvenEmbrasure.label>
-  <Frame_LotRE_WallElvenEmbrasure.label>装飾された 矢狭間 (エルフ)(施工)</Frame_LotRE_WallElvenEmbrasure.label>
-  <Frame_LotRE_WallElvenEmbrasure.description>この彫刻された矢狭間は、より遮蔽率の高い状態での射撃を可能にします。裂け谷(リヴェンデル)の部屋を飾る木工細工を思わせるブドウの蔓ようなデザインが特徴です。</Frame_LotRE_WallElvenEmbrasure.description>
-
-
+  <LotRE_WallElven_Blueprint.label>装飾された壁(エルフ)(設計)</LotRE_WallElven_Blueprint.label>
+  <LotRE_WallElven_Frame.label>装飾された壁(エルフ)(施工)</LotRE_WallElven_Frame.label>
+  <LotRE_WallElven_Frame.description>この彫刻された壁には、裂け谷(リヴェンデル)の部屋を飾る木工細工を思わせるブドウの蔓ようなデザインが特徴です。</LotRE_WallElven_Frame.description>
 </LanguageData>

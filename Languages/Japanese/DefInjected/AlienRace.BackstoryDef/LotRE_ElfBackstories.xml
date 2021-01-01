@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRE_BackstoryElfChildOne.title>エルフの幼子(ノルドール族)</LotRE_BackstoryElfChildOne.title>
   <LotRE_BackstoryElfChildOne.titleShort>幼子</LotRE_BackstoryElfChildOne.titleShort>
   <LotRE_BackstoryElfChildOne.baseDescription>比較的平和な時に育ちましたが、まだゴブリンやオークが依然として山を徘徊して戦争が続いている中、NAMEはHISの幼い時代を過ごし、HISの暇つぶしをしている間に勉強しながら戦いと工芸の練習をしていました。</LotRE_BackstoryElfChildOne.baseDescription>
@@ -16,10 +15,7 @@
   <LotRE_BackstoryElfChildFive.title>エルフの幼子(ナンドール族)</LotRE_BackstoryElfChildFive.title>
   <LotRE_BackstoryElfChildFive.titleShort>幼子</LotRE_BackstoryElfChildFive.titleShort>
   <LotRE_BackstoryElfChildFive.baseDescription>NAMEは森の中で成長して、HISの時間を鹿の群れや木々の木々との時間に回し、外界とは接触しませんでした。HEはHISの住む森の王国を越えて生活していた人々の行為を全く理解していませんでしたが、HIMの周辺に広がる自然界の仕組みによって深い知識と親密さを育んでいました。</LotRE_BackstoryElfChildFive.baseDescription>
-
-
   <!-- Adult backstories -->
-
   <LotRE_BackstoryElfAdultOne.title>エルフ:野伏</LotRE_BackstoryElfAdultOne.title>
   <LotRE_BackstoryElfAdultOne.titleShort>野伏</LotRE_BackstoryElfAdultOne.titleShort>
   <LotRE_BackstoryElfAdultOne.baseDescription>NAMEは森林と平原を忍び歩き、HISの領主が治める土地に不法に侵入した人々を遠くから射殺していました。 しかしHECAPは、HISの足で音もなく素早く接近し、HISの巧みな戦術で侵入者を無傷で捕まえて、処罰する方法を学びました。</LotRE_BackstoryElfAdultOne.baseDescription>
@@ -59,6 +55,4 @@
   <LotRE_BackstoryElfAdultThirteen.title>エルフ:領主</LotRE_BackstoryElfAdultThirteen.title>
   <LotRE_BackstoryElfAdultThirteen.titleShort>領主</LotRE_BackstoryElfAdultThirteen.titleShort>
   <LotRE_BackstoryElfAdultThirteen.baseDescription>MENの強さが失われたとき、新たなエルフの領主が誕生する時です。NAMEは何十年もの間仕えてきましたが、その間にHISの主によって悲劇的な損失が出ていました。HISの同族からの要請によって、その後何世紀にもわたってHISの領民を導く統治者となったのです。</LotRE_BackstoryElfAdultThirteen.baseDescription>
-
-
 </LanguageData>

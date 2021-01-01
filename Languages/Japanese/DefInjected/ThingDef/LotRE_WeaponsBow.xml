@@ -1,28 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Tier 1 -->
-
   <LotRE_Arrow_Mirkwood.label>闇の森の矢</LotRE_Arrow_Mirkwood.label>
-
   <LotRE_Bow_Mirkwood.label>エルヴンボウ(闇の森)</LotRE_Bow_Mirkwood.label>
   <LotRE_Bow_Mirkwood.description>近距離と中距離の両方で効果的なこの早打ちの弓は、エルフたちの拠点への脅威に対して最大限の阻止力を与えます。</LotRE_Bow_Mirkwood.description>
-
-
   <!-- Tier 2 -->
-
   <LotRE_Arrow_Galadhrim.label>ガラズリムの矢</LotRE_Arrow_Galadhrim.label>
-
   <LotRE_Bow_Galadhrim.label>エルヴンボウ(樹木)</LotRE_Bow_Galadhrim.label>
   <LotRE_Bow_Galadhrim.description>ガラズリム(樹木エルフ)たちが好むロンクボウ(長弓)です。強力な長距離武器でしょう。</LotRE_Bow_Galadhrim.description>
-
-
   <!-- Tier 3 -->
-
   <LotRE_Arrow_Rivendell.label>裂け谷の矢</LotRE_Arrow_Rivendell.label>
-
   <LotRE_Bow_Rivendell.label>エルヴンボウ(裂け谷)</LotRE_Bow_Rivendell.label>
   <LotRE_Bow_Rivendell.description>裂け谷に住む高貴なエルフ(ノルドール族)たちは、驚異的なダメージと精度を持つ並はずれたロンクボウ(長弓)を使用しています。</LotRE_Bow_Rivendell.description>
-
-
 </LanguageData>

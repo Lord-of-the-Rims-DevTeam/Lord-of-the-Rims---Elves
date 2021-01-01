@@ -1,31 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Tier 1 -->
-
   <LotRE_MeleeWeapon_WhiteKnives.label>エルヴンホワイトナイフ</LotRE_MeleeWeapon_WhiteKnives.label>
   <LotRE_MeleeWeapon_WhiteKnives.description>この対になっているホワイトナイフは高速かつ致命的な近接攻撃を行い、戦場で多くの敵を素早く討ち取ります。</LotRE_MeleeWeapon_WhiteKnives.description>
   <LotRE_MeleeWeapon_WhiteKnives.tools.0.label>持ち手</LotRE_MeleeWeapon_WhiteKnives.tools.0.label>
   <LotRE_MeleeWeapon_WhiteKnives.tools.1.label>切っ先</LotRE_MeleeWeapon_WhiteKnives.tools.1.label>
   <LotRE_MeleeWeapon_WhiteKnives.tools.2.label>刃</LotRE_MeleeWeapon_WhiteKnives.tools.2.label>
-
-
   <!-- Tier 2 -->
-
   <LotRE_MeleeWeapon_Saber.label>エルヴンサーベル</LotRE_MeleeWeapon_Saber.label>
   <LotRE_MeleeWeapon_Saber.description>エルフたちに本当に似合う武器です。貴重な金属で飾られた鍔を持つ長く湾曲した細い刃。優雅な切り払い攻撃に向いています。</LotRE_MeleeWeapon_Saber.description>
   <LotRE_MeleeWeapon_Saber.tools.0.label>持ち手</LotRE_MeleeWeapon_Saber.tools.0.label>
   <LotRE_MeleeWeapon_Saber.tools.1.label>切っ先</LotRE_MeleeWeapon_Saber.tools.1.label>
   <LotRE_MeleeWeapon_Saber.tools.2.label>刃</LotRE_MeleeWeapon_Saber.tools.2.label>
-
-
   <!-- Tier 3 -->
-
   <LotRE_MeleeWeapon_Lhang.label>エルヴンラング</LotRE_MeleeWeapon_Lhang.label>
   <LotRE_MeleeWeapon_Lhang.description>トルーキンの原作小説には記述がありませんが、ラング(Lhang)は映画「Lord of the Rings」の3部作で使用され「Weta Workshop」のデザイナーと現実の武器職人によって設計・作成されたエルフの剣です。映画の中では、サルマンに派遣されたウルク=ハイの軍勢によって、ヘルム峡谷の角笛城に籠城を決めたセオデン王たちの元に援軍に来た、ロスローリエン(樹木エルフ)のエルフ兵たちが装備していました。この戦いでオーク達にラングは天敵(Orc's bane)である事を示しました。</LotRE_MeleeWeapon_Lhang.description>
   <LotRE_MeleeWeapon_Lhang.tools.0.label>持ち手</LotRE_MeleeWeapon_Lhang.tools.0.label>
   <LotRE_MeleeWeapon_Lhang.tools.1.label>切っ先</LotRE_MeleeWeapon_Lhang.tools.1.label>
   <LotRE_MeleeWeapon_Lhang.tools.2.label>刃</LotRE_MeleeWeapon_Lhang.tools.2.label>
-
-
 </LanguageData>

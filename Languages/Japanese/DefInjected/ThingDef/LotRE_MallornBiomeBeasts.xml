@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRE_DeerMallorn.label>ローリエンの鹿</LotRE_DeerMallorn.label>
   <LotRE_DeerMallorn.description>大規模な群れを作る草食動物で、多くの場合、ローリエンにあるエルフの土地で見られます。一般的には脅かさない限り平和的です。</LotRE_DeerMallorn.description>
   <LotRE_DeerMallorn.tools.0.label>左ひづめ</LotRE_DeerMallorn.tools.0.label>
@@ -13,6 +12,4 @@
   <LotRE_DeerMallorn_Meat.description>ローリエンの鹿肉</LotRE_DeerMallorn_Meat.description>
   <LotRE_DeerMallorn_Corpse.label>ローリエンの鹿の死骸</LotRE_DeerMallorn_Corpse.label>
   <LotRE_DeerMallorn_Corpse.description>ローリエンの鹿の死骸</LotRE_DeerMallorn_Corpse.description>
-
-
 </LanguageData>

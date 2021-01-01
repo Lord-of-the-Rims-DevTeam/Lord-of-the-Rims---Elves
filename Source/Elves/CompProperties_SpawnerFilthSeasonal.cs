@@ -7,7 +7,7 @@ namespace Elves
     {
         public CompProperties_SpawnerFilthSeasonal()
         {
-            this.compClass = typeof(CompSpawnerFilthSeasonal);
+            compClass = typeof(CompSpawnerFilthSeasonal);
         }
 
         public ThingDef filthDef;

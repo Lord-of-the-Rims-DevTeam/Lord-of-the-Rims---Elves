@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <LotRE_ElfMaleNamer.rulePack.rulesStrings.0>name->[pack]</LotRE_ElfMaleNamer.rulePack.rulesStrings.0>
-  <LotRE_ElfFemaleNamer.rulePack.rulesStrings.0>name->[pack]</LotRE_ElfFemaleNamer.rulePack.rulesStrings.0>
-  <LotRE_NamerFactionBaseElfWoodland.rulePack.rulesStrings.0>name->[pack]</LotRE_NamerFactionBaseElfWoodland.rulePack.rulesStrings.0>
-  <LotRE_NamerFactionBaseElfSea.rulePack.rulesStrings.0>name->[pack]</LotRE_NamerFactionBaseElfSea.rulePack.rulesStrings.0>
-  <LotRE_NamerFactionBaseElfHigh.rulePack.rulesStrings.0>name->[pack]</LotRE_NamerFactionBaseElfHigh.rulePack.rulesStrings.0>
-
-
+  <LotRE_ElfMaleNamer.rulePack.rulesStrings.0>name-&gt;[pack]</LotRE_ElfMaleNamer.rulePack.rulesStrings.0>
+  <LotRE_ElfFemaleNamer.rulePack.rulesStrings.0>name-&gt;[pack]</LotRE_ElfFemaleNamer.rulePack.rulesStrings.0>
+  <LotRE_NamerFactionBaseElfWoodland.rulePack.rulesStrings.0>name-&gt;[pack]</LotRE_NamerFactionBaseElfWoodland.rulePack.rulesStrings.0>
+  <LotRE_NamerFactionBaseElfSea.rulePack.rulesStrings.0>name-&gt;[pack]</LotRE_NamerFactionBaseElfSea.rulePack.rulesStrings.0>
+  <LotRE_NamerFactionBaseElfHigh.rulePack.rulesStrings.0>name-&gt;[pack]</LotRE_NamerFactionBaseElfHigh.rulePack.rulesStrings.0>
 </LanguageData>

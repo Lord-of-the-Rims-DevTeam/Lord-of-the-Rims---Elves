@@ -1,46 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <!-- Elf Capes -->
-
   <LotRE_Apparel_Cape.label>エルヴンマント(森)</LotRE_Apparel_Cape.label>
   <LotRE_Apparel_Cape.description>暗い森林の色で染められている森エルフたちが着用する洒落たマントです。</LotRE_Apparel_Cape.description>
-
   <LotRE_Apparel_CapeCoastal.label>エルヴンマント(海岸)</LotRE_Apparel_CapeCoastal.label>
   <LotRE_Apparel_CapeCoastal.description>海岸エルフたちが着用する洒落たマントです。このファラスリム様式では、海岸エルフたちの避難所で使われているより明るい色が特徴です。</LotRE_Apparel_CapeCoastal.description>
-
-
-  <!-- Elf Robes -->
-
   <LotRE_ElfApparel_SimpleRobeWoodland.label>エルヴンローブ(森)</LotRE_ElfApparel_SimpleRobeWoodland.label>
   <LotRE_ElfApparel_SimpleRobeWoodland.description>緑色をしたシンプルな衣装です。</LotRE_ElfApparel_SimpleRobeWoodland.description>
-
   <LotRE_ElfApparel_SimpleRobeSea.label>エルヴンローブ(海岸)</LotRE_ElfApparel_SimpleRobeSea.label>
   <LotRE_ElfApparel_SimpleRobeSea.description>スカイブルー色をしたシンプルな衣装です。</LotRE_ElfApparel_SimpleRobeSea.description>
-
   <LotRE_ElfApparel_SimpleRobeHigh.label>エルヴンローブ(高貴)</LotRE_ElfApparel_SimpleRobeHigh.label>
   <LotRE_ElfApparel_SimpleRobeHigh.description>黄金色調のシンプルな衣装です。</LotRE_ElfApparel_SimpleRobeHigh.description>
-
-
-  <!-- Tier 1 -->
-
   <LotRE_ElfApparel_BattleArmor.label>エルヴンアーマー(ノルド)</LotRE_ElfApparel_BattleArmor.label>
   <LotRE_ElfApparel_BattleArmor.description>この優れた強化レザーアーマーは、質の高い金属で飾り付けられています。この鎧はエルフでも勇敢で知られた部族であるノルドールのエルフたちの戦いに用いられます。彼らは博識によって知識深きエルフと命名され、戦闘での技巧によりソードエルフとも呼ばれます。</LotRE_ElfApparel_BattleArmor.description>
-
   <LotRE_ElfApparel_BattleArmorSea.label>エルヴンアーマー(海岸)</LotRE_ElfApparel_BattleArmorSea.label>
   <LotRE_ElfApparel_BattleArmorSea.description>ガラズリム(樹木エルフ)でも使用されている鎧と同様に、このエルヴンアーマーの派生タイプにも木のモチーフが非常に好まれていますが、錆びてしまうの可能性のある金属を使わず、空と海を祭るために青く染めた革が好まれます。</LotRE_ElfApparel_BattleArmorSea.description>
-
-
-  <!-- Tier 2 -->
-
   <LotRE_ElfApparel_BattleArmorTree.label>エルヴンアーマー(樹木)</LotRE_ElfApparel_BattleArmorTree.label>
   <LotRE_ElfApparel_BattleArmorTree.description>この美しい鎧はガラズリム(樹木)の様式で作られています。数少ないハイエルフのガラドリエルに導かれたガラズリム、または「木に住む人々」と呼ばれるこのエルフたちは、ロスローリエンのような森林でマルローンの大木に住むシルヴァン・エルフ(森のエルフ)に属します。この鎧は、金と銀でめっきされた木の葉のデザイン要素が特徴になっています。</LotRE_ElfApparel_BattleArmorTree.description>
-
-
-  <!-- Tier 3 -->
-
   <LotRE_ElfApparel_BattleArmorWood.label>エルヴンアーマー(森)</LotRE_ElfApparel_BattleArmorWood.label>
   <LotRE_ElfApparel_BattleArmorWood.description>闇の森に王国(森の王国)を築いた森エルフたちが着用する鎧です。また彼らは森に暮らすシルヴァン・エルフ（森のエルフ)でもあり、広葉樹の葉をデザインした金属片を綴った武具など、多くの点で他氏族との違いが見られます。</LotRE_ElfApparel_BattleArmorWood.description>
-
-
 </LanguageData>
