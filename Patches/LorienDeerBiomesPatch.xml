@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rimhammer - The End Times - Beastmen</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd"> 
+					<xpath>/Defs/ThingDef[defName="LotRE_DeerMallorn"]/race/wildBiomes</xpath>
+					<value>
+						<RH_TET_Beastmen_OldGrowthForest>0.05</RH_TET_Beastmen_OldGrowthForest>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+	
+		
+</Patch>
+
