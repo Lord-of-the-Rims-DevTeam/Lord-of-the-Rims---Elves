@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Lord of the Rims - Elves (Continued)</name>
   <packageId>Mlie.LordoftheRimsElves</packageId>
@@ -49,6 +49,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1400234784
 - Added support for Combat Extended
 - Fixed starting goodwill with Empire
 - Replaced some textures with better quality, via Trisscar
+- Added Royalty-titles support, via SoongJr
+- Updated apparel/weapon gold and silver cost to reflect the description and the corresponding helmets cost
+- Updated the recipes for robes and helmets, should now be craftable at the correct bench
 
 [img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
@@ -81,8 +84,15 @@ https://www.youtube.com/watch?v=eL5km_cX4Ck
 Join the Lord of the Rims channel to discuss the mod.
 https://discord.gg/jcMf4am
 
-[h1]Psst...
-Still there fellow RimWorlder?
-Want to buy me a coffee? Perhaps more mods for RimWorld?
-Consider donating to my Patreon, here: https://www.patreon.com/jecrell[/h1]</description>
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+

@@ -1,37 +1,36 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-	<Operation Class="PatchOperationSequence">
-			<operations>
-				<!-- Temperate forest -->
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
-					<value>
-						<LotRE_DeerMallornKind>0.01</LotRE_DeerMallornKind>
-						<LotRE_DeerMallornWhiteKind>0.0001</LotRE_DeerMallornWhiteKind>
-					</value>			
-				</li>	
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
-					<value>
-						<LotRE_DeerMallornKind>0.01</LotRE_DeerMallornKind>
-						<LotRE_DeerMallornWhiteKind>0.0001</LotRE_DeerMallornWhiteKind>
-					</value>			
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
-					<value>
-						<LotRE_DeerMallornKind>0.01</LotRE_DeerMallornKind>
-						<LotRE_DeerMallornWhiteKind>0.0001</LotRE_DeerMallornWhiteKind>
-					</value>			
-				</li>
-				<li Class="PatchOperationAdd">
-					<xpath>/Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
-					<value>
-						<LotRE_DeerMallornKind>0.01</LotRE_DeerMallornKind>
-						<LotRE_DeerMallornWhiteKind>0.0001</LotRE_DeerMallornWhiteKind>
-					</value>			
-				</li>			
-			</operations>
-	</Operation>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <!-- Temperate forest -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
+        <value>
+          <LotRE_DeerMallornKind>0.01</LotRE_DeerMallornKind>
+          <LotRE_DeerMallornWhiteKind>0.0001</LotRE_DeerMallornWhiteKind>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
+        <value>
+          <LotRE_DeerMallornKind>0.01</LotRE_DeerMallornKind>
+          <LotRE_DeerMallornWhiteKind>0.0001</LotRE_DeerMallornWhiteKind>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+        <value>
+          <LotRE_DeerMallornKind>0.01</LotRE_DeerMallornKind>
+          <LotRE_DeerMallornWhiteKind>0.0001</LotRE_DeerMallornWhiteKind>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
+        <value>
+          <LotRE_DeerMallornKind>0.01</LotRE_DeerMallornKind>
+          <LotRE_DeerMallornWhiteKind>0.0001</LotRE_DeerMallornWhiteKind>
+        </value>
+      </li>
+    </operations>
+  </Operation>
 </Patch>
-
