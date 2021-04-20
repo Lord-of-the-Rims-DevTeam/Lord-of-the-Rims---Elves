@@ -179,6 +179,8 @@
       <li Class="CompProperties_Refuelable">
         <fuelConsumptionRate>0.5</fuelConsumptionRate>
         <fuelCapacity>20.0</fuelCapacity>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <initialFuelPercent>1</initialFuelPercent>
         <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
         <fuelFilter>
           <thingDefs>
