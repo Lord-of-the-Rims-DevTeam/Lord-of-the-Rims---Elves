@@ -74,12 +74,6 @@
 	  -->
       <nameOnTameChance>1</nameOnTameChance>
       <trainability>Advanced</trainability>
-      <wildBiomes>
-				<BorealForest>0.05</BorealForest>
-				<ColdBog>0.05</ColdBog>
-				<TemperateForest>0.05</TemperateForest>
-				<TemperateSwamp>0.05</TemperateSwamp>
-      </wildBiomes>
       <meatLabel>lórien venison</meatLabel>
       <packAnimal>true</packAnimal>
       <wildness>0.65</wildness>
