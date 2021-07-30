@@ -20,11 +20,13 @@ namespace Elves
                 Log.ErrorOnce("Fire DrawWorker with null thingDef: " + loc, 3427324);
                 return;
             }
+
             if (subGraphics == null)
             {
                 Log.ErrorOnce("Graphic_Flicker has no subgraphics " + thingDef, 358773632);
                 return;
             }
+
             var num = Find.TickManager.TicksGame;
             var num2 = 0;
             var num3 = 0;
@@ -46,16 +48,19 @@ namespace Elves
                 //    num4 = compFireOverlay.Props.fireSize;
                 //}
             }
+
             if (num3 < 0 || num3 >= subGraphics.Length)
             {
                 Log.ErrorOnce("Fire drawing out of range: " + num3, 7453435);
                 num3 = 0;
             }
-            Graphic graphic = subGraphics[num3];
+
+            var graphic = subGraphics[num3];
             var num5 = Mathf.Min(num4 / 1.2f, 1.2f);
-            Vector3 a = GenRadial.RadialPattern[num2 % GenRadial.RadialPattern.Length].ToVector3() / GenRadial.MaxRadialPatternRadius;
+            var a = GenRadial.RadialPattern[num2 % GenRadial.RadialPattern.Length].ToVector3() /
+                    GenRadial.MaxRadialPatternRadius;
             a *= MaxOffset;
-            Vector3 vector = loc + (a * num4);
+            var vector = loc + (a * num4);
             //if (compFireOverlay != null)
             //{
             //    vector += compFireOverlay.Props.offset;
@@ -68,14 +73,8 @@ namespace Elves
 
         public override string ToString()
         {
-            return string.Concat(new object[]
-            {
-                "Flicker(subGraphic[0]=",
-                subGraphics[0].ToString(),
-                ", count=",
-                subGraphics.Length,
-                ")"
-            });
+            return string.Concat("Flicker(subGraphic[0]=", subGraphics[0].ToString(), ", count=", subGraphics.Length,
+                ")");
         }
     }
 }

@@ -13,6 +13,8 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1400234784
 - Added Royalty-titles support, via SoongJr
 - Updated apparel/weapon gold and silver cost to reflect the description and the corresponding helmets cost
 - Updated the recipes for robes and helmets, should now be craftable at the correct bench
+- Added some patches for https://steamcommunity.com/sharedfiles/filedetails/?id=2260502331]Vanilla Animals Expanded — Temperate Forest, https://steamcommunity.com/sharedfiles/filedetails/?id=1895364938]Vanilla Animals Expanded — Boreal Forest via leugimimi
+
 
 ![Image](https://i.imgur.com/7Gzt3Rg.png)
 
@@ -45,7 +47,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1400234784
 Mod Showcase from BarKy
 https://www.youtube.com/watch?v=eL5km_cX4Ck
 
-(Apologies that this workshop page isn't very nice. It's 3AM, so I'll fix this up to look nicer tomorrow! =D)
+(Apologies that this workshop page isn&apos;t very nice. It&apos;s 3AM, so I&apos;ll fix this up to look nicer tomorrow! =D)
 
 Join the Lord of the Rims channel to discuss the mod.
 https://discord.gg/jcMf4am
@@ -60,6 +62,7 @@ https://discord.gg/jcMf4am
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 

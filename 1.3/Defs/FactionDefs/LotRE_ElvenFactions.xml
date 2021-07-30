@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef ParentName="PlayerFactionBase">
+    <defName>LotRE_PlayerColony</defName>
+    <label>Elf Settlement</label>
+    <description>Your own community.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>LotRE_ElfVillagerHigh</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <techLevel>Medieval</techLevel>
+    <backstoryCategories>
+      <li>LotRE_BackstoryElf</li>
+    </backstoryCategories>
+    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <playerInitialSettlementNameMaker>NamerSettlementOutlander</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerSettlementOutlander</factionNameMaker>
+    <geneticVariance>1</geneticVariance>
+    <!--
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		-->
+    <allowedCultures>
+      <li>Corunan</li>
+    </allowedCultures>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+  <FactionDef ParentName="FactionBase">
+    <defName>LotRE_ElfFactionWood</defName>
+    <label>Woodland Domain of the Elves</label>
+    <description>Legend has it that this woodland refuge belongs to the immortal elves. The ruler of these lands created it by using a ring of power, allowing  the location itself to be shrouded in mists that have beguiled unwelcome parties from entering for centuries. Those fortunate enough to enter the refuge can feel how the elegance of the glades ward off the decay of time and postpone the weariness of the outside world.</description>
+    <pawnsPlural>wood-elves</pawnsPlural>
+    <settlementGenerationWeight>0.21</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>elvenking</leaderTitle>
+    <factionIconPath>World/WoodElves</factionIconPath>
+    <!--
+    <colorSpectrum>
+      <li>(0.64, 0.42, 0.36)</li>
+      <li>(0.47, 0.5, 0.91)</li>
+    </colorSpectrum>
+	-->
+    <fixedName>Woodland Domain of the Elves</fixedName>
+    <settlementNameMaker>LotRE_NamerFactionBaseElfWoodland</settlementNameMaker>
+    <techLevel>Medieval</techLevel>
+    <backstoryCategories>
+      <li>LotRE_BackstoryElf</li>
+    </backstoryCategories>
+    <geneticVariance>0.8</geneticVariance>
+    <allowedCultures>
+      <li>Corunan</li>
+    </allowedCultures>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+        <li>LotRE_WoodLogMallorn</li>
+        <li>Steel</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_BulkGoods</li>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_Exotic</li>
+      <li>Caravan_Outlander_PirateMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <LotRE_ElfVillagerWoodland>250</LotRE_ElfVillagerWoodland>
+          <LotRE_ElfGuardWood>100</LotRE_ElfGuardWood>
+          <LotRE_ElfArcherWood>100</LotRE_ElfArcherWood>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <LotRE_ElfGuardWood>100</LotRE_ElfGuardWood>
+          <LotRE_ElfArcherWood>100</LotRE_ElfArcherWood>
+          <LotRE_ElvenKing>1</LotRE_ElvenKing>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <LotRE_ElfTrader>1</LotRE_ElfTrader>
+        </traders>
+        <carriers>
+          <LotRE_DeerMallornKind>100</LotRE_DeerMallornKind>
+        </carriers>
+        <guards>
+          <LotRE_ElfVillagerWoodland>10</LotRE_ElfVillagerWoodland>
+          <LotRE_ElfGuardWood>100</LotRE_ElfGuardWood>
+          <LotRE_ElfArcherWood>100</LotRE_ElfArcherWood>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <LotRE_ElfVillagerWoodland>100</LotRE_ElfVillagerWoodland>
+          <LotRE_ElfGuardWood>100</LotRE_ElfGuardWood>
+          <LotRE_ElfArcherWood>100</LotRE_ElfArcherWood>
+          <LotRE_ElvenKing>100</LotRE_ElvenKing>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <!-- <modExtensions> -->
+    <!-- <li Class="JecsTools.FactionSettings"> -->
+    <!-- <entrySoundDef>LotRE_FanfareElfWoodland</entrySoundDef> -->
+    <!-- </li> -->
+    <!-- </modExtensions> -->
+  </FactionDef>
+  <FactionDef ParentName="FactionBase">
+    <defName>LotRE_ElfFactionSea</defName>
+    <label>Coastal Havens of the Elves</label>
+    <description>These shoreline settlements populated by the Falathrim, or coast-elves, bring elf-kin closer to their true home. Only by taking the journey across the sea can most elves find peace from the weariness of the world. Haven port-cities provide elves with the means to make the journey they require, and are populated with many souls on the verge of taking the journey themselves.</description>
+    <pawnsPlural>coast-elves</pawnsPlural>
+    <settlementGenerationWeight>0.2</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>lord</leaderTitle>
+    <factionIconPath>World/SeaElves</factionIconPath>
+    <!--
+    <colorSpectrum>
+      <li>(0.64, 0.42, 0.36)</li>
+      <li>(0.47, 0.5, 0.91)</li>
+    </colorSpectrum>
+	-->
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+        <li>LotRE_WoodLogMallorn</li>
+        <li>Steel</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <fixedName>Coastal Havens of the Elves</fixedName>
+    <settlementNameMaker>LotRE_NamerFactionBaseElfSea</settlementNameMaker>
+    <techLevel>Medieval</techLevel>
+    <backstoryCategories>
+      <li>LotRE_BackstoryElf</li>
+    </backstoryCategories>
+    <geneticVariance>0.8</geneticVariance>
+    <allowedCultures>
+      <li>Corunan</li>
+    </allowedCultures>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_BulkGoods</li>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_Exotic</li>
+      <li>Caravan_Outlander_PirateMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <LotRE_ElfVillagerSea>250</LotRE_ElfVillagerSea>
+          <LotRE_ElfGuardSea>100</LotRE_ElfGuardSea>
+          <LotRE_ElfArcherSea>100</LotRE_ElfArcherSea>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <LotRE_ElfGuardSea>100</LotRE_ElfGuardSea>
+          <LotRE_ElfArcherSea>100</LotRE_ElfArcherSea>
+          <LotRE_ElfLord>100</LotRE_ElfLord>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <LotRE_ElfTraderSea>1</LotRE_ElfTraderSea>
+        </traders>
+        <carriers>
+          <LotRE_DeerMallornKind>100</LotRE_DeerMallornKind>
+        </carriers>
+        <guards>
+          <LotRE_ElfVillagerSea>10</LotRE_ElfVillagerSea>
+          <LotRE_ElfGuardSea>100</LotRE_ElfGuardSea>
+          <LotRE_ElfArcherSea>100</LotRE_ElfArcherSea>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <LotRE_ElfVillagerSea>100</LotRE_ElfVillagerSea>
+          <LotRE_ElfGuardSea>100</LotRE_ElfGuardSea>
+          <LotRE_ElfArcherSea>100</LotRE_ElfArcherSea>
+          <LotRE_ElfLord>100</LotRE_ElfLord>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <!-- <modExtensions> -->
+    <!-- <li Class="JecsTools.FactionSettings"> -->
+    <!-- <entrySoundDef>LotRE_FanfareElfSea</entrySoundDef> -->
+    <!-- </li> -->
+    <!-- </modExtensions> -->
+  </FactionDef>
+  <FactionDef ParentName="FactionBase">
+    <defName>LotRE_ElfFactionHigh</defName>
+    <label>High Council of the Elves</label>
+    <description>While largely populated by the Ñoldor, or the deep-elves (named for their wisdom), this collective organization of many elves has taken it upon their shoulders to intervene in affairs on behalf of other kindred. Their realms stand as strongholds for well trained troops, as well as locales to recruit agents, and fellowships, for their cause.</description>
+    <pawnsPlural>high-elves</pawnsPlural>
+    <settlementGenerationWeight>0.2</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>lord</leaderTitle>
+    <factionIconPath>World/HighElves</factionIconPath>
+    <!--
+    <colorSpectrum>
+      <li>(0.64, 0.42, 0.36)</li>
+      <li>(0.47, 0.5, 0.91)</li>
+    </colorSpectrum>
+	-->
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+        <li>LotRE_WoodLogMallorn</li>
+        <li>Steel</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <fixedName>High Council of the Elves</fixedName>
+    <settlementNameMaker>LotRE_NamerFactionBaseElfHigh</settlementNameMaker>
+    <techLevel>Neolithic</techLevel>
+    <backstoryCategories>
+      <li>LotRE_BackstoryElf</li>
+    </backstoryCategories>
+    <geneticVariance>0.8</geneticVariance>
+    <allowedCultures>
+      <li>Corunan</li>
+    </allowedCultures>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_BulkGoods</li>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_Exotic</li>
+      <li>Caravan_Outlander_PirateMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <LotRE_ElfVillagerHigh>250</LotRE_ElfVillagerHigh>
+          <LotRE_ElfGuardHigh>100</LotRE_ElfGuardHigh>
+          <LotRE_ElfArcherHigh>100</LotRE_ElfArcherHigh>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <LotRE_ElfGuardHigh>100</LotRE_ElfGuardHigh>
+          <LotRE_ElfArcherHigh>100</LotRE_ElfArcherHigh>
+          <LotRE_ElfLord>100</LotRE_ElfLord>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <LotRE_ElfTraderHigh>1</LotRE_ElfTraderHigh>
+        </traders>
+        <carriers>
+          <LotRE_DeerMallornKind>100</LotRE_DeerMallornKind>
+        </carriers>
+        <guards>
+          <LotRE_ElfVillagerHigh>10</LotRE_ElfVillagerHigh>
+          <LotRE_ElfGuardHigh>100</LotRE_ElfGuardHigh>
+          <LotRE_ElfArcherHigh>100</LotRE_ElfArcherHigh>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <LotRE_ElfVillagerHigh>100</LotRE_ElfVillagerHigh>
+          <LotRE_ElfGuardHigh>100</LotRE_ElfGuardHigh>
+          <LotRE_ElfArcherHigh>100</LotRE_ElfArcherHigh>
+          <LotRE_ElfLord>100</LotRE_ElfLord>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <!-- <modExtensions> -->
+    <!-- <li Class="JecsTools.FactionSettings"> -->
+    <!-- <entrySoundDef>LotRE_FanfareElfHigh</entrySoundDef> -->
+    <!-- </li> -->
+    <!-- </modExtensions> -->
+  </FactionDef>
+</Defs>

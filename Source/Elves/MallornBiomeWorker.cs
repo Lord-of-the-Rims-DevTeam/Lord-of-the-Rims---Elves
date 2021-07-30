@@ -15,19 +15,23 @@ namespace Elves
             {
                 return -100f;
             }
+
             if (tile.temperature < minTemperature)
             {
                 return 0f;
             }
+
             if (tile.rainfall < minRainfall)
             {
                 return 0f;
             }
+
             if (Rand.Value > chance)
             {
                 return 0f;
             }
-            return (float)(16.0 + (tile.temperature - 7.0) + ((tile.rainfall - minRainfall) / 180.0));
+
+            return (float) (16.0 + (tile.temperature - 7.0) + ((tile.rainfall - minRainfall) / 180.0));
         }
     }
 }

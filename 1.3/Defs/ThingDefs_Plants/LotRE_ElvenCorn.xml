@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="PlantBase">
+    <defName>LotRE_PlantLembas</defName>
+    <label>lembas plant</label>
+    <description>A splendorous grain plant that yields scrumptous golden ears. While similar to corn, the lembas plant can also be made into lembas flour and finally into lembas, or Elven waybread. While frost is its only weakness, this plant thrives wherever sunlight is plentiful, and fertile soil is optional for a very large yield of food over a long growth period.</description>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Nutrition>0.35</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/LembasPlant</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>2</drawSize>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <plant>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>LotRE_RawLembasCorn</harvestedThingDef>
+      <harvestYield>33</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.3</topWindExposure>
+      <growDays>13.44</growDays>
+      <immatureGraphicPath>Things/Plant/LembasPlantImmature</immatureGraphicPath>
+      <visualSizeRange>0.4~1.6</visualSizeRange>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>LotRE_RawLembasCorn</defName>
+    <label>lembas corn</label>
+    <description>Raw lembas corn.</description>
+    <soundInteract>Grain_Drop</soundInteract>
+    <soundDrop>Grain_Drop</soundDrop>
+    <graphicData>
+      <texPath>Things/Item/PlantFoodRaw/LembasCorn</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.15</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>70</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="OrganicProductBase">
+    <defName>LotRE_Lembasflour</defName>
+    <label>Lembas flour</label>
+    <description>Flour from lembas corn, used in baking.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/LembasFlour</texPath>
+    </graphicData>
+    <thingCategories>
+      <li>PlantFoodRaw</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>3.5</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="MealCooked">
+    <defName>LotRE_ElvishBread</defName>
+    <label>Elvish bread</label>
+    <description>An elegantly baked loaf of bread made from the golden ears of the lembas plant.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/ElfBread</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>10</DeteriorationRate>
+      <MarketValue>20</MarketValue>
+      <WorkToMake>550</WorkToMake>
+      <Nutrition>0.98</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>LotRE_HadElfBread</hediffDef>
+          <!-- <hediffDef>HedSweetbun</hediffDef> -->
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="MealBase">
+    <defName>LotRE_LembasWaybread</defName>
+    <label>Lembas</label>
+    <description>Specially prepared slices of Elvish bread that can last for months.</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/Lembas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <MarketValue>25</MarketValue>
+      <WorkToMake>750</WorkToMake>
+      <Mass>0.03</Mass>
+      <Nutrition>0.92</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <tasteThought>
+      </tasteThought>
+      <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>LotRE_HadElfBread</hediffDef>
+          <!-- <hediffDef>HedSweetbun</hediffDef> -->
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <compClass>CompRottable</compClass>
+        <daysToRotStart>80</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>LotRE_HadElfBread</defName>
+    <label>Ate Elvish bread.</label>
+    <description>Ate Elvish bread.</description>
+    <initialSeverity>1</initialSeverity>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-1.0</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0</minSeverity>
+        <label>Well Fed: Elvish Bread</label>
+        <painFactor>0.9</painFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.1</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.25</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>
