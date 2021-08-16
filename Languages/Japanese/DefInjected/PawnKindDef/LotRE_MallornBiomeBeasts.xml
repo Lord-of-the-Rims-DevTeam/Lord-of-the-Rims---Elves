@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRE_DeerMallornKind.label>ローリエンの鹿</LotRE_DeerMallornKind.label>
   <LotRE_DeerMallornKind.labelPlural>ローリエンの鹿たち</LotRE_DeerMallornKind.labelPlural>
   <LotRE_DeerMallornKind.lifeStages.0.label>ローリエンの子鹿</LotRE_DeerMallornKind.lifeStages.0.label>
@@ -25,7 +24,6 @@
   <LotRE_DeerMallornKind.labelMalePlural>ローリエンの雄鹿たち</LotRE_DeerMallornKind.labelMalePlural>
   <LotRE_DeerMallornKind.labelFemale>ローリエンの雌鹿</LotRE_DeerMallornKind.labelFemale>
   <LotRE_DeerMallornKind.labelFemalePlural>ローリエンの雌鹿たち</LotRE_DeerMallornKind.labelFemalePlural>
-
   <LotRE_DeerMallornWhiteKind.label>ローリエンの白鹿</LotRE_DeerMallornWhiteKind.label>
   <LotRE_DeerMallornWhiteKind.labelPlural>ローリエンの白鹿たち</LotRE_DeerMallornWhiteKind.labelPlural>
   <LotRE_DeerMallornWhiteKind.lifeStages.0.label>ローリエンの白い子鹿</LotRE_DeerMallornWhiteKind.lifeStages.0.label>
@@ -50,6 +48,4 @@
   <LotRE_DeerMallornWhiteKind.labelMalePlural>ローリエンの白い雄鹿たち</LotRE_DeerMallornWhiteKind.labelMalePlural>
   <LotRE_DeerMallornWhiteKind.labelFemale>ローリエンの白い雌鹿</LotRE_DeerMallornWhiteKind.labelFemale>
   <LotRE_DeerMallornWhiteKind.labelFemalePlural>ローリエンの白い雌鹿たち</LotRE_DeerMallornWhiteKind.labelFemalePlural>
-
-
 </LanguageData>

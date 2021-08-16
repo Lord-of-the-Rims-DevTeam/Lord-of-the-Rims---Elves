@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- A sound def for entry -->
+  <!-- Make sure this has onCamera -->
+  <SoundDef>
+    <defName>LotRE_FanfareElfWoodland</defName>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <!-- Yeah this must be true -->
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Faction/FanfareElfWoodland</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>10.058827</min>
+          <max>10.058827</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9311765</min>
+          <max>1</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>LotRE_FanfareElfSea</defName>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <!-- Yeah this must be true -->
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Faction/FanfareElfSea</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>10.058827</min>
+          <max>10.058827</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9311765</min>
+          <max>1</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>LotRE_FanfareElfHigh</defName>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <!-- Yeah this must be true -->
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Faction/FanfareElfHigh</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>10.058827</min>
+          <max>10.058827</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9311765</min>
+          <max>1</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>LotRE_BowMirkwood</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/MirkwoodBow</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>60.70111</min>
+          <max>77.30627</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.6976015</min>
+          <max>0.7769372</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>LotRE_BowLongbow</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapon/ElfLongbow</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>60.70111</min>
+          <max>77.30627</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.6976015</min>
+          <max>0.7769372</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="LotRE_MeleeWeapon_WhiteKnives"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <label>handle</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <power>6</power>
+              <cooldownTime>2.5</cooldownTime>
+              <armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+              <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>point</label>
+              <capacities>
+                <li>Stab</li>
+              </capacities>
+              <power>17</power>
+              <cooldownTime>2.5</cooldownTime>
+              <armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+              <armorPenetrationSharp>1.6</armorPenetrationSharp>
+              <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>edge</label>
+              <capacities>
+                <li>Cut</li>
+              </capacities>
+              <power>9</power>
+              <cooldownTime>0.95</cooldownTime>
+              <armorPenetrationBlunt>2.592</armorPenetrationBlunt>
+              <armorPenetrationSharp>0.58</armorPenetrationSharp>
+              <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+            </li>
+          </tools>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="LotRE_MeleeWeapon_Saber"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <label>handle</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <power>6</power>
+              <cooldownTime>2.5</cooldownTime>
+              <armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+              <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>point</label>
+              <capacities>
+                <li>Stab</li>
+              </capacities>
+              <power>20</power>
+              <cooldownTime>2.5</cooldownTime>
+              <armorPenetrationBlunt>0.425</armorPenetrationBlunt>
+              <armorPenetrationSharp>0.48</armorPenetrationSharp>
+              <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>edge</label>
+              <capacities>
+                <li>Cut</li>
+              </capacities>
+              <power>25</power>
+              <cooldownTime>2.3</cooldownTime>
+              <armorPenetrationBlunt>0.956</armorPenetrationBlunt>
+              <armorPenetrationSharp>0.43</armorPenetrationSharp>
+              <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+            </li>
+          </tools>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="LotRE_MeleeWeapon_Lhang"]/tools</xpath>
+        <value>
+          <tools>
+            <li Class="CombatExtended.ToolCE">
+              <label>handle</label>
+              <capacities>
+                <li>Blunt</li>
+              </capacities>
+              <power>6</power>
+              <cooldownTime>2.5</cooldownTime>
+              <armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+              <linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>point</label>
+              <capacities>
+                <li>Stab</li>
+              </capacities>
+              <power>24</power>
+              <cooldownTime>2.7</cooldownTime>
+              <armorPenetrationBlunt>0.9</armorPenetrationBlunt>
+              <armorPenetrationSharp>1.8</armorPenetrationSharp>
+              <linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+            </li>
+            <li Class="CombatExtended.ToolCE">
+              <label>edge</label>
+              <capacities>
+                <li>Cut</li>
+              </capacities>
+              <power>32</power>
+              <cooldownTime>2.8</cooldownTime>
+              <armorPenetrationBlunt>2.792</armorPenetrationBlunt>
+              <armorPenetrationSharp>0.68</armorPenetrationSharp>
+              <linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+            </li>
+          </tools>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

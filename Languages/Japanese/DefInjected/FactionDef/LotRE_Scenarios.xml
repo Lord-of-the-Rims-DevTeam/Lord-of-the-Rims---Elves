@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRE_PlayerColony.label>エルフの入植地</LotRE_PlayerColony.label>
   <LotRE_PlayerColony.description>あなたのコロニーです。</LotRE_PlayerColony.description>
   <LotRE_PlayerColony.pawnsPlural>入植者</LotRE_PlayerColony.pawnsPlural>
-
-
 </LanguageData>

@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRE_WoodLogMallorn.label>木材(マルローン)</LotRE_WoodLogMallorn.label>
   <LotRE_WoodLogMallorn.description>マルローンの木から採れる材木です。軽量でありながら一般的な木材よりも耐久性の高く、マルローンの木材は建築物や武器、さらには松葉杖などを作るのに使われます。切り出したマルローンの材木は、窮地で武器として使用することもできます。</LotRE_WoodLogMallorn.description>
   <LotRE_WoodLogMallorn.stuffProps.stuffAdjective>木材(マルローン)</LotRE_WoodLogMallorn.stuffProps.stuffAdjective>
-
-
 </LanguageData>

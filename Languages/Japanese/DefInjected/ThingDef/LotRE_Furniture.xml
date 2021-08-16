@@ -1,48 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <!-- Tier 1 -->
-
   <LotRE_ElvishTable2x2c.label>テーブル(エルフ)(2x2)</LotRE_ElvishTable2x2c.label>
   <LotRE_ElvishTable2x2c.description>エルフたちが使うエルヴンテーブルです。イスを向き合うように配置すると、ここで食事を摂るようになります。</LotRE_ElvishTable2x2c.description>
   <LotRE_ElvishTable2x2c_Blueprint.label>テーブル(エルフ)(2x2)(設計)</LotRE_ElvishTable2x2c_Blueprint.label>
   <LotRE_ElvishTable2x2c_Blueprint_Install.label>テーブル(エルフ)(2x2)(移動先)</LotRE_ElvishTable2x2c_Blueprint_Install.label>
   <LotRE_ElvishTable2x2c_Frame.label>テーブル(エルフ)(2x2)(施工)</LotRE_ElvishTable2x2c_Frame.label>
   <LotRE_ElvishTable2x2c_Frame.description>エルフたちが使うエルヴンテーブルです。イスを向き合うように配置すると、ここで食事を摂るようになります。</LotRE_ElvishTable2x2c_Frame.description>
-
-  <LotRE_ElvenBed.label>ラウンジベッド(エルフ)</LotRE_ElvenBed.label>
-  <LotRE_ElvenBed.description>安らぐためのクッション付きのラウンジベッドで、これらのエルヴンベッドは、定命な世界の重荷で疲れた魂たちに適しています。</LotRE_ElvenBed.description>
-  <LotRE_ElvenBed_Blueprint.label>ラウンジベッド(エルフ)(設計)</LotRE_ElvenBed_Blueprint.label>
-  <LotRE_ElvenBed_Blueprint_Install.label>ラウンジベッド(エルフ)(移動先)</LotRE_ElvenBed_Blueprint_Install.label>
-  <LotRE_ElvenBed_Frame.label>ラウンジベッド(エルフ)(施工)</LotRE_ElvenBed_Frame.label>
-  <LotRE_ElvenBed_Frame.description>安らぐためのクッション付きのラウンジベッドで、これらのエルヴンベッドは、定命な世界の重荷で疲れた魂たちに適しています。</LotRE_ElvenBed_Frame.description>
-
   <LotRE_Chair.label>エルヴンチェア</LotRE_Chair.label>
   <LotRE_Chair.description>エルヴンテーブルの為の快適で魅力的な椅子です。 このデザイン形式はエルフに好まれます。</LotRE_Chair.description>
   <LotRE_Chair_Blueprint.label>エルヴンチェア(設計)</LotRE_Chair_Blueprint.label>
   <LotRE_Chair_Blueprint_Install.label>エルヴンチェア(移動先)</LotRE_Chair_Blueprint_Install.label>
   <LotRE_Chair_Frame.label>エルヴンチェア(施工)</LotRE_Chair_Frame.label>
   <LotRE_Chair_Frame.description>エルヴンテーブルの為の快適で魅力的な椅子です。 このデザイン形式はエルフに好まれます。</LotRE_Chair_Frame.description>
-
-
-  <!-- Tier 2 -->
-
   <LotRE_ElvenCandelabra.label>枝付燭台(エルフ)</LotRE_ElvenCandelabra.label>
   <LotRE_ElvenCandelabra.description>ワックスキャンドルが周囲を照らします。 ワックスを自動的に燃料補給できます。少しの熱しか出しません。</LotRE_ElvenCandelabra.description>
   <LotRE_ElvenCandelabra_Blueprint.label>枝付燭台(エルフ)(設計)</LotRE_ElvenCandelabra_Blueprint.label>
   <LotRE_ElvenCandelabra_Blueprint_Install.label>枝付燭台(エルフ)(移動先)</LotRE_ElvenCandelabra_Blueprint_Install.label>
   <LotRE_ElvenCandelabra_Frame.label>枝付燭台(エルフ)(施工)</LotRE_ElvenCandelabra_Frame.label>
   <LotRE_ElvenCandelabra_Frame.description>ワックスキャンドルが周囲を照らします。 ワックスを自動的に燃料補給できます。少しの熱しか出しません。</LotRE_ElvenCandelabra_Frame.description>
-
-
-  <!-- Tier 3 -->
-
   <LotRE_ElvenRoyalBed.label>豪華なベッド(エルフ)</LotRE_ElvenRoyalBed.label>
   <LotRE_ElvenRoyalBed.description>至福の国（アマン）にあるローリエンに眠ると伝わる、ヴァリエア(神々)の一柱である「癒し手エステ」の像はこのエルフのベッドで眠る者の魂を和らげるのに役立ちます。非常に快適で美しく、二人で寝るのにぴったりです。</LotRE_ElvenRoyalBed.description>
   <LotRE_ElvenRoyalBed_Blueprint.label>豪華なベッド(エルフ)(設計)</LotRE_ElvenRoyalBed_Blueprint.label>
   <LotRE_ElvenRoyalBed_Blueprint_Install.label>豪華なベッド(エルフ)(移動先)</LotRE_ElvenRoyalBed_Blueprint_Install.label>
   <LotRE_ElvenRoyalBed_Frame.label>豪華なベッド(エルフ)(施工)</LotRE_ElvenRoyalBed_Frame.label>
   <LotRE_ElvenRoyalBed_Frame.description>至福の国（アマン）にあるローリエンに眠ると伝わる、ヴァリエア(神々)の一柱である「癒し手エステ」の像はこのエルフのベッドで眠る者の魂を和らげるのに役立ちます。非常に快適で美しく、二人で寝るのにぴったりです。</LotRE_ElvenRoyalBed_Frame.description>
-
-
+  <LotRE_ElvenBed.label>ラウンジベッド(エルフ)</LotRE_ElvenBed.label>
+  <LotRE_ElvenBed.description>安らぐためのクッション付きのラウンジベッドで、これらのエルヴンベッドは、定命な世界の重荷で疲れた魂たちに適しています。</LotRE_ElvenBed.description>
+  <LotRE_ElvenBed_Blueprint.label>ラウンジベッド(エルフ)(設計)</LotRE_ElvenBed_Blueprint.label>
+  <LotRE_ElvenBed_Blueprint_Install.label>ラウンジベッド(エルフ)(移動先)</LotRE_ElvenBed_Blueprint_Install.label>
+  <LotRE_ElvenBed_Frame.label>ラウンジベッド(エルフ)(施工)</LotRE_ElvenBed_Frame.label>
+  <LotRE_ElvenBed_Frame.description>安らぐためのクッション付きのラウンジベッドで、これらのエルヴンベッドは、定命な世界の重荷で疲れた魂たちに適しています。</LotRE_ElvenBed_Frame.description>
 </LanguageData>

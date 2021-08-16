@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Change tribal label ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
+    <value>
+      <li>LotRE_ElfFactionWood</li>
+      <li>LotRE_ElfFactionSea</li>
+      <li>LotRE_ElfFactionHigh</li>
+      <li>LotRE_PlayerColony</li>
+    </value>
+  </Operation>
+</Patch>

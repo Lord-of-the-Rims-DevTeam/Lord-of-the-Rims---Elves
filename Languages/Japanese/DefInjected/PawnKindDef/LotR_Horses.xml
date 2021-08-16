@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotR_HorseKind.label>ウマ</LotR_HorseKind.label>
   <LotR_HorseKind.labelPlural>ウマたち</LotR_HorseKind.labelPlural>
   <LotR_HorseKind.lifeStages.0.label>子ウマ</LotR_HorseKind.lifeStages.0.label>
@@ -25,6 +24,4 @@
   <LotR_HorseKind.labelMalePlural>男性 ウマたち</LotR_HorseKind.labelMalePlural>
   <LotR_HorseKind.labelFemale>女性 ウマ</LotR_HorseKind.labelFemale>
   <LotR_HorseKind.labelFemalePlural>女性 ウマたち</LotR_HorseKind.labelFemalePlural>
-
-
 </LanguageData>

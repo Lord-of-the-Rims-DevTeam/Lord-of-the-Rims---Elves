@@ -5,28 +5,32 @@ namespace Elves
 {
     public class MallornTree : Plant
     {
-        private GraphicData mallornGreen;
+        private const int spawnEveryDays = 1;
+        private readonly GraphicData mallornGreen;
+
+        private bool firstTick;
         private bool isSummer;
         private int nextSpawnTimestamp = -1;
-        private const int spawnEveryDays = 1;
-        
-        private GraphicData MallornGreen => this.def.building.fullGraveGraphicData;
-        private GraphicData ImmatureMallornGreen => this.def.building.trapUnarmedGraphicData;
+
+        private GraphicData MallornGreen => def.building.fullGraveGraphicData;
+        private GraphicData ImmatureMallornGreen => def.building.trapUnarmedGraphicData;
 
 
         public override Graphic Graphic
         {
             get
             {
-                if (isSummer)
+                if (!isSummer)
                 {
-                    if (this.def.plant.immatureGraphic != null && !this.HarvestableNow)
-                    {
-                        return ImmatureMallornGreen.Graphic;
-                    }
-                    return MallornGreen.Graphic;
+                    return base.Graphic;
                 }
-                else return base.Graphic;
+
+                if (def.plant.immatureGraphic != null && !HarvestableNow)
+                {
+                    return ImmatureMallornGreen.Graphic;
+                }
+
+                return MallornGreen.Graphic;
             }
         }
 
@@ -36,7 +40,6 @@ namespace Elves
             base.SpawnSetup(map, respawningAfterLoad);
         }
 
-        private bool firstTick = false;
         public override void Tick()
         {
             if (!firstTick)
@@ -44,6 +47,7 @@ namespace Elves
                 firstTick = true;
                 CheckSeason();
             }
+
             base.Tick();
         }
 
@@ -61,24 +65,35 @@ namespace Elves
 
         private void CheckSeason()
         {
-            if (MapHeld != null)
+            if (MapHeld == null)
             {
-                var isSpring = GenLocalDate.Season(MapHeld) == Season.Spring;
-                isSummer = GenLocalDate.Season(MapHeld) == Season.Summer;
-                if (!isSpring) return;
-                if (Find.TickManager.TicksGame < nextSpawnTimestamp) return;
-                if (nextSpawnTimestamp != -1)
-                {
-                    TrySpawnFilth();
-                }
-                nextSpawnTimestamp = Find.TickManager.TicksGame + (int) (spawnEveryDays * Rand.Range(10000f, 60000f));
+                return;
             }
+
+            var isSpring = GenLocalDate.Season(MapHeld) == Season.Spring;
+            isSummer = GenLocalDate.Season(MapHeld) == Season.Summer;
+            if (!isSpring)
+            {
+                return;
+            }
+
+            if (Find.TickManager.TicksGame < nextSpawnTimestamp)
+            {
+                return;
+            }
+
+            if (nextSpawnTimestamp != -1)
+            {
+                TrySpawnFilth();
+            }
+
+            nextSpawnTimestamp = Find.TickManager.TicksGame + (int) (spawnEveryDays * Rand.Range(10000f, 60000f));
         }
 
         public override void ExposeData()
         {
             base.ExposeData();
-            Scribe_Values.Look<int>(ref nextSpawnTimestamp, "nextSpawnTimestamp", -1, false);
+            Scribe_Values.Look(ref nextSpawnTimestamp, "nextSpawnTimestamp", -1);
         }
 
         public void TrySpawnFilth()
@@ -87,13 +102,14 @@ namespace Elves
             {
                 return;
             }
-            IntVec3 c;
-            if (!CellFinder.TryFindRandomReachableCellNear(Position, Map, 3, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false), (IntVec3 x) => x.Standable(Map), (Region x) => true, out c, 999999))
+
+            if (!CellFinder.TryFindRandomReachableCellNear(Position, Map, 3,
+                TraverseParms.For(TraverseMode.NoPassClosedDoors), x => x.Standable(Map), _ => true, out var c))
             {
                 return;
             }
-            FilthMaker.MakeFilth(c, Map, ThingDef.Named("LotRE_FilthMallornLeaves"), 1);
-        }
 
+            FilthMaker.TryMakeFilth(c, Map, ThingDef.Named("LotRE_FilthMallornLeaves"));
+        }
     }
 }

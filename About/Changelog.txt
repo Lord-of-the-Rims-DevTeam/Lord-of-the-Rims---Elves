@@ -1,16 +1,48 @@
-1.21.0.0 (12-17-2018)
+1.22.0.0 (08-15-2021)
 ========================
-Added Elves research created by RodEsp
+Updated for RimWorld 1.3
 
-1.20.0.2 (10-23-2018)
+1.22.0.0 (08-15-2021)
 ========================
-Ensures proper target version, etc.
+Updated for RimWorld 1.3.
 
-1.20.0.1 (10-23-2018)
-========================
-Removes older apparel detour dll and replaces it with updated one.
+# Changelog for LordoftheRimsElves
 
-1.20.0.0 (10-20-2018)
-========================
-Initial release for RimWorld 1.0.
+1.0.12.0 - Number of factions should now be selectable on game-start
+
+
+1.0.11.0 - Updated for 1.3, as soon as the doors-mod updates
+
+
+1.0.10.0 - Refuel-fix for candelabra, patches for some animals. Thanks leugimimi!
+
+
+1.0.9.0 - Missed that silver/gold are small quanitity metals, got really expensive
+
+
+1.0.8.0 - Updated costs for gold/silver items, correct workbenches for all items. Thanks Rasutei!
+
+
+1.0.7.0 - Fixed some faction-refs, updated the Mallorn-def
+
+
+1.0.6.0 - Fixed royalty patch-folder and 1.1 support
+
+
+1.0.5.0 - Royalty-titles support
+
+
+1.0.4.0 - The Half-elves should now have all surgeries available, thanks Tarojun!
+
+
+1.0.3.0 - Updated graphics from Trisscar, fixed a royalty error in 1.1
+
+
+1.0.2.0 - Fixed starting goodwill with Empire
+
+
+1.0.1.0 - Added support for Combat Extended
+
+
+1.0.0.0 - First publish
 

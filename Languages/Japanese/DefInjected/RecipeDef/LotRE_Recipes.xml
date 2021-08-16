@@ -1,23 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Without vegetable garden, Lembas bread is produced with lembas cornmeal. -->
-
   <LotRE_BakeElvishBread.label>エルフのパンを焼く</LotRE_BakeElvishBread.label>
   <LotRE_BakeElvishBread.description>エルフ風のパンを作るのに使うことができる、美味しいエルフのパンを焼くことができます。\n\nパンのローフ(スライスする前の大きな塊)を1つ作ります。</LotRE_BakeElvishBread.description>
   <LotRE_BakeElvishBread.jobString>エルフのパンを焼成中</LotRE_BakeElvishBread.jobString>
-
   <LotRE_PrepareLembas.label>レンバスの行糧</LotRE_PrepareLembas.label>
   <LotRE_PrepareLembas.description>窮地で非常用食品よりもはるかに役に立つ長持ちするパンやレンバスを用意してください。\n\nレンバスを2つ作成します。</LotRE_PrepareLembas.description>
   <LotRE_PrepareLembas.jobString>レンバスの調理中</LotRE_PrepareLembas.jobString>
-
   <LotRE_CraftLembasflour.label>レンバスの粉を挽く</LotRE_CraftLembasflour.label>
   <LotRE_CraftLembasflour.description>レンバスの実をレンバスの粉に挽きます。\n\nレンバスの粉を4つ作成します。</LotRE_CraftLembasflour.description>
   <LotRE_CraftLembasflour.jobString>レンバスの実を製粉中</LotRE_CraftLembasflour.jobString>
-
   <LotRE_CraftBulkLembasFlour.label>レンバスの粉をまとめて挽く</LotRE_CraftBulkLembasFlour.label>
   <LotRE_CraftBulkLembasFlour.description>レンバスの実をレンバスの粉に挽きます。\n\nレンバスの粉を25個作成します。</LotRE_CraftBulkLembasFlour.description>
   <LotRE_CraftBulkLembasFlour.jobString>レンバスの実を製粉中</LotRE_CraftBulkLembasFlour.jobString>
-
-
 </LanguageData>
