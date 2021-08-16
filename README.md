@@ -16,7 +16,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1400234784
 - Added some patches for https://steamcommunity.com/sharedfiles/filedetails/?id=2260502331]Vanilla Animals Expanded — Temperate Forest, https://steamcommunity.com/sharedfiles/filedetails/?id=1895364938]Vanilla Animals Expanded — Boreal Forest via leugimimi
 
 
-![Image](https://i.imgur.com/7Gzt3Rg.png)
+![Image](https://i.imgur.com/CN9Rs5X.png)
 
 
 [table]
