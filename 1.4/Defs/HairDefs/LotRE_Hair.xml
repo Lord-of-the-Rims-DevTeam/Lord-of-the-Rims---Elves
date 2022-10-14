@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>LotRE_Legolas</defName>
+    <label>elf-archer</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Elf/Hairs/ElfLegolas</texPath>
+    <styleTags>
+      <li>Elf</li>
+    </styleTags>
+  </HairDef>
+  <HairDef>
+    <defName>LotRE_Elrond</defName>
+    <label>elf-lord</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Elf/Hairs/ElfElrond</texPath>
+    <styleTags>
+      <li>Elf</li>
+    </styleTags>
+  </HairDef>
+  <HairDef>
+    <defName>LotRE_Arwen</defName>
+    <label>elf-noblewoman</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Elf/Hairs/ElfArwen</texPath>
+    <styleTags>
+      <li>Elf</li>
+    </styleTags>
+  </HairDef>
+  <HairDef>
+    <defName>LotRE_ArwenTwo</defName>
+    <label>elf ponytail</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Elf/Hairs/ElfArwenTwo</texPath>
+    <styleTags>
+      <li>Elf</li>
+    </styleTags>
+  </HairDef>
+  <HairDef>
+    <defName>LotRE_Galadriel</defName>
+    <label>elf-queen</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Elf/Hairs/ElfGaladriel</texPath>
+    <styleTags>
+      <li>Elf</li>
+    </styleTags>
+  </HairDef>
+</Defs>
