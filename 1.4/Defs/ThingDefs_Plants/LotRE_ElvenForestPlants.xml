@@ -86,7 +86,7 @@
     <defName>LotRE_FilthMallornLeaves</defName>
     <label>mallorn leaves</label>
     <statBases>
-      <Beauty>10</Beauty>
+      <Beauty>4</Beauty>
       <Cleanliness>-2</Cleanliness>
     </statBases>
     <graphicData>
@@ -94,8 +94,11 @@
       <color>(255, 255, 255, 130)</color>
     </graphicData>
     <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
       <rainWashes>true</rainWashes>
-      <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
+      <disappearsInDays>45~50</disappearsInDays>
+      <cleaningWorkToReduceThickness>30</cleaningWorkToReduceThickness>
+      <cleaningSound>Interact_CleanFilth_Dirt</cleaningSound>
       <canFilthAttach>true</canFilthAttach>
     </filth>
   </ThingDef>

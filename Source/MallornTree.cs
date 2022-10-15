@@ -98,18 +98,16 @@ namespace Elves
 
         public void TrySpawnFilth()
         {
-            if (Map == null)
+            if (this.Map == null)
             {
                 return;
             }
-
-            if (!CellFinder.TryFindRandomReachableCellNear(Position, Map, 3,
-                TraverseParms.For(TraverseMode.NoPassClosedDoors), x => x.Standable(Map), _ => true, out var c))
+            IntVec3 c;
+            if (!CellFinder.TryFindRandomReachableCellNear(this.Position, this.Map, 3, TraverseParms.For(TraverseMode.NoPassClosedDoors, Danger.Deadly, false, false, false), (IntVec3 x) => x.Standable(this.Map), (Region x) => true, out c, 999999))
             {
                 return;
             }
-
-            FilthMaker.TryMakeFilth(c, Map, ThingDef.Named("LotRE_FilthMallornLeaves"));
+            FilthMaker.TryMakeFilth(c, this.Map, ThingDef.Named("LotRE_FilthMallornLeaves"), this.def.label, 1, FilthSourceFlags.Terrain);
         }
     }
 }
