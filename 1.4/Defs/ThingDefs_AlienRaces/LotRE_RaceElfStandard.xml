@@ -90,6 +90,7 @@
             <li>Female</li>
             <li>Thin</li>
           </bodytypes>
+          <useGenderedHeads>true</useGenderedHeads>
           <customDrawSize>(0.85, 1.1)</customDrawSize>
           <customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
           <customPortraitDrawSize>(0.85, 1.1)</customPortraitDrawSize>
@@ -99,46 +100,28 @@
               <path>Things/Ears/Ears</path>
               <bodyPart>Head</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
-              <defaultOffset>Tail</defaultOffset>
+              <defaultOffset>Center</defaultOffset>
               <offsets>
                 <south>
-                  <bodyTypes>
-                    <Male>(-0.43,0.5)</Male>
-                    <Female>(-0.43,0.5)</Female>
-                    <Fat>(-0.43,0.5)</Fat>
-                    <Thin>(-0.43,0.5)</Thin>
-                  </bodyTypes>
                   <headTypes>
-                    <Male_AverageNormal>(-0.43,0.5)</Male_AverageNormal>
-                    <Female_AverageNormal>(-0.43,0.5)</Female_AverageNormal>
+                    <Male_AveragePointy>( 0, 0.275 )</Male_AveragePointy>
+                    <Female_AveragePointy>( 0, 0.275 )</Female_AveragePointy>
                   </headTypes>
                   <layerOffset>-0.275</layerOffset>
                 </south>
                 <north>
-                  <bodyTypes>
-                    <Male>(0,0.9)</Male>
-                    <Female>(0,0.9)</Female>
-                    <Fat>(0,0.9)</Fat>
-                    <Thin>(0,0.9)</Thin>
-                  </bodyTypes>
                   <headTypes>
-                    <Male_AverageNormal>(-0.43,0.5)</Male_AverageNormal>
-                    <Female_AverageNormal>(-0.43,0.5)</Female_AverageNormal>
+                    <Male_AveragePointy>( 0, 0.275 )</Male_AveragePointy>
+                    <Female_AveragePointy>( 0, 0.275 )</Female_AveragePointy>
                   </headTypes>
                   <layerOffset>-0.275</layerOffset>
                 </north>
                 <east>
-                  <bodyTypes>
-                    <Male>(-0.43,0.5)</Male>
-                    <Female>(-0.43,0.5)</Female>
-                    <Fat>(-0.43,0.5)</Fat>
-                    <Thin>(-0.43,0.5)</Thin>
-                  </bodyTypes>
                   <headTypes>
-                    <Male_AverageNormal>(-0.43,0.5)</Male_AverageNormal>
-                    <Female_AverageNormal>(-0.43,0.5)</Female_AverageNormal>
+                    <Male_AveragePointy>( -0.085, 0.275 )</Male_AveragePointy>
+                    <Female_AveragePointy>( -0.125, 0.275 )</Female_AveragePointy>
                   </headTypes>
-                  <layerOffset>-0.275</layerOffset>
+                  <layerOffset>-0.135</layerOffset>
                 </east>
               </offsets>
               <colorChannel>skin</colorChannel>
@@ -446,46 +429,28 @@
               <path>Things/Ears/Ears</path>
               <bodyPart>Head</bodyPart>
               <inFrontOfBody>true</inFrontOfBody>
-              <defaultOffset>Tail</defaultOffset>
+              <defaultOffset>Center</defaultOffset>
               <offsets>
                 <south>
-                  <bodyTypes>
-                    <Male>(-0.43,0.5)</Male>
-                    <Female>(-0.43,0.5)</Female>
-                    <Fat>(-0.43,0.5)</Fat>
-                    <Thin>(-0.43,0.5)</Thin>
-                  </bodyTypes>
                   <headTypes>
-                    <Male_AverageNormal>(-0.43,0.5)</Male_AverageNormal>
-                    <Female_AverageNormal>(-0.43,0.5)</Female_AverageNormal>
+                    <Male_AveragePointy>( 0, 0.275 )</Male_AveragePointy>
+                    <Female_AveragePointy>( 0, 0.275 )</Female_AveragePointy>
                   </headTypes>
                   <layerOffset>-0.275</layerOffset>
                 </south>
                 <north>
-                  <bodyTypes>
-                    <Male>(0,0.9)</Male>
-                    <Female>(0,0.9)</Female>
-                    <Fat>(0,0.9)</Fat>
-                    <Thin>(0,0.9)</Thin>
-                  </bodyTypes>
                   <headTypes>
-                    <Male_AverageNormal>(-0.43,0.5)</Male_AverageNormal>
-                    <Female_AverageNormal>(-0.43,0.5)</Female_AverageNormal>
+                    <Male_AveragePointy>( 0, 0.275 )</Male_AveragePointy>
+                    <Female_AveragePointy>( 0, 0.275 )</Female_AveragePointy>
                   </headTypes>
                   <layerOffset>-0.275</layerOffset>
                 </north>
                 <east>
-                  <bodyTypes>
-                    <Male>(-0.43,0.5)</Male>
-                    <Female>(-0.43,0.5)</Female>
-                    <Fat>(-0.43,0.5)</Fat>
-                    <Thin>(-0.43,0.5)</Thin>
-                  </bodyTypes>
                   <headTypes>
-                    <Male_AverageNormal>(-0.43,0.5)</Male_AverageNormal>
-                    <Female_AverageNormal>(-0.43,0.5)</Female_AverageNormal>
+                    <Male_AveragePointy>( -0.085, 0.275 )</Male_AveragePointy>
+                    <Female_AveragePointy>( -0.125, 0.275 )</Female_AveragePointy>
                   </headTypes>
-                  <layerOffset>-0.275</layerOffset>
+                  <layerOffset>-0.135</layerOffset>
                 </east>
               </offsets>
               <colorChannel>skin</colorChannel>
