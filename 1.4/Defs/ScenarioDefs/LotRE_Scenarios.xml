@@ -48,7 +48,7 @@
         <li Class="ScenPart_StartingAnimal">
           <def>StartingAnimal</def>
           <count>2</count>
-          <animalKind>LotR_HorseKind</animalKind>
+          <animalKind>Horse</animalKind>
           <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
         </li>
         <!-- Starting research -->
