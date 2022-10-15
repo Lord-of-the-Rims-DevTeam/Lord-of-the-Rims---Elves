@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/BiomeDef/allowedPackAnimals</xpath>
+    <value>
+      <li>LotRE_DeerMallorn</li>
+    </value>
+    <order>Append</order>
+  </Operation>
+</Patch>
