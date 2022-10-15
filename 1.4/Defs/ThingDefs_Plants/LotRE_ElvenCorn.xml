@@ -110,14 +110,14 @@
     <statBases>
       <DeteriorationRate>0.5</DeteriorationRate>
       <MarketValue>25</MarketValue>
-      <WorkToMake>750</WorkToMake>
       <Mass>0.03</Mass>
+      <WorkToMake>750</WorkToMake>
       <Nutrition>0.92</Nutrition>
     </statBases>
     <ingestible>
       <preferability>MealSimple</preferability>
-      <tasteThought>
-      </tasteThought>
+      <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
       <maxNumToIngestAtOnce>4</maxNumToIngestAtOnce>
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>RawVegetable_Eat</ingestSound>
@@ -135,8 +135,12 @@
         <daysToRotStart>80</daysToRotStart>
         <rotDestroys>true</rotDestroys>
       </li>
+      <li Class="CompProperties_Ingredients">
+        <noIngredientsFoodKind>NonMeat</noIngredientsFoodKind>
+      </li>
     </comps>
   </ThingDef>
+  
   <HediffDef>
     <defName>LotRE_HadElfBread</defName>
     <label>Ate Elvish bread.</label>
