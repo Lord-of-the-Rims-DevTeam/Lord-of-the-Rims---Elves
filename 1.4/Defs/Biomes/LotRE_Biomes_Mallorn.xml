@@ -5,14 +5,18 @@
     <label>mallorn forest</label>
     <description>Within this region lies a bountiful forest of silver-grey barked mallorn trees. During the summer months, the trees have green leaves, but turn to gold in the autumn, winter, and spring.</description>
     <workerClass>Elves.MallornBiomeWorker</workerClass>
-    <animalDensity>2.8</animalDensity>
-    <plantDensity>0.53</plantDensity>
+
+    <implemented>true</implemented>
+    <canBuildBase>true</canBuildBase>
+
+    <animalDensity>3.9</animalDensity>
+    <plantDensity>0.7</plantDensity>
     <settlementSelectionWeight>0.9</settlementSelectionWeight>
     <movementDifficulty>1</movementDifficulty>
-    <forageability>0.75</forageability>
+    <texture>World/Biomes/Mallorns</texture>
+    <forageability>1.05</forageability>
     <foragedFood>RawBerries</foragedFood>
     <wildPlantRegrowDays>25</wildPlantRegrowDays>
-    <texture>World/Biomes/Mallorns</texture>
     <soundsAmbient>
       <li>AmbientNightInsects_Standard</li>
     </soundsAmbient>
@@ -26,6 +30,10 @@
         <diseaseInc>Disease_Plague</diseaseInc>
         <commonality>100</commonality>
       </li>
+      <!-- No Malaria li>
+        <diseaseInc>Disease_Malaria</diseaseInc>
+        <commonality>100</commonality>
+      </li -->
       <li>
         <diseaseInc>Disease_GutWorms</diseaseInc>
         <commonality>50</commonality>
@@ -59,7 +67,7 @@
       </li>
       <li>
         <terrain>SoilRich</terrain>
-        <min>0.87</min>
+        <min>0.9</min>
         <max>999</max>
       </li>
     </terrainsByFertility>
@@ -108,34 +116,59 @@
     <wildPlants>
       <Plant_TallGrass>1.20</Plant_TallGrass>
       <Plant_Grass>0.8</Plant_Grass>
+      <Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">0.8</Plant_GrayGrass>
       <Plant_Brambles>1.0</Plant_Brambles>
+      <Plant_Ripthorn MayRequire="Ludeon.RimWorld.Biotech">0.4</Plant_Ripthorn>
       <LotRE_PlantTreeBirchGolden>0.2</LotRE_PlantTreeBirchGolden>
       <Plant_Dandelion>0.36</Plant_Dandelion>
       <LotRE_PlantTreeMallorn>0.011</LotRE_PlantTreeMallorn>
       <Plant_Berry>0.1</Plant_Berry>
       <Plant_HealrootWild>0.05</Plant_HealrootWild>
+      <Plant_Witchwood MayRequire="Ludeon.RimWorld.Biotech">0.35</Plant_Witchwood>
     </wildPlants>
     <wildAnimals>
-      <Squirrel>2</Squirrel>
-      <Hare>2</Hare>
       <LotRE_DeerMallornKind>1</LotRE_DeerMallornKind>
       <LotRE_DeerMallornWhiteKind>0.01</LotRE_DeerMallornWhiteKind>
+      <Donkey>0.00001</Donkey>
+      <GuineaPig>0.00001</GuineaPig>
+      <Yak>0.00001</Yak>
+      <Bison>0.00001</Bison>
+      <Horse>0.20</Horse>
+      <Hare>2</Hare>
+      <Squirrel>1.0</Squirrel>
+      <Rat>0.1</Rat>
+      <Deer>0.5</Deer>
       <WildBoar>0.5</WildBoar>
+      <Turkey>0.5</Turkey>
       <Raccoon>0.4</Raccoon>
-      <Deer>0.03</Deer>
-      <Fox_Red>0.02</Fox_Red>
-      <Bear_Grizzly>0.01</Bear_Grizzly>
+      <Ibex>0.0001</Ibex>
+      <Muffalo>0.0001</Muffalo>
+      <Alpaca>0.0001</Alpaca>
+      <Boomalope>0.4</Boomalope>
+      <Boomrat>0.4</Boomrat>
+      <Tortoise>0.3</Tortoise>
+      <Gazelle>0.5</Gazelle>
+      <Megasloth>0.00001</Megasloth>
+      <Rhinoceros>0.0001</Rhinoceros>
+      <Bear_Grizzly>0.07</Bear_Grizzly>
+      <Wolf_Timber>0.04</Wolf_Timber>
+      <Fox_Red>0.07</Fox_Red>
       <Cougar>0.007</Cougar>
       <Lynx>0.007</Lynx>
       <Warg>0.007</Warg>
-      <Wolf_Timber>0.07</Wolf_Timber>
-      <Ibex>0.0001</Ibex>
       <Caribou>0.0001</Caribou>
-      <Muffalo>0.0001</Muffalo>
-      <Megasloth>0.00001</Megasloth>
       <Wolf_Arctic>0.01</Wolf_Arctic>
       <Fox_Arctic>0.01</Fox_Arctic>
     </wildAnimals>
+    <pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
+      <Toxalope MayRequire="Ludeon.RimWorld.Biotech">0.4</Toxalope>
+      <WasteRat MayRequire="Ludeon.RimWorld.Biotech">0.1</WasteRat>
+      <Rat>1</Rat>
+      <Raccoon>0.5</Raccoon>
+      <Boomrat>0.4</Boomrat>
+      <Boomalope>0.1</Boomalope>
+      <Warg>1</Warg>
+    </pollutionWildAnimals>
     <allowedPackAnimals>
       <li>Muffalo</li>
       <li>Alpaca</li>

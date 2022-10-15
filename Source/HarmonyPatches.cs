@@ -41,24 +41,27 @@ namespace Elves
                 }
             }
 
-            //Sea Elves should appear near the ocean
-            var neighbors = new List<int>();
-            Find.WorldGrid.GetTileNeighbors(tileID, neighbors);
-            if (neighbors.Count <= 0)
+            if (faction?.def?.defName == "LotRE_ElfFactionSea")
             {
-                return tile.biome.settlementSelectionWeight;
-            }
-            foreach (var y in neighbors)
-            {
-                var tile2 = Find.WorldGrid[y];
-                if (tile2.biome == BiomeDefOf.IceSheet || tile2.biome == BiomeDef.Named("SeaIce"))
+                //Sea Elves should appear near the ocean
+                var neighbors = new List<int>();
+                Find.WorldGrid.GetTileNeighbors(tileID, neighbors);
+                if (neighbors.Count <= 0)
                 {
-                    return 0f;
+                    return tile.biome.settlementSelectionWeight;
                 }
-
-                if (tile2.WaterCovered)
+                foreach (var y in neighbors)
                 {
-                    return 1000f;
+                    var tile2 = Find.WorldGrid[y];
+                    if (tile2.biome == BiomeDefOf.IceSheet || tile2.biome == BiomeDef.Named("SeaIce"))
+                    {
+                        continue;
+                    }
+
+                    if (tile2.WaterCovered)
+                    {
+                        return 1000f;
+                    }
                 }
             }
 
@@ -103,19 +106,8 @@ namespace Elves
                       {
                           return 0f;
                       }
-                      if (GetElfColonyChance(tile, x, faction) is float elfColonyChance && 
-                          elfColonyChance > 0f)
-                      {
-                          return elfColonyChance;
-                      }
-
-                      float num2 = tile.biome.settlementSelectionWeight;
-                      Faction faction2 = faction;
-                      if (((faction2 != null) ? faction2.def.minSettlementTemperatureChanceCurve : null) != null)
-                      {
-                          num2 *= faction.def.minSettlementTemperatureChanceCurve.Evaluate(GenTemperature.MinTemperatureAtTile(x));
-                      }
-                      return num2;
+                      float elfColonyChance = GetElfColonyChance(tile, x, faction);
+                      return elfColonyChance;
                   }, out var num))
                 {
                     continue;
