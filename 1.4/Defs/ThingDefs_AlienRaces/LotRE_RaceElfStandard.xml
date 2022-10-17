@@ -85,12 +85,11 @@
             <li>Male_AveragePointy</li>
             <li>Female_AveragePointy</li>
           </headTypes>
-          <bodytypes>
+          <bodyTypes>
             <li>Male</li>
             <li>Female</li>
             <li>Thin</li>
-          </bodytypes>
-          <useGenderedHeads>true</useGenderedHeads>
+          </bodyTypes>
           <customDrawSize>(0.85, 1.1)</customDrawSize>
           <customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
           <customPortraitDrawSize>(0.85, 1.1)</customPortraitDrawSize>
@@ -415,11 +414,11 @@
             <li>Male_AveragePointy</li>
             <li>Female_AveragePointy</li>
           </headTypes>
-          <bodytypes>
+          <bodyTypes>
             <li>Male</li>
             <li>Female</li>
             <li>Thin</li>
-          </bodytypes>
+          </bodyTypes>
           <customDrawSize>(0.85, 1.1)</customDrawSize>
           <customHeadDrawSize>(1.0, 1.0)</customHeadDrawSize>
           <customPortraitDrawSize>(0.85, 1.1)</customPortraitDrawSize>
