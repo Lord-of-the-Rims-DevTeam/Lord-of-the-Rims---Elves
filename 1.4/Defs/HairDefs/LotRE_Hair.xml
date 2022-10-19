@@ -1,48 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <HairDef>
+
+
+  <StyleItemCategoryDef>
+    <defName>LotRE_ElfHair</defName>
+    <label>elf</label>
+  </StyleItemCategoryDef>
+
+
+  <HairDef Name="LotRE_ElfHair" Abstract="True">
+    <category>LotRE_ElfHair</category>
+    <styleTags>
+      <li>LotRE_ElfHair</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef ParentName="LotRE_ElfHair">
     <defName>LotRE_Legolas</defName>
     <label>elf-archer</label>
     <hairGender>Male</hairGender>
     <texPath>Things/Pawn/Elf/Hairs/ElfLegolas</texPath>
-    <styleTags>
-      <li>Elf</li>
-    </styleTags>
   </HairDef>
-  <HairDef>
+
+  <HairDef ParentName="LotRE_ElfHair">
     <defName>LotRE_Elrond</defName>
     <label>elf-lord</label>
     <hairGender>Male</hairGender>
     <texPath>Things/Pawn/Elf/Hairs/ElfElrond</texPath>
-    <styleTags>
-      <li>Elf</li>
-    </styleTags>
   </HairDef>
-  <HairDef>
+
+  <HairDef ParentName="LotRE_ElfHair">
     <defName>LotRE_Arwen</defName>
     <label>elf-noblewoman</label>
     <hairGender>Female</hairGender>
     <texPath>Things/Pawn/Elf/Hairs/ElfArwen</texPath>
-    <styleTags>
-      <li>Elf</li>
-    </styleTags>
   </HairDef>
-  <HairDef>
+
+  <HairDef ParentName="LotRE_ElfHair">
     <defName>LotRE_ArwenTwo</defName>
     <label>elf ponytail</label>
     <hairGender>Female</hairGender>
     <texPath>Things/Pawn/Elf/Hairs/ElfArwenTwo</texPath>
-    <styleTags>
-      <li>Elf</li>
-    </styleTags>
   </HairDef>
-  <HairDef>
+
+  <HairDef ParentName="LotRE_ElfHair">
     <defName>LotRE_Galadriel</defName>
     <label>elf-queen</label>
     <hairGender>Female</hairGender>
     <texPath>Things/Pawn/Elf/Hairs/ElfGaladriel</texPath>
-    <styleTags>
-      <li>Elf</li>
-    </styleTags>
   </HairDef>
+
 </Defs>

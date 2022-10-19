@@ -184,6 +184,8 @@
           </colorChannels>
         </alienPartGenerator>
       </generalSettings>
+<!--    
+      Elven hair is separated into culture now
       <styleSettings>
         <li>
           <key>HairDef</key>
@@ -192,7 +194,7 @@
               <li>Elf</li>
             </styleTagsOverride>
           </value>
-        </li>
+        </li> 
         <li>
           <key>BeardDef</key>
           <value>
@@ -202,6 +204,7 @@
           </value>
         </li>
       </styleSettings>
+-->
     </alienRace>
     <statBases>
       <MarketValue>1750</MarketValue>
@@ -485,7 +488,10 @@
           </colorChannels>
         </alienPartGenerator>
       </generalSettings>
+      <!-- 
       <styleSettings>
+        
+        Half-elves are not forced into having hair
         <li>
           <key>HairDef</key>
           <value>
@@ -493,7 +499,7 @@
               <li>Elf</li>
             </styleTagsOverride>
           </value>
-        </li>
+        </li> 
         <li>
           <key>BeardDef</key>
           <value>
@@ -503,6 +509,7 @@
           </value>
         </li>
       </styleSettings>
+      -->
     </alienRace>
     <statBases>
       <MarketValue>1250</MarketValue>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PlaceDef>
+    <defName>LotRE_Rivendell</defName>
+    <tags>
+      <li>LotRE_OriginElf</li>
+    </tags>
+    <placeRules>
+      <rulesStrings>
+        <!-- Moria -->
+        <li>place_name->Rivendell</li>
+        <li>place_adjective->Rivendell</li>
+        <li>place_summary->refuge for the weary</li>
+        <li>place_community->hidden valley</li>
+        <li>place_powerCenter->council</li>
+        <li>place_job->elven lord</li>
+        <li>place_job->elven warrior</li>
+        <li>place_job->elven archer</li>
+        <li>place_personalWeapon->elven bow</li>
+        <li>place_personalWeapon->elven blade</li>
+        <li>place_massWeapon->fire</li>
+        <li>place_massWeapon->darkness</li>
+        <li>place_massWeapon->dark magic</li>
+        <li>place_massWeapon->monsters</li>
+        <li>place_foeLeader->dark lord</li>
+        <li>place_foeLeader->necromancer</li>
+        <li>place_foeLeader->white wizard</li>
+        <li>place_foeSoldiers->goblins</li>
+        <li>place_foeSoldiers->orcs</li>
+        <li>place_foeSoldiers->corrupted men</li>
+        <li>place_foeSoldiers->trolls</li>
+        <li>seismicDevice->an unexpected earthquake</li>
+        <li>anEMPAttack->dark powers seized the hearts of good folk</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+  <PlaceDef>
+    <defName>LotRE_Lothlorien</defName>
+    <tags>
+      <li>LotRE_OriginElf</li>
+    </tags>
+    <placeRules>
+      <rulesStrings>
+        <li>place_name->Lothlórien</li>
+        <li>place_adjective->Lothlórien</li>
+        <li>place_summary->beautiful and elvish</li>
+        <li>place_community->kingdom</li>
+        <li>place_powerCenter->council</li>
+        <li>place_job->elven noble</li>
+        <li>place_job->elven archer</li>
+        <li>place_personalWeapon->magic bow</li>
+        <li>place_personalWeapon->magic blade</li>
+        <li>place_massWeapon->fire</li>
+        <li>place_massWeapon->darkness</li>
+        <li>place_massWeapon->dark magic</li>
+        <li>place_massWeapon->monsters</li>
+        <li>place_foeLeader->dark queen</li>
+        <li>place_foeLeader->necromancer</li>
+        <li>place_foeLeader->white wizard</li>
+        <li>place_foeSoldiers->goblins</li>
+        <li>place_foeSoldiers->orcs</li>
+        <li>place_foeSoldiers->corrupted men</li>
+        <li>place_foeSoldiers->trolls</li>
+        <li>seismicDevice->an unexpected earthquake</li>
+        <li>anEMPAttack->dark powers seized the hearts of good folk</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+
+  <PlaceDef>
+    <defName>LotRE_Lindon</defName>
+    <tags>
+      <li>LotRE_OriginElf</li>
+    </tags>
+    <placeRules>
+      <rulesStrings>
+        <li>place_name->Lindon</li>
+        <li>place_adjective->Lindon</li>
+        <li>place_summary->haven for ships</li>
+        <li>place_community->harbor city</li>
+        <li>place_powerCenter->council</li>
+        <li>place_job->elven captain</li>
+        <li>place_job->elven sailor</li>
+        <li>place_job->elven crew</li>
+        <li>place_personalWeapon->magic bow</li>
+        <li>place_personalWeapon->magic sword</li>
+        <li>place_massWeapon->flood</li>
+        <li>place_massWeapon->tsunami</li>
+        <li>place_foeLeader->evil king</li>
+        <li>place_foeLeader->kinslayer</li>
+        <li>place_foeLeader->dark lord</li>
+        <li>place_foeLeader->necromancer</li>
+        <li>place_foeSoldiers->goblins</li>
+        <li>place_foeSoldiers->orcs</li>
+        <li>place_foeSoldiers->corrupted men</li>
+        <li>place_foeSoldiers->trolls</li>
+        <li>seismicDevice->a tsunami</li>
+        <li>anEMPAttack->dark powers seized the hearts of good folk</li>
+        <li>anEMPAttack->corsairs destroyed infastructure</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+</Defs>

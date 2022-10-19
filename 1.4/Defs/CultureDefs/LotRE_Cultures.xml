@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <CultureDef>
+    <defName>LotRE_Elf</defName>
+    <label>elven</label>
+    <description>Elven culture supports the wise, beautiful, and immortal elves. Among them are poets and wordsmiths, guilds and crafters, and powerful military houses.</description>
+    <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">LotRE_NamerIdeoElf</ideoNameMaker>
+    <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityRustican</deityNameMaker>
+    <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerRustican</deityTypeMaker>
+    <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">LotRE_LeaderTitleMaker_Elf</leaderTitleMaker>
+    <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalRustican</festivalNameMaker>
+    <allowedPlaceTags>
+      <li>LotRE_OriginElf</li>
+    </allowedPlaceTags>
+    <iconPath>World/ElfCulture</iconPath>
+    <styleItemTags>
+      <li>
+        <tag>LotRE_ElfHair</tag>
+        <baseWeight>100</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+      <li>
+        <tag>NoBeard</tag>
+        <baseWeight>100</baseWeight>
+        <weightFactor>1</weightFactor>
+      </li>
+    </styleItemTags>
+  </CultureDef>
+
+</Defs>

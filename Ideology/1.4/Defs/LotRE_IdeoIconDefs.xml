@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<IdeoIconDef>
+		<defName>LotRE_Ideo_ElvenA</defName>
+		<iconPath>UI/Icons/Ideo/Ideo_ElvenA</iconPath>
+	</IdeoIconDef>
+	<IdeoIconDef>
+		<defName>LotRE_Ideo_ElvenB</defName>
+		<iconPath>UI/Icons/Ideo/Ideo_ElvenB</iconPath>
+	</IdeoIconDef>
+
+
+</Defs>

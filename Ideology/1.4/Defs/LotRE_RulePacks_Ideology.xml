@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Shared content -->
+
+  <RulePackDef>
+    <defName>LotRE_NamerIdeoElf</defName>
+    <include>
+      <li>NamerIdeoGlobal</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>globalAdjective->Elven</li>
+        <li>globalAdjective->Silvan</li>
+        <li>globalHyphenPrefix->Quendi</li>
+        <li>globalHyphenPrefix->Ñoldor</li>
+        <li>globalHyphenPrefix->Falmari</li>
+        <li>globalHyphenPrefix->Vanyar</li>
+        <li>globalHyphenPrefix->Laiquendi</li>
+        <li>globalHyphenPrefix->Avari</li>
+        <li>globalHyphenPrefix->Moriquendi</li>
+        <li>globalHyphenPrefix->Nandor</li>
+        <li>globalHyphenPrefix->Sindar</li>
+        <li>globalHyphenPrefix->Teleri</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LotRE_LeaderTitleMaker_Elf</defName>
+    <include>
+      <li>LeaderTitleMaker_GlobalStructure</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>cultureLeaderTitle->High King</li>
+        <li>cultureLeaderTitle->Lord</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>
