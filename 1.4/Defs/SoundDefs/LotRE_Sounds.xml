@@ -11,8 +11,8 @@
         <!-- Yeah this must be true -->
         <onCamera>True</onCamera>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Faction/FanfareElfWoodland</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Faction/FanfareElfWoodland</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -35,8 +35,8 @@
         <!-- Yeah this must be true -->
         <onCamera>True</onCamera>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Faction/FanfareElfSea</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Faction/FanfareElfSea</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -59,8 +59,8 @@
         <!-- Yeah this must be true -->
         <onCamera>True</onCamera>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Faction/FanfareElfHigh</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Faction/FanfareElfHigh</clipPath>
           </li>
         </grains>
         <volumeRange>
