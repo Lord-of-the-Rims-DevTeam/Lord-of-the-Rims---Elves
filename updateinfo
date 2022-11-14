@@ -3,10 +3,10 @@
 ==============================
 
 Lord of the Rims - Elves Update
-v1.23.0.1 (10-23-2022)
+v1.23.0.2 (11-14-2022)
 ====================
 
-RimWorld 1.4 Hotfix - replaces clipFolderPath with clipPath for audio definitions
+Elven factions bases should now always spawn even if the criteria isn't met for their base preferences (e.g. Mallorn biomes preferrd by wood elves)
 --------------------
 
 Download now on...
@@ -25,9 +25,9 @@ Discuss the mod on...
 [img width=260]https://raw.githubusercontent.com/Lord-of-the-Rims-DevTeam/Lord-of-the-Rims---Elves/master/About/Preview.png[/img]
 [hr]
 [b]Lord of the Rims - Elves
-Version: 1.23.0.1
-Updated: 10-23-2022
-Description: [color=orange]RimWorld 1.4 Hotfix - replaces clipFolderPath with clipPath for audio definitions[/color]
+Version: 1.23.0.2
+Updated: 11-14-2022
+Description: [color=orange]Elven factions bases should now always spawn even if the criteria isn't met for their base preferences (e.g. Mallorn biomes preferrd by wood elves)[/color]
 [hr]
 [b]Download now on...[/b]
 [url=https://www.patreon.com/posts/lord-of-rims-73643764]Patreon[/url]

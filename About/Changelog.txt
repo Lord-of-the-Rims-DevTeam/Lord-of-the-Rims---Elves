@@ -1,3 +1,7 @@
+1.23.0.2 (11-14-2022)
+========================
+Elven factions bases should now always spawn even if the criteria isn't met for their base preferences (e.g. Mallorn biomes preferrd by wood elves)
+
 1.23.0.1 (10-23-2022)
 ========================
 RimWorld 1.4 Hotfix - replaces clipFolderPath with clipPath for audio definitions

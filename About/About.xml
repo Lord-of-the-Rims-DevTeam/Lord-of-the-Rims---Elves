@@ -42,7 +42,7 @@
     <li>erdelf.HumanoidAlienRaces</li>
     <li>CETeam.CombatExtended</li>
   </loadAfter>
-  <description>1.23.0.1 (10-23-2022)
+  <description>1.23.0.2 (11-14-2022)
 
 [h1]Adds Elves to RimWorld.[/h1]
 [b]Includes:[/b]
@@ -84,6 +84,10 @@ Darcilyn Lynds (darci.andel), Luke Salinas, RainerWingel , Noisy Koi, Lea Stanna
 ========================
 Changelog
 ========================
+1.23.0.2 (11-14-2022)
+========================
+Elven factions bases should now always spawn even if the criteria isn't met for their base preferences (e.g. Mallorn biomes preferrd by wood elves)
+
 1.23.0.1 (10-23-2022)
 ========================
 RimWorld 1.4 Hotfix - replaces clipFolderPath with clipPath for audio definitions
